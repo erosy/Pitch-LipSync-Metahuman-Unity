@@ -5,7 +5,7 @@ const uLipSyncPlugin =
         unityCsharpCallback: null,
         resumeEventNames: ['keydown', 'mousedown', 'touchstart'],
         userEventCallback: function() {
-            Module.dynCall_v(uLipSync.unityCsharpCallback);
+            {{{ makeDynCall('v', 'uLipSync.unityCsharpCallback') }}}();
             for (const ev of uLipSync.resumeEventNames) {
                 window.removeEventListener(ev, uLipSync.userEventCallback);
             }
