@@ -1,144 +1,90 @@
+using System;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-[ExecuteAlways]
-[DefaultExecutionOrder(32000)]
+[ExecuteAlways, DefaultExecutionOrder(32000)]
 [AddComponentMenu("Debug/Blend Shape Debugger")]
 public class BlendShapeDebugger : MonoBehaviour
 {
-
-
-    public string shape;
-
-    [SerializeField] SkinnedMeshRenderer face;
+    [SerializeField, FoldoutGroup("References")] ExpressionController character;
+    [SerializeField, HideInInspector] SkinnedMeshRenderer face; // Legacy fallback until migration.
+    [HideInInspector] public string shape; // Legacy single-shape preview remains serialized.
+    [SerializeField, FoldoutGroup("Preview")] BlendShapePose pose = new BlendShapePose();
     [FormerlySerializedAs("previewDuration")]
-    [Tooltip("Seconds to fade all listed blendshapes to their target weights.")]
-    [SerializeField, Min(0.1f)] float fadeTime = 1f;
-
-    class WeightState
-    {
-        public float original;
-        public float start;
-        public float target;
-    }
-
+    [SerializeField, FoldoutGroup("Preview"), Min(.1f)] float fadeTime = 1;
+    sealed class WeightState { public float original, start, target; }
     readonly Dictionary<int, WeightState> states = new Dictionary<int, WeightState>();
     SkinnedMeshRenderer activeFace;
     Mesh activeMesh;
     double startedAt;
     float duration;
-
-    public SkinnedMeshRenderer Face => face;
-    public bool IsHolding => states.Count > 0;
-
+    // The editor bridge supplies EditorApplication's clock without UnityEditor runtime dependencies.
+    public static Func<double> EditorClock;
+    double Clock => !Application.isPlaying && EditorClock != null ? EditorClock() : Time.realtimeSinceStartupAsDouble;
+    SkinnedMeshRenderer ConfiguredFace => character ? character.Face : face;
+    public ExpressionController Character => character;
+    public SkinnedMeshRenderer Face => IsHolding ? activeFace : ConfiguredFace;
+    [ShowInInspector, ReadOnly, FoldoutGroup("Preview")] public bool IsHolding => states.Count > 0;
+    [ShowInInspector, ReadOnly, MultiLineProperty(4), FoldoutGroup("References")]
+    public string Warnings
+    {
+        get
+        {
+            var warnings = new List<string>();
+            if (!ConfiguredFace || !ConfiguredFace.sharedMesh) warnings.Add("Assign a character with a Face.");
+            if (character && character.Debugger != this) warnings.Add("Also assign this debugger in the character's References group so facial output yields during previews.");
+            foreach (var target in FacialMath.Targets(pose))
+                if (!ConfiguredFace || !ConfiguredFace.sharedMesh || ConfiguredFace.sharedMesh.GetBlendShapeIndex(target.shape ?? "") < 0)
+                    warnings.Add("Missing preview shape: " + target.shape);
+            return string.Join("\n", warnings);
+        }
+    }
     public string[] GetBlendShapeNames()
     {
-        var mesh = face ? face.sharedMesh : null;
+        var mesh = ConfiguredFace ? ConfiguredFace.sharedMesh : null;
         if (!mesh) return new string[0];
         var names = new string[mesh.blendShapeCount];
         for (int i = 0; i < names.Length; i++) names[i] = mesh.GetBlendShapeName(i);
         return names;
     }
-
+    [Button("Preview Pose"), FoldoutGroup("Preview")]
     public void PlayAnimation()
     {
-        if (!isActiveAndEnabled || !face || !face.sharedMesh) return;
-        if (activeFace != face || activeMesh != face.sharedMesh) StopRestore();
-        activeFace = face;
-        activeMesh = face.sharedMesh;
-        foreach (var blendState in states)
-            blendState.Value.start = face.GetBlendShapeWeight(blendState.Key);
-        
-        if (string.IsNullOrEmpty(shape)) return;
-
-        int index = activeMesh.GetBlendShapeIndex(shape);
-        if (!states.TryGetValue(index, out var state))
-            {
-                state = new WeightState { original = face.GetBlendShapeWeight(index) };
-                states.Add(index, state);
-            }
-            state.start = face.GetBlendShapeWeight(index);
-            state.target = 100f;
-
-        duration = Mathf.Max(0.1f, fadeTime);
-        startedAt = CurrentTime;
+        var renderer = ConfiguredFace;
+        if (!isActiveAndEnabled || !renderer || !renderer.sharedMesh) return;
+        if (activeFace != renderer || activeMesh != renderer.sharedMesh) StopRestore();
+        activeFace = renderer; activeMesh = renderer.sharedMesh;
+        foreach (var state in states) state.Value.start = renderer.GetBlendShapeWeight(state.Key);
+        var targets = new List<BlendShapeTarget>(FacialMath.Targets(pose));
+        if (targets.Count == 0 && !string.IsNullOrEmpty(shape)) targets.Add(new BlendShapeTarget(shape, 100));
+        foreach (var target in targets)
+        {
+            int index = activeMesh.GetBlendShapeIndex(target.shape ?? "");
+            if (index < 0) { Debug.LogWarning(name + ": missing preview shape '" + target.shape + "'.", this); continue; }
+            if (!states.TryGetValue(index, out var state))
+            { state = new WeightState { original = renderer.GetBlendShapeWeight(index) }; states.Add(index, state); }
+            state.start = renderer.GetBlendShapeWeight(index); state.target = FacialMath.Weight(target.weight);
+        }
+        duration = Mathf.Max(.1f, FacialMath.NonNegative(fadeTime)); startedAt = Clock;
     }
-
+    [Button("Stop / Restore"), FoldoutGroup("Preview")]
     public void StopRestore()
     {
         if (activeFace && activeFace.sharedMesh == activeMesh)
-            foreach (var state in states)
-                activeFace.SetBlendShapeWeight(state.Key, state.Value.original);
-        states.Clear();
-        activeFace = null;
-        activeMesh = null;
+            foreach (var state in states) activeFace.SetBlendShapeWeight(state.Key, state.Value.original);
+        states.Clear(); activeFace = null; activeMesh = null;
     }
-
-    double CurrentTime
+    public void TickPreview(double time)
     {
-        get
-        {
-#if UNITY_EDITOR
-            if (!Application.IsPlaying(gameObject)) return UnityEditor.EditorApplication.timeSinceStartup;
-#endif
-            return Time.realtimeSinceStartupAsDouble;
-        }
-    }
-
-    void ApplyAnimation()
-    {
-        if (states.Count == 0) return;
-        if (!activeFace || activeFace.sharedMesh != activeMesh || activeFace != face)
-        {
-            StopRestore();
-            return;
-        }
-        float progress = Mathf.Clamp01((float)((CurrentTime - startedAt) / duration));
+        if (!IsHolding) return;
+        if (!activeFace || activeFace.sharedMesh != activeMesh || activeFace != ConfiguredFace) { StopRestore(); return; }
+        float progress = Mathf.Clamp01((float)((time - startedAt) / duration));
         foreach (var state in states)
-            activeFace.SetBlendShapeWeight(state.Key,
-                Mathf.Lerp(state.Value.start, state.Value.target, progress));
+            activeFace.SetBlendShapeWeight(state.Key, Mathf.Lerp(state.Value.start, state.Value.target, progress));
     }
-
-    void LateUpdate()
-    {
-        if (Application.IsPlaying(gameObject)) ApplyAnimation();
-    }
-
-    void OnEnable()
-    {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.update += EditorUpdate;
-        UnityEditor.AssemblyReloadEvents.beforeAssemblyReload += StopRestore;
-#endif
-    }
-
-    void OnDisable()
-    {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.update -= EditorUpdate;
-        UnityEditor.AssemblyReloadEvents.beforeAssemblyReload -= StopRestore;
-#endif
-        StopRestore();
-    }
-
-#if UNITY_EDITOR
-    void EditorUpdate()
-    {
-        if (Application.IsPlaying(gameObject) || !IsHolding) return;
-        ApplyAnimation();
-        UnityEditor.SceneView.RepaintAll();
-        UnityEditor.EditorApplication.QueuePlayerLoopUpdate();
-    }
-#endif
-
-    void Reset()
-    {
-        foreach (var candidate in GetComponentsInChildren<SkinnedMeshRenderer>(true))
-        {
-            if (!candidate.sharedMesh || candidate.sharedMesh.blendShapeCount == 0) continue;
-            if (!face || candidate.sharedMesh.blendShapeCount > face.sharedMesh.blendShapeCount)
-                face = candidate;
-        }
-    }
+    void LateUpdate() { if (Application.isPlaying) TickPreview(Clock); }
+    void OnDisable() => StopRestore();
+    void Reset() => character = GetComponent<ExpressionController>();
 }

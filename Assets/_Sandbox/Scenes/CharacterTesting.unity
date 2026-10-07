@@ -885,8 +885,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1557721583}
   - component: {fileID: 1557721585}
-  - component: {fileID: 1557721584}
-  - component: {fileID: 1557721586}
   m_Layer: 0
   m_Name: Character Sample
   m_TagString: Untagged
@@ -910,27 +908,6 @@ Transform:
   - {fileID: 1965646392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1557721584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557721582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7a2709f6e2806f4eae0a139c7efdf90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BlinkController
-  face: {fileID: 1293783601}
-  blendShapeDebugger: {fileID: 0}
-  blinkInterval: {x: 2, y: 6}
-  closingDuration: 0.06
-  closedHoldDuration: 0.03
-  openingDuration: 0.12
-  closureWeight: 100
-  doubleBlinkProbability: 0.15
-  doubleBlinkGap: {x: 0.12, y: 0.25}
 --- !u!114 &1557721585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,9 +923,180 @@ MonoBehaviour:
   face: {fileID: 1293783601}
   lipSync: {fileID: 1587191031}
   blendShapeDriver: {fileID: 1293783604}
+  blendShapeDebugger: {fileID: 0}
   intensity: 1
   fadeTime: 0.18
   endOfSpeechDelay: 0.15
+  expressionDefinitions:
+  - name: Joy
+    silentPose:
+      targets:
+      - shape: emo_joy
+        weight: 100
+    speakingPose:
+      targets:
+      - shape: mouthSmileLeft
+        weight: 55
+      - shape: mouthSmileRight
+        weight: 55
+      - shape: cheekSquintLeft
+        weight: 50
+      - shape: cheekSquintRight
+        weight: 50
+      - shape: eyeSquintLeft
+        weight: 30
+      - shape: eyeSquintRight
+        weight: 30
+      - shape: browInnerUp
+        weight: 10
+  activityDefinitions:
+  - name: Blink
+    enabled: 1
+    channel: Blink
+    eligibility: 0
+    expressionNames: []
+    allowSpeech: 1
+    allowExpressionTransitions: 1
+    interval: {x: 2, y: 6}
+    easeIn: 0.06
+    hold: {x: 0.03, y: 0.03}
+    easeOut: 0.12
+    variants:
+    - name: Both eyes
+      pose:
+        targets:
+        - shape: eyeBlinkLeft
+          weight: 100
+        - shape: eyeBlinkRight
+          weight: 100
+      strength: {x: 1, y: 1}
+    repeat:
+      probability: 0.15
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Lip purse
+    enabled: 1
+    channel: Mouth
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 8, y: 16}
+    easeIn: 0.25
+    hold: {x: 0.5, y: 1.5}
+    easeOut: 0.35
+    variants:
+    - name: Purse
+      pose:
+        targets:
+        - shape: mouthPressLeft
+          weight: 75
+        - shape: mouthPressRight
+          weight: 75
+      strength: {x: 2, y: 2}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Lip twitch
+    enabled: 1
+    channel: Mouth
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 3, y: 7}
+    easeIn: 0.12
+    hold: {x: 0.12, y: 0.12}
+    easeOut: 0.12
+    variants:
+    - name: Left
+      pose:
+        targets:
+        - shape: mouthLeft
+          weight: 50
+      strength: {x: 0.5, y: 2}
+    - name: Right
+      pose:
+        targets:
+        - shape: mouthRight
+          weight: 50
+      strength: {x: 0.5, y: 2}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Gaze
+    enabled: 1
+    channel: Gaze
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 4, y: 9}
+    easeIn: 0.18
+    hold: {x: 0.8, y: 1.8}
+    easeOut: 0.25
+    variants:
+    - name: Character left
+      pose:
+        targets:
+        - shape: eyeLookOutLeft
+          weight: 25
+        - shape: eyeLookInRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    - name: Character right
+      pose:
+        targets:
+        - shape: eyeLookInLeft
+          weight: 25
+        - shape: eyeLookOutRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    - name: Up
+      pose:
+        targets:
+        - shape: eyeLookUpLeft
+          weight: 25
+        - shape: eyeLookUpRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    - name: Down
+      pose:
+        targets:
+        - shape: eyeLookDownLeft
+          weight: 25
+        - shape: eyeLookDownRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Pucker
+    enabled: 1
+    channel: Mouth
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 8, y: 16}
+    easeIn: 0.25
+    hold: {x: 0.25, y: 0.5}
+    easeOut: 0.35
+    variants:
+    - name: Pucker
+      pose:
+        targets:
+        - shape: mouthPucker
+          weight: 50
+      strength: {x: 2, y: 2}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  configurationVersion: 1
   expressions:
   - name: Joy
     defaultFace:
@@ -969,38 +1117,6 @@ MonoBehaviour:
       weight: 30
     - shape: browInnerUp
       weight: 10
---- !u!114 &1557721586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557721582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ae1e6ecc61a41f48b5da3ad569aa06e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IdleFaceController
-  face: {fileID: 1293783601}
-  expressionController: {fileID: 1557721585}
-  blendShapeDebugger: {fileID: 0}
-  enableMouthGestures: 1
-  mouthInterval: {x: 8, y: 16}
-  puckerWeight: 15
-  lipPressWeight: 5
-  purseEaseIn: 0.25
-  purseHold: {x: 0.25, y: 0.5}
-  purseEaseOut: 0.35
-  twitchWeight: {x: 5, y: 10}
-  twitchEaseIn: 0.06
-  twitchHold: 0.03
-  twitchEaseOut: 0.12
-  enableGazeShifts: 1
-  gazeInterval: {x: 4, y: 9}
-  gazeWeight: {x: 15, y: 25}
-  gazeEaseIn: 0.18
-  gazeHold: {x: 0.8, y: 1.8}
-  gazeEaseOut: 0.25
 --- !u!1 &1587191030
 GameObject:
   m_ObjectHideFlags: 0
