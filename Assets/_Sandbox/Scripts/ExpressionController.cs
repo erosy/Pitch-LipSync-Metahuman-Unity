@@ -53,6 +53,9 @@ public class ExpressionController : MonoBehaviour
     public IReadOnlyList<Expression> Expressions => expressions;
     public SkinnedMeshRenderer Face => face;
     public bool IsSpeaking { get; private set; }
+    public bool IsNeutral => string.IsNullOrEmpty(_expressionName);
+    public bool IsTransitioning => _cacheDirty || _transitionDirty ||
+        _fadeElapsed < Mathf.Max(0.01f, fadeTime);
 
     class WeightState
     {

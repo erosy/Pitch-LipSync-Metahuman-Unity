@@ -611,7 +611,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1557721583}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,15 +631,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -812,12 +812,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1587191032}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1965646388}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1965646391}
     - targetCorrespondingSourceObject: {fileID: -6435399192587130656, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1293783604}
@@ -881,6 +875,132 @@ MonoBehaviour:
   maxVolume: -0.95091486
   smoothness: 0.075
   usePhonemeBlend: 1
+--- !u!1 &1557721582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1557721583}
+  - component: {fileID: 1557721585}
+  - component: {fileID: 1557721584}
+  - component: {fileID: 1557721586}
+  m_Layer: 0
+  m_Name: Character Sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1557721583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557721582}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1965646392}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1557721584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557721582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a2709f6e2806f4eae0a139c7efdf90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlinkController
+  face: {fileID: 1293783601}
+  blendShapeDebugger: {fileID: 0}
+  blinkInterval: {x: 2, y: 6}
+  closingDuration: 0.06
+  closedHoldDuration: 0.03
+  openingDuration: 0.12
+  closureWeight: 100
+  doubleBlinkProbability: 0.15
+  doubleBlinkGap: {x: 0.12, y: 0.25}
+--- !u!114 &1557721585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557721582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177b6bc0a6700b4fb6294341d6ec63f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExpressionController
+  face: {fileID: 1293783601}
+  lipSync: {fileID: 1587191031}
+  blendShapeDriver: {fileID: 1293783604}
+  intensity: 1
+  fadeTime: 0.18
+  endOfSpeechDelay: 0.15
+  expressions:
+  - name: Joy
+    defaultFace:
+      shape: emo_joy
+      weight: 100
+    speakingShapes:
+    - shape: mouthSmileLeft
+      weight: 55
+    - shape: mouthSmileRight
+      weight: 55
+    - shape: cheekSquintLeft
+      weight: 50
+    - shape: cheekSquintRight
+      weight: 50
+    - shape: eyeSquintLeft
+      weight: 30
+    - shape: eyeSquintRight
+      weight: 30
+    - shape: browInnerUp
+      weight: 10
+--- !u!114 &1557721586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557721582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae1e6ecc61a41f48b5da3ad569aa06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IdleFaceController
+  face: {fileID: 1293783601}
+  expressionController: {fileID: 1557721585}
+  blendShapeDebugger: {fileID: 0}
+  enableMouthGestures: 1
+  mouthInterval: {x: 8, y: 16}
+  puckerWeight: 15
+  lipPressWeight: 5
+  purseEaseIn: 0.25
+  purseHold: {x: 0.25, y: 0.5}
+  purseEaseOut: 0.35
+  twitchWeight: {x: 5, y: 10}
+  twitchEaseIn: 0.06
+  twitchHold: 0.03
+  twitchEaseOut: 0.12
+  enableGazeShifts: 1
+  gazeInterval: {x: 4, y: 9}
+  gazeWeight: {x: 15, y: 25}
+  gazeEaseIn: 0.18
+  gazeHold: {x: 0.8, y: 1.8}
+  gazeEaseOut: 0.25
 --- !u!1 &1587191030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,64 +1749,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962431760}
   m_CullTransparentMesh: 1
---- !u!1 &1965646385 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
+--- !u!4 &1965646392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
   m_PrefabInstance: {fileID: 1293783600}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1965646388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965646385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2177b6bc0a6700b4fb6294341d6ec63f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExpressionController
-  face: {fileID: 1293783601}
-  lipSync: {fileID: 1587191031}
-  blendShapeDriver: {fileID: 1293783604}
-  intensity: 1
-  fadeTime: 0.18
-  endOfSpeechDelay: 0.15
-  expressions:
-  - name: Joy
-    defaultFace:
-      shape: emo_joy
-      weight: 100
-    speakingShapes:
-    - shape: mouthSmileLeft
-      weight: 55
-    - shape: mouthSmileRight
-      weight: 55
-    - shape: cheekSquintLeft
-      weight: 50
-    - shape: cheekSquintRight
-      weight: 50
-    - shape: eyeSquintLeft
-      weight: 30
-    - shape: eyeSquintRight
-      weight: 30
-    - shape: browInnerUp
-      weight: 10
---- !u!114 &1965646391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965646385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ee90de48c2e6343ac687471d6732b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BlendShapeDebugger
-  shape: 
-  face: {fileID: 1293783601}
-  fadeTime: 10
 --- !u!1 &2074655014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,7 +1887,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 788034910}
   - {fileID: 2074655016}
-  - {fileID: 1293783600}
+  - {fileID: 1557721583}
   - {fileID: 1832262774}
   - {fileID: 942182279}
   - {fileID: 1709833443}
