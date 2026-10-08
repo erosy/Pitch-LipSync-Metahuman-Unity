@@ -5,36 +5,24 @@ identity, Face, and expression commands. Definitions are ordinary Unity serializ
 data. Odin presents the groups, lists, sliders, shape selectors, and runtime status.
 uLipSync still owns its configured visemes; the Animator/body setup is unchanged.
 
-## Migrate Character Sample manually
+## Current setup
 
-1. Stay in Edit Mode, select **Character Sample** in **CharacterTesting**, and expand
-   **ExpressionController**. Stop / Restore any active debugger preview first.
-2. Click **Migrate Facial Setup**. It checks all old Face references before editing,
-   copies the live expression, blink, and idle settings, then removes that character's
-   BlinkController and IdleFaceController in the same Undo operation.
-3. Review **References**, **Expressions**, and **Activities**. Face, lip-sync
-   references, intensity, crossfade, and speech-end delay remain on the same component.
-   The debugger is optional; leaving it empty is fine.
-4. Test **Undo**: the old components and definitions should return together.
-   Migrate again to proceed, then review and save the scene yourself.
+Character Sample now uses ExpressionController alone for expressions and facial
+activities. The obsolete BlinkController and IdleFaceController scripts and their
+metadata have been removed. Existing authored activity definitions are retained.
 
-The migration button becomes disabled after conversion and cannot duplicate or
-overwrite migrated definitions. Legacy scripts and serialized expression fields
-remain available for characters you have not migrated. Their modular scheduler
-stays inactive. Migration does not save the scene.
+Legacy expression data and the **Migrate Facial Setup** tool have been removed;
+every character uses the expression/activity definitions directly.
 
-Migration copies **current Inspector values**, including unsaved tuning. At the
-implementation's read-only check, Character Sample's purse hold was **0.5–1.5 s**,
-twitch hold **0.5 s**, expression fade **0.18 s**, and speech-end delay **0.15 s**.
-Those differ from some fresh preset values and are deliberately retained.
+Each expression definition shows a **Play <name>** button under its name (Play Mode
+only) that selects that expression. **Neutral** remains in the Expressions group.
 
 ## New character setup
 
 Add ExpressionController, assign Face and the existing uLipSync references, and
 inspect the default definitions. **Load INA Defaults** explicitly replaces only
 the expression/activity definitions after confirmation; it retains references and
-global expression tuning. It refuses to replace a setup that still contains old
-blink/idle components; migrate that setup first.
+global expression tuning.
 
 To add an optional BlendShapeDebugger, assign its **Character** reference and assign
 the debugger in ExpressionController's **References**. The debugger obtains Face
@@ -101,12 +89,12 @@ expression weights remain separate for the supplied presets.
 The implementation compiled in Edit Mode and passed 18 data-only checks. These
 cover phase carry-over/frame rates, synchronized strengths, bounded repeats,
 channel selection/exclusion/overlap, eligibility cancellation, pause/re-enable,
-missing/reserved variants, persistent expressions, numeric validation, conversion,
+missing/reserved variants, persistent expressions, numeric validation, expression conversion,
 and Unity serialization. Run them again via **Tools → Facial System → Run Data-only
 Checks** in Edit Mode. They create no meshes/renderers and sample no animation.
 
-Character Sample was inspected without migrating it. Its scene file, INA FBX, and
-legacy blink/idle scripts were left unchanged. No Play Mode or preview was invoked.
+The cleanup left Character Sample's scene file, INA FBX, and authored definitions
+unchanged. No Play Mode or preview was invoked.
 
 After migrating and saving, test playback yourself:
 
@@ -122,4 +110,4 @@ After migrating and saving, test playback yourself:
 - Disable/re-enable and pause/resume leave no stuck weights.
 - Add another Inspector activity and confirm it runs without changing runner code.
 
-Migration Undo and visual behavior remain manual acceptance checks.
+Visual behavior remains a manual acceptance check.

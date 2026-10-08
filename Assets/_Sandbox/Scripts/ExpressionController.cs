@@ -1,27 +1,10 @@
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 [DisallowMultipleComponent]
 public class ExpressionController : MonoBehaviour
 {
-    // Exact legacy field/type names preserve existing scenes until explicit migration.
-    [System.Serializable]
-    public struct ShapeWeight
-    {
-        public string shape;
-        [Range(0, 100)] public float weight;
-        public ShapeWeight(string shape, float weight) { this.shape = shape; this.weight = weight; }
-    }
-    [System.Serializable]
-    public class Expression
-    {
-        public string name;
-        public ShapeWeight defaultFace = new ShapeWeight("", 100);
-        [FormerlySerializedAs("shapes")] public ShapeWeight[] speakingShapes;
-    }
-    public const int CurrentConfigurationVersion = 1;
     [SerializeField, FoldoutGroup("References")] SkinnedMeshRenderer face;
     [SerializeField, FoldoutGroup("References")] uLipSync.uLipSync lipSync;
     [SerializeField, FoldoutGroup("References")] uLipSync.uLipSyncBlendShape blendShapeDriver;
@@ -30,25 +13,14 @@ public class ExpressionController : MonoBehaviour
     [SerializeField, FoldoutGroup("Expressions"), Min(.01f)] float fadeTime = .3f;
     [Tooltip("Unscaled seconds to retain the speaking pose after audio ends.")]
     [SerializeField, FoldoutGroup("Expressions"), Min(0)] float endOfSpeechDelay = .3f;
-    [SerializeField, FoldoutGroup("Expressions"), ShowIf("IsMigrated"), ListDrawerSettings(ShowFoldout = true)]
+    [SerializeField, FoldoutGroup("Expressions"), ListDrawerSettings(ShowFoldout = true)]
     List<ExpressionDefinition> expressionDefinitions = new List<ExpressionDefinition>();
-    [SerializeField, FoldoutGroup("Activities"), ShowIf("IsMigrated"), ListDrawerSettings(ShowFoldout = true)]
+    [SerializeField, FoldoutGroup("Activities"), ListDrawerSettings(ShowFoldout = true)]
     List<FacialActivityDefinition> activityDefinitions = new List<FacialActivityDefinition>();
-    [SerializeField, HideInInspector] int configurationVersion;
-    [SerializeField, HideInInspector] Expression[] expressions =
-    {
-        new Expression { name = "Joy", speakingShapes = new[] {
-            new ShapeWeight(BlendShapeNames.MouthSmileLeft, 55), new ShapeWeight(BlendShapeNames.MouthSmileRight, 55),
-            new ShapeWeight(BlendShapeNames.CheekSquintLeft, 50), new ShapeWeight(BlendShapeNames.CheekSquintRight, 50),
-            new ShapeWeight(BlendShapeNames.EyeSquintLeft, 30), new ShapeWeight(BlendShapeNames.EyeSquintRight, 30),
-            new ShapeWeight(BlendShapeNames.BrowInnerUp, 10) } }
-    };
-    public IReadOnlyList<ExpressionDefinition> Expressions => IsMigrated ? expressionDefinitions :
-        (legacyDefinitions ?? (legacyDefinitions = FacialLegacyConversion.Expressions(expressions)));
+    public IReadOnlyList<ExpressionDefinition> Expressions => expressionDefinitions;
     public IReadOnlyList<FacialActivityDefinition> Activities => activityDefinitions;
     public SkinnedMeshRenderer Face => face;
     public BlendShapeDebugger Debugger => blendShapeDebugger;
-    public bool IsMigrated => configurationVersion >= CurrentConfigurationVersion;
     [ShowInInspector, ReadOnly, FoldoutGroup("Runtime Status")] public bool IsSpeaking { get; private set; }
     [ShowInInspector, ReadOnly, FoldoutGroup("Runtime Status")] public bool IsNeutral => string.IsNullOrEmpty(expressionName);
     [ShowInInspector, ReadOnly, FoldoutGroup("Runtime Status")] public bool IsTransitioning => cacheDirty || expressionRequested || playback.IsTransitioning;
@@ -58,7 +30,6 @@ public class ExpressionController : MonoBehaviour
         get
         {
             if (!Application.isPlaying) return "Edit Mode — runtime inactive";
-            if (!IsMigrated) return "Legacy setup — migration required";
             if (PreviewOwns(face)) return "Suspended for debugger preview";
             var lines = new List<string>();
             foreach (var state in scheduler.Channels)
@@ -73,22 +44,16 @@ public class ExpressionController : MonoBehaviour
     readonly FacialBlendShapeOutput output = new FacialBlendShapeOutput();
     readonly HashSet<string> warned = new HashSet<string>();
     readonly HashSet<string> reservedVisemes = new HashSet<string>();
-    List<ExpressionDefinition> legacyDefinitions;
     string expressionName;
     bool cacheDirty = true, expressionRequested = true, wasAudioPlaying, wasPreview;
     float audioStoppedAt = float.NegativeInfinity;
 
     public void SetExpression(string expression) { expressionName = expression; expressionRequested = true; }
-    [Button, FoldoutGroup("Expressions"), EnableIf("IsInPlayMode")] public void Joy() => SetExpression("Joy");
     [Button, FoldoutGroup("Expressions"), EnableIf("IsInPlayMode")] public void Neutral() => SetExpression(null);
     bool IsInPlayMode => Application.isPlaying;
-    void Reset()
-    {
-        expressionDefinitions = FacialPresets.Expressions(); activityDefinitions = FacialPresets.Activities();
-        configurationVersion = CurrentConfigurationVersion;
-    }
+    void Reset() { expressionDefinitions = FacialPresets.Expressions(); activityDefinitions = FacialPresets.Activities(); }
     void OnEnable() { cacheDirty = true; scheduler.Cancel(); }
-    void OnValidate() { cacheDirty = true; legacyDefinitions = null; }
+    void OnValidate() => cacheDirty = true;
     void OnDisable()
     {
         if (!PreviewOwns(output.Face)) output.Clear(CurrentVisemes(output.Face));
@@ -137,7 +102,6 @@ public class ExpressionController : MonoBehaviour
         var mesh = face ? face.sharedMesh : null; if (!mesh) return new string[0];
         var names = new string[mesh.blendShapeCount]; for (int i = 0; i < names.Length; i++) names[i] = mesh.GetBlendShapeName(i); return names;
     }
-    bool HasLegacyActivities => GetComponent<BlinkController>() || GetComponent<IdleFaceController>();
     public List<string> ValidateConfiguration()
     {
         var warnings = new List<string>();
@@ -145,16 +109,11 @@ public class ExpressionController : MonoBehaviour
         if (!lipSync || !blendShapeDriver) warnings.Add("Speech references are incomplete; speech eligibility will remain silent.");
         if (blendShapeDriver && blendShapeDriver.skinnedMeshRenderer != face) warnings.Add("uLipSync's Face differs from this Face.");
         if (blendShapeDebugger && blendShapeDebugger.Face != face) warnings.Add("Debugger references a different Face.");
-        if (!IsMigrated) warnings.Add("Legacy setup: use Migrate Facial Setup in Edit Mode; modular activities are inactive.");
-        else if (HasLegacyActivities) warnings.Add("Obsolete blink/idle components remain; modular activities are disabled. Remove them or Undo and migrate the legacy setup.");
         var available = new HashSet<string>(GetBlendShapeNames()); var visemes = CurrentVisemes(face);
         ExpressionShapes(warnings, available, visemes);
         var reserved = new HashSet<string>(AllExpressionShapes()); reserved.UnionWith(visemes);
-        if (IsMigrated)
-        {
-            var validator = new FacialActivityScheduler(new FacialRandom()); validator.Configure(activityDefinitions, available, reserved, warnings);
-            FacialValidation.Check(Expressions, activityDefinitions, warnings);
-        }
+        var validator = new FacialActivityScheduler(new FacialRandom()); validator.Configure(activityDefinitions, available, reserved, warnings);
+        FacialValidation.Check(Expressions, activityDefinitions, warnings);
         return warnings;
     }
     void Rebuild(HashSet<string> visemes)
@@ -165,7 +124,7 @@ public class ExpressionController : MonoBehaviour
         output.Bind(face); reservedVisemes.Clear(); reservedVisemes.UnionWith(visemes);
         var warnings = ValidateConfiguration(); var expressionShapes = ExpressionShapes(new List<string>(), output.Available, visemes);
         var reserved = new HashSet<string>(visemes); reserved.UnionWith(AllExpressionShapes());
-        scheduler.Configure(IsMigrated && !HasLegacyActivities ? activityDefinitions : null, output.Available, reserved, new List<string>());
+        scheduler.Configure(activityDefinitions, output.Available, reserved, new List<string>());
         var owned = new HashSet<string>(expressionShapes);
         owned.UnionWith(scheduler.OwnedShapes);
         output.SetOwned(owned, visemes);

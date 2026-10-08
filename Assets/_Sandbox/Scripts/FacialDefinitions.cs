@@ -25,9 +25,19 @@ public class BlendShapePose
 [Serializable]
 public class ExpressionDefinition
 {
-    public string name;
+    [OnInspectorGUI("DrawPlayButton", append: true)] public string name;
     public BlendShapePose silentPose = new BlendShapePose();
     public BlendShapePose speakingPose = new BlendShapePose();
+#if UNITY_EDITOR
+    // Plays this definition on the ExpressionController(s) being inspected; only available in Play Mode.
+    void DrawPlayButton(Sirenix.OdinInspector.Editor.InspectorProperty property)
+    {
+        using (new UnityEditor.EditorGUI.DisabledScope(!Application.isPlaying || string.IsNullOrEmpty(name)))
+            if (GUILayout.Button("Play " + name))
+                foreach (var target in property.Tree.WeakTargets)
+                    if (target is ExpressionController controller) controller.SetExpression(name);
+    }
+#endif
 }
 
 public enum ActivityEligibility { AllExpressions, NeutralOnly, SelectedExpressions }

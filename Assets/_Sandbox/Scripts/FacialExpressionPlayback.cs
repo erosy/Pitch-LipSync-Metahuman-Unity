@@ -33,7 +33,7 @@ public sealed class FacialExpressionPlayback
                 if (definition == null || definition.name != name) continue;
                 foreach (var shape in FacialMath.Targets(speaking ? definition.speakingPose : definition.silentPose))
                     if (!string.IsNullOrEmpty(shape.shape) && next.ContainsKey(shape.shape))
-                        // Preserve the legacy global intensity multiplier, including weights above 100.
+                        // The global intensity multiplier may push weights above 100.
                         next[shape.shape] = FacialMath.NonNegative(shape.weight * intensity);
                 break;
             }

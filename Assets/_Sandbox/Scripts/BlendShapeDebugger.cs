@@ -2,17 +2,13 @@ using System;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 [ExecuteAlways, DefaultExecutionOrder(32000)]
 [AddComponentMenu("Debug/Blend Shape Debugger")]
 public class BlendShapeDebugger : MonoBehaviour
 {
     [SerializeField, FoldoutGroup("References")] ExpressionController character;
-    [SerializeField, HideInInspector] SkinnedMeshRenderer face; // Legacy fallback until migration.
-    [HideInInspector] public string shape; // Legacy single-shape preview remains serialized.
     [SerializeField, FoldoutGroup("Preview")] BlendShapePose pose = new BlendShapePose();
-    [FormerlySerializedAs("previewDuration")]
     [SerializeField, FoldoutGroup("Preview"), Min(.1f)] float fadeTime = 1;
     sealed class WeightState { public float original, start, target; }
     readonly Dictionary<int, WeightState> states = new Dictionary<int, WeightState>();
@@ -23,7 +19,7 @@ public class BlendShapeDebugger : MonoBehaviour
     // The editor bridge supplies EditorApplication's clock without UnityEditor runtime dependencies.
     public static Func<double> EditorClock;
     double Clock => !Application.isPlaying && EditorClock != null ? EditorClock() : Time.realtimeSinceStartupAsDouble;
-    SkinnedMeshRenderer ConfiguredFace => character ? character.Face : face;
+    SkinnedMeshRenderer ConfiguredFace => character ? character.Face : null;
     public ExpressionController Character => character;
     public SkinnedMeshRenderer Face => IsHolding ? activeFace : ConfiguredFace;
     [ShowInInspector, ReadOnly, FoldoutGroup("Preview")] public bool IsHolding => states.Count > 0;
@@ -58,7 +54,6 @@ public class BlendShapeDebugger : MonoBehaviour
         activeFace = renderer; activeMesh = renderer.sharedMesh;
         foreach (var state in states) state.Value.start = renderer.GetBlendShapeWeight(state.Key);
         var targets = new List<BlendShapeTarget>(FacialMath.Targets(pose));
-        if (targets.Count == 0 && !string.IsNullOrEmpty(shape)) targets.Add(new BlendShapeTarget(shape, 100));
         foreach (var target in targets)
         {
             int index = activeMesh.GetBlendShapeIndex(target.shape ?? "");

@@ -158,28 +158,7 @@ public static class FacialSystemDataTests
             playback.Tick(.2f, new[] { definition }, null, false, .5f, .2f); Near(playback.Output["b"], 0, "Neutral did not clear expression");
             definition.silentPose.targets.Add(new BlendShapeTarget(null, 40));
             playback.Tick(.2f, new[] { definition }, "Joy", false, .5f, .2f); Near(playback.Output["a"], 50, "Invalid target should be skipped safely");
-            playback.Tick(.2f, new[] { definition }, "Joy", false, 1.5f, .2f); Near(playback.Output["a"], 150, "Legacy intensity scaling was lost");
-        });
-        test("Legacy conversion preserves authored values and enabled states", () =>
-        {
-            var original = new[] { new ExpressionController.Expression { name = "Custom", defaultFace = new ExpressionController.ShapeWeight("a", 42), speakingShapes = new[] { new ExpressionController.ShapeWeight("b", 17) } } };
-            var converted = FacialLegacyConversion.Expressions(original);
-            Near(converted[0].silentPose.targets[0].weight, 42, "Silent shape lost"); Near(converted[0].speakingPose.targets[0].weight, 17, "Speaking shape lost");
-            Check(converted[0].name == "Custom", "Expression name lost"); converted[0].silentPose.targets[0].weight = 0;
-            Near(original[0].defaultFace.weight, 42, "Conversion mutated input");
-            var blink = new LegacyBlinkSettings { enabled = false, interval = new Vector2(3, 8), gap = new Vector2(.2f, .4f), close = .07f, hold = .04f, open = .13f, weight = 83, repeatProbability = .4f };
-            var idle = new LegacyIdleSettings { enabled = true, mouthEnabled = true, gazeEnabled = false, mouthInterval = new Vector2(9, 19), purseHold = new Vector2(.3f, .6f), twitchWeight = new Vector2(4, 9), gazeInterval = new Vector2(5, 11), gazeWeight = new Vector2(13, 28), gazeHold = new Vector2(.9f, 2), pucker = 16, press = 6, purseIn = .26f, purseOut = .36f, twitchIn = .07f, twitchHold = .04f, twitchOut = .13f, gazeIn = .19f, gazeOut = .26f };
-            var result = FacialLegacyConversion.Activities(blink, idle);
-            Check(!result[0].enabled && result[1].enabled && result[2].enabled && !result[3].enabled, "Enabled flags lost");
-            Check(result[0].interval == blink.interval && result[0].repeat.gap == blink.gap, "Blink ranges lost");
-            Near(result[0].easeIn, blink.close, "Blink closing lost"); Near(result[0].hold.x, blink.hold, "Blink hold lost"); Near(result[0].easeOut, blink.open, "Blink opening lost"); Near(result[0].repeat.probability, blink.repeatProbability, "Repeat probability lost"); Near(result[0].variants[0].pose.targets[0].weight, 83, "Blink weight lost");
-            Near(result[1].variants[0].pose.targets[0].weight, 16, "Pucker weight lost"); Near(result[1].variants[0].pose.targets[1].weight, 6, "Press weight lost");
-            Check(result[1].interval == idle.mouthInterval && result[1].hold == idle.purseHold, "Purse ranges lost"); Near(result[1].easeIn, idle.purseIn, "Purse in lost"); Near(result[1].easeOut, idle.purseOut, "Purse out lost");
-            Check(result[2].interval == idle.mouthInterval, "Twitch interval lost"); Near(result[2].easeIn, idle.twitchIn, "Twitch in lost"); Near(result[2].hold.x, idle.twitchHold, "Twitch hold lost"); Near(result[2].easeOut, idle.twitchOut, "Twitch out lost");
-            Near(result[2].variants[0].pose.targets[0].weight * result[2].variants[0].strength.x, 4, "Twitch minimum lost"); Near(result[2].variants[1].pose.targets[0].weight, 9, "Twitch maximum lost");
-            Check(result[3].interval == idle.gazeInterval && result[3].hold == idle.gazeHold, "Gaze ranges lost"); Near(result[3].easeIn, idle.gazeIn, "Gaze in lost"); Near(result[3].easeOut, idle.gazeOut, "Gaze out lost");
-            foreach (var variant in result[3].variants) { Near(variant.pose.targets[0].weight * variant.strength.x, 13, "Gaze minimum lost"); Near(variant.pose.targets[1].weight, 28, "Gaze maximum lost"); }
-            var absent = FacialLegacyConversion.Activities(null, null); foreach (var item in absent) Check(!item.enabled, "Absent legacy component introduced new behavior");
+            playback.Tick(.2f, new[] { definition }, "Joy", false, 1.5f, .2f); Near(playback.Output["a"], 150, "Intensity scaling above 100 was lost");
         });
         test("Shared definitions round-trip through Unity serialization", () =>
         {
