@@ -20,3 +20,15 @@ Validation: visual review, successful scene save, Play-mode capture, no new runt
 Rollback: stop Play mode, close this scene, copy CharacterTesting.before.unity.txt to Assets/_Sandbox/Scenes/CharacterTesting.unity, then reopen it. This restores the saved state from immediately before this pass, including the user's pre-existing work. Do not overwrite later scene work. New portrait assets may remain unused after rollback.
 
 Remaining differences: standard URP Lit has not been replaced with a skin scattering shader; eye/cornea materials and hair geometry/shading are unchanged. Lighting affects their appearance.
+
+## Matte skin follow-up
+
+Created Skin_Shader_graph_Matte.shadergraph from the user's Skin_Shader_graph graph, retaining all color/normal connections and exposed skin-tone controls. Added exposed local Boolean Shader Feature keywords with shader-build-setting overrides disabled so the generated variants define the exact URP macros:
+- Disable Skin Highlights: _SPECULARHIGHLIGHTS_OFF (enabled).
+- Disable Skin Environment Reflections: _ENVIRONMENTREFLECTIONS_OFF (disabled).
+
+Assigned Ethan_Head_SkinTone_Matte and Ethan_Body_Matte to the active character. Direct-light specular highlights are disabled on both. Environment reflections remain enabled because the visual comparison removed the objectionable chin/collarbone highlights without disabling them. Hair, eyes, shirt, textures, lighting, and the original graph/material assets were not edited during this follow-up.
+
+Validation: shader messages empty, scene saved, Edit-mode before/after captures, Play-mode visual verification and no new runtime errors.
+
+To reverse this follow-up, assign Ethan_Head_SkinTone and the original Ethan_Body materials to their original Face renderer slots. Screenshots: matte-before.png, matte-direct-off.png, matte-runtime.png.
