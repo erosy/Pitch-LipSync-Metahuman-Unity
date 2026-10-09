@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4604265573378666019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131293215482891311}
+  - component: {fileID: 831117185868870985}
+  m_Layer: 0
+  m_Name: Character Sample Woman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8131293215482891311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604265573378666019}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2408503983187078206}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &831117185868870985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604265573378666019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2177b6bc0a6700b4fb6294341d6ec63f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExpressionController
+  face: {fileID: 8769799101064090340}
+  lipSync: {fileID: 3356652909610696024}
+  blendShapeDriver: {fileID: 4630952578457558137}
+  blendShapeDebugger: {fileID: 0}
+  intensity: 1
+  fadeTime: 0.18
+  endOfSpeechDelay: 0.1
+  expressionDefinitions:
+  - name: Joy
+    silentPose:
+      targets:
+      - shape: emo_joy
+        weight: 100
+    speakingPose:
+      targets:
+      - shape: mouthSmileLeft
+        weight: 35
+      - shape: mouthSmileRight
+        weight: 35
+      - shape: cheekSquintLeft
+        weight: 20
+      - shape: cheekSquintRight
+        weight: 20
+      - shape: eyeSquintLeft
+        weight: 25
+      - shape: eyeSquintRight
+        weight: 25
+      - shape: browInnerUp
+        weight: 10
+  activityDefinitions:
+  - name: Blink
+    enabled: 1
+    channel: Blink
+    eligibility: 0
+    expressionNames: []
+    allowSpeech: 1
+    allowExpressionTransitions: 1
+    interval: {x: 2, y: 6}
+    easeIn: 0.06
+    hold: {x: 0.03, y: 0.03}
+    easeOut: 0.12
+    variants:
+    - name: Both eyes
+      pose:
+        targets:
+        - shape: eyeBlinkLeft
+          weight: 100
+        - shape: eyeBlinkRight
+          weight: 100
+      strength: {x: 1, y: 1}
+    repeat:
+      probability: 0.15
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Lip purse
+    enabled: 1
+    channel: Mouth
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 8, y: 16}
+    easeIn: 0.25
+    hold: {x: 0.5, y: 1.5}
+    easeOut: 0.35
+    variants:
+    - name: Purse
+      pose:
+        targets:
+        - shape: mouthPressLeft
+          weight: 75
+        - shape: mouthPressRight
+          weight: 75
+      strength: {x: 2, y: 2}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Lip twitch
+    enabled: 1
+    channel: Mouth
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 3, y: 7}
+    easeIn: 0.12
+    hold: {x: 0.12, y: 0.12}
+    easeOut: 0.12
+    variants:
+    - name: Left
+      pose:
+        targets:
+        - shape: mouthLeft
+          weight: 50
+      strength: {x: 0.5, y: 2}
+    - name: Right
+      pose:
+        targets:
+        - shape: mouthRight
+          weight: 50
+      strength: {x: 0.5, y: 2}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Gaze
+    enabled: 1
+    channel: Gaze
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 4, y: 9}
+    easeIn: 0.18
+    hold: {x: 0.8, y: 1.8}
+    easeOut: 0.25
+    variants:
+    - name: Character left
+      pose:
+        targets:
+        - shape: eyeLookOutLeft
+          weight: 25
+        - shape: eyeLookInRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    - name: Character right
+      pose:
+        targets:
+        - shape: eyeLookInLeft
+          weight: 25
+        - shape: eyeLookOutRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    - name: Up
+      pose:
+        targets:
+        - shape: eyeLookUpLeft
+          weight: 25
+        - shape: eyeLookUpRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    - name: Down
+      pose:
+        targets:
+        - shape: eyeLookDownLeft
+          weight: 25
+        - shape: eyeLookDownRight
+          weight: 25
+      strength: {x: 0.6, y: 1}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+  - name: Pucker
+    enabled: 1
+    channel: Mouth
+    eligibility: 1
+    expressionNames: []
+    allowSpeech: 0
+    allowExpressionTransitions: 0
+    interval: {x: 8, y: 16}
+    easeIn: 0.25
+    hold: {x: 0.25, y: 0.5}
+    easeOut: 0.35
+    variants:
+    - name: Pucker
+      pose:
+        targets:
+        - shape: mouthPucker
+          weight: 50
+      strength: {x: 2, y: 2}
+    repeat:
+      probability: 0
+      maximumAdditionalRepetitions: 1
+      gap: {x: 0.12, y: 0.25}
+--- !u!1 &8089390997151025815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3427624077640947261}
+  - component: {fileID: 6423834410601056349}
+  - component: {fileID: 3356652909610696024}
+  - component: {fileID: 2212925600325569520}
+  m_Layer: 0
+  m_Name: Voice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3427624077640947261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089390997151025815}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000024349212, y: 0.00000010154935, z: -0.00000026077026, w: 1}
+  m_LocalPosition: {x: -0.026179148, y: -0.0058415136, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9097200023026700622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &6423834410601056349
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089390997151025815}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3356652909610696024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089390997151025815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: uLipSync.Runtime::uLipSync.uLipSync
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
+  onLipSyncUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4630952578457558137}
+        m_TargetAssemblyTypeName: uLipSync.uLipSyncBlendShape, uLipSync.Runtime
+        m_MethodName: OnLipSyncUpdate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  outputSoundGain: 1
+  audioSourceProxy: {fileID: 0}
+  autoAudioSyncOnWebGL: 1
+  audioSyncOffsetTime: 0
+--- !u!114 &2212925600325569520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089390997151025815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24f90331c09e854586fe2cd12e69544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: uLipSync.Runtime::uLipSync.uLipSyncMicrophone
+  index: 0
+  isAutoStart: 0
+  latencyTolerance: 0.05
+  bufferTime: 0.03
+--- !u!1001 &2802928788131269589
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8131293215482891311}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_Name
+      value: INA_WOMAN_unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e0c34dcd4b103f54c939fa3905a95d9f, type: 2}
+    - target: {fileID: 5866666021909216657, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -2821012752499647845, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3427624077640947261}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -6435399192587130656, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4630952578457558137}
+  m_SourcePrefab: {fileID: 100100000, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+--- !u!1 &24451377820721973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6435399192587130656, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+  m_PrefabInstance: {fileID: 2802928788131269589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4630952578457558137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24451377820721973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2163de355e8fd8e4b83b631e07455323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: uLipSync.Runtime::uLipSync.uLipSyncBlendShape
+  updateMethod: 0
+  skinnedMeshRenderer: {fileID: 8769799101064090340}
+  blendShapes:
+  - phoneme: A
+    index: 62
+    maxWeight: 1
+  - phoneme: I
+    index: 64
+    maxWeight: 1
+  - phoneme: U
+    index: 66
+    maxWeight: 1
+  - phoneme: E
+    index: 63
+    maxWeight: 1
+  - phoneme: O
+    index: 65
+    maxWeight: 1
+  - phoneme: S
+    index: 59
+    maxWeight: 1
+  - phoneme: M
+    index: 53
+    maxWeight: 1
+  - phoneme: N
+    index: 60
+    maxWeight: 1
+  maxBlendShapeValue: 100
+  minVolume: -3.514975
+  maxVolume: -0.95091486
+  smoothness: 0.075
+  usePhonemeBlend: 1
+--- !u!4 &2408503983187078206 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+  m_PrefabInstance: {fileID: 2802928788131269589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &8769799101064090340 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6868716418057165105, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+  m_PrefabInstance: {fileID: 2802928788131269589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9097200023026700622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2821012752499647845, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+  m_PrefabInstance: {fileID: 2802928788131269589}
+  m_PrefabAsset: {fileID: 0}
