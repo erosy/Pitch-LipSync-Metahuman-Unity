@@ -826,7 +826,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -1109,6 +1109,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1787687936777107781, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787687936777107781, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b505a9cab0b1164448fbcdacac6bbbff, type: 2}
     - target: {fileID: 2780770108307617632, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: m_Name
       value: Ethan
@@ -1187,7 +1195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041640451660556913, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9108183307462946592, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
