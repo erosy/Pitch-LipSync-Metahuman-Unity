@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "BaselineVerified",
+    "meanHairLuminance": 61.43566666666667,
+    "meanAdjacentPixelDifference": 6.509021296960995
+  },
+  {
+    "variant": "TaaVeryHigh",
+    "meanHairLuminance": 61.226166666666664,
+    "meanAdjacentPixelDifference": 5.013472122517349
+  },
+  {
+    "variant": "SmaaMsaa4Verified",
+    "meanHairLuminance": 119.73095238095239,
+    "meanAdjacentPixelDifference": 17.274419717635798
+  },
+  {
+    "variant": "Subdivision1Verified",
+    "meanHairLuminance": 61.42621428571429,
+    "meanAdjacentPixelDifference": 6.494233070112466
+  },
+  {
+    "variant": "Smoothness035",
+    "meanHairLuminance": 56.046952380952376,
+    "meanAdjacentPixelDifference": 3.855204594400574
+  },
+  {
+    "variant": "Smoothness020Verified",
+    "meanHairLuminance": 48.155928571428575,
+    "meanAdjacentPixelDifference": 2.09562096195262
+  },
+  {
+    "variant": "Width125",
+    "meanHairLuminance": 61.38664285714286,
+    "meanAdjacentPixelDifference": 6.405407992342665
+  }
+]

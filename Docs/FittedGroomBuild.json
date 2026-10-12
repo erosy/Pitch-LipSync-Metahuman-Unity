@@ -1,0 +1,46 @@
+{
+  "source": "testing.blend",
+  "curves": 94408,
+  "particles_per_strand": 32,
+  "curve_types": [
+    2
+  ],
+  "skull_registration_median_mm": 0.3110423858743161,
+  "registration_rotation": [
+    [
+      0.9999876634904429,
+      0.0019134166676267393,
+      -0.004583852482271362
+    ],
+    [
+      -0.001913698732078262,
+      0.9999981672438935,
+      -5.714907185947088e-05
+    ],
+    [
+      0.004583734731201132,
+      6.592047952287303e-05,
+      0.9999894924599975
+    ]
+  ],
+  "registration_translation": [
+    0.00017374640346503483,
+    -3.975615176450447e-05,
+    1.1228093769566264e-05
+  ],
+  "roots_lifted": 4233,
+  "sdf_resolution": 96,
+  "sdf_bounds": [
+    [
+      -0.15,
+      -0.075,
+      -0.14
+    ],
+    [
+      0.15,
+      0.28,
+      0.19
+    ]
+  ],
+  "sdf_sign_method": "nearest oriented surface; valid around scalp and ears, not a watertight mouth/interior test"
+}

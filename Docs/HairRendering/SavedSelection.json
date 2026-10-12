@@ -1,0 +1,22 @@
+{
+  "sceneReopened": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "hairWidthScale": 1.0,
+  "hairSmoothness": 0.2,
+  "renderScale": 1.0,
+  "msaa": 1,
+  "physics": "{\"solver\":1,\"solverSubsteps\":4,\"constraintIterations\":12,\"constraintStiffness\":1.0,\"constraintSOR\":1.0,\"dampingLinear\":true,\"dampingLinearFactor\":0.20000000298023225,\"dampingLinearInterval\":1,\"dampingAngular\":true,\"dampingAngularFactor\":0.5,\"dampingAngularInterval\":0,\"cellPressure\":1.0,\"cellVelocity\":0.05000000074505806,\"cellExternal\":1.0,\"gravity\":0.20000000298023225,\"boundaryCollision\":true,\"boundaryCollisionFriction\":0.5,\"distance\":true,\"distanceLRA\":true,\"distanceFTL\":false,\"distanceFTLCorrection\":0.800000011920929,\"localCurvature\":false,\"localCurvatureMode\":1,\"localCurvatureValue\":0.10000000149011612,\"localShape\":true,\"localShapeMode\":1,\"localShapeInfluence\":1.0,\"localShapeBias\":true,\"localShapeBiasValue\":0.699999988079071,\"globalPosition\":true,\"globalPositionInfluence\":0.30000001192092898,\"globalPositionInterval\":1,\"globalRotation\":true,\"globalRotationInfluence\":0.699999988079071,\"globalFade\":true,\"globalFadeOffset\":0.10000000149011612,\"globalFadeExtent\":0.20000000298023225,\"kLODSelection\":2,\"kLODSelectionValue\":1.0,\"kLODCeiling\":1.0,\"kLODScale\":1.0,\"kLODBias\":0.0}",
+  "executive": "{\"updateMode\":0,\"updateSimulation\":true,\"updateSimulationRate\":0,\"updateSimulationInEditor\":true,\"updateTimeStep\":0.009999999776482582,\"updateStepsMin\":false,\"updateStepsMinValue\":1,\"updateStepsMax\":true,\"updateStepsMaxValue\":4}",
+  "subdivision": false,
+  "strands": 94408,
+  "simulationPoints": 32,
+  "shaderMessages": [
+    {
+      "message": "Keyword 'PROCEDURAL_INSTANCING_ON' is duplicated in several directives. This can lead to unnecessary shader variants. Please remove it from all but one directive.",
+      "messageDetails": "",
+      "file": "",
+      "line": -1,
+      "platform": -1,
+      "severity": 0
+    }
+  ]
+}

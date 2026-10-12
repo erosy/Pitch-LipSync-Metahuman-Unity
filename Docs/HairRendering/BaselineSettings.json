@@ -1,0 +1,51 @@
+{
+  "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "playing": false,
+  "camera": "Main Camera",
+  "cameraPosition": "(0.000000, 1.611359, 1.266679)",
+  "cameraRotation": "(0.000, 180.000, 0.000)",
+  "fieldOfView": 22.0,
+  "screen": {
+    "width": 1024,
+    "height": 576
+  },
+  "quality": "Performant",
+  "pipeline": "Assets/Settings/URP/URP_Asset.asset",
+  "msaa": 1,
+  "renderScale": 1.0,
+  "renderer": "UnityEngine.Rendering.Universal.UniversalRenderer",
+  "aa": "TemporalAntiAliasing",
+  "taa": "{\"m_Quality\":3,\"m_FrameInfluence\":0.10000000149011612,\"m_JitterScale\":1.0,\"m_MipBias\":0.0,\"m_VarianceClampScale\":0.8999999761581421,\"m_ContrastAdaptiveSharpening\":0.0}",
+  "hair": "Hair",
+  "providers": [
+    "Assets/_Sandbox/Groom Hair Asset/Fitted/Ethan_BlenderFitted.asset"
+  ],
+  "groupDefaults": "{\"groupAssetReferences\":[],\"settingsSkinning\":{},\"settingsSkinningToggle\":false,\"settingsGeometry\":{\"strandScale\":0,\"strandLength\":false,\"strandLengthValue\":0.25,\"strandDiameter\":false,\"strandDiameterValue\":1.0,\"strandSeparation\":0.0,\"tipScale\":false,\"tipScaleValue\":0.15000000596046449,\"tipScaleOffset\":false,\"tipScaleOffsetValue\":0.75,\"boundsMode\":0,\"boundsCenter\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"boundsExtent\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"boundsScale\":false,\"boundsScaleValue\":1.25,\"stagingPrecision\":1,\"stagingSubdivision\":false,\"stagingSubdivisionCount\":1},\"settingsGeometryToggle\":false,\"settingsRendering\":{\"material\":true,\"materialAsset\":{\"instanceID\":568105584918857050},\"renderer\":2,\"rendererLayers\":257,\"rendererShadows\":1,\"shadowLayers\":false,\"shadowLayersValue\":257,\"shadowSubstitute\":false,\"shadowSubstituteValue\":0,\"motionVectors\":1,\"allowIndirect\":true,\"allowInstancing\":true,\"kLODSelection\":4,\"kLODSelectionValue\":1.0,\"kLODCeiling\":1.0,\"kLODScale\":1.0,\"kLODBias\":0.0,\"clipThreshold\":0.05000000074505806},\"settingsRenderingToggle\":false,\"settingsPhysics\":{\"solver\":1,\"solverSubsteps\":4,\"constraintIterations\":12,\"constraintStiffness\":1.0,\"constraintSOR\":1.0,\"dampingLinear\":true,\"dampingLinearFactor\":0.20000000298023225,\"dampingLinearInterval\":1,\"dampingAngular\":true,\"dampingAngularFactor\":0.5,\"dampingAngularInterval\":0,\"cellPressure\":1.0,\"cellVelocity\":0.05000000074505806,\"cellExternal\":1.0,\"gravity\":0.20000000298023225,\"boundaryCollision\":true,\"boundaryCollisionFriction\":0.5,\"distance\":true,\"distanceLRA\":true,\"distanceFTL\":false,\"distanceFTLCorrection\":0.800000011920929,\"localCurvature\":false,\"localCurvatureMode\":1,\"localCurvatureValue\":0.10000000149011612,\"localShape\":true,\"localShapeMode\":1,\"localShapeInfluence\":1.0,\"localShapeBias\":true,\"localShapeBiasValue\":0.699999988079071,\"globalPosition\":true,\"globalPositionInfluence\":0.30000001192092898,\"globalPositionInterval\":1,\"globalRotation\":true,\"globalRotationInfluence\":0.699999988079071,\"globalFade\":true,\"globalFadeOffset\":0.10000000149011612,\"globalFadeExtent\":0.20000000298023225,\"kLODSelection\":2,\"kLODSelectionValue\":1.0,\"kLODCeiling\":1.0,\"kLODScale\":1.0,\"kLODBias\":0.0},\"settingsPhysicsToggle\":false}",
+  "groups": [],
+  "shader": "Hair/Custom/EthanHair",
+  "shaderErrors": [
+    {
+      "message": "Keyword 'PROCEDURAL_INSTANCING_ON' is duplicated in several directives. This can lead to unnecessary shader variants. Please remove it from all but one directive.",
+      "messageDetails": "",
+      "file": "",
+      "line": -1,
+      "platform": -1,
+      "severity": 0
+    }
+  ],
+  "animators": [
+    {
+      "name": "Ethan",
+      "controller": "INA_Animation",
+      "clips": [
+        {
+          "name": "Breathing Idle",
+          "length": 9.916667
+        }
+      ]
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "api": "Direct3D12",
+  "frameTiming": true
+}

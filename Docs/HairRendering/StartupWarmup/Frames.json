@@ -1,0 +1,210 @@
+[
+  {
+    "frame": 1,
+    "ready": false,
+    "resets": 0,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.033333335071802139
+  },
+  {
+    "frame": 2,
+    "ready": false,
+    "resets": 0,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.10000000521540642
+  },
+  {
+    "frame": 3,
+    "ready": false,
+    "resets": 0,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.1666666753590107
+  },
+  {
+    "frame": 4,
+    "ready": false,
+    "resets": 0,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.1666666753590107
+  },
+  {
+    "frame": 5,
+    "ready": false,
+    "resets": 0,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.26666668057441711
+  },
+  {
+    "frame": 6,
+    "ready": false,
+    "resets": 0,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.26666668057441711
+  },
+  {
+    "frame": 7,
+    "ready": false,
+    "resets": 1,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.066666670143604279
+  },
+  {
+    "frame": 8,
+    "ready": false,
+    "resets": 1,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.10000000521540642
+  },
+  {
+    "frame": 9,
+    "ready": false,
+    "resets": 1,
+    "visibleBodyRenderers": 0,
+    "hairRenderer": "Disabled",
+    "elapsed": 0.13333334028720856
+  },
+  {
+    "frame": 10,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.1666666753590107
+  },
+  {
+    "frame": 11,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.20000001043081284
+  },
+  {
+    "frame": 12,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.23333334550261497
+  },
+  {
+    "frame": 13,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.26666668057441711
+  },
+  {
+    "frame": 14,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.26666668057441711
+  },
+  {
+    "frame": 15,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.30000001564621925
+  },
+  {
+    "frame": 16,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.33333335071802139
+  },
+  {
+    "frame": 17,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.33333335071802139
+  },
+  {
+    "frame": 18,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.36666668578982353
+  },
+  {
+    "frame": 19,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.36666668578982353
+  },
+  {
+    "frame": 20,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.40000002086162567
+  },
+  {
+    "frame": 21,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.40000002086162567
+  },
+  {
+    "frame": 22,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.43333335593342781
+  },
+  {
+    "frame": 23,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.43333335593342781
+  },
+  {
+    "frame": 24,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 0.46666669100522995
+  },
+  {
+    "frame": 300,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 4.6333335749804974
+  },
+  {
+    "frame": 1200,
+    "ready": true,
+    "resets": 1,
+    "visibleBodyRenderers": 2,
+    "hairRenderer": "BuiltinStrips",
+    "elapsed": 16.700000870972872
+  }
+]

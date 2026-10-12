@@ -1,0 +1,639 @@
+{
+  "affectedStrands": 2473,
+  "totalStrands": 94408,
+  "particlesPerStrand": 32,
+  "clearanceMm": 4,
+  "maxCorrectionMm": 16.51249413447574,
+  "rootsUnchanged": true,
+  "outsideRegionStrandsUnchanged": false,
+  "penetratingEarPointsBefore": 3687,
+  "penetratingEarPointsAfter": 4,
+  "belowMarginEarPointsBefore": 14680,
+  "belowMarginEarPointsAfter": 262,
+  "meshFieldChecks": [
+    {
+      "strand": 3,
+      "point": 16,
+      "fieldMm": -6.62375238732029,
+      "meshSignedMm": -6.623042238970811
+    },
+    {
+      "strand": 431,
+      "point": 15,
+      "fieldMm": -0.44903205374351074,
+      "meshSignedMm": -0.44781281275163565
+    },
+    {
+      "strand": 1199,
+      "point": 23,
+      "fieldMm": -2.558169689645423,
+      "meshSignedMm": -2.5818162448558724
+    },
+    {
+      "strand": 1692,
+      "point": 14,
+      "fieldMm": 1.7309765682339218,
+      "meshSignedMm": 1.7311094884462364
+    },
+    {
+      "strand": 2011,
+      "point": 11,
+      "fieldMm": 0.6845095326476964,
+      "meshSignedMm": 0.6497676731669344
+    },
+    {
+      "strand": 3800,
+      "point": 23,
+      "fieldMm": 2.185285302911343,
+      "meshSignedMm": 2.1839011560587096
+    },
+    {
+      "strand": 4442,
+      "point": 26,
+      "fieldMm": -3.797373863229937,
+      "meshSignedMm": -3.892760149028618
+    },
+    {
+      "strand": 5111,
+      "point": 6,
+      "fieldMm": -3.168804326531414,
+      "meshSignedMm": -3.1690314135630615
+    },
+    {
+      "strand": 5597,
+      "point": 12,
+      "fieldMm": -2.3515963824628088,
+      "meshSignedMm": -2.3225361603635974
+    },
+    {
+      "strand": 6622,
+      "point": 21,
+      "fieldMm": -4.731635309589756,
+      "meshSignedMm": -4.735259783046786
+    },
+    {
+      "strand": 7746,
+      "point": 11,
+      "fieldMm": 0.582914708316722,
+      "meshSignedMm": 0.17968814495361585
+    },
+    {
+      "strand": 8592,
+      "point": 18,
+      "fieldMm": 2.521667976950623,
+      "meshSignedMm": 2.5088910697377287
+    },
+    {
+      "strand": 8741,
+      "point": 21,
+      "fieldMm": 3.487166103484047,
+      "meshSignedMm": 3.325959580251947
+    },
+    {
+      "strand": 9714,
+      "point": 19,
+      "fieldMm": -1.8939297273779638,
+      "meshSignedMm": -1.9885127258021384
+    },
+    {
+      "strand": 9748,
+      "point": 20,
+      "fieldMm": -0.6813218612766897,
+      "meshSignedMm": -1.4173938689054921
+    },
+    {
+      "strand": 9776,
+      "point": 20,
+      "fieldMm": -0.17509963325731154,
+      "meshSignedMm": -1.3103460150887258
+    },
+    {
+      "strand": 9811,
+      "point": 20,
+      "fieldMm": -1.7711981598047641,
+      "meshSignedMm": -1.7372491493006237
+    },
+    {
+      "strand": 16215,
+      "point": 24,
+      "fieldMm": -2.2722130897906343,
+      "meshSignedMm": -2.284050984599162
+    },
+    {
+      "strand": 16239,
+      "point": 22,
+      "fieldMm": -1.68613449621501,
+      "meshSignedMm": -1.7099167916967417
+    },
+    {
+      "strand": 16263,
+      "point": 21,
+      "fieldMm": -3.190727837753157,
+      "meshSignedMm": -3.214916745946539
+    },
+    {
+      "strand": 16287,
+      "point": 23,
+      "fieldMm": 2.7638726653325074,
+      "meshSignedMm": 2.7630429322016425
+    },
+    {
+      "strand": 16311,
+      "point": 21,
+      "fieldMm": -2.960920344908843,
+      "meshSignedMm": -2.9501345150038105
+    },
+    {
+      "strand": 16339,
+      "point": 19,
+      "fieldMm": 2.8595496174571933,
+      "meshSignedMm": 2.8233518496563192
+    },
+    {
+      "strand": 16369,
+      "point": 9,
+      "fieldMm": -2.698560679280744,
+      "meshSignedMm": -2.7237818176217843
+    },
+    {
+      "strand": 16393,
+      "point": 6,
+      "fieldMm": 1.9934698893544867,
+      "meshSignedMm": 1.9656388030853122
+    },
+    {
+      "strand": 16458,
+      "point": 16,
+      "fieldMm": 1.2945436431963764,
+      "meshSignedMm": 1.267484429263277
+    },
+    {
+      "strand": 16535,
+      "point": 17,
+      "fieldMm": 3.2440022524763243,
+      "meshSignedMm": 3.2438624984933995
+    },
+    {
+      "strand": 20503,
+      "point": 15,
+      "fieldMm": 2.3150703750926893,
+      "meshSignedMm": 2.1949043393760803
+    },
+    {
+      "strand": 20784,
+      "point": 8,
+      "fieldMm": 0.12930771342161498,
+      "meshSignedMm": 0.1334007366295964
+    },
+    {
+      "strand": 21195,
+      "point": 17,
+      "fieldMm": 1.3012009384252354,
+      "meshSignedMm": 1.2996408931940095
+    },
+    {
+      "strand": 21251,
+      "point": 10,
+      "fieldMm": 0.4003569067570074,
+      "meshSignedMm": -0.6055241838112124
+    },
+    {
+      "strand": 21291,
+      "point": 17,
+      "fieldMm": -0.8893220289895195,
+      "meshSignedMm": -1.7850338207381355
+    },
+    {
+      "strand": 21623,
+      "point": 31,
+      "fieldMm": 2.1049751477844882,
+      "meshSignedMm": 2.075031834465335
+    },
+    {
+      "strand": 21649,
+      "point": 31,
+      "fieldMm": -0.22842985977734617,
+      "meshSignedMm": -0.20812804041270283
+    },
+    {
+      "strand": 22626,
+      "point": 31,
+      "fieldMm": 3.101010538764551,
+      "meshSignedMm": 3.0566115513011027
+    },
+    {
+      "strand": 22684,
+      "point": 31,
+      "fieldMm": -7.536118453866619,
+      "meshSignedMm": -7.557438436265329
+    },
+    {
+      "strand": 23057,
+      "point": 15,
+      "fieldMm": 2.441802180417276,
+      "meshSignedMm": 2.4095354920063983
+    },
+    {
+      "strand": 23752,
+      "point": 31,
+      "fieldMm": 1.3189574038480927,
+      "meshSignedMm": 0.9971937652153429
+    },
+    {
+      "strand": 24242,
+      "point": 14,
+      "fieldMm": 0.5218415986317798,
+      "meshSignedMm": 0.5115576932439581
+    },
+    {
+      "strand": 24271,
+      "point": 20,
+      "fieldMm": -0.09233909236007538,
+      "meshSignedMm": -0.10485125372383663
+    },
+    {
+      "strand": 24446,
+      "point": 22,
+      "fieldMm": -0.24356384934762,
+      "meshSignedMm": -1.5665716882722336
+    },
+    {
+      "strand": 31325,
+      "point": 17,
+      "fieldMm": 2.8661696187328283,
+      "meshSignedMm": 2.8549698618007824
+    },
+    {
+      "strand": 33450,
+      "point": 18,
+      "fieldMm": 1.4200057110676316,
+      "meshSignedMm": 1.4230887463781983
+    },
+    {
+      "strand": 33525,
+      "point": 21,
+      "fieldMm": 3.265668513649817,
+      "meshSignedMm": 3.203682438766009
+    },
+    {
+      "strand": 33550,
+      "point": 20,
+      "fieldMm": -5.263704062603813,
+      "meshSignedMm": -5.2719954001076985
+    },
+    {
+      "strand": 33580,
+      "point": 21,
+      "fieldMm": 1.8210552889877247,
+      "meshSignedMm": 1.828333889534406
+    },
+    {
+      "strand": 34352,
+      "point": 10,
+      "fieldMm": 3.499634350935726,
+      "meshSignedMm": 3.494522981782211
+    },
+    {
+      "strand": 34750,
+      "point": 17,
+      "fieldMm": -1.1278602654776362,
+      "meshSignedMm": -1.1385144193809538
+    },
+    {
+      "strand": 42285,
+      "point": 0,
+      "fieldMm": 1.43600348563647,
+      "meshSignedMm": 1.436422872075127
+    },
+    {
+      "strand": 42554,
+      "point": 12,
+      "fieldMm": -1.1770232246570635,
+      "meshSignedMm": -1.3595205723841985
+    },
+    {
+      "strand": 42766,
+      "point": 17,
+      "fieldMm": 2.7496380547502715,
+      "meshSignedMm": 2.7488328664730943
+    },
+    {
+      "strand": 42999,
+      "point": 17,
+      "fieldMm": -1.2106635835717146,
+      "meshSignedMm": -1.2053652644681279
+    },
+    {
+      "strand": 47329,
+      "point": 28,
+      "fieldMm": 0.9511843811437403,
+      "meshSignedMm": 0.954817333763458
+    },
+    {
+      "strand": 47752,
+      "point": 22,
+      "fieldMm": 2.0288608203265874,
+      "meshSignedMm": 1.8653924053069204
+    },
+    {
+      "strand": 48418,
+      "point": 12,
+      "fieldMm": 0.45020008304694603,
+      "meshSignedMm": 0.44504332558403803
+    },
+    {
+      "strand": 48909,
+      "point": 11,
+      "fieldMm": 2.3592533915629996,
+      "meshSignedMm": 2.352646839881345
+    },
+    {
+      "strand": 49914,
+      "point": 19,
+      "fieldMm": -1.22487328038599,
+      "meshSignedMm": -1.250540803084732
+    },
+    {
+      "strand": 51055,
+      "point": 14,
+      "fieldMm": 3.192666030006805,
+      "meshSignedMm": 3.1975274341675686
+    },
+    {
+      "strand": 52167,
+      "point": 25,
+      "fieldMm": 3.4285259462743247,
+      "meshSignedMm": 3.3540149306645617
+    },
+    {
+      "strand": 52713,
+      "point": 12,
+      "fieldMm": 1.549426696368772,
+      "meshSignedMm": 1.2965405694558285
+    },
+    {
+      "strand": 52943,
+      "point": 31,
+      "fieldMm": 2.6759501170987536,
+      "meshSignedMm": 2.644535565877959
+    },
+    {
+      "strand": 54047,
+      "point": 21,
+      "fieldMm": -6.314019796911013,
+      "meshSignedMm": -6.389911430915163
+    },
+    {
+      "strand": 54977,
+      "point": 14,
+      "fieldMm": -0.7634983304455193,
+      "meshSignedMm": -0.763758069524556
+    },
+    {
+      "strand": 55921,
+      "point": 20,
+      "fieldMm": 0.051749171927424654,
+      "meshSignedMm": -0.2742054894042667
+    },
+    {
+      "strand": 55961,
+      "point": 21,
+      "fieldMm": 1.295146623931906,
+      "meshSignedMm": 1.0552136591286398
+    },
+    {
+      "strand": 56926,
+      "point": 20,
+      "fieldMm": -2.8802695098172677,
+      "meshSignedMm": -3.792309660639148
+    },
+    {
+      "strand": 56962,
+      "point": 21,
+      "fieldMm": 1.2044121123394174,
+      "meshSignedMm": 0.9465636248933151
+    },
+    {
+      "strand": 56988,
+      "point": 21,
+      "fieldMm": 1.7168196860728753,
+      "meshSignedMm": 1.3902306091040373
+    },
+    {
+      "strand": 62024,
+      "point": 23,
+      "fieldMm": 1.1253587761550048,
+      "meshSignedMm": 1.1159659170516534
+    },
+    {
+      "strand": 63428,
+      "point": 24,
+      "fieldMm": -2.8963729958806925,
+      "meshSignedMm": -2.8981877003388945
+    },
+    {
+      "strand": 63452,
+      "point": 23,
+      "fieldMm": -5.540591461244255,
+      "meshSignedMm": -5.543017745367251
+    },
+    {
+      "strand": 63476,
+      "point": 21,
+      "fieldMm": -3.876040984122035,
+      "meshSignedMm": -3.926271373529744
+    },
+    {
+      "strand": 63500,
+      "point": 22,
+      "fieldMm": 0.21103079406930497,
+      "meshSignedMm": 0.15303605351846272
+    },
+    {
+      "strand": 63527,
+      "point": 13,
+      "fieldMm": -6.121810205974467,
+      "meshSignedMm": -6.128786553745158
+    },
+    {
+      "strand": 63553,
+      "point": 12,
+      "fieldMm": -5.174851688575928,
+      "meshSignedMm": -5.180096473850426
+    },
+    {
+      "strand": 63582,
+      "point": 8,
+      "fieldMm": -3.0383335289175544,
+      "meshSignedMm": -3.0384021429199493
+    },
+    {
+      "strand": 63607,
+      "point": 9,
+      "fieldMm": -2.0372154009589942,
+      "meshSignedMm": -2.0458357321331277
+    },
+    {
+      "strand": 63676,
+      "point": 19,
+      "fieldMm": 1.920283318515086,
+      "meshSignedMm": 1.8744096896625706
+    },
+    {
+      "strand": 66556,
+      "point": 21,
+      "fieldMm": -3.9337527491673883,
+      "meshSignedMm": -3.9357388013741
+    },
+    {
+      "strand": 67960,
+      "point": 31,
+      "fieldMm": 3.1466575152128784,
+      "meshSignedMm": 3.1496926694671856
+    },
+    {
+      "strand": 68373,
+      "point": 14,
+      "fieldMm": -3.7368332655511223,
+      "meshSignedMm": -3.736550092980906
+    },
+    {
+      "strand": 68438,
+      "point": 13,
+      "fieldMm": -2.3181695154880715,
+      "meshSignedMm": -2.3196191364149854
+    },
+    {
+      "strand": 68477,
+      "point": 14,
+      "fieldMm": -4.136398674254483,
+      "meshSignedMm": -4.776150337420404
+    },
+    {
+      "strand": 68516,
+      "point": 15,
+      "fieldMm": -7.028439860987274,
+      "meshSignedMm": -7.087949110712088
+    },
+    {
+      "strand": 68847,
+      "point": 16,
+      "fieldMm": 2.540258156487148,
+      "meshSignedMm": 2.5429651659578667
+    },
+    {
+      "strand": 69790,
+      "point": 31,
+      "fieldMm": -1.6132307868601004,
+      "meshSignedMm": -1.6244400630966993
+    },
+    {
+      "strand": 69884,
+      "point": 31,
+      "fieldMm": -7.579473268191307,
+      "meshSignedMm": -7.576098378194729
+    },
+    {
+      "strand": 70233,
+      "point": 16,
+      "fieldMm": 2.7465303925035487,
+      "meshSignedMm": 2.735420596309268
+    },
+    {
+      "strand": 70942,
+      "point": 31,
+      "fieldMm": 1.3322872479344523,
+      "meshSignedMm": 1.1742533706637914
+    },
+    {
+      "strand": 71446,
+      "point": 14,
+      "fieldMm": 1.5214398257487465,
+      "meshSignedMm": 1.5108200532267801
+    },
+    {
+      "strand": 71475,
+      "point": 19,
+      "fieldMm": -6.39422551295697,
+      "meshSignedMm": -6.371106790652448
+    },
+    {
+      "strand": 71649,
+      "point": 22,
+      "fieldMm": 1.5920588716559776,
+      "meshSignedMm": 1.5518539930781117
+    },
+    {
+      "strand": 78517,
+      "point": 18,
+      "fieldMm": 0.006342303483042883,
+      "meshSignedMm": 0.005509350934573831
+    },
+    {
+      "strand": 78596,
+      "point": 18,
+      "fieldMm": -2.324963480580483,
+      "meshSignedMm": -2.346870734982076
+    },
+    {
+      "strand": 80720,
+      "point": 8,
+      "fieldMm": -1.6594913747122235,
+      "meshSignedMm": -1.6699130792403594
+    },
+    {
+      "strand": 80746,
+      "point": 21,
+      "fieldMm": -7.519735482501854,
+      "meshSignedMm": -7.557846081908792
+    },
+    {
+      "strand": 80776,
+      "point": 22,
+      "fieldMm": 1.8015384633285334,
+      "meshSignedMm": 1.909979444462806
+    },
+    {
+      "strand": 81538,
+      "point": 7,
+      "fieldMm": 1.9922862047308691,
+      "meshSignedMm": 1.9959152132287272
+    },
+    {
+      "strand": 81711,
+      "point": 12,
+      "fieldMm": 2.698596613300082,
+      "meshSignedMm": 2.6879457309405552
+    },
+    {
+      "strand": 89478,
+      "point": 20,
+      "fieldMm": 0.876588394884333,
+      "meshSignedMm": 0.8748596592340618
+    },
+    {
+      "strand": 89746,
+      "point": 16,
+      "fieldMm": 2.2073803283564786,
+      "meshSignedMm": 2.043143904302269
+    },
+    {
+      "strand": 89948,
+      "point": 31,
+      "fieldMm": -1.050401768823787,
+      "meshSignedMm": -1.049162258823344
+    },
+    {
+      "strand": 90156,
+      "point": 18,
+      "fieldMm": 0.18024176415221527,
+      "meshSignedMm": 0.18161301062491475
+    },
+    {
+      "strand": 91965,
+      "point": 28,
+      "fieldMm": 3.3548627071868453,
+      "meshSignedMm": 3.353738327859901
+    }
+  ]
+}

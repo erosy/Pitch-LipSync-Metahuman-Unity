@@ -1,0 +1,13 @@
+{
+  "playing": true,
+  "elapsed": 56.666669622063637,
+  "boundaryValid": true,
+  "sdfSamples": 30172,
+  "samplesDeeperThan2mm": 0,
+  "worstSdfMm": -1.5192709,
+  "nonFinite": 0,
+  "testedRoots": 836,
+  "maxRootTrackingErrorMm": 0.000122881655,
+  "strands": 94408,
+  "particles": 32
+}

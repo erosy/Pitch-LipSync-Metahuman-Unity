@@ -1,0 +1,13 @@
+var flags = System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.FlattenHierarchy;
+var assembly = typeof(UnityEditor.Editor).Assembly;
+var sizesType = assembly.GetType("UnityEditor.GameViewSizes");
+var sizes = sizesType.GetProperty("instance", flags).GetValue(null);
+var group = sizesType.GetMethod("GetGroup", flags).Invoke(sizes, new[] { System.Enum.Parse(assembly.GetType("UnityEditor.GameViewSizeGroupType"), "Standalone") });
+var size = System.Activator.CreateInstance(assembly.GetType("UnityEditor.GameViewSize"), flags, null, new object[] { System.Enum.Parse(assembly.GetType("UnityEditor.GameViewSizeType"), "FixedResolution"), 1280, 720, "Hair rendering 720p check" }, null);
+group.GetType().GetMethod("AddCustomSize", flags).Invoke(group, new[] { size });
+var total = (int)group.GetType().GetMethod("GetTotalCount", flags).Invoke(group, null);
+var viewType = assembly.GetType("UnityEditor.GameView");
+var view = UnityEditor.EditorWindow.GetWindow(viewType);
+viewType.GetProperty("selectedSizeIndex", flags).SetValue(view, total - 1);
+view.Repaint();
+return "Game view set to 1280 x 720";
