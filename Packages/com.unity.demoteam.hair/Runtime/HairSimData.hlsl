@@ -25,12 +25,21 @@
 #define HAIRSIM_SOLVERDATA StructuredBuffer
 #endif
 
+// NOTE: WebGPU has no typed buffers, so indirect args are bound as structured there (see HairSimUtility.TranslateComputeBufferType)
 #if HAIRSIM_WRITEABLE_SOLVERLOD
 #define HAIRSIM_SOLVERLOD RWStructuredBuffer
+#if SHADER_API_WEBGPU
+#define HAIRSIM_SOLVERLODX RWStructuredBuffer
+#else
 #define HAIRSIM_SOLVERLODX RWBuffer
+#endif
 #else
 #define HAIRSIM_SOLVERLOD StructuredBuffer
+#if SHADER_API_WEBGPU
+#define HAIRSIM_SOLVERLODX StructuredBuffer
+#else
 #define HAIRSIM_SOLVERLODX Buffer
+#endif
 #endif
 
 #if HAIRSIM_WRITEABLE_SOLVERDATA
@@ -93,13 +102,21 @@ HAIRSIM_RENDERDATA _StagingVertexPrev;					// xyz: ...
 
 #if HAIRSIM_WRITEABLE_VOLUMELOD
 #define HAIRSIM_VOLUMELOD RWStructuredBuffer
+#if SHADER_API_WEBGPU
+#define HAIRSIM_VOLUMELODX RWStructuredBuffer
+#else
 #define HAIRSIM_VOLUMELODX RWBuffer
+#endif
 #else
 #define HAIRSIM_VOLUMELOD StructuredBuffer
+#if SHADER_API_WEBGPU
+#define HAIRSIM_VOLUMELODX StructuredBuffer
+#else
 #define HAIRSIM_VOLUMELODX Buffer
 #endif
+#endif
 
-#if SHADER_API_METAL
+#if SHADER_API_METAL || SHADER_API_WEBGPU
 #define PLATFORM_SUPPORTS_TEXTURE_ATOMICS 0
 #else
 #define PLATFORM_SUPPORTS_TEXTURE_ATOMICS 1

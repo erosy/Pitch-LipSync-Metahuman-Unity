@@ -165,6 +165,10 @@ namespace Unity.DemoTeam.Hair
 
 		static HairSim()
 		{
+			// no compute (e.g. WebGL2): leave uninitialized rather than throw from FindKernel
+			if (SystemInfo.supportsComputeShaders == false)
+				return;
+
 			if (s_initialized == false)
 			{
 				s_runtimeFlags = RuntimeFlags.None;
@@ -179,7 +183,9 @@ namespace Unity.DemoTeam.Hair
 							s_runtimeFlags |= RuntimeFlags.SupportsVertexUAVWrites;
 							break;
 
+						// NOTE: WebGPU shares Metal's limits (no geometry stage, no texture atomics, no vertex UAV writes)
 						case GraphicsDeviceType.Metal:
+						case GraphicsDeviceType.WebGPU:
 							break;
 
 						default:
@@ -2052,7 +2058,8 @@ namespace Unity.DemoTeam.Hair
 
 					case SettingsVolume.SplatMethod.RasterizationNoGS:
 						{
-							if (cmdFlags.HasFlag(CommandBufferExecutionFlags.AsyncCompute))
+							// WebGPU cannot write SV_RenderTargetArrayIndex from the vertex stage, so splat via compute
+							if (cmdFlags.HasFlag(CommandBufferExecutionFlags.AsyncCompute) || SystemInfo.graphicsDeviceType == GraphicsDeviceType.WebGPU)
 							{
 								goto case SettingsVolume.SplatMethod.Compute;
 							}

@@ -54,6 +54,10 @@ namespace Unity.DemoTeam.Hair
 						mask |= GraphicsBuffer.Target.Structured;
 					if (type.HasFlag(ComputeBufferType.IndirectArguments))
 						mask |= GraphicsBuffer.Target.IndirectArguments;
+
+					// WebGPU has no typed buffers, so indirect args are written as structured (see HairSimData.hlsl)
+					if (type.HasFlag(ComputeBufferType.IndirectArguments) && SystemInfo.graphicsDeviceType == GraphicsDeviceType.WebGPU)
+						mask |= GraphicsBuffer.Target.Structured;
 				}
 				return mask;
 			}

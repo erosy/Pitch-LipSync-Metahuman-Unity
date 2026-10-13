@@ -31,7 +31,7 @@
 		return output;
 	}
 
-#if !SHADER_API_METAL
+#if !SHADER_API_METAL && !SHADER_API_WEBGPU
 	uint SliceVert(uint vertexID : SV_VertexID) : TEXCOORD0
 	{
 		return vertexID;
@@ -156,7 +156,7 @@
 		{
 			HLSLPROGRAM
 
-#if !SHADER_API_METAL
+#if !SHADER_API_METAL && !SHADER_API_WEBGPU
 			#pragma vertex SliceVert
 			#pragma geometry SliceGeom
 			#pragma fragment SliceFrag
@@ -169,8 +169,10 @@
 		{
 			HLSLPROGRAM
 
+#if !SHADER_API_WEBGPU// WebGPU cannot write SV_RenderTargetArrayIndex from the vertex stage (HairSim splats via compute instead)
 			#pragma vertex SliceVertNoGS
 			#pragma fragment SliceFrag
+#endif
 
 			ENDHLSL
 		}

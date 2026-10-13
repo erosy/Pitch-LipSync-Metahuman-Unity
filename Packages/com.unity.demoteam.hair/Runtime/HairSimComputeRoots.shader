@@ -8,8 +8,11 @@
 
 	#include "HairSimComputeRoots.hlsl"
 
+	// NOTE: WebGPU forbids writable storage in the vertex stage; roots are resolved via compute there (no SupportsVertexUAVWrites)
+#if !SHADER_API_WEBGPU
 	RWStructuredBuffer<float4> _UpdatedRootPosition : register(u1);
 	RWStructuredBuffer<float4> _UpdatedRootFrame : register(u2);
+#endif
 
 	struct RootAttribs
 	{
@@ -26,6 +29,7 @@
 
 	RootVaryings RootVert(RootAttribs attribs, uint strandIndex : SV_VertexID)
 	{
+#if !SHADER_API_WEBGPU
 		RootResolve(
 			_UpdatedRootPosition[strandIndex].xyz,
 			_UpdatedRootFrame[strandIndex],
@@ -33,6 +37,7 @@
 			attribs.tangentOS,
 			attribs.normalOS
 		);
+#endif
 
 		// clip
 		RootVaryings v;
