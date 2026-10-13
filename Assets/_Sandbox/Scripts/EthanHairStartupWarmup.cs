@@ -26,6 +26,11 @@ public sealed class EthanHairStartupWarmup : MonoBehaviour
 
     void OnEnable()
     {
+        if (Application.isPlaying && !SystemInfo.supportsComputeShaders)
+        {
+            IsReady = true;
+            return;
+        }
         if (Application.isPlaying && !IsReady && warmup == null)
             warmup = StartCoroutine(InitializeHidden());
     }

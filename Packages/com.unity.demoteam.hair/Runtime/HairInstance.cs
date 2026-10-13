@@ -217,6 +217,15 @@ namespace Unity.DemoTeam.Hair
 
 		void OnEnable()
 		{
+			// WebGL2 cannot create the structured buffers or compute kernels used by HairSim.
+			// Reject the unsupported path before any HairSim static initialization occurs.
+			if (Application.isPlaying && !SystemInfo.supportsComputeShaders)
+			{
+				Debug.LogWarning("Demo Team Hair disabled: this graphics API does not support compute shaders. Use a mesh/card hair fallback.", this);
+				enabled = false;
+				return;
+			}
+
 			VersionedDataUtility.HandleVersionChange(this);
 
 			UpdateStrandGroupInstances();
@@ -1451,6 +1460,9 @@ namespace Unity.DemoTeam.Hair
 
 		bool InitializeRuntimeData()
 		{
+			if (!SystemInfo.supportsComputeShaders)
+				return false;
+
 			var groupStatus = CheckStrandGroupInstances();
 			if (groupStatus != StrandGroupInstancesStatus.Valid)
 				return false;
@@ -1608,6 +1620,11 @@ namespace Unity.DemoTeam.Hair
 
 		void ReleaseRuntimeData()
 		{
+			// Disabling an unsupported instance invokes OnDisable too. Cleanup must not
+			// trigger the same unavailable HairSim kernels that initialization avoided.
+			if (!SystemInfo.supportsComputeShaders)
+				return;
+
 			if (strandGroupInstances != null)
 			{
 				for (int i = 0; i != strandGroupInstances.Length; i++)

@@ -1,0 +1,15 @@
+{
+  "sceneReopened": true,
+  "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "cameraHDR": true,
+  "SDROutput": true,
+  "tonemapping": "Neutral",
+  "saturation": -10.0,
+  "reflectionResolution": 256,
+  "reflectionMode": "Custom",
+  "eyeClearCoat": 0.25,
+  "shaderMessages": [],
+  "unrelatedFaceMaterialSlotsPreserved": true,
+  "temporaryCardsRemoved": true,
+  "motionStatus": "Complete"
+}

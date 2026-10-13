@@ -1,0 +1,31 @@
+{
+  "decision": "Retain original: no candidate passes the visual improvement requirement.",
+  "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "dirty": true,
+  "playing": false,
+  "material": "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Hair.mat",
+  "color": "RGBA(0.10000, 0.05000, 0.03000, 1.00000)",
+  "specular": "RGBA(0.20000, 0.20000, 0.20000, 1.00000)",
+  "smoothness": 0.1,
+  "highlights": 1.0,
+  "motionPass": false,
+  "skinnedMotionVectors": true,
+  "aa": "TemporalAntiAliasing",
+  "taa": "High",
+  "fieldOfView": 22.0,
+  "mesh": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+  "blendShapeCount": 73,
+  "errors": [],
+  "drivers": [
+    {
+      "name": "Ethan",
+      "type": "ExpressionController",
+      "enabled": true
+    },
+    {
+      "name": "Face",
+      "type": "uLipSync.uLipSyncBlendShape",
+      "enabled": true
+    }
+  ]
+}

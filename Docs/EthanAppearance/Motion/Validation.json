@@ -1,0 +1,421 @@
+{
+  "status": "Complete",
+  "captures": [
+    {
+      "pose": "Neutral",
+      "frame": 75,
+      "path": "Docs/EthanAppearance/Motion/Neutral_75.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "Neutral",
+      "frame": 90,
+      "path": "Docs/EthanAppearance/Motion/Neutral_90.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "Neutral",
+      "frame": 105,
+      "path": "Docs/EthanAppearance/Motion/Neutral_105.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "Neutral",
+      "frame": 120,
+      "path": "Docs/EthanAppearance/Motion/Neutral_120.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "Smile",
+      "frame": 75,
+      "path": "Docs/EthanAppearance/Motion/Smile_75.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "cheekSquintLeft",
+          "weight": 15.0
+        },
+        {
+          "name": "cheekSquintRight",
+          "weight": 15.0
+        },
+        {
+          "name": "mouthSmileLeft",
+          "weight": 70.0
+        },
+        {
+          "name": "mouthSmileRight",
+          "weight": 70.0
+        }
+      ]
+    },
+    {
+      "pose": "Smile",
+      "frame": 90,
+      "path": "Docs/EthanAppearance/Motion/Smile_90.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "cheekSquintLeft",
+          "weight": 15.0
+        },
+        {
+          "name": "cheekSquintRight",
+          "weight": 15.0
+        },
+        {
+          "name": "mouthSmileLeft",
+          "weight": 70.0
+        },
+        {
+          "name": "mouthSmileRight",
+          "weight": 70.0
+        }
+      ]
+    },
+    {
+      "pose": "Smile",
+      "frame": 105,
+      "path": "Docs/EthanAppearance/Motion/Smile_105.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "cheekSquintLeft",
+          "weight": 15.0
+        },
+        {
+          "name": "cheekSquintRight",
+          "weight": 15.0
+        },
+        {
+          "name": "mouthSmileLeft",
+          "weight": 70.0
+        },
+        {
+          "name": "mouthSmileRight",
+          "weight": 70.0
+        }
+      ]
+    },
+    {
+      "pose": "Smile",
+      "frame": 120,
+      "path": "Docs/EthanAppearance/Motion/Smile_120.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "cheekSquintLeft",
+          "weight": 15.0
+        },
+        {
+          "name": "cheekSquintRight",
+          "weight": 15.0
+        },
+        {
+          "name": "mouthSmileLeft",
+          "weight": 70.0
+        },
+        {
+          "name": "mouthSmileRight",
+          "weight": 70.0
+        }
+      ]
+    },
+    {
+      "pose": "Blink",
+      "frame": 75,
+      "path": "Docs/EthanAppearance/Motion/Blink_75.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "eyeBlinkLeft",
+          "weight": 44.77358
+        },
+        {
+          "name": "eyeBlinkRight",
+          "weight": 44.77358
+        }
+      ]
+    },
+    {
+      "pose": "Blink",
+      "frame": 90,
+      "path": "Docs/EthanAppearance/Motion/Blink_90.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "eyeBlinkLeft",
+          "weight": 99.7261
+        },
+        {
+          "name": "eyeBlinkRight",
+          "weight": 99.7261
+        }
+      ]
+    },
+    {
+      "pose": "Blink",
+      "frame": 105,
+      "path": "Docs/EthanAppearance/Motion/Blink_105.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "eyeBlinkLeft",
+          "weight": 55.2264175
+        },
+        {
+          "name": "eyeBlinkRight",
+          "weight": 55.2264175
+        }
+      ]
+    },
+    {
+      "pose": "Blink",
+      "frame": 120,
+      "path": "Docs/EthanAppearance/Motion/Blink_120.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": [
+        {
+          "name": "eyeBlinkLeft",
+          "weight": 0.2739042
+        },
+        {
+          "name": "eyeBlinkRight",
+          "weight": 0.2739042
+        }
+      ]
+    },
+    {
+      "pose": "HeadTurn",
+      "frame": 75,
+      "path": "Docs/EthanAppearance/Motion/HeadTurn_75.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.49, 12.25, 357.73)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "HeadTurn",
+      "frame": 90,
+      "path": "Docs/EthanAppearance/Motion/HeadTurn_90.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.78, 18.28, 356.65)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "HeadTurn",
+      "frame": 105,
+      "path": "Docs/EthanAppearance/Motion/HeadTurn_105.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.54, 13.61, 357.48)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "HeadTurn",
+      "frame": 120,
+      "path": "Docs/EthanAppearance/Motion/HeadTurn_120.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.96, 359.82)",
+      "audioPlaying": false,
+      "expressionEnabled": false,
+      "shapes": []
+    },
+    {
+      "pose": "Speech",
+      "frame": 75,
+      "path": "Docs/EthanAppearance/Motion/Speech_75.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": true,
+      "expressionEnabled": true,
+      "shapes": [
+        {
+          "name": "viseme_PP",
+          "weight": 18.1074562
+        },
+        {
+          "name": "viseme_SS",
+          "weight": 3.96811533
+        },
+        {
+          "name": "viseme_nn",
+          "weight": 3.38216972
+        },
+        {
+          "name": "viseme_I",
+          "weight": 27.787344
+        },
+        {
+          "name": "viseme_O",
+          "weight": 41.9952927
+        }
+      ]
+    },
+    {
+      "pose": "Speech",
+      "frame": 90,
+      "path": "Docs/EthanAppearance/Motion/Speech_90.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": true,
+      "expressionEnabled": true,
+      "shapes": [
+        {
+          "name": "viseme_PP",
+          "weight": 2.23841786
+        },
+        {
+          "name": "viseme_SS",
+          "weight": 0.491348863
+        },
+        {
+          "name": "viseme_nn",
+          "weight": 0.417348623
+        },
+        {
+          "name": "viseme_aa",
+          "weight": 13.2321177
+        },
+        {
+          "name": "viseme_E",
+          "weight": 74.59924
+        },
+        {
+          "name": "viseme_I",
+          "weight": 3.479047
+        },
+        {
+          "name": "viseme_O",
+          "weight": 5.337472
+        }
+      ]
+    },
+    {
+      "pose": "Speech",
+      "frame": 105,
+      "path": "Docs/EthanAppearance/Motion/Speech_105.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": true,
+      "expressionEnabled": true,
+      "shapes": [
+        {
+          "name": "viseme_PP",
+          "weight": 9.707053
+        },
+        {
+          "name": "viseme_SS",
+          "weight": 4.88366461
+        },
+        {
+          "name": "viseme_nn",
+          "weight": 3.15567446
+        },
+        {
+          "name": "viseme_E",
+          "weight": 0.29442814
+        },
+        {
+          "name": "viseme_I",
+          "weight": 3.70636439
+        }
+      ]
+    },
+    {
+      "pose": "Speech",
+      "frame": 120,
+      "path": "Docs/EthanAppearance/Motion/Speech_120.png",
+      "width": 1920,
+      "height": 1080,
+      "headEuler": "(349.25, 0.00, 0.00)",
+      "audioPlaying": true,
+      "expressionEnabled": true,
+      "shapes": [
+        {
+          "name": "viseme_PP",
+          "weight": 68.65554
+        },
+        {
+          "name": "viseme_SS",
+          "weight": 11.5404978
+        },
+        {
+          "name": "viseme_nn",
+          "weight": 12.5271807
+        },
+        {
+          "name": "viseme_I",
+          "weight": 0.2812384
+        }
+      ]
+    }
+  ],
+  "clip": "ethan",
+  "clipLength": 16.0914288,
+  "reflectionMode": "Custom",
+  "reflectionTexture": "Assets/_Sandbox/Settings/EthanAppearance/Ethan_StudioReflection.exr"
+}

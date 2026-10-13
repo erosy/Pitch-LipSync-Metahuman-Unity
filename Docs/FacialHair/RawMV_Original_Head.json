@@ -1,0 +1,9 @@
+{
+  "variant": "Original",
+  "pose": "Head",
+  "width": 1920,
+  "height": 1080,
+  "nonzero": 216459,
+  "max": 0.000887898,
+  "note": "Raw vector image and regional statistics retained; full per-pixel array removed to keep the report compact."
+}

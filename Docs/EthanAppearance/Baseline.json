@@ -1,0 +1,44 @@
+{
+  "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "camera": "{\"Camera\":{\"m_Enabled\":true,\"serializedVersion\":\"2\",\"m_ClearFlags\":2,\"m_BackGroundColor\":{\"r\":0.23137255012989045,\"g\":0.23137255012989045,\"b\":0.23137255012989045,\"a\":1.0},\"m_projectionMatrixMode\":1,\"m_GateFitMode\":1,\"m_FOVAxisMode\":0,\"m_Iso\":200,\"m_ShutterSpeed\":0.004999999888241291,\"m_Aperture\":16.0,\"m_FocusDistance\":10.0,\"m_FocalLength\":50.0,\"m_BladeCount\":5,\"m_Curvature\":{\"x\":2.0,\"y\":11.0},\"m_BarrelClipping\":0.25,\"m_Anamorphism\":0.0,\"m_SensorSize\":{\"x\":36.0,\"y\":24.0},\"m_LensShift\":{\"x\":0.0,\"y\":0.0},\"m_NormalizedViewPortRect\":{\"serializedVersion\":\"2\",\"x\":0.0,\"y\":0.0,\"width\":1.0,\"height\":1.0},\"near clip plane\":0.05000000074505806,\"far clip plane\":1000.0,\"field of view\":22.0,\"orthographic\":false,\"orthographic size\":5.0,\"m_Depth\":-1.0,\"m_CullingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"m_RenderingPath\":-1,\"m_TargetTexture\":{\"instanceID\":0},\"m_TargetDisplay\":0,\"m_TargetEye\":3,\"m_HDR\":false,\"m_AllowMSAA\":true,\"m_AllowDynamicResolution\":false,\"m_ForceIntoRT\":false,\"m_OcclusionCulling\":true,\"m_StereoConvergence\":10.0,\"m_StereoSeparation\":0.02199999988079071}}",
+  "cameraData": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData\",\"m_RenderShadows\":true,\"m_RequiresDepthTextureOption\":2,\"m_RequiresOpaqueTextureOption\":2,\"m_CameraType\":0,\"m_Cameras\":[],\"m_RendererIndex\":-1,\"m_VolumeLayerMask\":{\"serializedVersion\":\"2\",\"m_Bits\":1},\"m_VolumeTrigger\":{\"instanceID\":0},\"m_VolumeFrameworkUpdateModeOption\":2,\"m_RenderPostProcessing\":true,\"m_Antialiasing\":3,\"m_AntialiasingQuality\":2,\"m_StopNaN\":false,\"m_Dithering\":false,\"m_ClearDepth\":true,\"m_AllowXRRendering\":true,\"m_AllowHDROutput\":true,\"m_UseScreenCoordOverride\":false,\"m_ScreenSizeOverride\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_ScreenCoordScaleBias\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_RequiresDepthTexture\":false,\"m_RequiresColorTexture\":false,\"m_TaaSettings\":{\"m_Quality\":3,\"m_FrameInfluence\":0.10000000149011612,\"m_JitterScale\":1.0,\"m_MipBias\":0.0,\"m_VarianceClampScale\":0.8999999761581421,\"m_ContrastAdaptiveSharpening\":0.0},\"m_Version\":2}}",
+  "ambient": "RGBA(0.290196, 0.290196, 0.290196, 1.000000)",
+  "lights": [
+    {
+      "name": "Left Light",
+      "json": "{\"Light\":{\"m_Enabled\":true,\"serializedVersion\":\"13\",\"m_Type\":1,\"m_Color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"m_Intensity\":0.5,\"m_Range\":10.0,\"m_SpotAngle\":30.0,\"m_InnerSpotAngle\":21.802080154418947,\"m_CookieSize2D\":{\"x\":0.5,\"y\":0.5},\"m_Shadows\":{\"m_Type\":0,\"m_Resolution\":-1,\"m_CustomResolution\":-1,\"m_Strength\":1.0,\"m_Bias\":0.05000000074505806,\"m_NormalBias\":0.4000000059604645,\"m_NearPlane\":0.20000000298023225,\"m_CullingMatrixOverride\":{\"e00\":1.0,\"e01\":0.0,\"e02\":0.0,\"e03\":0.0,\"e10\":0.0,\"e11\":1.0,\"e12\":0.0,\"e13\":0.0,\"e20\":0.0,\"e21\":0.0,\"e22\":1.0,\"e23\":0.0,\"e30\":0.0,\"e31\":0.0,\"e32\":0.0,\"e33\":1.0},\"m_UseCullingMatrixOverride\":false},\"m_Cookie\":{\"instanceID\":0},\"m_DrawHalo\":false,\"m_Flare\":{\"instanceID\":0},\"m_RenderMode\":0,\"m_CullingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"m_RenderingLayerMask\":1,\"m_Lightmapping\":4,\"m_LightShadowCasterMode\":0,\"m_AreaSize\":{\"x\":1.0,\"y\":1.0},\"m_BounceIntensity\":1.0,\"m_ColorTemperature\":6570.0,\"m_UseColorTemperature\":false,\"m_BoundingSphereOverride\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_UseBoundingSphereOverride\":false,\"m_UseViewFrustumForShadowCasterCull\":true,\"m_ForceVisible\":false,\"m_ShapeRadius\":0.02500000037252903,\"m_ShadowAngle\":0.0,\"m_LightUnit\":1,\"m_LuxAtDistance\":1.0,\"m_EnableSpotReflector\":true}}",
+      "rotation": "(0.000000, 99.999990, 0.000000)"
+    },
+    {
+      "name": "Right Light",
+      "json": "{\"Light\":{\"m_Enabled\":true,\"serializedVersion\":\"13\",\"m_Type\":1,\"m_Color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"m_Intensity\":0.5,\"m_Range\":10.0,\"m_SpotAngle\":30.0,\"m_InnerSpotAngle\":21.802080154418947,\"m_CookieSize2D\":{\"x\":0.5,\"y\":0.5},\"m_Shadows\":{\"m_Type\":0,\"m_Resolution\":-1,\"m_CustomResolution\":-1,\"m_Strength\":1.0,\"m_Bias\":0.05000000074505806,\"m_NormalBias\":0.4000000059604645,\"m_NearPlane\":0.20000000298023225,\"m_CullingMatrixOverride\":{\"e00\":1.0,\"e01\":0.0,\"e02\":0.0,\"e03\":0.0,\"e10\":0.0,\"e11\":1.0,\"e12\":0.0,\"e13\":0.0,\"e20\":0.0,\"e21\":0.0,\"e22\":1.0,\"e23\":0.0,\"e30\":0.0,\"e31\":0.0,\"e32\":0.0,\"e33\":1.0},\"m_UseCullingMatrixOverride\":false},\"m_Cookie\":{\"instanceID\":0},\"m_DrawHalo\":false,\"m_Flare\":{\"instanceID\":0},\"m_RenderMode\":0,\"m_CullingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"m_RenderingLayerMask\":1,\"m_Lightmapping\":4,\"m_LightShadowCasterMode\":0,\"m_AreaSize\":{\"x\":1.0,\"y\":1.0},\"m_BounceIntensity\":1.0,\"m_ColorTemperature\":6570.0,\"m_UseColorTemperature\":false,\"m_BoundingSphereOverride\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_UseBoundingSphereOverride\":false,\"m_UseViewFrustumForShadowCasterCull\":true,\"m_ForceVisible\":false,\"m_ShapeRadius\":0.02500000037252903,\"m_ShadowAngle\":0.0,\"m_LightUnit\":1,\"m_LuxAtDistance\":1.0,\"m_EnableSpotReflector\":true}}",
+      "rotation": "(0.000000, 260.000000, 0.000000)"
+    },
+    {
+      "name": "Directional Light",
+      "json": "{\"Light\":{\"m_Enabled\":true,\"serializedVersion\":\"13\",\"m_Type\":1,\"m_Color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"m_Intensity\":0.550000011920929,\"m_Range\":10.0,\"m_SpotAngle\":30.0,\"m_InnerSpotAngle\":21.802080154418947,\"m_CookieSize2D\":{\"x\":0.5,\"y\":0.5},\"m_Shadows\":{\"m_Type\":2,\"m_Resolution\":-1,\"m_CustomResolution\":-1,\"m_Strength\":0.20000000298023225,\"m_Bias\":0.05000000074505806,\"m_NormalBias\":0.4000000059604645,\"m_NearPlane\":0.20000000298023225,\"m_CullingMatrixOverride\":{\"e00\":1.0,\"e01\":0.0,\"e02\":0.0,\"e03\":0.0,\"e10\":0.0,\"e11\":1.0,\"e12\":0.0,\"e13\":0.0,\"e20\":0.0,\"e21\":0.0,\"e22\":1.0,\"e23\":0.0,\"e30\":0.0,\"e31\":0.0,\"e32\":0.0,\"e33\":1.0},\"m_UseCullingMatrixOverride\":false},\"m_Cookie\":{\"instanceID\":0},\"m_DrawHalo\":false,\"m_Flare\":{\"instanceID\":0},\"m_RenderMode\":0,\"m_CullingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"m_RenderingLayerMask\":1,\"m_Lightmapping\":4,\"m_LightShadowCasterMode\":2,\"m_AreaSize\":{\"x\":1.0,\"y\":1.0},\"m_BounceIntensity\":1.0,\"m_ColorTemperature\":6536.0,\"m_UseColorTemperature\":true,\"m_BoundingSphereOverride\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_UseBoundingSphereOverride\":false,\"m_UseViewFrustumForShadowCasterCull\":true,\"m_ForceVisible\":false,\"m_ShapeRadius\":0.02500000037252903,\"m_ShadowAngle\":0.0,\"m_LightUnit\":2,\"m_LuxAtDistance\":1.0,\"m_EnableSpotReflector\":true}}",
+      "rotation": "(5.000001, 160.000000, 0.000000)"
+    }
+  ],
+  "faceMaterials": [
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Head.mat",
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Body.mat",
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Teeth.mat",
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Eyes.mat",
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Eyes.mat",
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Cartilage.mat",
+    "Assets/_Sandbox/Characters/Ethan/Materials/Ethan_Hair.mat"
+  ],
+  "volume": "Assets/_Sandbox/Settings/PortraitRendering/Portrait_VolumeProfile.asset",
+  "volumeJson": [
+    "{\"active\":true,\"mode\":{\"m_OverrideState\":true,\"m_Value\":1},\"neutralHDRRangeReductionMode\":{\"m_OverrideState\":true,\"m_Value\":2},\"acesPreset\":{\"m_OverrideState\":true,\"m_Value\":3},\"hueShiftAmount\":{\"m_OverrideState\":true,\"m_Value\":0.0},\"detectPaperWhite\":{\"m_OverrideState\":true,\"m_Value\":false},\"paperWhite\":{\"m_OverrideState\":true,\"m_Value\":300.0},\"detectBrightnessLimits\":{\"m_OverrideState\":true,\"m_Value\":true},\"minNits\":{\"m_OverrideState\":true,\"m_Value\":0.004999999888241291},\"maxNits\":{\"m_OverrideState\":true,\"m_Value\":1000.0}}",
+    "{\"active\":true,\"postExposure\":{\"m_OverrideState\":true,\"m_Value\":1.0},\"contrast\":{\"m_OverrideState\":true,\"m_Value\":2.0},\"colorFilter\":{\"m_OverrideState\":true,\"m_Value\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0}},\"hueShift\":{\"m_OverrideState\":false,\"m_Value\":0.0},\"saturation\":{\"m_OverrideState\":true,\"m_Value\":-45.0}}"
+  ],
+  "faceBounds": "Center: (0.00, 0.80, -0.42), Extents: (0.63, 1.05, 0.34)",
+  "bones": [
+    {
+      "name": "Head",
+      "position": "(0.00000, 1.62130, -0.48530)"
+    }
+  ]
+}

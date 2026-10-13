@@ -1,0 +1,13 @@
+{
+  "vertices": 40388,
+  "triangles": 30010,
+  "uvCount": 103825,
+  "distinctUVs": [
+    "(0.00, 0.00)"
+  ],
+  "bones": 74,
+  "skinnedMotionVectors": true,
+  "blendShapeCount": 73,
+  "shader": "Universal Render Pipeline/Lit",
+  "mesh": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx"
+}

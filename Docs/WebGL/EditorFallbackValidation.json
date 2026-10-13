@@ -1,0 +1,18 @@
+{
+  "before": {
+    "IsUsingFallback": false,
+    "strandsActive": 1,
+    "warmupReady": true
+  },
+  "after": {
+    "IsUsingFallback": true,
+    "cardsActive": true,
+    "enabled": true,
+    "cardsMesh": "Hair_Cards_Baked",
+    "bones": 74,
+    "strandsActive": 0,
+    "warmupEnabled": false,
+    "expressionEnabled": true,
+    "shaderMessages": []
+  }
+}

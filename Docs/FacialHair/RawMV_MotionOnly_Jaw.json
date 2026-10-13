@@ -1,0 +1,9 @@
+{
+  "variant": "MotionOnly",
+  "pose": "Jaw",
+  "width": 1920,
+  "height": 1080,
+  "nonzero": 77946,
+  "max": 0.0009695774,
+  "note": "Raw vector image and regional statistics retained; full per-pixel array removed to keep the report compact."
+}

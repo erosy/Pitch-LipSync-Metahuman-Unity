@@ -1,0 +1,9 @@
+{
+  "variant": "MotionOnly",
+  "pose": "Brows",
+  "width": 1920,
+  "height": 1080,
+  "nonzero": 27736,
+  "max": 0.000342832733,
+  "note": "Raw vector image and regional statistics retained; full per-pixel array removed to keep the report compact."
+}

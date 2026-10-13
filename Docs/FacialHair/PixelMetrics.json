@@ -1,0 +1,162 @@
+﻿[
+    {
+        "variant":  "Original",
+        "region":  "brows",
+        "width":  1920,
+        "mean":  114.03851883333407,
+        "contrast":  44.314618135445933,
+        "frameDifference":  7.112745933333346
+    },
+    {
+        "variant":  "Original",
+        "region":  "moustache",
+        "width":  1920,
+        "mean":  146.15872588465078,
+        "contrast":  21.366809634418612,
+        "frameDifference":  1.9710401759530658
+    },
+    {
+        "variant":  "MotionOnly",
+        "region":  "brows",
+        "width":  1920,
+        "mean":  114.4457781833339,
+        "contrast":  44.500408095024881,
+        "frameDifference":  7.0269910166666545
+    },
+    {
+        "variant":  "MotionOnly",
+        "region":  "moustache",
+        "width":  1920,
+        "mean":  146.15861440859996,
+        "contrast":  21.366859921785732,
+        "frameDifference":  1.9711100879765262
+    },
+    {
+        "variant":  "Soft010",
+        "region":  "brows",
+        "width":  1920,
+        "mean":  111.78859061666621,
+        "contrast":  47.514337049971829,
+        "frameDifference":  7.8046156333333769
+    },
+    {
+        "variant":  "Soft010",
+        "region":  "moustache",
+        "width":  1920,
+        "mean":  145.964708367544,
+        "contrast":  21.508457206116908,
+        "frameDifference":  2.0839443597262837
+    },
+    {
+        "variant":  "Soft004",
+        "region":  "brows",
+        "width":  1920,
+        "mean":  111.08925646666572,
+        "contrast":  48.185253471707249,
+        "frameDifference":  8.0038787166666463
+    },
+    {
+        "variant":  "Soft004",
+        "region":  "moustache",
+        "width":  1920,
+        "mean":  145.91141761485605,
+        "contrast":  21.530987672208365,
+        "frameDifference":  2.1169128054740836
+    },
+    {
+        "variant":  "Matte",
+        "region":  "brows",
+        "width":  1920,
+        "mean":  111.1927261166656,
+        "contrast":  48.200953561664825,
+        "frameDifference":  7.8962170166666619
+    },
+    {
+        "variant":  "Matte",
+        "region":  "moustache",
+        "width":  1920,
+        "mean":  145.92150901270551,
+        "contrast":  21.525375886204412,
+        "frameDifference":  2.1111040078201242
+    },
+    {
+        "variant":  "Original",
+        "region":  "brows",
+        "width":  1280,
+        "mean":  114.4588747727273,
+        "contrast":  44.142594578182347,
+        "frameDifference":  7.7307824621211845
+    },
+    {
+        "variant":  "Original",
+        "region":  "moustache",
+        "width":  1280,
+        "mean":  146.53182935698462,
+        "contrast":  21.034722442287574,
+        "frameDifference":  2.3529921064301642
+    },
+    {
+        "variant":  "MotionOnly",
+        "region":  "brows",
+        "width":  1280,
+        "mean":  114.26789450757629,
+        "contrast":  44.226864745862194,
+        "frameDifference":  7.6204428030303255
+    },
+    {
+        "variant":  "MotionOnly",
+        "region":  "moustache",
+        "width":  1280,
+        "mean":  146.53182935698462,
+        "contrast":  21.034722442287574,
+        "frameDifference":  2.3529921064301642
+    },
+    {
+        "variant":  "Soft010",
+        "region":  "brows",
+        "width":  1280,
+        "mean":  111.65645784090836,
+        "contrast":  47.192751549991634,
+        "frameDifference":  8.4682858333333115
+    },
+    {
+        "variant":  "Soft010",
+        "region":  "moustache",
+        "width":  1280,
+        "mean":  146.35822141906891,
+        "contrast":  21.148534451379994,
+        "frameDifference":  2.4910070066518908
+    },
+    {
+        "variant":  "Soft004",
+        "region":  "brows",
+        "width":  1280,
+        "mean":  111.13910299242346,
+        "contrast":  47.953289632581615,
+        "frameDifference":  8.6816331439393828
+    },
+    {
+        "variant":  "Soft004",
+        "region":  "moustache",
+        "width":  1280,
+        "mean":  146.30539702882498,
+        "contrast":  21.1681845198167,
+        "frameDifference":  2.5227031042128707
+    },
+    {
+        "variant":  "Matte",
+        "region":  "brows",
+        "width":  1280,
+        "mean":  111.11999473484761,
+        "contrast":  47.895866894926066,
+        "frameDifference":  8.62764140151516
+    },
+    {
+        "variant":  "Matte",
+        "region":  "moustache",
+        "width":  1280,
+        "mean":  146.31138665188479,
+        "contrast":  21.165323807956458,
+        "frameDifference":  2.5196113525498998
+    }
+]

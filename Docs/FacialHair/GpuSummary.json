@@ -1,0 +1,98 @@
+[
+  {
+    "width": 1920,
+    "pose": "Neutral",
+    "beforeMs": 5.4942720000000005,
+    "candidateMs": 5.576832,
+    "changePercent": 1.5026558568632664,
+    "samples": 80
+  },
+  {
+    "width": 1920,
+    "pose": "Head",
+    "beforeMs": 5.731072,
+    "candidateMs": 5.487488,
+    "changePercent": -4.250234511100192,
+    "samples": 80
+  },
+  {
+    "width": 1920,
+    "pose": "Brows",
+    "beforeMs": 5.492224,
+    "candidateMs": 5.509376,
+    "changePercent": 0.3122960753239479,
+    "samples": 80
+  },
+  {
+    "width": 1920,
+    "pose": "Smile",
+    "beforeMs": 5.4818560000000005,
+    "candidateMs": 5.509376,
+    "changePercent": 0.5020197538935456,
+    "samples": 80
+  },
+  {
+    "width": 1920,
+    "pose": "Jaw",
+    "beforeMs": 5.524096,
+    "candidateMs": 5.5008,
+    "changePercent": -0.42171605996710326,
+    "samples": 80
+  },
+  {
+    "width": 1920,
+    "pose": "LipSync",
+    "beforeMs": 5.542656,
+    "candidateMs": 5.5584,
+    "changePercent": 0.2840515449632708,
+    "samples": 80
+  },
+  {
+    "width": 1280,
+    "pose": "Neutral",
+    "beforeMs": 5.037056,
+    "candidateMs": 5.110272,
+    "changePercent": 1.4535474689977734,
+    "samples": 80
+  },
+  {
+    "width": 1280,
+    "pose": "Head",
+    "beforeMs": 5.052288,
+    "candidateMs": 5.091583999999999,
+    "changePercent": 0.7777862227964727,
+    "samples": 80
+  },
+  {
+    "width": 1280,
+    "pose": "Brows",
+    "beforeMs": 5.132928,
+    "candidateMs": 5.12768,
+    "changePercent": -0.10224183935562126,
+    "samples": 80
+  },
+  {
+    "width": 1280,
+    "pose": "Smile",
+    "beforeMs": 5.110528,
+    "candidateMs": 5.080832,
+    "changePercent": -0.5810749887291577,
+    "samples": 80
+  },
+  {
+    "width": 1280,
+    "pose": "Jaw",
+    "beforeMs": 5.101952,
+    "candidateMs": 5.070848,
+    "changePercent": -0.6096490127700194,
+    "samples": 80
+  },
+  {
+    "width": 1280,
+    "pose": "LipSync",
+    "beforeMs": 5.099392,
+    "candidateMs": 5.056127999999999,
+    "changePercent": -0.8484148698511662,
+    "samples": 80
+  }
+]

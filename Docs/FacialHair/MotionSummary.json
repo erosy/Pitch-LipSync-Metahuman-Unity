@@ -1,0 +1,98 @@
+[
+  {
+    "variant": "Original",
+    "pose": "Head",
+    "region": "brows",
+    "nonzero": 11999,
+    "mean": 0.00006714167106589906,
+    "max": 0.0008878979689484031
+  },
+  {
+    "variant": "Original",
+    "pose": "Head",
+    "region": "moustache",
+    "nonzero": 10223,
+    "mean": 0.00008715819881452988,
+    "max": 0.00010080571115856899
+  },
+  {
+    "variant": "Original",
+    "pose": "Brows",
+    "region": "brows",
+    "nonzero": 9875,
+    "mean": 0.0000281528796859899,
+    "max": 0.00005812140705238783
+  },
+  {
+    "variant": "Original",
+    "pose": "Brows",
+    "region": "moustache",
+    "nonzero": 0,
+    "mean": 6.881861416794255e-8,
+    "max": 7.952251646425158e-7
+  },
+  {
+    "variant": "Original",
+    "pose": "Jaw",
+    "region": "brows",
+    "nonzero": 435,
+    "mean": 1.899010982541216e-7,
+    "max": 0.0000340938568
+  },
+  {
+    "variant": "Original",
+    "pose": "Jaw",
+    "region": "moustache",
+    "nonzero": 10080,
+    "mean": 0.00003397747052697689,
+    "max": 0.00013865435232031376
+  },
+  {
+    "variant": "MotionOnly",
+    "pose": "Head",
+    "region": "brows",
+    "nonzero": 11999,
+    "mean": 0.0000669333362529785,
+    "max": 0.00014068894534011094
+  },
+  {
+    "variant": "MotionOnly",
+    "pose": "Head",
+    "region": "moustache",
+    "nonzero": 10223,
+    "mean": 0.00008715819881452988,
+    "max": 0.00010080571115856899
+  },
+  {
+    "variant": "MotionOnly",
+    "pose": "Brows",
+    "region": "brows",
+    "nonzero": 9883,
+    "mean": 0.000028206707851195875,
+    "max": 0.00009332794813244583
+  },
+  {
+    "variant": "MotionOnly",
+    "pose": "Brows",
+    "region": "moustache",
+    "nonzero": 0,
+    "mean": 6.881861416794255e-8,
+    "max": 7.952251646425158e-7
+  },
+  {
+    "variant": "MotionOnly",
+    "pose": "Jaw",
+    "region": "brows",
+    "nonzero": 450,
+    "mean": 2.4297275270489546e-7,
+    "max": 0.0001206398
+  },
+  {
+    "variant": "MotionOnly",
+    "pose": "Jaw",
+    "region": "moustache",
+    "nonzero": 10080,
+    "mean": 0.00003397747052697689,
+    "max": 0.00013865435232031376
+  }
+]
