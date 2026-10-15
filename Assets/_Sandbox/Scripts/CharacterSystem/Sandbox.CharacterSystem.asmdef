@@ -1,0 +1,6 @@
+{
+    "name": "Sandbox.CharacterSystem",
+    "rootNamespace": "Sandbox.CharacterSystem",
+    "references": ["uLipSync.Runtime"],
+    "autoReferenced": true
+}

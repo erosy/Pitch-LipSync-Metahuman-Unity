@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4604265573378666019
+--- !u!1 &2462824367276125167
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,80 +8,54 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8131293215482891311}
-  - component: {fileID: 831117185868870985}
+  - component: {fileID: 6437642545431189023}
+  - component: {fileID: 4076212069246795177}
   m_Layer: 0
-  m_Name: Character Sample Woman
+  m_Name: Emotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &8131293215482891311
+  m_IsActive: 1
+--- !u!4 &6437642545431189023
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4604265573378666019}
+  m_GameObject: {fileID: 2462824367276125167}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2408503983187078206}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 4857952533335962351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &831117185868870985
+--- !u!114 &4076212069246795177
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4604265573378666019}
+  m_GameObject: {fileID: 2462824367276125167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2177b6bc0a6700b4fb6294341d6ec63f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8afd5ad23f007a147a114dbd6b3086a4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExpressionController
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.ExpressionModule
   face: {fileID: 8769799101064090340}
   lipSync: {fileID: 3356652909610696024}
   blendShapeDriver: {fileID: 4630952578457558137}
   blendShapeDebugger: {fileID: 0}
   intensity: 1
-  fadeTime: 0.18
+  neutralFadeDuration: 0.18
   endOfSpeechDelay: 0.1
-  expressionDefinitions:
-  - name: Joy
-    silentPose:
-      targets:
-      - shape: emo_joy
-        weight: 100
-    speakingPose:
-      targets:
-      - shape: mouthSmileLeft
-        weight: 35
-      - shape: mouthSmileRight
-        weight: 35
-      - shape: cheekSquintLeft
-        weight: 20
-      - shape: cheekSquintRight
-        weight: 20
-      - shape: eyeSquintLeft
-        weight: 25
-      - shape: eyeSquintRight
-        weight: 25
-      - shape: browInnerUp
-        weight: 10
-  activityDefinitions:
+  facialMotions:
   - name: Blink
     enabled: 1
     channel: Blink
-    eligibility: 0
-    expressionNames: []
-    allowSpeech: 1
-    allowExpressionTransitions: 1
+    idleOnly: 0
     interval: {x: 2, y: 6}
     easeIn: 0.06
     hold: {x: 0.03, y: 0.03}
@@ -102,10 +76,7 @@ MonoBehaviour:
   - name: Lip purse
     enabled: 1
     channel: Mouth
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 8, y: 16}
     easeIn: 0.25
     hold: {x: 0.5, y: 1.5}
@@ -126,10 +97,7 @@ MonoBehaviour:
   - name: Lip twitch
     enabled: 1
     channel: Mouth
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 3, y: 7}
     easeIn: 0.12
     hold: {x: 0.12, y: 0.12}
@@ -154,10 +122,7 @@ MonoBehaviour:
   - name: Gaze
     enabled: 1
     channel: Gaze
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 4, y: 9}
     easeIn: 0.18
     hold: {x: 0.8, y: 1.8}
@@ -202,10 +167,7 @@ MonoBehaviour:
   - name: Pucker
     enabled: 1
     channel: Mouth
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 8, y: 16}
     easeIn: 0.25
     hold: {x: 0.25, y: 0.5}
@@ -221,6 +183,101 @@ MonoBehaviour:
       probability: 0
       maximumAdditionalRepetitions: 1
       gap: {x: 0.12, y: 0.25}
+  previewDefinition: {fileID: 11400000, guid: 47e60b2190ef10b4ab33d2afe7a7e529, type: 2}
+--- !u!1 &4406464749564887156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8482235309829510593}
+  - component: {fileID: 5028260410683939807}
+  m_Layer: 0
+  m_Name: Animation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8482235309829510593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4406464749564887156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4857952533335962351}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5028260410683939807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4406464749564887156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bef7c5f8b269a74ba3794e1140a99ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.AnimationModule
+  animator: {fileID: 8614424324268848708}
+  previewDefinition: {fileID: 11400000, guid: ac7d8ce37e69e5441a7cb54de04a132b, type: 2}
+--- !u!1 &4604265573378666019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131293215482891311}
+  - component: {fileID: 6166438701091499555}
+  m_Layer: 0
+  m_Name: Character Sample Woman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8131293215482891311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604265573378666019}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2408503983187078206}
+  - {fileID: 4857952533335962351}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6166438701091499555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604265573378666019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6afccfd54aec3b4a83d2a1659254581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.Character
+  modulesRoot: {fileID: 4857952533335962351}
+  defaultIdle: {fileID: 11400000, guid: 5f546d910bfee8c42bca738d55dd2982, type: 2}
 --- !u!1 &8089390997151025815
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +457,39 @@ MonoBehaviour:
   isAutoStart: 0
   latencyTolerance: 0.05
   bufferTime: 0.03
+--- !u!1 &8186474321536539914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4857952533335962351}
+  m_Layer: 0
+  m_Name: Modules
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4857952533335962351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8186474321536539914}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8482235309829510593}
+  - {fileID: 6437642545431189023}
+  m_Father: {fileID: 8131293215482891311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2802928788131269589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -455,7 +545,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e0c34dcd4b103f54c939fa3905a95d9f, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -523,6 +613,11 @@ MonoBehaviour:
 --- !u!4 &2408503983187078206 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
+  m_PrefabInstance: {fileID: 2802928788131269589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8614424324268848708 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: d554bd4a1affd124aaac6d29e8351d1d, type: 3}
   m_PrefabInstance: {fileID: 2802928788131269589}
   m_PrefabAsset: {fileID: 0}
 --- !u!137 &8769799101064090340 stripped

@@ -1,0 +1,7 @@
+{
+    "name": "Sandbox.CharacterSystem.Tests.Support",
+    "rootNamespace": "Sandbox.CharacterSystem.Tests",
+    "references": ["Sandbox.CharacterSystem"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}

@@ -20,6 +20,8 @@ public class VoiceLipSyncDemo : MonoBehaviour
         public AudioClip clip;
         [Tooltip("uLipSync calibration that matches this speaker (male/female sample or a custom one).")]
         public uLipSync.Profile profile;
+        [Tooltip("Optional activity selected explicitly while this voice plays.")]
+        public Sandbox.CharacterSystem.ActivityDefinition activity;
     }
 
     [SerializeField] Voice boy = new Voice { label = "Ethan" };
@@ -43,6 +45,9 @@ public class VoiceLipSyncDemo : MonoBehaviour
         if (other.character != null) other.character.SetActive(false);
         if (voice.character != null) voice.character.SetActive(true);
 
+        if (voice.activity != null && voice.character != null)
+            voice.character.GetComponent<Sandbox.CharacterSystem.Character>()?.PlayActivity(voice.activity);
+
         voice.audioSource.Stop();
         if (voice.profile != null) voice.lipSync.profile = voice.profile;
         voice.audioSource.clip = voice.clip;
@@ -53,6 +58,15 @@ public class VoiceLipSyncDemo : MonoBehaviour
 
     void Update()
     {
+        if (current != null && current.audioSource != null && !current.audioSource.isPlaying)
+        {
+            if (current.activity != null && current.character != null)
+            {
+                var character = current.character.GetComponent<Sandbox.CharacterSystem.Character>();
+                if (character != null && character.CurrentActivity == current.activity) character.ReturnToIdle();
+            }
+            current = null;
+        }
         if (statusText != null && statusText.text.Length > 0 && (current == null || !current.audioSource.isPlaying)) SetStatus("");
     }
 

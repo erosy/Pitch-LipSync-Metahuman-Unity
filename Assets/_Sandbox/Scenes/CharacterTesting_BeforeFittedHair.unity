@@ -1038,6 +1038,7 @@ MonoBehaviour:
     lipSync: {fileID: 17794043}
     clip: {fileID: 8300000, guid: 03cb0612a9615a345835bb62fc978c2c, type: 3}
     profile: {fileID: 11400000, guid: e7bee847b0146493d97aceaf14bb2903, type: 2}
+    activity: {fileID: 11400000, guid: f3f3e3c4cc056ee40a95296002691005, type: 2}
   girl:
     label: Liora
     character: {fileID: 262865232}
@@ -1045,6 +1046,7 @@ MonoBehaviour:
     lipSync: {fileID: 1977224892}
     clip: {fileID: 8300000, guid: bed7c60eb0c080f4fab89d9df9fe3c73, type: 3}
     profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
+    activity: {fileID: 11400000, guid: 230181ddca7faf045a54cd9ec11d9ba7, type: 2}
   statusText: {fileID: 1798749453}
 --- !u!4 &1709833443
 Transform:

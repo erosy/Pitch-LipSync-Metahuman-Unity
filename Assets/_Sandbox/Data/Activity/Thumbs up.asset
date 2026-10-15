@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faecef90a62dde641a106c428a88351e, type: 3}
+  m_Name: Thumbs up
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.ActivityDefinition
+  id: activity-thumbs-up
+  displayName: Thumbs up
+  animation: {fileID: 11400000, guid: ac7d8ce37e69e5441a7cb54de04a132b, type: 2}
+  expression: {fileID: 11400000, guid: 47e60b2190ef10b4ab33d2afe7a7e529, type: 2}
+  isIdle: 0

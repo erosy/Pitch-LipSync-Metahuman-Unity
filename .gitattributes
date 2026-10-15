@@ -8,6 +8,11 @@
 *.meta    text eol=lf
 *.cs      text eol=lf diff=csharp
 
+# Demo Team Hair uses PreferBinarySerialization; text normalization corrupts it.
+"Assets/_Sandbox/Groom Hair Asset/SC_Hairstyle_Male_11.asset" binary
+"Assets/_Sandbox/Groom Hair Asset/Fitted/Ethan_BlenderFitted.asset" binary
+"Assets/_Sandbox/Groom Hair Asset/Fitted/Ethan_EarClearance.asset" binary
+
 # Models
 *.fbx  filter=lfs diff=lfs merge=lfs -text
 *.obj  filter=lfs diff=lfs merge=lfs -text

@@ -10,7 +10,9 @@ public sealed class BlendShapeTargetDrawer : OdinValueDrawer<BlendShapeTarget>
         var value = ValueEntry.SmartValue;
         if (value == null) { CallNextDrawer(label); return; }
         object root = Property.Tree.WeakTargets[0];
-        string[] names = root is ExpressionController character ? character.GetBlendShapeNames()
+        string[] names = root is Sandbox.CharacterSystem.ExpressionModule
+            ? Sandbox.CharacterSystem.BlendShapeDatabase.Default
+                ? new System.Collections.Generic.List<string>(Sandbox.CharacterSystem.BlendShapeDatabase.Default.Names).ToArray() : new string[0]
             : root is BlendShapeDebugger debugger ? debugger.GetBlendShapeNames() : new string[0];
         EditorGUILayout.BeginVertical();
         if (label != null) EditorGUILayout.LabelField(label);

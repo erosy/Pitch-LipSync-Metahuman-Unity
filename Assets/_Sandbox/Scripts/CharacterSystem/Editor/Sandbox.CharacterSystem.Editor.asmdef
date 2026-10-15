@@ -1,0 +1,7 @@
+{
+    "name": "Sandbox.CharacterSystem.Editor",
+    "rootNamespace": "Sandbox.CharacterSystem.Editor",
+    "references": ["Sandbox.CharacterSystem"],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": true
+}

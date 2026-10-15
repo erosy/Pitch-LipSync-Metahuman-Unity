@@ -1,0 +1,8 @@
+{
+    "name": "Sandbox.CharacterSystem.Tests.Editor",
+    "rootNamespace": "Sandbox.CharacterSystem.Tests",
+    "references": ["Sandbox.CharacterSystem", "Sandbox.CharacterSystem.Editor", "Sandbox.CharacterSystem.Tests.Support", "uLipSync.Runtime"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "autoReferenced": false
+}

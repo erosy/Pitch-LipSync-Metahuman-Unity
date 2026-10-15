@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faecef90a62dde641a106c428a88351e, type: 3}
+  m_Name: Idle (Woman)
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.ActivityDefinition
+  id: activity-idle-(woman)
+  displayName: Idle (Woman)
+  animation: {fileID: 11400000, guid: 8322925921bf2304d97803ed5314fdad, type: 2}
+  expression: {fileID: 0}
+  isIdle: 1

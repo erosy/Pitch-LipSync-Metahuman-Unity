@@ -188,7 +188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9127412594862219576}
-  - component: {fileID: 2778056292550004487}
+  - component: {fileID: 7791339457678410102}
   m_Layer: 0
   m_Name: Character Sample
   m_TagString: Untagged
@@ -210,9 +210,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6112999542740972554}
+  - {fileID: 2082907376010082402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2778056292550004487
+--- !u!114 &7791339457678410102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,46 +222,67 @@ MonoBehaviour:
   m_GameObject: {fileID: 1318958402809799607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2177b6bc0a6700b4fb6294341d6ec63f, type: 3}
+  m_Script: {fileID: 11500000, guid: b6afccfd54aec3b4a83d2a1659254581, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExpressionController
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.Character
+  modulesRoot: {fileID: 2082907376010082402}
+  defaultIdle: {fileID: 11400000, guid: f80906d8be53c5541938c0dbf66abfdc, type: 2}
+--- !u!1 &3104485169752930700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5553929858341021074}
+  - component: {fileID: 4073569230000323621}
+  m_Layer: 0
+  m_Name: Emotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5553929858341021074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104485169752930700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2082907376010082402}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4073569230000323621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104485169752930700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afd5ad23f007a147a114dbd6b3086a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.ExpressionModule
   face: {fileID: 868509732317350608}
   lipSync: {fileID: 679637273855745985}
   blendShapeDriver: {fileID: 188099309620684991}
   blendShapeDebugger: {fileID: 0}
   intensity: 1
-  fadeTime: 0.18
+  neutralFadeDuration: 0.18
   endOfSpeechDelay: 0.15
-  expressionDefinitions:
-  - name: Joy
-    silentPose:
-      targets:
-      - shape: emo_joy
-        weight: 100
-    speakingPose:
-      targets:
-      - shape: mouthSmileLeft
-        weight: 55
-      - shape: mouthSmileRight
-        weight: 55
-      - shape: cheekSquintLeft
-        weight: 50
-      - shape: cheekSquintRight
-        weight: 50
-      - shape: eyeSquintLeft
-        weight: 30
-      - shape: eyeSquintRight
-        weight: 30
-      - shape: browInnerUp
-        weight: 10
-  activityDefinitions:
+  facialMotions:
   - name: Blink
     enabled: 1
     channel: Blink
-    eligibility: 0
-    expressionNames: []
-    allowSpeech: 1
-    allowExpressionTransitions: 1
+    idleOnly: 0
     interval: {x: 2, y: 6}
     easeIn: 0.06
     hold: {x: 0.03, y: 0.03}
@@ -281,10 +303,7 @@ MonoBehaviour:
   - name: Lip purse
     enabled: 1
     channel: Mouth
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 8, y: 16}
     easeIn: 0.25
     hold: {x: 0.5, y: 1.5}
@@ -305,10 +324,7 @@ MonoBehaviour:
   - name: Lip twitch
     enabled: 1
     channel: Mouth
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 3, y: 7}
     easeIn: 0.12
     hold: {x: 0.12, y: 0.12}
@@ -333,10 +349,7 @@ MonoBehaviour:
   - name: Gaze
     enabled: 1
     channel: Gaze
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 4, y: 9}
     easeIn: 0.18
     hold: {x: 0.8, y: 1.8}
@@ -381,10 +394,7 @@ MonoBehaviour:
   - name: Pucker
     enabled: 1
     channel: Mouth
-    eligibility: 1
-    expressionNames: []
-    allowSpeech: 0
-    allowExpressionTransitions: 0
+    idleOnly: 1
     interval: {x: 8, y: 16}
     easeIn: 0.25
     hold: {x: 0.25, y: 0.5}
@@ -400,6 +410,86 @@ MonoBehaviour:
       probability: 0
       maximumAdditionalRepetitions: 1
       gap: {x: 0.12, y: 0.25}
+  previewDefinition: {fileID: 11400000, guid: 47e60b2190ef10b4ab33d2afe7a7e529, type: 2}
+--- !u!1 &4151879828964322680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2082907376010082402}
+  m_Layer: 0
+  m_Name: Modules
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2082907376010082402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4151879828964322680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2622770898063004922}
+  - {fileID: 5553929858341021074}
+  m_Father: {fileID: 9127412594862219576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5606686751128611785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2622770898063004922}
+  - component: {fileID: 6966107154853567731}
+  m_Layer: 0
+  m_Name: Animation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2622770898063004922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5606686751128611785}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2082907376010082402}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6966107154853567731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5606686751128611785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bef7c5f8b269a74ba3794e1140a99ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.AnimationModule
+  animator: {fileID: 159192132627639920}
+  previewDefinition: {fileID: 11400000, guid: ac7d8ce37e69e5441a7cb54de04a132b, type: 2}
 --- !u!1001 &6007526815886611425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -471,7 +561,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 36caeb9233c42a8409f8ae69daa8ae5d, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -611,6 +701,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 188099309620684991}
   m_SourcePrefab: {fileID: 100100000, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
+--- !u!95 &159192132627639920 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
+  m_PrefabInstance: {fileID: 6007526815886611425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!137 &868509732317350608 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 6868716418057165105, guid: 9f1752dc55f197644b2f0ad094f64911, type: 3}
