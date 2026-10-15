@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb8a01f27968c488567cf76e24d450, type: 3}
+  m_Name: Thinking
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.ExpressionDefinition
+  id: expression-thinking
+  displayName: Thinking
+  targets:
+  - shape: browOuterUpLeft
+    weight: 40
+  - shape: browDownRight
+    weight: 15
+  - shape: browInnerUp
+    weight: 10
+  - shape: eyeLookUpLeft
+    weight: 30
+  - shape: eyeLookUpRight
+    weight: 30
+  - shape: eyeLookOutLeft
+    weight: 20
+  - shape: eyeLookInRight
+    weight: 20
+  - shape: eyeWideLeft
+    weight: 8
+  - shape: eyeWideRight
+    weight: 8
+  - shape: mouthSmileLeft
+    weight: 30
+  - shape: mouthSmileRight
+    weight: 5
+  - shape: mouthDimpleLeft
+    weight: 10
+  - shape: mouthPressLeft
+    weight: 8
+  - shape: mouthPressRight
+    weight: 8
+  fadeDuration: 0.18

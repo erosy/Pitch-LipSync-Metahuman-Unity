@@ -17,4 +17,4 @@ MonoBehaviour:
   clip: {fileID: -203655887218126122, guid: 057eec963e89b0f4789a8dac3c52b07f, type: 3}
   loop: 1
   playbackSpeed: 1
-  crossfadeDuration: 0.2
+  crossfadeDuration: 1

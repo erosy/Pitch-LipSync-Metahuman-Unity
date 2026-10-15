@@ -21,6 +21,10 @@ namespace Sandbox.CharacterSystem
         [ShowInInspector, ReadOnly] public ActivityDefinition CurrentActivity { get; private set; }
         [ShowInInspector, ReadOnly] public ulong CurrentRequestId => requestId;
 
+        /// <summary>Raised after natural one-shot completion has dispatched default Idle.
+        /// Observers should defer new commands until their own tick.</summary>
+        public event Action<ActivityCompletion> ActivityCompleted;
+
         void Reset() => modulesRoot = transform.Find("Modules");
         void OnEnable() { if (Application.isPlaying) Initialize(); }
         void OnDisable() => Shutdown();
@@ -35,13 +39,17 @@ namespace Sandbox.CharacterSystem
             return true;
         }
 
-        public bool PlayActivity(ActivityDefinition activity)
+        public bool PlayActivity(ActivityDefinition activity) => PlayActivity(activity, out _);
+
+        /// <summary>Returns the original accepted ID even if receivers complete synchronously.</summary>
+        public bool PlayActivity(ActivityDefinition activity, out ulong acceptedRequestId)
         {
+            acceptedRequestId = 0;
             if (dispatching) return Reject(new[] { "Cannot issue a new activity while receivers are applying a command." });
             var errors = ValidateActivity(activity);
             if (errors.Count > 0) return Reject(errors);
             if (!EnsureInitialized()) return false;
-            Dispatch(activity);
+            acceptedRequestId = Dispatch(activity);
             return true;
         }
 
@@ -81,7 +89,7 @@ namespace Sandbox.CharacterSystem
             return errors;
         }
 
-        List<string> ValidateActivity(ActivityDefinition activity)
+        public List<string> ValidateActivity(ActivityDefinition activity)
         {
             var errors = ValidateConfiguration();
             if (!activity) { errors.Add("Activity must not be null; use ReturnToIdle to reset."); return errors; }
@@ -126,10 +134,11 @@ namespace Sandbox.CharacterSystem
             }
         }
 
-        void Dispatch(ActivityDefinition activity)
+        ulong Dispatch(ActivityDefinition activity)
         {
             CurrentActivity = activity;
             currentRequest = new ActivityRequest(activity, defaultIdle.Animation, ++requestId);
+            ulong acceptedRequestId = requestId;
             completionPending = false;
             dispatching = true;
             try
@@ -140,7 +149,8 @@ namespace Sandbox.CharacterSystem
             }
             finally { dispatching = false; }
             // Deliver the original command to every receiver before a synchronous completion resets it.
-            if (completionPending) ReturnToIdle();
+            if (completionPending) FinishCurrentActivity();
+            return acceptedRequestId;
         }
 
         internal bool CompleteActivity(CharacterModule source, ulong completedRequestId)
@@ -149,8 +159,21 @@ namespace Sandbox.CharacterSystem
                 || !source.isActiveAndEnabled || completedRequestId != requestId || !CurrentActivity
                 || !currentRequest.CompletesOnAnimationEnd) return false;
             if (dispatching) completionPending = true;
-            else ReturnToIdle();
+            else FinishCurrentActivity();
             return true;
+        }
+
+        void FinishCurrentActivity()
+        {
+            var completed = currentRequest;
+            completionPending = false;
+            if (!PlayActivity(defaultIdle, out var idleRequestId)) return;
+            var notification = new ActivityCompletion(completed, idleRequestId);
+            // One observer must not prevent the others from receiving a completion.
+            if (ActivityCompleted == null) return;
+            foreach (Action<ActivityCompletion> observer in ActivityCompleted.GetInvocationList())
+                try { observer(notification); }
+                catch (Exception exception) { Debug.LogException(exception, this); }
         }
 
         internal void ReapplyActivity(CharacterModule module)

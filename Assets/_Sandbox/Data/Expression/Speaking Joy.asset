@@ -16,17 +16,17 @@ MonoBehaviour:
   displayName: Speaking Joy
   targets:
   - shape: mouthSmileLeft
-    weight: 55
+    weight: 35
   - shape: mouthSmileRight
-    weight: 55
+    weight: 35
   - shape: cheekSquintLeft
-    weight: 50
+    weight: 30
   - shape: cheekSquintRight
-    weight: 50
+    weight: 30
   - shape: eyeSquintLeft
-    weight: 30
+    weight: 10
   - shape: eyeSquintRight
-    weight: 30
+    weight: 10
   - shape: browInnerUp
     weight: 10
   fadeDuration: 0.18
