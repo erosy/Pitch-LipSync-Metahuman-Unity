@@ -994,7 +994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: settingsExecutive.updateStepsMaxValue
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: settingsEnvironment.defaultSolidMargin
