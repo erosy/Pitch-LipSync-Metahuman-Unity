@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Sandbox.CharacterSystem
 {
-    [ExecuteAlways, DisallowMultipleComponent, AddComponentMenu("Character System/Expression Module")]
+    [ExecuteAlways, DefaultExecutionOrder(1000), DisallowMultipleComponent, AddComponentMenu("Character System/Expression Module")]
     public sealed class ExpressionModule : CharacterModule, IActivityReceiver, IFacialPreviewOwner
     {
         [SerializeField, FoldoutGroup("References")] SkinnedMeshRenderer face;
@@ -16,6 +16,7 @@ namespace Sandbox.CharacterSystem
         [SerializeField, FoldoutGroup("Expression Tuning"), Min(0)] float neutralFadeDuration = .18f;
         [Tooltip("Unscaled grace period for random facial motion eligibility. Does not change the selected expression.")]
         [SerializeField, FoldoutGroup("Expression Tuning"), Min(0)] float endOfSpeechDelay = .3f;
+        [SerializeField, FoldoutGroup("Speech Gaze")] SpeechGaze speechGaze = new SpeechGaze();
         [SerializeField, FoldoutGroup("Facial Motions"), ListDrawerSettings(ShowFoldout = true)]
         List<FacialMotionDefinition> facialMotions = FacialMotionDefaults.Create();
         [SerializeField, FoldoutGroup("Debug / Preview")] ExpressionDefinition previewDefinition;
@@ -83,11 +84,14 @@ namespace Sandbox.CharacterSystem
             var character = GetComponentInParent<Character>(true);
             if (face && character && face.GetComponentInParent<Character>(true) != character)
                 errors.Add("Expression Module: Face must belong to the same character.");
+            if (speechGaze != null && speechGaze.head && character && !speechGaze.head.IsChildOf(character.transform))
+                errors.Add("Speech Gaze: Head must belong to the same character.");
             if (blendShapeDriver && blendShapeDriver.skinnedMeshRenderer != face)
                 errors.Add("Expression Module: uLipSync driver references a different Face.");
             if (blendShapeDebugger && blendShapeDebugger.Character != this)
                 errors.Add("Expression Module: debugger must reference this module.");
             FacialMotionValidation.Check(facialMotions, errors);
+            speechGaze?.Validate(errors);
         }
 
         public override void ValidateActivity(ActivityRequest request, List<string> errors)
@@ -185,8 +189,10 @@ namespace Sandbox.CharacterSystem
         void LateUpdate()
         {
             if (!Application.IsPlaying(gameObject)) return;
+            speechGaze?.Restore();
             Tick(Time.deltaTime, AudioPlaying(), Time.unscaledTime);
             if (IsPreviewing) TickPreview(Time.unscaledDeltaTime);
+            if (Owner) speechGaze?.Apply(face, Owner.transform, IsSpeaking, Time.unscaledDeltaTime, CurrentVisemes(face));
         }
 
         [Button("Preview", DirtyOnClick = false), FoldoutGroup("Debug / Preview")]
@@ -266,6 +272,7 @@ namespace Sandbox.CharacterSystem
         }
         void Release()
         {
+            speechGaze?.Release();
             StopFacialPreviews();
             if (Owner) output.Clear(CurrentVisemes(output.Face));
             scheduler.Cancel(); output.Bind(null); playback = null; activityExpression = null;
