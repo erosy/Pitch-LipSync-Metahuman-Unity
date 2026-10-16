@@ -183,3 +183,34 @@ runtime visual behavior still require manual acceptance.
 
 Batch-specific verification is recorded in `CharacterSystemBatch4.md` and
 `CharacterSystemBatch5.md`.
+## Speech gaze
+
+Expression Module > Speech Gaze is enabled by default. During detected speech
+(and the existing end-of-speech grace period), the eight eyeLook shapes aim at
+Camera.main, or an explicitly assigned Target. This output runs after body,
+expression and debugger preview output in Play Mode. It preserves eyelid,
+emotion, and lip-sync shapes, including any shapes reserved by the lip-sync
+driver. Edit Mode previews retain their existing behavior.
+
+The gaze uses the Face renderer's bone named Head (+Z forward, +Y up), or an
+explicit Head reference. Ethan's humanoid eye mappings are not used: the live
+rig maps RightEye to Head and has no LeftEye mapping. Eye range values estimate
+the turn represented by a weight of 100 (30 degrees horizontally, 20 vertically
+by default); tune them to the character mesh for visual accuracy.
+
+Blend Duration defaults to .15 seconds. Assist Head adds at most 20 degrees of
+head correction when the audience lies outside the eye ranges; disable it to
+preserve the animated head pose exactly. Extreme turns can still exceed the
+combined ranges. The override fades back to authored gaze after speech. Missing
+head/target references release the override safely. Disabling/destroying the
+module restores its procedural contribution without replacing newer animation
+or expression output. Existing prefabs/scenes inherit the new defaults without
+asset rewrites.
+
+Implementation: SpeechGaze.cs and ExpressionModule.cs. Edit Mode coverage is in
+SpeechGazeTests.cs, including production Ethan head discovery, camera-direction
+compensation, target changes, fades/restoration, head limits, and ownership.
+Visual acceptance remains manual: start Play Mode, press the speech button, and
+compare eye contact through Talking/Thinking and other head poses. Verify blinks,
+lip sync, speech completion, interruption and disable/re-enable. No automatic
+Play Mode transitions or WebGL builds are part of this change.

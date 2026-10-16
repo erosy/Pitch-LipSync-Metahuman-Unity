@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 41963380301695032}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0906, y: 0.0956, z: 0.0048}
+  m_LocalPosition: {x: -0.0921, y: 0.0956, z: 0.0048}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: uLipSync.Runtime::uLipSync.uLipSync
-  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
+  profile: {fileID: 11400000, guid: e7bee847b0146493d97aceaf14bb2903, type: 2}
   onLipSyncUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -291,7 +291,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4379086565859179402}
   m_Father: {fileID: 5221778597875239593}
@@ -532,11 +532,11 @@ MonoBehaviour:
       globalPositionInterval: 1
       globalRotation: 1
       globalRotationInfluence: 0.7
-      globalFade: 0
+      globalFade: 1
       globalFadeOffset: 0.1
       globalFadeExtent: 0.2
       kLODSelection: 2
-      kLODSelectionValue: 1
+      kLODSelectionValue: 0
       kLODCeiling: 1
       kLODScale: 1
       kLODBias: 0
@@ -638,7 +638,7 @@ Transform:
   m_GameObject: {fileID: 1260609997310896595}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0872, y: 0.0968, z: -0.0014}
+  m_LocalPosition: {x: 0.0877, y: 0.0968, z: -0.0014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -820,7 +820,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.095
+  m_Radius: 0.099
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2016513805923295187
 MonoBehaviour:
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.AnimationModule
   animator: {fileID: 8880179093945890720}
-  previewDefinition: {fileID: 11400000, guid: ac7d8ce37e69e5441a7cb54de04a132b, type: 2}
+  previewDefinition: {fileID: 11400000, guid: 3e6126bf7c06472419258b2ad461447c, type: 2}
 --- !u!1 &4416546359275245185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1081,7 @@ MonoBehaviour:
       probability: 0
       maximumAdditionalRepetitions: 1
       gap: {x: 0.12, y: 0.25}
-  previewDefinition: {fileID: 11400000, guid: 47e60b2190ef10b4ab33d2afe7a7e529, type: 2}
+  previewDefinition: {fileID: 11400000, guid: 37db384675ac01c4f88c4ad277ff839b, type: 2}
 --- !u!1 &5123607667943391860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,16 +1317,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7853964603805221083, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.04066614
+      value: 0.040666144
       objectReference: {fileID: 0}
     - target: {fileID: -7853964603805221083, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.105261914
+      value: -0.10526192
       objectReference: {fileID: 0}
     - target: {fileID: -5577414795597466764, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b505a9cab0b1164448fbcdacac6bbbff, type: 2}
+    - target: {fileID: -1907865752038564975, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06239133
+      objectReference: {fileID: 0}
+    - target: {fileID: -1907865752038564975, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.012882819
+      objectReference: {fileID: 0}
     - target: {fileID: 728647634837932122, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1358,11 +1366,27 @@ PrefabInstance:
     - target: {fileID: 6066606027573732625, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: db0ecabd89dc1ef4997d934d00bfdcdd, type: 2}
+      objectReference: {fileID: 2100000, guid: a8aeb0074279cd14ca061e2d3e28f125, type: 2}
     - target: {fileID: 6281521378855854144, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6868716418057165105, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d58262abf6f496b48870a95a2f590a2d, type: 2}
+    - target: {fileID: 6868716418057165105, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ff8502bec0db80d4299ec59b9b43b0c9, type: 2}
+    - target: {fileID: 6868716418057165105, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fe3f2ed52d5ed4c48b0f5c0dba48298b, type: 2}
+    - target: {fileID: 6868716418057165105, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      propertyPath: 'm_Materials.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fe3f2ed52d5ed4c48b0f5c0dba48298b, type: 2}
     - target: {fileID: 6868716418057165105, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: 'm_Materials.Array.data[6]'
       value: 
@@ -1373,11 +1397,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9109405147626683517, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.040666245
+      value: -0.04066625
       objectReference: {fileID: 0}
     - target: {fileID: 9109405147626683517, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.10526245
+      value: -0.10526246
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1410,6 +1434,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1243799847115089460}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6300015027212614064}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3822160102939553843}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5520251339859051394}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8834060059041162713}
     - targetCorrespondingSourceObject: {fileID: -6435399192587130656, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8261497494913806455}
@@ -1435,13 +1471,13 @@ MonoBehaviour:
   skinnedMeshRenderer: {fileID: 8432070352444510976}
   blendShapes:
   - phoneme: A
-    index: 62
-    maxWeight: 1
+    index: 24
+    maxWeight: 0.34
   - phoneme: I
-    index: 64
-    maxWeight: 1
+    index: 29
+    maxWeight: 0.5
   - phoneme: U
-    index: 66
+    index: 30
     maxWeight: 1
   - phoneme: E
     index: 63
@@ -1461,8 +1497,13 @@ MonoBehaviour:
   maxBlendShapeValue: 100
   minVolume: -3.514975
   maxVolume: -0.95091486
-  smoothness: 0.075
+  smoothness: 0.05
   usePhonemeBlend: 1
+--- !u!1 &2326816563406013035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 728647634837932122, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
+  m_PrefabInstance: {fileID: 3050676924071152177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2780770108307617632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
@@ -1496,6 +1537,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.Character
   modulesRoot: {fileID: 5278021793876055992}
   defaultIdle: {fileID: 11400000, guid: f80906d8be53c5541938c0dbf66abfdc, type: 2}
+--- !u!114 &6300015027212614064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2780770108307617632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a760b646269354a8203a8297416487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EthanWebHairFallback
+  strandHair:
+  - {fileID: 1721790160372672216}
+  startupWarmup: {fileID: 6438070401816476420}
+  bakedHair: {fileID: 2326816563406013035}
+--- !u!114 &3822160102939553843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2780770108307617632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 807b568c76c11034a991a10abd1b262c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EthanFlowReadiness
+  startupWarmup: {fileID: 6438070401816476420}
+  hairFallback: {fileID: 6300015027212614064}
+--- !u!114 &5520251339859051394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2780770108307617632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ee39273bbbbdb419fed5be747e34ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterSpeechPlayer
+  audioSource: {fileID: 5551865785391392933}
+  lipSync: {fileID: 3758915804124635853}
+  clip: {fileID: 8300000, guid: 03cb0612a9615a345835bb62fc978c2c, type: 3}
+  profile: {fileID: 11400000, guid: e7bee847b0146493d97aceaf14bb2903, type: 2}
+--- !u!114 &8834060059041162713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2780770108307617632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9652964cf7b93c4f89e79a455b3f317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterFlowController
+  character: {fileID: 1243799847115089460}
+  readinessProvider: {fileID: 3822160102939553843}
+  speechPlayer: {fileID: 5520251339859051394}
+  greetingFlow: {fileID: 11400000, guid: 0c36cb8d7c3acb34c92e3ad8533430f6, type: 2}
+  responseFlow: {fileID: 11400000, guid: 503160f56edf12d449f246abcf010543, type: 2}
 --- !u!4 &3304682264398622170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 720d9831c785a2c4ca4c105429ab3610, type: 3}
