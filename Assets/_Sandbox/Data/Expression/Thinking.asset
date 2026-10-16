@@ -22,19 +22,19 @@ MonoBehaviour:
   - shape: browInnerUp
     weight: 10
   - shape: eyeLookUpLeft
-    weight: 30
+    weight: 40
   - shape: eyeLookUpRight
-    weight: 30
+    weight: 40
   - shape: eyeLookOutLeft
-    weight: 20
+    weight: 55
   - shape: eyeLookInRight
-    weight: 20
+    weight: 55
   - shape: eyeWideLeft
     weight: 8
   - shape: eyeWideRight
     weight: 8
   - shape: mouthSmileLeft
-    weight: 30
+    weight: 45
   - shape: mouthSmileRight
     weight: 5
   - shape: mouthDimpleLeft
