@@ -1,0 +1,2115 @@
+{
+  "source": "C:\\Users\\ina17\\Downloads\\Jiwoon Eros Try - Fixed v3.blend",
+  "source_sha256": "72c923e58171b0aedee2a0ca9747fe5cfc10f2b19fb3cd0c72713b4f5b2d9653",
+  "blender_version": "5.1.2",
+  "saved_version": [
+    5,
+    1,
+    30
+  ],
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "length_unit": "METERS"
+  },
+  "frame": 1,
+  "frame_range": [
+    1,
+    250
+  ],
+  "objects": [
+    {
+      "name": "Hair",
+      "type": "CURVES",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "BONE",
+      "parent_bone": "head",
+      "location": [
+        -0.00566688,
+        1.5e-07,
+        0.01705755
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "world_matrix": [
+        [
+          2.409e-05,
+          1.0,
+          -6.8e-07,
+          0.01000444
+        ],
+        [
+          1.341e-05,
+          6.8e-07,
+          1.00000012,
+          0.00676942
+        ],
+        [
+          1.00000012,
+          -2.409e-05,
+          -1.352e-05,
+          1.57722914
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.14130962,
+          -0.12677276,
+          1.48209369
+        ],
+        "max": [
+          0.13829945,
+          0.14964817,
+          1.78946984
+        ],
+        "size": [
+          0.27960907,
+          0.27642094,
+          0.30737615
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 0,
+      "curve_count": 100493,
+      "point_count": 1353886,
+      "surface": null,
+      "attributes": [
+        {
+          "name": "handle_type_right",
+          "type": "INT8",
+          "domain": "POINT"
+        },
+        {
+          "name": "handle_type_left",
+          "type": "INT8",
+          "domain": "POINT"
+        },
+        {
+          "name": "position",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "handle_left",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "handle_right",
+          "type": "FLOAT_VECTOR",
+          "domain": "POINT"
+        },
+        {
+          "name": "curve_type",
+          "type": "INT8",
+          "domain": "CURVE"
+        }
+      ]
+    },
+    {
+      "name": "Light",
+      "type": "LIGHT",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        4.07624531,
+        1.00545394,
+        5.903862
+      ],
+      "rotation_euler": [
+        0.65032798,
+        0.05521711,
+        1.86639082
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        0.99999994,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          -0.29086465,
+          -0.77110082,
+          0.5663932,
+          4.07624531
+        ],
+        [
+          0.95517117,
+          -0.19988336,
+          0.21839119,
+          1.00545394
+        ],
+        [
+          -0.05518906,
+          0.60452473,
+          0.79467225,
+          5.903862
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 0
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        7.35889149,
+        -6.92579079,
+        4.95830917
+      ],
+      "rotation_euler": [
+        1.10931897,
+        0.0,
+        0.81492817
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          0.68592066,
+          -0.32401347,
+          0.65155822,
+          7.35889149
+        ],
+        [
+          0.72767633,
+          0.30542085,
+          -0.61417037,
+          -6.92579079
+        ],
+        [
+          0.0,
+          0.89539564,
+          0.4452714,
+          4.95830917
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 0
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_head_rig",
+      "type": "ARMATURE",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        6.55e-06,
+        6.47e-06,
+        -2.4e-07
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": true,
+      "modifiers": [],
+      "drivers": 7560,
+      "bone_count": 875,
+      "pose_position": "POSE",
+      "bones": [
+        {
+          "name": "root",
+          "parent": null,
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            0.01,
+            0.0
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "head": [
+            0.0,
+            -0.0209,
+            0.95568031
+          ],
+          "tail": [
+            0.00999999,
+            -0.0209,
+            0.95568031
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "neck_01",
+          "parent": "spine_05",
+          "head": [
+            -2.3e-06,
+            0.01283325,
+            1.47269404
+          ],
+          "tail": [
+            0.00999769,
+            0.01283326,
+            1.47269392
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.00000012,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "neck_02",
+          "parent": "neck_01",
+          "head": [
+            -2.2e-06,
+            0.00100121,
+            1.52682304
+          ],
+          "tail": [
+            0.00999779,
+            0.00100121,
+            1.52682292
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "neck_02",
+          "head": [
+            -2.09e-06,
+            -0.01029453,
+            1.58289659
+          ],
+          "tail": [
+            0.0099979,
+            -0.01029453,
+            1.58289647
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.00000012,
+            1.0,
+            1.00000012
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_body_rig",
+      "type": "ARMATURE",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": true,
+      "modifiers": [],
+      "drivers": 2313,
+      "bone_count": 342,
+      "pose_position": "POSE",
+      "bones": [
+        {
+          "name": "root",
+          "parent": null,
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            -0.0,
+            -0.01
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "head": [
+            -2.87e-06,
+            -0.02611709,
+            0.94199485
+          ],
+          "tail": [
+            0.00999712,
+            -0.02611708,
+            0.94199485
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "neck_01",
+          "parent": "spine_05",
+          "head": [
+            2.93e-06,
+            0.01283844,
+            1.47269332
+          ],
+          "tail": [
+            0.01000292,
+            0.01283845,
+            1.47269309
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.00000012,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "neck_02",
+          "parent": "neck_01",
+          "head": [
+            3.68e-06,
+            0.00100703,
+            1.52682245
+          ],
+          "tail": [
+            0.01000367,
+            0.00100704,
+            1.52682221
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "neck_02",
+          "head": [
+            4.45e-06,
+            -0.01028807,
+            1.58289623
+          ],
+          "tail": [
+            0.01000444,
+            -0.01028806,
+            1.58289599
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.00000012,
+            1.0,
+            1.00000012
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_face_gui",
+      "type": "ARMATURE",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 11,
+      "bone_count": 435,
+      "pose_position": "POSE",
+      "bones": []
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_body_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_body_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.51071984,
+          -0.27326369,
+          -0.0032967
+        ],
+        "max": [
+          0.51075608,
+          0.09583821,
+          1.4467622
+        ],
+        "size": [
+          1.02147591,
+          0.3691019,
+          1.4500589
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_body_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 30455,
+      "shape_keys": [],
+      "vertex_groups": 285,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_body_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_head_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.15980443,
+          -0.13230321,
+          1.37203813
+        ],
+        "max": [
+          0.15982848,
+          0.07931225,
+          1.74802113
+        ],
+        "size": [
+          0.31963292,
+          0.21161546,
+          0.375983
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 24049,
+      "shape_keys": [],
+      "vertex_groups": 639,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_head_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.03319845,
+          -0.10883645,
+          1.55258048
+        ],
+        "max": [
+          0.0316274,
+          -0.03442225,
+          1.59686029
+        ],
+        "size": [
+          0.06482584,
+          0.0744142,
+          0.04427981
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 4246,
+      "shape_keys": [],
+      "vertex_groups": 18,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_teeth_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.03171299,
+          -0.10887569,
+          1.5635339
+        ],
+        "max": [
+          0.03075047,
+          -0.06269576,
+          1.58850348
+        ],
+        "size": [
+          0.06246345,
+          0.04617994,
+          0.02496958
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 660,
+      "shape_keys": [],
+      "vertex_groups": 2,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_saliva_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          0.01678702,
+          -0.10295902,
+          1.6274035
+        ],
+        "max": [
+          0.04423508,
+          -0.07497144,
+          1.65477872
+        ],
+        "size": [
+          0.02744806,
+          0.02798758,
+          0.02737522
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 770,
+      "shape_keys": [],
+      "vertex_groups": 2,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_eyeLeft_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.04503452,
+          -0.10321405,
+          1.62757635
+        ],
+        "max": [
+          -0.01768569,
+          -0.07547807,
+          1.65479052
+        ],
+        "size": [
+          0.02734883,
+          0.02773598,
+          0.02721417
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 770,
+      "shape_keys": [],
+      "vertex_groups": 2,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_eyeRight_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.04578798,
+          -0.10438839,
+          1.63456082
+        ],
+        "max": [
+          0.04508308,
+          -0.09260047,
+          1.64732802
+        ],
+        "size": [
+          0.09087106,
+          0.01178792,
+          0.0127672
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 552,
+      "shape_keys": [],
+      "vertex_groups": 21,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_eyeshell_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_eyelashes_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.05356023,
+          -0.1112951,
+          1.62965178
+        ],
+        "max": [
+          0.05247689,
+          -0.09164035,
+          1.65249813
+        ],
+        "size": [
+          0.10603712,
+          0.01965476,
+          0.02284634
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 2144,
+      "shape_keys": [],
+      "vertex_groups": 21,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_eyelashes_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.04518549,
+          -0.10267498,
+          1.63504648
+        ],
+        "max": [
+          0.04448964,
+          -0.09260335,
+          1.64648068
+        ],
+        "size": [
+          0.08967514,
+          0.01007163,
+          0.0114342
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 268,
+      "shape_keys": [],
+      "vertex_groups": 21,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_eyeEdge_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh",
+      "type": "MESH",
+      "parent": "Jiwoo_MetaHumanCharacter_head_rig",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.55e-06
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.47e-06
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.4e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.04744706,
+          -0.10408266,
+          1.63310325
+        ],
+        "max": [
+          0.04700436,
+          -0.0921251,
+          1.64954913
+        ],
+        "size": [
+          0.09445142,
+          0.01195756,
+          0.01644588
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_MetaHumanCharacter_head_rig"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 386,
+      "shape_keys": [],
+      "vertex_groups": 55,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_cartilage_shader"
+      ]
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_body_native",
+      "type": "EMPTY",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 1
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_head_native",
+      "type": "EMPTY",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 1
+    },
+    {
+      "name": "Jiwoo_MetaHumanCharacter_switches_native",
+      "type": "EMPTY",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 1
+    },
+    {
+      "name": "Jiwoo_Armature",
+      "type": "ARMATURE",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [],
+      "drivers": 0,
+      "bone_count": 1185,
+      "pose_position": "POSE",
+      "bones": [
+        {
+          "name": "root",
+          "parent": null,
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tail": [
+            0.0,
+            -0.0,
+            -0.01
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "head": [
+            -2.87e-06,
+            -0.02611709,
+            0.94199485
+          ],
+          "tail": [
+            0.00999712,
+            -0.02611708,
+            0.94199485
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "neck_01",
+          "parent": "spine_05",
+          "head": [
+            2.93e-06,
+            0.01283844,
+            1.47269332
+          ],
+          "tail": [
+            0.01000292,
+            0.01283845,
+            1.47269309
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.00000012,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "neck_02",
+          "parent": "neck_01",
+          "head": [
+            3.68e-06,
+            0.00100703,
+            1.52682245
+          ],
+          "tail": [
+            0.01000367,
+            0.00100704,
+            1.52682221
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "neck_02",
+          "head": [
+            4.45e-06,
+            -0.01028807,
+            1.58289623
+          ],
+          "tail": [
+            0.01000444,
+            -0.01028806,
+            1.58289599
+          ],
+          "pose_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.00000012,
+            1.0,
+            1.00000012
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Face",
+      "type": "MESH",
+      "parent": "Jiwoo_Armature",
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_bounds": {
+        "min": [
+          -0.51071984,
+          -0.27326369,
+          -0.0032967
+        ],
+        "max": [
+          0.51075608,
+          0.09583821,
+          1.74802125
+        ],
+        "size": [
+          1.02147591,
+          0.3691019,
+          1.75131794
+        ]
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "hidden": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Jiwoo_Armature"
+        }
+      ],
+      "drivers": 0,
+      "vertices": 64300,
+      "shape_keys": [
+        "Basis",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "eyeWideLeft",
+        "eyeWideRight",
+        "eyeSquintLeft",
+        "eyeSquintRight",
+        "eyeLookUpLeft",
+        "eyeLookDownLeft",
+        "eyeLookInLeft",
+        "eyeLookOutLeft",
+        "eyeLookUpRight",
+        "eyeLookDownRight",
+        "eyeLookInRight",
+        "eyeLookOutRight",
+        "browDownLeft",
+        "browDownRight",
+        "browInnerUp",
+        "browOuterUpLeft",
+        "browOuterUpRight",
+        "cheekPuff",
+        "cheekSquintLeft",
+        "cheekSquintRight",
+        "noseSneerLeft",
+        "noseSneerRight",
+        "jawOpen",
+        "jawForward",
+        "jawLeft",
+        "jawRight",
+        "mouthClose",
+        "mouthFunnel",
+        "mouthPucker",
+        "mouthLeft",
+        "mouthRight",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "mouthFrownLeft",
+        "mouthFrownRight",
+        "mouthDimpleLeft",
+        "mouthDimpleRight",
+        "mouthStretchLeft",
+        "mouthStretchRight",
+        "mouthRollLower",
+        "mouthRollUpper",
+        "mouthShrugLower",
+        "mouthShrugUpper",
+        "mouthPressLeft",
+        "mouthPressRight",
+        "mouthLowerDownLeft",
+        "mouthLowerDownRight",
+        "mouthUpperUpLeft",
+        "mouthUpperUpRight",
+        "tongueOut",
+        "viseme_sil",
+        "viseme_PP",
+        "viseme_FF",
+        "viseme_TH",
+        "viseme_DD",
+        "viseme_kk",
+        "viseme_CH",
+        "viseme_SS",
+        "viseme_nn",
+        "viseme_RR",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U",
+        "emo_joy",
+        "emo_sadness",
+        "emo_anger",
+        "emo_surprise",
+        "emo_fear",
+        "emo_disgust"
+      ],
+      "vertex_groups": 935,
+      "materials": [
+        "Jiwoo_MetaHumanCharacter_head_shader",
+        "Jiwoo_MetaHumanCharacter_teeth_shader",
+        "Jiwoo_MetaHumanCharacter_saliva_shader",
+        "Jiwoo_MetaHumanCharacter_eyeLeft_shader",
+        "Jiwoo_MetaHumanCharacter_eyeRight_shader",
+        "Jiwoo_MetaHumanCharacter_eyeshell_shader",
+        "Jiwoo_MetaHumanCharacter_eyelashes_shader",
+        "Jiwoo_MetaHumanCharacter_eyeEdge_shader",
+        "Jiwoo_MetaHumanCharacter_cartilage_shader",
+        "Jiwoo_MetaHumanCharacter_body_shader"
+      ]
+    }
+  ],
+  "embedded_text_names": [
+    "JIWOO_UNITY_EXPORT_MANIFEST"
+  ],
+  "actions": [],
+  "missing_external_images": [
+    {
+      "image": "body_topology.png",
+      "path": "C:\\Users\\ina17\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\api_portal_polyhammer_com\\character_dna\\resources\\blends\\textures\\head_topology.png"
+    },
+    {
+      "image": "head_topology.png",
+      "path": "C:\\Users\\ina17\\AppData\\Roaming\\Blender Foundation\\Blender\\4.5\\extensions\\api_portal_polyhammer_com\\character_dna\\resources\\blends\\textures\\head_topology.png"
+    }
+  ]
+}

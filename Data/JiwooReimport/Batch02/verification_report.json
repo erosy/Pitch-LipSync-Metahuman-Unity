@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "reopened_blend": "D:\\UnityProject\\MetahumanTemplate\\Data\\JiwooReimport\\Batch02\\Jiwoo_ExportPrepared.blend",
+  "world_geometry_errors_m": {
+    "mesh": 0.0,
+    "position": 1.443732268713274e-07,
+    "handle_left": 1.443732268713274e-07,
+    "handle_right": 1.443732268713274e-07
+  },
+  "head_rotation_follow_errors_m": {
+    "position": 3.774592892562019e-08,
+    "handle_left": 3.7744504041508524e-08,
+    "handle_right": 3.774638644593621e-08
+  },
+  "tolerance_m": 1e-06,
+  "shape_key_count_including_basis": 74,
+  "bone_count": 1185,
+  "curve_count": 100493,
+  "point_count": 1353886,
+  "diameter_mm": 0.1,
+  "source_unchanged": true,
+  "unity_import_ready": false,
+  "next_batch": "FBX/ABC exports, scale/axes/width and shape-key round-trip checks"
+}

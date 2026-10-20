@@ -1,0 +1,86 @@
+{
+  "unity_version": "6000.5.9f1",
+  "avatar_valid": true,
+  "avatar_humanoid": true,
+  "matching_bone_count": 1185,
+  "bone_world_max_error_m": 8.266911031609328e-07,
+  "world_conversion": [
+    [
+      1.0000000021871016,
+      -3.260558868511e-07,
+      2.3900929834529448e-08,
+      -5.058924244020512e-09
+    ],
+    [
+      -4.366565578525097e-07,
+      6.867254602749284e-07,
+      0.9999992014404636,
+      3.553929626143315e-07
+    ],
+    [
+      7.176719920298233e-08,
+      0.9999998967901792,
+      3.716543548470952e-07,
+      -1.4089679245543607e-07
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "head_local_conversion": [
+    [
+      0.9999995590685445,
+      -3.770367260607979e-07,
+      8.022129284406723e-07,
+      -3.196636730873337e-07
+    ],
+    [
+      -2.9114343478708616e-08,
+      1.000000002195457,
+      -3.277825356867489e-07,
+      2.126846381696472e-09
+    ],
+    [
+      -1.7794750709224452e-07,
+      -7.17681440681634e-08,
+      -1.0000001351929981,
+      -7.593105010202106e-08
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "root_scale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "head_scale": {
+    "x": 1.0000001192092896,
+    "y": 1.0000003576278687,
+    "z": 1.0000005960464478
+  },
+  "blendshape_names_preserved": true,
+  "blendshape_count": 73,
+  "mesh_vertex_surface_max_error_m": 1.0974116548823076e-06,
+  "curve_count": 100493,
+  "hair_points": 6431552,
+  "hair_alignment_samples": 2048,
+  "hair_head_local_max_error_m": 4.697916758300632e-07,
+  "width_min_m": 9.999999747378752e-05,
+  "width_max_m": 9.999999747378752e-05,
+  "fbx_scale_factor": 1,
+  "fbx_bake_axis_conversion": true,
+  "abc_scale_factor": 1,
+  "abc_swap_handedness": true,
+  "hair_instance_transform": "position 0, rotation 0, scale 1 under head",
+  "strand_scale": "Fixed",
+  "simulation_verified": false,
+  "status": "PASS"
+}

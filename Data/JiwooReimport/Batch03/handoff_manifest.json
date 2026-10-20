@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "unity_version": "6000.5.9f1",
+  "alembic_package_version": "2.4.7",
+  "import_directory": "UnityImport",
+  "instructions": "Docs/JiwooReimportUnityImport.md",
+  "files": [
+    {
+      "path": "UnityImport/Jiwoo_Normalized.fbx",
+      "sha256": "c10f230c14d969dada0b877db8de978ad12a056ee6ae2c4db970ac7164ead500"
+    },
+    {
+      "path": "UnityImport/Jiwoo_Bob_HeadLocal.abc",
+      "sha256": "05d3eed1304c9bb1ed6ce36e1a4d70a7675fed502ec04fd5f08c26358a613112"
+    }
+  ],
+  "unique_texture_files": 15,
+  "verified": [
+    "FBX skeleton hierarchy, mesh geometry, all 73 facial shapes, skin weights and material slots",
+    "ABC point and strand counts, readback geometry and 0.1 mm diameter",
+    "Unity Humanoid avatar validity, all 73 facial shape names and meter-scale mesh",
+    "Unity root and head world scales approximately 1",
+    "Unity ABC-to-head alignment across 2048 distributed point samples"
+  ],
+  "simulation_verified": false,
+  "next_user_action": "Import the files and follow the Step 4 checklist. Hair Asset and simulation setup follow in Step 5."
+}
