@@ -727,8 +727,8 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
+    m_Quality: 4
+    m_FrameInfluence: 0.100000024
     m_JitterScale: 1
     m_MipBias: 0
     m_VarianceClampScale: 0.9
@@ -1079,6 +1079,218 @@ PrefabInstance:
     - target: {fileID: 1177105979756375997, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.0000001589724
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.solver
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.gravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.distance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.kLODScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localShape
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.renderer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.distanceLRA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.kLODCeiling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.kLODScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.cellExternal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.cellPressure
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.cellVelocity
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.constraintSOR
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.kLODCeiling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.tipScaleValue
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.dampingAngular
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localShapeBias
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localShapeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.solverSubsteps
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.boundsExtent.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.boundsExtent.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.boundsExtent.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.allowIndirect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.clipThreshold
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.motionVectors
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.globalFadeExtent
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.globalFadeOffset
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.rendererLayers
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.boundsScaleValue
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.stagingPrecision
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.boundaryCollision
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.allowInstancing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.rendererShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.strandLengthValue
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.kLODSelectionValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localCurvatureMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.constraintStiffness
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.dampingLinearFactor
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localCurvatureValue
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localShapeBiasValue
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.localShapeInfluence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.shadowLayersValue
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.strandDiameterValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.tipScaleOffsetValue
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.constraintIterations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.dampingAngularFactor
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsRendering.kLODSelectionValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.distanceFTLCorrection
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.globalPositionInfluence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.globalRotationInfluence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsGeometry.stagingSubdivisionCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721790160372672216, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+      propertyPath: strandGroupSettings.Array.data[0].settingsPhysics.boundaryCollisionFriction
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1810697402725054794, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3286,10 +3498,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

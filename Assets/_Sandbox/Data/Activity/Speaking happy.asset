@@ -15,5 +15,5 @@ MonoBehaviour:
   id: activity-speaking-happy
   displayName: Speaking happy
   animation: {fileID: 11400000, guid: 74af7e35860a3cb46b535597ce05ce89, type: 2}
-  expression: {fileID: 11400000, guid: e9a1d8a34839d34408cbce213e3f2ec7, type: 2}
+  expression: {fileID: 0}
   isIdle: 0
