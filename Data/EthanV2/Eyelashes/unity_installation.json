@@ -1,0 +1,26 @@
+{
+  "model": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+  "guidPreserved": true,
+  "headVertices": 341443,
+  "shapes": 73,
+  "materials": [
+    "Ethan_Head",
+    "Ethan_Eyebrows",
+    "Ethan_EyelashStrands"
+  ],
+  "renderers": 12,
+  "oldCardsRemoved": true,
+  "browsPreserved": true,
+  "sceneRows": [
+    {
+      "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "changed": false,
+      "materials": [
+        "Ethan_Head",
+        "Ethan_Eyebrows",
+        "Ethan_EyelashStrands"
+      ]
+    }
+  ],
+  "playing": false
+}

@@ -1,0 +1,92 @@
+{
+  "modifiers": [
+    {
+      "name": "Surface Deform",
+      "type": "NODES",
+      "nodes": [
+        {
+          "name": "Group Input",
+          "type": "GROUP_INPUT",
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Group Output",
+          "type": "GROUP_OUTPUT",
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Deform Curves on Surface",
+          "type": "DEFORM_CURVES_ON_SURFACE",
+          "group": null,
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "position",
+      "type": "FLOAT_VECTOR",
+      "count": 30844
+    },
+    {
+      "name": "radius",
+      "type": "FLOAT",
+      "count": 30844,
+      "min": 0.5,
+      "median": 0.5,
+      "max": 0.5,
+      "worldScale": 0.009999990414939883
+    }
+  ],
+  "material_nodes": [
+    {
+      "name": "Principled BSDF",
+      "type": "BSDF_PRINCIPLED",
+      "inputs": {
+        "Base Color": "<bpy_float[4], NodeSocketColor.default_value>",
+        "Metallic": "0.0",
+        "Roughness": "0.9505119323730469",
+        "IOR": "1.5",
+        "Alpha": "1.0",
+        "Thin Wall": "False",
+        "Normal": "<bpy_float[3], NodeSocketVector.default_value>",
+        "Weight": "0.0",
+        "Diffuse Roughness": "0.0",
+        "Subsurface Weight": "0.0",
+        "Subsurface Radius": "<bpy_float[3], NodeSocketVector.default_value>",
+        "Subsurface Scale": "0.004999999888241291",
+        "Subsurface IOR": "1.399999976158142",
+        "Subsurface Anisotropy": "0.0",
+        "Specular IOR Level": "0.5",
+        "Specular Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+        "Anisotropic": "0.0",
+        "Anisotropic Rotation": "0.0",
+        "Tangent": "<bpy_float[3], NodeSocketVector.default_value>",
+        "Transmission Weight": "0.0",
+        "Coat Weight": "0.0",
+        "Coat Roughness": "0.029999999329447746",
+        "Coat IOR": "1.5",
+        "Coat Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+        "Coat Normal": "<bpy_float[3], NodeSocketVector.default_value>",
+        "Sheen Weight": "0.0",
+        "Sheen Roughness": "0.5",
+        "Sheen Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+        "Emission Color": "<bpy_float[4], NodeSocketColor.default_value>",
+        "Emission Strength": "0.0",
+        "Thin Film Thickness": "0.0",
+        "Thin Film IOR": "1.3300000429153442"
+      }
+    },
+    {
+      "name": "Material Output",
+      "type": "OUTPUT_MATERIAL",
+      "inputs": {
+        "Displacement": "<bpy_float[3], NodeSocketVector.default_value>",
+        "Thickness": "0.0"
+      }
+    }
+  ]
+}

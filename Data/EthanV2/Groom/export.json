@@ -1,0 +1,60 @@
+{
+  "source": "C:\\Users\\ina17\\Downloads\\Ethan_Ver2_NewMetaHumanCharacter\\Ethan_NewMetaHumanCharacter\\groom\\Hair_Overall.abc",
+  "source_sha256": "7a87b1228d2afcf945283f19c9d3ee2c95d8a7718756d8669b24cdfe68839212",
+  "scalp_object": "01_Center_part_curtains.001",
+  "strands": 94408,
+  "points_per_strand": 32,
+  "max_abc_to_blend_correspondence_m": 1.879777510090407e-06,
+  "unit_conversion_scale": 0.9999999778323059,
+  "normalized_head_matrix": [
+    [
+      1.222416596936627e-05,
+      -0.9999999999249278,
+      7.398798742003414e-07,
+      4.651763e-05
+    ],
+    [
+      -0.9999999999238294,
+      -1.2230876170405857e-05,
+      -1.7061829310430383e-06,
+      1.6975019
+    ],
+    [
+      1.7061829309160276e-06,
+      -7.415685514043173e-07,
+      -0.9999999999982708,
+      0.0129925478
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "head_bone_path": "BAKED_Ethan_NewMetaHumanCharacter_head_rig/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head",
+  "sdf_resolution": 96,
+  "sdf_min": [
+    -0.20253648241240882,
+    -0.20405049619656385,
+    -0.17075498159954067
+  ],
+  "sdf_max": [
+    0.2546443210186512,
+    0.20438455430798452,
+    0.1508148511310805
+  ],
+  "root_tip_preserved": true,
+  "bounds": [
+    [
+      -0.22238080203533173,
+      -0.1192011833190918,
+      -0.1529000848531723
+    ],
+    [
+      0.055989235639572144,
+      0.13735122978687286,
+      0.12313078343868256
+    ]
+  ]
+}

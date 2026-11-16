@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "samples": {
+    "clips": [
+      "Breathing Idle",
+      "Idle",
+      "Nod",
+      "Talking",
+      "Thinking",
+      "Thumbs Up",
+      "Waving",
+      "ThumbsUp"
+    ],
+    "frames": 72,
+    "maxLocalDisplacementM": 0.0,
+    "maxHelperLocalRotationDegrees": 0.0,
+    "maxJointRotationErrorDegrees": 0.0
+  },
+  "instances": [
+    {
+      "scene": "CharacterTesting",
+      "name": "Ethan_V2_73_Baked",
+      "repairedBindings": 210,
+      "dirty": true
+    }
+  ],
+  "playModeEntered": false
+}

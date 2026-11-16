@@ -1,0 +1,17 @@
+[
+  {
+    "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+    "isDirty": false,
+    "active": false,
+    "prefab": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+    "scalpCount": 1,
+    "hairActive": [
+      true
+    ],
+    "editModeSimulation": [
+      false
+    ],
+    "configurationErrors": [],
+    "missingScripts": 0
+  }
+]

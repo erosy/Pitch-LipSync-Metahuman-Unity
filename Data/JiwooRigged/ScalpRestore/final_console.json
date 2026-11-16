@@ -1,0 +1,38 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "console_status",
+    "parameters": {},
+    "result": {
+      "entries": [],
+      "cursor": 28,
+      "session": "992dee039cf24ae9b5daa15c54424c5f",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 0,
+        "log": 0
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-11T03:58:17.1573399Z",
+        "ageMs": 115,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\UnityProject\\MetahumanTemplate"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

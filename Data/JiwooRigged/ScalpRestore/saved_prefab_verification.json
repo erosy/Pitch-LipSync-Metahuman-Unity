@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "preservedComponents": 182,
+  "missingScripts": 0,
+  "prefabGuid": "48dcd3a0926950846ad911bc2abe8ce9",
+  "attachment": "Jiwoo_Armature/DEF-spine/DEF-spine.001/DEF-spine.002/DEF-spine.003/DEF-spine.004/DEF-spine.005/DEF-spine.006/Jiwoo_ScalpHair",
+  "localPosition": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "localRotation": "(0.00, 0.00, 0.00)",
+  "localScale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "groom": "Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp.asset",
+  "material": "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_StrandHair.mat",
+  "strands": 100498,
+  "particles": 6431872,
+  "simulationRate": "Fixed60Hz",
+  "editModeSimulation": false,
+  "boundaries": [
+    {
+      "name": "Jiwoo_HairBoundary_Head",
+      "parent": "DEF-spine.006",
+      "position": [
+        -1.84088611E-18,
+        1.65499961,
+        -0.004999995
+      ],
+      "radius": 0.073,
+      "height": 0.19,
+      "axis": "YAxis"
+    },
+    {
+      "name": "Jiwoo_HairBoundary_Neck",
+      "parent": "DEF-spine.005",
+      "position": [
+        -1.84088611E-18,
+        1.49999964,
+        0.00299990177
+      ],
+      "radius": 0.041,
+      "height": 0.135,
+      "axis": "YAxis"
+    },
+    {
+      "name": "Jiwoo_HairBoundary_ShoulderL",
+      "parent": "DEF-shoulder.L",
+      "position": [
+        0.104999989,
+        1.39299965,
+        0.0149999857
+      ],
+      "radius": 0.052,
+      "height": 0.18,
+      "axis": "XAxis"
+    },
+    {
+      "name": "Jiwoo_HairBoundary_ShoulderR",
+      "parent": "DEF-shoulder.R",
+      "position": [
+        -0.104999989,
+        1.39299965,
+        0.0149999857
+      ],
+      "radius": 0.052,
+      "height": 0.18,
+      "axis": "XAxis"
+    }
+  ],
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": false
+    }
+  ],
+  "runtimeTested": false
+}

@@ -1,0 +1,28 @@
+{
+  "blender": "5.2.2 LTS",
+  "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+  "enabled_addons": [
+    "bl_ext.api_portal_polyhammer_com_001.character_dna"
+  ],
+  "callback_registered": true,
+  "runtime": [
+    {
+      "module": "bl_ext.api_portal_polyhammer_com_001.character_dna.runtime.engine",
+      "capability": [
+        true,
+        "Native runtime available"
+      ],
+      "errors": {}
+    }
+  ],
+  "dna_paths": [
+    {
+      "path": "D:\\Metahuman Character\\Male\\Ethan 2\\Ethan_NewMetaHumanCharacter\\head.dna",
+      "exists": false
+    },
+    {
+      "path": "D:\\Metahuman Character\\Male\\Ethan 2\\Ethan_NewMetaHumanCharacter\\body.dna",
+      "exists": false
+    }
+  ]
+}

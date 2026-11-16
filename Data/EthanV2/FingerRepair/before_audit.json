@@ -1,0 +1,4014 @@
+{
+  "rows": [
+    {
+      "target": "hand_ik.L",
+      "parent": "MCH-hand_ik.parent.L",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.500589, 1.090605, 0.143736)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 91.23073
+    },
+    {
+      "target": "hand_ik.R",
+      "parent": "MCH-hand_ik.parent.R",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.500589, 1.090605, 0.143736)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 91.2307
+    },
+    {
+      "target": "ringtoe_01_r",
+      "parent": "ball_r",
+      "source": "RightToes",
+      "sourceParent": "RightFoot",
+      "targetPosition": "(0.201486, 0.025310, 0.143308)",
+      "sourcePosition": "(0.191882, 0.022867, 0.149098)",
+      "targetLocal": "(0.000011, -0.000345, -0.000139)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 172.6825
+    },
+    {
+      "target": "middletoe_01_r",
+      "parent": "ball_r",
+      "source": "RightToes",
+      "sourceParent": "RightFoot",
+      "targetPosition": "(0.186110, 0.027416, 0.151166)",
+      "sourcePosition": "(0.191882, 0.022867, 0.149098)",
+      "targetLocal": "(0.000065, -0.000181, -0.000162)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 172.6825
+    },
+    {
+      "target": "indextoe_01_r",
+      "parent": "ball_r",
+      "source": "RightToes",
+      "sourceParent": "RightFoot",
+      "targetPosition": "(0.167409, 0.028960, 0.155660)",
+      "sourcePosition": "(0.191882, 0.022867, 0.149098)",
+      "targetLocal": "(0.000082, 0.000010, -0.000178)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 178.534882
+    },
+    {
+      "target": "indextoe_01_l",
+      "parent": "ball_l",
+      "source": "LeftToes",
+      "sourceParent": "LeftFoot",
+      "targetPosition": "(-0.167275, 0.028806, 0.155718)",
+      "sourcePosition": "(-0.191882, 0.022867, 0.149097)",
+      "targetLocal": "(-0.000084, -0.000011, 0.000180)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 83.98838
+    },
+    {
+      "target": "middletoe_01_l",
+      "parent": "ball_l",
+      "source": "LeftToes",
+      "sourceParent": "LeftFoot",
+      "targetPosition": "(-0.185950, 0.027263, 0.151325)",
+      "sourcePosition": "(-0.191882, 0.022867, 0.149097)",
+      "targetLocal": "(-0.000069, 0.000180, 0.000164)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 81.20972
+    },
+    {
+      "target": "ringtoe_01_l",
+      "parent": "ball_l",
+      "source": "LeftToes",
+      "sourceParent": "LeftFoot",
+      "targetPosition": "(-0.201335, 0.025247, 0.143404)",
+      "sourcePosition": "(-0.191882, 0.022867, 0.149097)",
+      "targetLocal": "(-0.000014, 0.000344, 0.000142)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 81.20972
+    },
+    {
+      "target": "ringtoe_02_r",
+      "parent": "ringtoe_01_r",
+      "source": "RightToes",
+      "sourceParent": "RightFoot",
+      "targetPosition": "(0.209584, 0.020200, 0.162264)",
+      "sourcePosition": "(0.191882, 0.022867, 0.149098)",
+      "targetLocal": "(0.000206, -0.000051, -0.000006)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 166.217636
+    },
+    {
+      "target": "middletoe_02_r",
+      "parent": "middletoe_01_r",
+      "source": "RightToes",
+      "sourceParent": "RightFoot",
+      "targetPosition": "(0.193798, 0.019275, 0.174112)",
+      "sourcePosition": "(0.191882, 0.022867, 0.149098)",
+      "targetLocal": "(0.000251, -0.000042, 0.000014)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 166.217636
+    },
+    {
+      "target": "indextoe_02_r",
+      "parent": "indextoe_01_r",
+      "source": "RightToes",
+      "sourceParent": "RightFoot",
+      "targetPosition": "(0.176486, 0.021111, 0.184773)",
+      "sourcePosition": "(0.191882, 0.022867, 0.149098)",
+      "targetLocal": "(0.000313, -0.000027, 0.000023)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 170.521683
+    },
+    {
+      "target": "indextoe_02_l",
+      "parent": "indextoe_01_l",
+      "source": "LeftToes",
+      "sourceParent": "LeftFoot",
+      "targetPosition": "(-0.176421, 0.020938, 0.184850)",
+      "sourcePosition": "(-0.191882, 0.022867, 0.149097)",
+      "targetLocal": "(-0.000313, 0.000028, -0.000023)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 84.95498
+    },
+    {
+      "target": "middletoe_02_l",
+      "parent": "middletoe_01_l",
+      "source": "LeftToes",
+      "sourceParent": "LeftFoot",
+      "targetPosition": "(-0.193681, 0.019122, 0.174244)",
+      "sourcePosition": "(-0.191882, 0.022867, 0.149097)",
+      "targetLocal": "(-0.000251, 0.000043, -0.000014)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 82.07984
+    },
+    {
+      "target": "ringtoe_02_l",
+      "parent": "ringtoe_01_l",
+      "source": "LeftToes",
+      "sourceParent": "LeftFoot",
+      "targetPosition": "(-0.209517, 0.020119, 0.162422)",
+      "sourcePosition": "(-0.191882, 0.022867, 0.149097)",
+      "targetLocal": "(-0.000207, 0.000052, 0.000006)",
+      "sourceLocal": "(0.000000, 0.181101, 0.000000)",
+      "rotationDifference": 82.07984
+    },
+    {
+      "target": "hand_l",
+      "parent": "lowerarm_l",
+      "source": "LeftHand",
+      "sourceParent": "LeftLowerArmTwist",
+      "targetPosition": "(-0.509331, 1.069570, 0.164306)",
+      "sourcePosition": "(-0.532504, 1.168254, 0.187919)",
+      "targetLocal": "(-0.002860, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.151367, 0.000000)",
+      "rotationDifference": 129.036163
+    },
+    {
+      "target": "hand_r",
+      "parent": "lowerarm_r",
+      "source": "RightHand",
+      "sourceParent": "RightLowerArmTwist",
+      "targetPosition": "(0.510961, 1.067825, 0.167126)",
+      "sourcePosition": "(0.532504, 1.168254, 0.187919)",
+      "targetLocal": "(0.002907, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.151367, 0.000000)",
+      "rotationDifference": 117.0988
+    },
+    {
+      "target": "pinky_metacarpal_l",
+      "parent": "hand_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.525400, 1.040825, 0.166250)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000267, -0.000188, 0.000047)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 94.09387
+    },
+    {
+      "target": "ring_metacarpal_l",
+      "parent": "hand_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.524045, 1.047804, 0.176047)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000278, -0.000071, 0.000021)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 90.8465347
+    },
+    {
+      "target": "thumb_01_l",
+      "parent": "hand_l",
+      "source": "LeftThumbProximal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.498564, 1.064069, 0.192346)",
+      "sourcePosition": "(-0.521682, 1.152864, 0.234383)",
+      "targetLocal": "(-0.000152, 0.000228, 0.000135)",
+      "sourceLocal": "(-0.018192, 0.028070, 0.037336)",
+      "rotationDifference": 90.62548
+    },
+    {
+      "target": "middle_metacarpal_l",
+      "parent": "hand_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.521458, 1.054285, 0.185325)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000283, 0.000044, 0.000008)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 92.51024
+    },
+    {
+      "target": "index_metacarpal_l",
+      "parent": "hand_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.516175, 1.060050, 0.200226)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000314, 0.000209, 0.000024)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 94.89736
+    },
+    {
+      "target": "pinky_metacarpal_r",
+      "parent": "hand_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.528862, 1.039875, 0.167443)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000261, 0.000203, -0.000027)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 179.9931
+    },
+    {
+      "target": "ring_metacarpal_r",
+      "parent": "hand_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.526006, 1.046649, 0.178709)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000275, 0.000070, -0.000015)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 176.27739
+    },
+    {
+      "target": "thumb_01_r",
+      "parent": "hand_r",
+      "source": "RightThumbProximal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.498307, 1.064508, 0.193031)",
+      "sourcePosition": "(0.521682, 1.152864, 0.234383)",
+      "targetLocal": "(0.000116, -0.000229, -0.000135)",
+      "sourceLocal": "(0.018192, 0.028070, 0.037336)",
+      "rotationDifference": 153.850662
+    },
+    {
+      "target": "middle_metacarpal_r",
+      "parent": "hand_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.522969, 1.053383, 0.188265)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000278, -0.000050, -0.000004)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 174.7671
+    },
+    {
+      "target": "index_metacarpal_r",
+      "parent": "hand_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.517831, 1.058839, 0.203421)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000313, -0.000215, -0.000021)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 178.326
+    },
+    {
+      "target": "pinky_01_l",
+      "parent": "pinky_metacarpal_l",
+      "source": "LeftPinkyProximal",
+      "sourceParent": "LeftPinkyMetacarpal",
+      "targetPosition": "(-0.545095, 1.001287, 0.180666)",
+      "sourcePosition": "(-0.588358, 1.078162, 0.198835)",
+      "targetLocal": "(-0.000465, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.064547, 0.000000)",
+      "rotationDifference": 82.700386
+    },
+    {
+      "target": "pinky_metacarpal_slide_l",
+      "parent": "pinky_metacarpal_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.546578, 1.032244, 0.164852)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000158, -0.000051, -0.000157)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 129.806061
+    },
+    {
+      "target": "ring_01_l",
+      "parent": "ring_metacarpal_l",
+      "source": "LeftRingProximal",
+      "sourceParent": "LeftRingMetacarpal",
+      "targetPosition": "(-0.551881, 1.013283, 0.197818)",
+      "sourcePosition": "(-0.594060, 1.089270, 0.225766)",
+      "targetLocal": "(-0.000494, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.065973, 0.000000)",
+      "rotationDifference": 90.40441
+    },
+    {
+      "target": "ring_metacarpal_slide_l",
+      "parent": "ring_metacarpal_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.548984, 1.039878, 0.179555)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000211, -0.000050, -0.000150)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 117.645226
+    },
+    {
+      "target": "thumb_02_l",
+      "parent": "thumb_01_l",
+      "source": "LeftThumbIntermediate",
+      "sourceParent": "LeftThumbProximal",
+      "targetPosition": "(-0.496191, 1.046402, 0.237843)",
+      "sourcePosition": "(-0.521827, 1.131014, 0.266442)",
+      "targetLocal": "(-0.000489, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.038797, 0.000000)",
+      "rotationDifference": 96.26894
+    },
+    {
+      "target": "thumb_01_side_out_l",
+      "parent": "thumb_01_l",
+      "source": "LeftThumbProximal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.477842, 1.073976, 0.203552)",
+      "sourcePosition": "(-0.521682, 1.152864, 0.234383)",
+      "targetLocal": "(-0.000079, 0.000171, -0.000173)",
+      "sourceLocal": "(-0.018192, 0.028070, 0.037336)",
+      "rotationDifference": 115.461533
+    },
+    {
+      "target": "thumb_01_side_inn_l",
+      "parent": "thumb_01_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.512171, 1.038010, 0.233880)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000474, -0.000136, 0.000124)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 174.430389
+    },
+    {
+      "target": "middle_01_l",
+      "parent": "middle_metacarpal_l",
+      "source": "LeftMiddleProximal",
+      "sourceParent": "LeftMiddleMetacarpal",
+      "targetPosition": "(-0.553189, 1.023612, 0.218096)",
+      "sourcePosition": "(-0.593266, 1.107196, 0.246489)",
+      "targetLocal": "(-0.000550, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.061463, 0.000000)",
+      "rotationDifference": 90.17006
+    },
+    {
+      "target": "middle_metacarpal_slide_l",
+      "parent": "middle_metacarpal_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.545475, 1.053258, 0.198874)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000225, 0.000021, -0.000158)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 118.794739
+    },
+    {
+      "target": "index_01_l",
+      "parent": "index_metacarpal_l",
+      "source": "LeftIndexProximal",
+      "sourceParent": "LeftIndexMetacarpal",
+      "targetPosition": "(-0.540634, 1.031368, 0.236758)",
+      "sourcePosition": "(-0.577536, 1.121432, 0.270741)",
+      "targetLocal": "(-0.000525, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.058679, 0.000000)",
+      "rotationDifference": 92.02094
+    },
+    {
+      "target": "index_metacarpal_slide_l",
+      "parent": "index_metacarpal_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.534036, 1.062371, 0.218889)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000200, 0.000057, -0.000155)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 124.337761
+    },
+    {
+      "target": "pinky_01_r",
+      "parent": "pinky_metacarpal_r",
+      "source": "RightPinkyProximal",
+      "sourceParent": "RightPinkyMetacarpal",
+      "targetPosition": "(0.547463, 1.002536, 0.181059)",
+      "sourcePosition": "(0.588358, 1.078163, 0.198835)",
+      "targetLocal": "(0.000439, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.064547, 0.000000)",
+      "rotationDifference": 162.66037
+    },
+    {
+      "target": "pinky_metacarpal_slide_r",
+      "parent": "pinky_metacarpal_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.546889, 1.034129, 0.165940)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000121, 0.000042, 0.000141)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 119.987465
+    },
+    {
+      "target": "ring_01_r",
+      "parent": "ring_metacarpal_r",
+      "source": "RightRingProximal",
+      "sourceParent": "RightRingMetacarpal",
+      "targetPosition": "(0.552595, 1.013674, 0.199505)",
+      "sourcePosition": "(0.594059, 1.089271, 0.225766)",
+      "targetLocal": "(0.000472, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.065973, 0.000000)",
+      "rotationDifference": 177.820389
+    },
+    {
+      "target": "ring_metacarpal_slide_r",
+      "parent": "ring_metacarpal_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.549381, 1.041738, 0.180006)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000172, 0.000055, 0.000157)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 124.487877
+    },
+    {
+      "target": "thumb_02_r",
+      "parent": "thumb_01_r",
+      "source": "RightThumbIntermediate",
+      "sourceParent": "RightThumbProximal",
+      "targetPosition": "(0.495985, 1.047222, 0.237544)",
+      "sourcePosition": "(0.521827, 1.131014, 0.266442)",
+      "targetLocal": "(0.000478, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.038797, 0.000000)",
+      "rotationDifference": 160.593018
+    },
+    {
+      "target": "thumb_01_side_out_r",
+      "parent": "thumb_01_r",
+      "source": "RightThumbIntermediate",
+      "sourceParent": "RightThumbProximal",
+      "targetPosition": "(0.475491, 1.073342, 0.205761)",
+      "sourcePosition": "(0.521827, 1.131014, 0.266442)",
+      "targetLocal": "(0.000098, -0.000192, 0.000172)",
+      "sourceLocal": "(0.000000, 0.038797, 0.000000)",
+      "rotationDifference": 116.786179
+    },
+    {
+      "target": "thumb_01_side_inn_r",
+      "parent": "thumb_01_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.510027, 1.039544, 0.232922)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000456, 0.000118, -0.000116)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 121.175781
+    },
+    {
+      "target": "middle_01_r",
+      "parent": "middle_metacarpal_r",
+      "source": "RightMiddleProximal",
+      "sourceParent": "RightMiddleMetacarpal",
+      "targetPosition": "(0.553273, 1.024091, 0.219562)",
+      "sourcePosition": "(0.593266, 1.107196, 0.246490)",
+      "targetLocal": "(0.000525, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.061463, 0.000000)",
+      "rotationDifference": 178.086914
+    },
+    {
+      "target": "middle_metacarpal_slide_r",
+      "parent": "middle_metacarpal_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.545315, 1.055014, 0.198919)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000183, -0.000017, 0.000166)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 123.751106
+    },
+    {
+      "target": "index_01_r",
+      "parent": "index_metacarpal_r",
+      "source": "RightIndexProximal",
+      "sourceParent": "RightIndexMetacarpal",
+      "targetPosition": "(0.541053, 1.031608, 0.238106)",
+      "sourcePosition": "(0.577536, 1.121432, 0.270741)",
+      "targetLocal": "(0.000498, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.058679, 0.000000)",
+      "rotationDifference": 166.946625
+    },
+    {
+      "target": "index_metacarpal_slide_r",
+      "parent": "index_metacarpal_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.532630, 1.063594, 0.219837)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000157, -0.000068, 0.000148)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 118.5413
+    },
+    {
+      "target": "pinky_02_l",
+      "parent": "pinky_01_l",
+      "source": "LeftPinkyIntermediate",
+      "sourceParent": "LeftPinkyProximal",
+      "targetPosition": "(-0.551898, 0.973699, 0.190361)",
+      "sourcePosition": "(-0.589584, 1.044085, 0.215612)",
+      "targetLocal": "(-0.000300, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.038003, 0.000000)",
+      "rotationDifference": 88.80238
+    },
+    {
+      "target": "pinky_01_palmMid_l",
+      "parent": "pinky_01_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.540819, 0.987494, 0.182976)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000125, -0.000020, 0.000074)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 113.853958
+    },
+    {
+      "target": "pinky_01_bulge_l",
+      "parent": "pinky_01_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.541961, 0.978328, 0.185407)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000219, -0.000027, 0.000085)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 112.876686
+    },
+    {
+      "target": "pinky_01_side_out_l",
+      "parent": "pinky_01_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.552225, 0.978677, 0.176986)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000212, -0.000111, -0.000018)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 116.111931
+    },
+    {
+      "target": "pinky_01_side_inn_l",
+      "parent": "pinky_01_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.551412, 0.983129, 0.195553)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000229, 0.000080, -0.000016)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 135.596085
+    },
+    {
+      "target": "pinky_01_half_l",
+      "parent": "pinky_01_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.545095, 1.001287, 0.180666)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 95.7698059
+    },
+    {
+      "target": "ring_02_l",
+      "parent": "ring_01_l",
+      "source": "LeftRingIntermediate",
+      "sourceParent": "LeftRingProximal",
+      "targetPosition": "(-0.564220, 0.976997, 0.216943)",
+      "sourcePosition": "(-0.605636, 1.050613, 0.245619)",
+      "targetLocal": "(-0.000428, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.044973, 0.000000)",
+      "rotationDifference": 88.3680344
+    },
+    {
+      "target": "ring_01_palmMid_l",
+      "parent": "ring_01_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.547636, 0.992616, 0.208163)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000209, 0.000017, 0.000106)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 112.962395
+    },
+    {
+      "target": "ring_01_bulge_l",
+      "parent": "ring_01_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.551090, 0.983838, 0.211705)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000309, 0.000007, 0.000102)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 111.275696
+    },
+    {
+      "target": "ring_01_side_out_l",
+      "parent": "ring_01_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.564990, 0.983126, 0.202074)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000312, -0.000110, -0.000021)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 107.531181
+    },
+    {
+      "target": "ring_01_side_inn_l",
+      "parent": "ring_01_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.559122, 0.989695, 0.220254)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000321, 0.000091, 0.000002)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 130.738312
+    },
+    {
+      "target": "ring_01_half_l",
+      "parent": "ring_01_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.551881, 1.013283, 0.197818)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 92.4426
+    },
+    {
+      "target": "thumb_03_l",
+      "parent": "thumb_02_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.496932, 1.027721, 0.259509)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(-0.000286, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 99.74119
+    },
+    {
+      "target": "thumb_02_bulge_l",
+      "parent": "thumb_02_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.498109, 1.025518, 0.243803)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000182, 0.000011, 0.000120)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 115.679543
+    },
+    {
+      "target": "thumb_02_side_out_l",
+      "parent": "thumb_02_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.506483, 1.037452, 0.245222)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000117, -0.000093, 0.000040)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 101.776306
+    },
+    {
+      "target": "thumb_02_side_inn_l",
+      "parent": "thumb_02_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.485078, 1.038332, 0.245583)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(-0.000108, 0.000114, -0.000014)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 137.64566
+    },
+    {
+      "target": "thumb_02_half_l",
+      "parent": "thumb_02_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.496191, 1.046402, 0.237842)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 98.7044144
+    },
+    {
+      "target": "middle_02_l",
+      "parent": "middle_01_l",
+      "source": "LeftMiddleIntermediate",
+      "sourceParent": "LeftMiddleProximal",
+      "targetPosition": "(-0.564234, 0.985400, 0.246806)",
+      "sourcePosition": "(-0.604951, 1.062624, 0.279258)",
+      "targetLocal": "(-0.000491, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.056542, 0.000000)",
+      "rotationDifference": 90.11124
+    },
+    {
+      "target": "middle_01_palmMid_l",
+      "parent": "middle_01_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.545279, 1.002939, 0.230445)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000215, 0.000022, 0.000132)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 123.389954
+    },
+    {
+      "target": "middle_01_bulge_l",
+      "parent": "middle_01_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.550261, 0.992171, 0.238205)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000356, 0.000013, 0.000115)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 113.762505
+    },
+    {
+      "target": "middle_01_side_out_l",
+      "parent": "middle_01_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.567271, 0.992453, 0.230123)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000345, -0.000108, -0.000029)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 111.438309
+    },
+    {
+      "target": "middle_01_side_inn_l",
+      "parent": "middle_01_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.555733, 1.001154, 0.247524)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000353, 0.000113, 0.000017)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 127.685745
+    },
+    {
+      "target": "middle_01_half_l",
+      "parent": "middle_01_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.553189, 1.023612, 0.218096)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 95.2775
+    },
+    {
+      "target": "index_02_l",
+      "parent": "index_01_l",
+      "source": "LeftIndexIntermediate",
+      "sourceParent": "LeftIndexProximal",
+      "targetPosition": "(-0.548788, 0.998901, 0.264591)",
+      "sourcePosition": "(-0.584219, 1.080762, 0.301041)",
+      "targetLocal": "(-0.000435, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.051155, 0.000000)",
+      "rotationDifference": 94.9690552
+    },
+    {
+      "target": "index_01_palmMid_l",
+      "parent": "index_01_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.532958, 1.017389, 0.248510)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000165, 0.000054, 0.000095)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 123.383163
+    },
+    {
+      "target": "index_01_bulge_l",
+      "parent": "index_01_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.534918, 1.008278, 0.254834)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000277, 0.000045, 0.000102)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 117.271194
+    },
+    {
+      "target": "index_01_side_out_l",
+      "parent": "index_01_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.552413, 1.009791, 0.248246)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000256, -0.000082, -0.000034)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 118.986526
+    },
+    {
+      "target": "index_01_side_inn_l",
+      "parent": "index_01_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.542521, 1.019423, 0.264582)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000271, 0.000132, -0.000039)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 132.175461
+    },
+    {
+      "target": "index_01_half_l",
+      "parent": "index_01_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.540634, 1.031368, 0.236758)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 96.6812744
+    },
+    {
+      "target": "pinky_02_r",
+      "parent": "pinky_01_r",
+      "source": "RightPinkyIntermediate",
+      "sourceParent": "RightPinkyProximal",
+      "targetPosition": "(0.554016, 0.975961, 0.190398)",
+      "sourcePosition": "(0.589584, 1.044086, 0.215613)",
+      "targetLocal": "(0.000289, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.038003, 0.000000)",
+      "rotationDifference": 169.059631
+    },
+    {
+      "target": "pinky_01_palmMid_r",
+      "parent": "pinky_01_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.539524, 0.986334, 0.183906)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000140, 0.000021, -0.000115)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 132.243637
+    },
+    {
+      "target": "pinky_01_bulge_r",
+      "parent": "pinky_01_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.541119, 0.976681, 0.186686)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000241, 0.000026, -0.000123)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 134.155884
+    },
+    {
+      "target": "pinky_01_side_out_r",
+      "parent": "pinky_01_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.551893, 0.977678, 0.177974)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000228, 0.000111, -0.000013)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 130.088425
+    },
+    {
+      "target": "pinky_01_side_inn_r",
+      "parent": "pinky_01_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.551130, 0.981733, 0.196887)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000251, -0.000081, -0.000017)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 119.369766
+    },
+    {
+      "target": "pinky_01_half_r",
+      "parent": "pinky_01_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.547463, 1.002537, 0.181059)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 171.254944
+    },
+    {
+      "target": "ring_02_r",
+      "parent": "ring_01_r",
+      "source": "RightRingIntermediate",
+      "sourceParent": "RightRingProximal",
+      "targetPosition": "(0.565005, 0.977182, 0.218740)",
+      "sourcePosition": "(0.605636, 1.050614, 0.245619)",
+      "targetLocal": "(0.000431, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.044973, 0.000000)",
+      "rotationDifference": 176.851212
+    },
+    {
+      "target": "ring_01_palmMid_r",
+      "parent": "ring_01_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.548080, 0.994195, 0.208267)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000191, -0.000009, -0.000105)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 126.473518
+    },
+    {
+      "target": "ring_01_bulge_r",
+      "parent": "ring_01_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.551078, 0.984243, 0.211705)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000299, 0.000007, -0.000110)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 128.578934
+    },
+    {
+      "target": "ring_01_side_out_r",
+      "parent": "ring_01_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.564638, 0.984634, 0.201234)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000288, 0.000126, 0.000013)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 131.024719
+    },
+    {
+      "target": "ring_01_side_inn_r",
+      "parent": "ring_01_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.558669, 0.989883, 0.219671)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000309, -0.000072, -0.000015)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 116.149857
+    },
+    {
+      "target": "ring_01_half_r",
+      "parent": "ring_01_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.552595, 1.013674, 0.199505)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 170.911835
+    },
+    {
+      "target": "thumb_03_r",
+      "parent": "thumb_02_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.496725, 1.028588, 0.259157)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000285, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 160.600632
+    },
+    {
+      "target": "thumb_02_bulge_r",
+      "parent": "thumb_02_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.497485, 1.025577, 0.244460)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000194, -0.000016, -0.000118)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 160.681442
+    },
+    {
+      "target": "thumb_02_side_out_r",
+      "parent": "thumb_02_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.505450, 1.038191, 0.245452)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000121, 0.000086, -0.000036)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 89.6540756
+    },
+    {
+      "target": "thumb_02_side_inn_r",
+      "parent": "thumb_02_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.484897, 1.037717, 0.247142)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000132, -0.000114, 0.000015)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 106.025833
+    },
+    {
+      "target": "thumb_02_half_r",
+      "parent": "thumb_02_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.495985, 1.047222, 0.237544)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 153.150436
+    },
+    {
+      "target": "middle_02_r",
+      "parent": "middle_01_r",
+      "source": "RightMiddleIntermediate",
+      "sourceParent": "RightMiddleProximal",
+      "targetPosition": "(0.563993, 0.987008, 0.247424)",
+      "sourcePosition": "(0.604951, 1.062624, 0.279258)",
+      "targetLocal": "(0.000476, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.056542, 0.000000)",
+      "rotationDifference": 177.325821
+    },
+    {
+      "target": "middle_01_palmMid_r",
+      "parent": "middle_01_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.546322, 1.002754, 0.230399)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000214, -0.000003, -0.000128)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 115.5151
+    },
+    {
+      "target": "middle_01_bulge_r",
+      "parent": "middle_01_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.551728, 0.991190, 0.238834)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000366, 0.000006, -0.000109)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 131.265228
+    },
+    {
+      "target": "middle_01_side_out_r",
+      "parent": "middle_01_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.567709, 0.992302, 0.230316)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000343, 0.000122, 0.000028)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 126.822952
+    },
+    {
+      "target": "middle_01_side_inn_r",
+      "parent": "middle_01_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.556693, 1.000424, 0.247416)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000355, -0.000092, -0.000016)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 122.541847
+    },
+    {
+      "target": "middle_01_half_r",
+      "parent": "middle_01_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.553273, 1.024091, 0.219562)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 167.919525
+    },
+    {
+      "target": "index_02_r",
+      "parent": "index_01_r",
+      "source": "RightIndexIntermediate",
+      "sourceParent": "RightIndexProximal",
+      "targetPosition": "(0.548782, 1.000836, 0.264488)",
+      "sourcePosition": "(0.584219, 1.080763, 0.301042)",
+      "targetLocal": "(0.000413, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.051155, 0.000000)",
+      "rotationDifference": 169.322968
+    },
+    {
+      "target": "index_01_palmMid_r",
+      "parent": "index_01_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.534452, 1.016953, 0.249153)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000168, -0.000040, -0.000091)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 131.261963
+    },
+    {
+      "target": "index_01_bulge_r",
+      "parent": "index_01_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.536421, 1.007571, 0.255249)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000280, -0.000028, -0.000100)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 129.822876
+    },
+    {
+      "target": "index_01_side_out_r",
+      "parent": "index_01_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.553166, 1.009554, 0.249101)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000257, 0.000089, 0.000034)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 131.0925
+    },
+    {
+      "target": "index_01_side_inn_r",
+      "parent": "index_01_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.542156, 1.018378, 0.264640)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000270, -0.000120, 0.000023)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 118.065338
+    },
+    {
+      "target": "index_01_half_r",
+      "parent": "index_01_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.541053, 1.031608, 0.238106)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 163.6408
+    },
+    {
+      "target": "hand_tweak.L",
+      "parent": "MCH-hand_tweak.L",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.500589, 1.090606, 0.143736)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 91.23079
+    },
+    {
+      "target": "hand_fk.L",
+      "parent": "MCH-hand_fk.L",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.500589, 1.090606, 0.143736)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 91.23075
+    },
+    {
+      "target": "hand_tweak.R",
+      "parent": "MCH-hand_tweak.R",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.500589, 1.090606, 0.143736)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 91.2307739
+    },
+    {
+      "target": "hand_fk.R",
+      "parent": "MCH-hand_fk.R",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.500589, 1.090606, 0.143736)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 91.23073
+    },
+    {
+      "target": "pinky_03_l",
+      "parent": "pinky_02_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.549563, 0.955331, 0.196456)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000195, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 85.87517
+    },
+    {
+      "target": "pinky_02_bulge_l",
+      "parent": "pinky_02_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.543187, 0.962519, 0.191685)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000120, -0.000019, 0.000074)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 103.193382
+    },
+    {
+      "target": "pinky_02_side_out_l",
+      "parent": "pinky_02_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.549532, 0.959715, 0.185164)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000118, -0.000093, 0.000014)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 114.044136
+    },
+    {
+      "target": "pinky_02_side_inn_l",
+      "parent": "pinky_02_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.552930, 0.965714, 0.200246)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000105, 0.000067, -0.000026)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 140.598572
+    },
+    {
+      "target": "pinky_02_half_l",
+      "parent": "pinky_02_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.551898, 0.973698, 0.190361)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 100.948227
+    },
+    {
+      "target": "pinky_01_mcp_l",
+      "parent": "pinky_01_half_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.555718, 1.006715, 0.173743)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000048, -0.000053, -0.000118)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 140.864426
+    },
+    {
+      "target": "pinky_01_palm_l",
+      "parent": "pinky_01_half_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.537830, 0.991318, 0.178101)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000067, -0.000053, 0.000093)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 117.605179
+    },
+    {
+      "target": "ring_03_l",
+      "parent": "ring_02_l",
+      "source": "LeftRingDistal",
+      "sourceParent": "LeftRingIntermediate",
+      "targetPosition": "(-0.560061, 0.948809, 0.228748)",
+      "sourcePosition": "(-0.600022, 1.015248, 0.261671)",
+      "targetLocal": "(-0.000308, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039241, 0.000000)",
+      "rotationDifference": 87.7212143
+    },
+    {
+      "target": "ring_02_bulge_l",
+      "parent": "ring_02_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.554094, 0.962043, 0.221555)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000168, 0.000001, 0.000081)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 100.2787
+    },
+    {
+      "target": "ring_02_side_out_l",
+      "parent": "ring_02_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.563524, 0.958114, 0.213734)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000161, -0.000103, 0.000006)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 94.8857956
+    },
+    {
+      "target": "ring_02_side_inn_l",
+      "parent": "ring_02_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.565082, 0.964825, 0.229963)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000160, 0.000065, -0.000044)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 144.1611
+    },
+    {
+      "target": "ring_02_half_l",
+      "parent": "ring_02_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.564220, 0.976997, 0.216943)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 98.93645
+    },
+    {
+      "target": "ring_01_mcp_l",
+      "parent": "ring_01_half_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.562215, 1.017490, 0.193616)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000025, -0.000041, -0.000109)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 127.826729
+    },
+    {
+      "target": "ring_01_palm_l",
+      "parent": "ring_01_half_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.539119, 1.002239, 0.203996)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000084, 0.000036, 0.000155)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 114.753693
+    },
+    {
+      "target": "thumb_03_bulge_l",
+      "parent": "thumb_03_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.501050, 1.012683, 0.256420)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000099, -0.000010, 0.000124)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 108.11412
+    },
+    {
+      "target": "thumb_03_side_out_l",
+      "parent": "thumb_03_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.509381, 1.026030, 0.260144)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000025, -0.000119, 0.000031)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 105.42379
+    },
+    {
+      "target": "thumb_03_side_inn_l",
+      "parent": "thumb_03_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.486172, 1.021453, 0.258398)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(-0.000035, 0.000118, 0.000025)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 162.453949
+    },
+    {
+      "target": "thumb_03_half_l",
+      "parent": "thumb_03_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.496932, 1.027721, 0.259509)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 99.7411957
+    },
+    {
+      "target": "thumb_02_in_l",
+      "parent": "thumb_02_half_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.496361, 1.031307, 0.233757)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(-0.000068, 0.000030, 0.000138)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 126.570549
+    },
+    {
+      "target": "thumb_02_mcp_l",
+      "parent": "thumb_02_half_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.490097, 1.058380, 0.240379)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000061, 0.000035, -0.000117)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 93.81772
+    },
+    {
+      "target": "middle_03_l",
+      "parent": "middle_02_l",
+      "source": "LeftMiddleDistal",
+      "sourceParent": "LeftMiddleIntermediate",
+      "targetPosition": "(-0.561274, 0.960122, 0.261430)",
+      "sourcePosition": "(-0.598927, 1.025476, 0.299938)",
+      "targetLocal": "(-0.000294, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.042941, 0.000000)",
+      "rotationDifference": 92.383606
+    },
+    {
+      "target": "middle_02_bulge_l",
+      "parent": "middle_02_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.554175, 0.973132, 0.251587)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000140, 0.000011, 0.000089)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 107.292168
+    },
+    {
+      "target": "middle_02_side_out_l",
+      "parent": "middle_02_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.568067, 0.969579, 0.245964)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000128, -0.000099, -0.000019)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 98.19076
+    },
+    {
+      "target": "middle_02_side_inn_l",
+      "parent": "middle_02_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.562071, 0.979452, 0.262601)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000132, 0.000103, -0.000029)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 140.25885
+    },
+    {
+      "target": "middle_02_half_l",
+      "parent": "middle_02_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.564234, 0.985400, 0.246806)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 100.93261
+    },
+    {
+      "target": "middle_01_mcp_l",
+      "parent": "middle_01_half_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.561811, 1.031359, 0.215819)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000054, -0.000009, -0.000105)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 132.941
+    },
+    {
+      "target": "middle_01_palm_l",
+      "parent": "middle_01_half_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.537300, 1.011645, 0.224111)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000093, 0.000042, 0.000181)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 124.157951
+    },
+    {
+      "target": "index_03_l",
+      "parent": "index_02_l",
+      "source": "LeftIndexDistal",
+      "sourceParent": "LeftIndexIntermediate",
+      "targetPosition": "(-0.548949, 0.979723, 0.277811)",
+      "sourcePosition": "(-0.584858, 1.055656, 0.315515)",
+      "targetLocal": "(-0.000233, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.028987, 0.000000)",
+      "rotationDifference": 94.80454
+    },
+    {
+      "target": "index_02_bulge_l",
+      "parent": "index_02_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.539927, 0.986736, 0.270584)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000134, 0.000027, 0.000088)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 105.65139
+    },
+    {
+      "target": "index_02_side_out_l",
+      "parent": "index_02_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.551876, 0.984539, 0.264738)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000119, -0.000085, 0.000014)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 108.807724
+    },
+    {
+      "target": "index_02_side_inn_l",
+      "parent": "index_02_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.546815, 0.994271, 0.280832)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000130, 0.000104, -0.000035)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 137.026459
+    },
+    {
+      "target": "index_02_half_l",
+      "parent": "index_02_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.548788, 0.998901, 0.264591)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 99.21412
+    },
+    {
+      "target": "index_01_mcp_l",
+      "parent": "index_01_half_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.549702, 1.046061, 0.239070)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000078, 0.000044, -0.000150)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 138.340088
+    },
+    {
+      "target": "index_01_palm_l",
+      "parent": "index_01_half_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.528540, 1.024035, 0.243989)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000078, 0.000076, 0.000116)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 126.626152
+    },
+    {
+      "target": "pinky_03_r",
+      "parent": "pinky_02_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.551706, 0.957784, 0.196429)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000193, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 165.632843
+    },
+    {
+      "target": "pinky_02_bulge_r",
+      "parent": "pinky_02_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.543066, 0.961647, 0.192413)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000154, 0.000021, -0.000093)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 150.8833
+    },
+    {
+      "target": "pinky_02_side_out_r",
+      "parent": "pinky_02_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.549741, 0.959441, 0.185246)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000145, 0.000100, -0.000031)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 141.439743
+    },
+    {
+      "target": "pinky_02_side_inn_r",
+      "parent": "pinky_02_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.553131, 0.965218, 0.200858)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000135, -0.000065, 0.000011)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 99.14872
+    },
+    {
+      "target": "pinky_02_half_r",
+      "parent": "pinky_02_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.554016, 0.975961, 0.190398)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 156.8157
+    },
+    {
+      "target": "pinky_01_mcp_r",
+      "parent": "pinky_01_half_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.554879, 1.006812, 0.176100)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(-0.000038, 0.000037, 0.000083)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 119.593582
+    },
+    {
+      "target": "pinky_01_palm_r",
+      "parent": "pinky_01_half_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.536743, 0.991285, 0.178450)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000071, 0.000055, -0.000129)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 139.528732
+    },
+    {
+      "target": "ring_03_r",
+      "parent": "ring_02_r",
+      "source": "RightRingDistal",
+      "sourceParent": "RightRingIntermediate",
+      "targetPosition": "(0.560822, 0.948834, 0.230612)",
+      "sourcePosition": "(0.600021, 1.015248, 0.261672)",
+      "targetLocal": "(0.000310, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039242, 0.000000)",
+      "rotationDifference": 179.451843
+    },
+    {
+      "target": "ring_02_bulge_r",
+      "parent": "ring_02_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.553845, 0.961992, 0.221651)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000165, 0.000013, -0.000095)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 146.471573
+    },
+    {
+      "target": "ring_02_side_out_r",
+      "parent": "ring_02_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.563740, 0.958452, 0.213277)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000152, 0.000122, -0.000017)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 145.284744
+    },
+    {
+      "target": "ring_02_side_inn_r",
+      "parent": "ring_02_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.565166, 0.965516, 0.229875)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000149, -0.000052, 0.000033)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 94.18459
+    },
+    {
+      "target": "ring_02_half_r",
+      "parent": "ring_02_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.565005, 0.977183, 0.218740)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 153.340744
+    },
+    {
+      "target": "ring_01_mcp_r",
+      "parent": "ring_01_half_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.561989, 1.018620, 0.194588)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000037, 0.000043, 0.000103)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 113.225342
+    },
+    {
+      "target": "ring_01_palm_r",
+      "parent": "ring_01_half_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.539322, 1.003879, 0.203462)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000062, -0.000022, -0.000156)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 124.022163
+    },
+    {
+      "target": "thumb_03_bulge_r",
+      "parent": "thumb_03_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.500394, 1.012600, 0.256962)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000112, 0.000005, -0.000122)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 157.639221
+    },
+    {
+      "target": "thumb_03_side_out_r",
+      "parent": "thumb_03_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.508595, 1.025449, 0.260299)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000039, 0.000112, -0.000035)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 124.515289
+    },
+    {
+      "target": "thumb_03_side_inn_r",
+      "parent": "thumb_03_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.486648, 1.020225, 0.258908)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000057, -0.000114, -0.000032)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 104.525368
+    },
+    {
+      "target": "thumb_03_half_r",
+      "parent": "thumb_03_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.496725, 1.028588, 0.259157)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 160.600647
+    },
+    {
+      "target": "thumb_02_in_r",
+      "parent": "thumb_02_half_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.496026, 1.032255, 0.234049)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000071, -0.000030, -0.000133)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 152.293121
+    },
+    {
+      "target": "thumb_02_mcp_r",
+      "parent": "thumb_02_half_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.490284, 1.059363, 0.240630)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(-0.000057, -0.000030, 0.000121)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 144.280716
+    },
+    {
+      "target": "middle_03_r",
+      "parent": "middle_02_r",
+      "source": "RightMiddleDistal",
+      "sourceParent": "RightMiddleIntermediate",
+      "targetPosition": "(0.560969, 0.961181, 0.262366)",
+      "sourcePosition": "(0.598927, 1.025476, 0.299938)",
+      "targetLocal": "(0.000300, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.042941, 0.000000)",
+      "rotationDifference": 176.56369
+    },
+    {
+      "target": "middle_02_bulge_r",
+      "parent": "middle_02_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.554815, 0.973674, 0.251184)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000143, 0.000006, -0.000085)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 144.907089
+    },
+    {
+      "target": "middle_02_side_out_r",
+      "parent": "middle_02_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.568949, 0.970699, 0.245115)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000124, 0.000117, 0.000024)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 141.882584
+    },
+    {
+      "target": "middle_02_side_inn_r",
+      "parent": "middle_02_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.562411, 0.980492, 0.261310)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000127, -0.000083, 0.000027)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 98.239975
+    },
+    {
+      "target": "middle_02_half_r",
+      "parent": "middle_02_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.563993, 0.987008, 0.247424)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 153.6742
+    },
+    {
+      "target": "middle_01_mcp_r",
+      "parent": "middle_01_half_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.560399, 1.031190, 0.215570)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(-0.000063, 0.000020, 0.000086)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 117.009651
+    },
+    {
+      "target": "middle_01_palm_r",
+      "parent": "middle_01_half_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.536743, 1.010725, 0.223771)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000092, -0.000023, -0.000195)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 112.272858
+    },
+    {
+      "target": "index_03_r",
+      "parent": "index_02_r",
+      "source": "RightIndexDistal",
+      "sourceParent": "RightIndexIntermediate",
+      "targetPosition": "(0.548942, 0.981722, 0.277664)",
+      "sourcePosition": "(0.584858, 1.055656, 0.315516)",
+      "targetLocal": "(0.000232, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.028987, 0.000000)",
+      "rotationDifference": 167.307159
+    },
+    {
+      "target": "index_02_bulge_r",
+      "parent": "index_02_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.540274, 0.986078, 0.270725)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000156, -0.000015, -0.000091)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 139.387955
+    },
+    {
+      "target": "index_02_side_out_r",
+      "parent": "index_02_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.552427, 0.984293, 0.265664)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000143, 0.000091, -0.000011)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 137.460449
+    },
+    {
+      "target": "index_02_side_inn_r",
+      "parent": "index_02_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.546376, 0.993745, 0.281066)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000152, -0.000096, 0.000026)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 90.41627
+    },
+    {
+      "target": "index_02_half_r",
+      "parent": "index_02_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.548782, 1.000836, 0.264488)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 154.92868
+    },
+    {
+      "target": "index_01_mcp_r",
+      "parent": "index_01_half_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.547394, 1.045511, 0.240154)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(-0.000079, -0.000051, 0.000122)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 111.896446
+    },
+    {
+      "target": "index_01_palm_r",
+      "parent": "index_01_half_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.528835, 1.023785, 0.243765)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000072, -0.000063, -0.000123)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 122.727028
+    },
+    {
+      "target": "pinky_03_bulge_l",
+      "parent": "pinky_03_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.541489, 0.949138, 0.200712)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000086, 0.000024, 0.000065)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 103.968407
+    },
+    {
+      "target": "pinky_03_half_l",
+      "parent": "pinky_03_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.549563, 0.955331, 0.196456)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 102.308922
+    },
+    {
+      "target": "pinky_02_in_l",
+      "parent": "pinky_02_half_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.543764, 0.970961, 0.188236)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(-0.000029, -0.000025, 0.000080)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 103.983223
+    },
+    {
+      "target": "pinky_02_pip_l",
+      "parent": "pinky_02_half_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.560532, 0.974290, 0.186409)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000028, -0.000040, -0.000082)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 137.664124
+    },
+    {
+      "target": "ring_03_bulge_l",
+      "parent": "ring_03_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.552327, 0.944805, 0.230123)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000058, 0.000011, 0.000065)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 99.52995
+    },
+    {
+      "target": "ring_03_half_l",
+      "parent": "ring_03_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.560061, 0.948809, 0.228748)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 100.761742
+    },
+    {
+      "target": "ring_02_in_l",
+      "parent": "ring_02_half_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.554344, 0.975206, 0.215788)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000025, 0.000002, 0.000098)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 105.394028
+    },
+    {
+      "target": "ring_02_pip_l",
+      "parent": "ring_02_half_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.575545, 0.977496, 0.215270)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000026, -0.000035, -0.000106)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 138.749878
+    },
+    {
+      "target": "thumb_03_pip_l",
+      "parent": "thumb_03_half_l",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.494752, 1.034702, 0.268474)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(-0.000002, -0.000002, -0.000116)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 108.180946
+    },
+    {
+      "target": "thumb_03_in_l",
+      "parent": "thumb_03_half_l",
+      "source": "LeftPinkyDistal",
+      "sourceParent": "LeftPinkyIntermediate",
+      "targetPosition": "(-0.499295, 1.020965, 0.251113)",
+      "sourcePosition": "(-0.587143, 1.023705, 0.223402)",
+      "targetLocal": "(0.000000, -0.000001, 0.000110)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 109.401421
+    },
+    {
+      "target": "middle_03_bulge_l",
+      "parent": "middle_03_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.552103, 0.952253, 0.264414)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000097, 0.000015, 0.000076)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 106.824249
+    },
+    {
+      "target": "middle_03_half_l",
+      "parent": "middle_03_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.561274, 0.960122, 0.261430)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 102.3843
+    },
+    {
+      "target": "middle_02_pip_l",
+      "parent": "middle_02_half_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.575714, 0.989201, 0.246832)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000044, -0.000020, -0.000111)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 136.963364
+    },
+    {
+      "target": "middle_02_in_l",
+      "parent": "middle_02_half_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.553772, 0.983445, 0.244625)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(-0.000017, 0.000008, 0.000107)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 107.556229
+    },
+    {
+      "target": "index_03_bulge_l",
+      "parent": "index_03_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.541056, 0.969805, 0.280738)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(-0.000103, 0.000012, 0.000078)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 107.889809
+    },
+    {
+      "target": "index_03_half_l",
+      "parent": "index_03_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.548949, 0.979723, 0.277811)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 100.284744
+    },
+    {
+      "target": "index_02_in_l",
+      "parent": "index_02_half_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.538815, 0.998444, 0.262749)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000007, 0.000034, 0.000095)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 100.763313
+    },
+    {
+      "target": "index_02_pip_l",
+      "parent": "index_02_half_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.557774, 1.004795, 0.265478)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000043, -0.000009, -0.000099)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 142.252151
+    },
+    {
+      "target": "pinky_03_bulge_r",
+      "parent": "pinky_03_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.541857, 0.948804, 0.200769)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000116, -0.000017, -0.000077)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 149.15387
+    },
+    {
+      "target": "pinky_03_half_r",
+      "parent": "pinky_03_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.551706, 0.957784, 0.196429)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 153.962433
+    },
+    {
+      "target": "pinky_02_in_r",
+      "parent": "pinky_02_half_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.543414, 0.969693, 0.189154)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000068, 0.000027, -0.000100)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 148.0085
+    },
+    {
+      "target": "pinky_02_pip_r",
+      "parent": "pinky_02_half_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.560749, 0.973883, 0.187121)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000001, 0.000041, 0.000066)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 113.070839
+    },
+    {
+      "target": "ring_03_bulge_r",
+      "parent": "ring_03_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.552571, 0.944385, 0.230367)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000058, 0.000004, -0.000074)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 147.94165
+    },
+    {
+      "target": "ring_03_half_r",
+      "parent": "ring_03_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.560822, 0.948834, 0.230612)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 149.891983
+    },
+    {
+      "target": "ring_02_in_r",
+      "parent": "ring_02_half_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.554994, 0.974061, 0.216308)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(0.000033, 0.000014, -0.000102)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 132.483
+    },
+    {
+      "target": "ring_02_pip_r",
+      "parent": "ring_02_half_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.574825, 0.978347, 0.215164)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000038, 0.000047, 0.000086)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 106.066322
+    },
+    {
+      "target": "thumb_03_pip_r",
+      "parent": "thumb_03_half_r",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.494852, 1.033724, 0.267574)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000013, 0.000001, 0.000100)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 147.648163
+    },
+    {
+      "target": "thumb_03_in_r",
+      "parent": "thumb_03_half_r",
+      "source": "RightPinkyDistal",
+      "sourceParent": "RightPinkyIntermediate",
+      "targetPosition": "(0.498464, 1.019719, 0.252014)",
+      "sourcePosition": "(0.587143, 1.023705, 0.223403)",
+      "targetLocal": "(0.000024, -0.000007, -0.000112)",
+      "sourceLocal": "(0.000000, 0.021955, 0.000000)",
+      "rotationDifference": 161.310684
+    },
+    {
+      "target": "middle_03_bulge_r",
+      "parent": "middle_03_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.552573, 0.951959, 0.264220)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000102, 0.000003, -0.000073)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 140.095276
+    },
+    {
+      "target": "middle_03_half_r",
+      "parent": "middle_03_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.560969, 0.961181, 0.262367)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 150.866821
+    },
+    {
+      "target": "middle_02_pip_r",
+      "parent": "middle_02_half_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.576199, 0.990302, 0.246173)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(-0.000047, 0.000035, 0.000113)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 110.170746
+    },
+    {
+      "target": "middle_02_in_r",
+      "parent": "middle_02_half_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.555680, 0.982715, 0.245598)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000036, 0.000008, -0.000088)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 143.101761
+    },
+    {
+      "target": "index_03_bulge_r",
+      "parent": "index_03_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.540995, 0.969006, 0.281558)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000132, -0.000005, -0.000081)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 136.828537
+    },
+    {
+      "target": "index_03_half_r",
+      "parent": "index_03_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.548942, 0.981721, 0.277664)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 152.051926
+    },
+    {
+      "target": "index_02_in_r",
+      "parent": "index_02_half_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.539620, 0.997708, 0.262877)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000016, -0.000019, -0.000095)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 145.665192
+    },
+    {
+      "target": "index_02_pip_r",
+      "parent": "index_02_half_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.556735, 1.005414, 0.266116)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(-0.000028, 0.000005, 0.000089)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 104.780952
+    },
+    {
+      "target": "thumb.01_master.L",
+      "parent": "ORG-palm.01.L",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.486905, 1.071393, 0.201844)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000206, -0.000077, 0.000234)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 81.11664
+    },
+    {
+      "target": "thumb.01_master.R",
+      "parent": "ORG-palm.01.R",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.486905, 1.071392, 0.201844)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(-0.000206, -0.000077, 0.000234)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 81.11662
+    },
+    {
+      "target": "pinky_03_in_l",
+      "parent": "pinky_03_half_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.543521, 0.958588, 0.196059)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000020, 0.000010, 0.000065)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 103.255463
+    },
+    {
+      "target": "pinky_02_dip_l",
+      "parent": "pinky_03_half_l",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.556855, 0.954094, 0.195765)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000004, -0.000014, -0.000073)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 146.10791
+    },
+    {
+      "target": "ring_02_dip_l",
+      "parent": "ring_03_half_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.568677, 0.949248, 0.228310)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000024, -0.000019, -0.000081)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 147.012543
+    },
+    {
+      "target": "ring_03_in_l",
+      "parent": "ring_03_half_l",
+      "source": "LeftRingMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.553897, 0.950965, 0.226826)",
+      "sourcePosition": "(-0.558484, 1.137030, 0.197379)",
+      "targetLocal": "(0.000013, 0.000004, 0.000067)",
+      "sourceLocal": "(0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 100.411964
+    },
+    {
+      "target": "middle_03_in_l",
+      "parent": "middle_03_half_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.553536, 0.960772, 0.259717)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000001, 0.000016, 0.000078)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 107.39035
+    },
+    {
+      "target": "middle_02_dip_l",
+      "parent": "middle_03_half_l",
+      "source": "LeftMiddleMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.569401, 0.960337, 0.262753)",
+      "sourcePosition": "(-0.559032, 1.144616, 0.211769)",
+      "targetLocal": "(0.000009, -0.000016, -0.000080)",
+      "sourceLocal": "(0.009053, 0.041535, 0.004921)",
+      "rotationDifference": 147.813431
+    },
+    {
+      "target": "index_02_dip_l",
+      "parent": "index_03_half_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.556772, 0.981083, 0.279038)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000009, -0.000023, -0.000076)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 143.645813
+    },
+    {
+      "target": "index_03_in_l",
+      "parent": "index_03_half_l",
+      "source": "LeftIndexMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.541242, 0.979287, 0.275619)",
+      "sourcePosition": "(-0.546510, 1.154594, 0.233581)",
+      "targetLocal": "(0.000004, 0.000020, 0.000078)",
+      "sourceLocal": "(0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 106.144341
+    },
+    {
+      "target": "pinky_03_in_r",
+      "parent": "pinky_03_half_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.543720, 0.957666, 0.196639)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000017, -0.000006, -0.000078)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 147.235947
+    },
+    {
+      "target": "pinky_02_dip_r",
+      "parent": "pinky_03_half_r",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.556831, 0.954222, 0.195423)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000020, 0.000023, 0.000055)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 108.329872
+    },
+    {
+      "target": "ring_02_dip_r",
+      "parent": "ring_03_half_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.567971, 0.948860, 0.228207)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000025, 0.000036, 0.000062)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 98.33259
+    },
+    {
+      "target": "ring_03_in_r",
+      "parent": "ring_03_half_r",
+      "source": "RightRingMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.554145, 0.949885, 0.227484)",
+      "sourcePosition": "(0.558483, 1.137030, 0.197379)",
+      "targetLocal": "(-0.000006, 0.000010, -0.000073)",
+      "sourceLocal": "(-0.004706, 0.040036, -0.010694)",
+      "rotationDifference": 145.0292
+    },
+    {
+      "target": "middle_03_in_r",
+      "parent": "middle_03_half_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.553597, 0.960314, 0.259681)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(0.000007, 0.000001, -0.000079)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 142.961487
+    },
+    {
+      "target": "middle_02_dip_r",
+      "parent": "middle_03_half_r",
+      "source": "RightMiddleMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.569115, 0.960138, 0.262197)",
+      "sourcePosition": "(0.559031, 1.144616, 0.211770)",
+      "targetLocal": "(-0.000005, 0.000034, 0.000075)",
+      "sourceLocal": "(-0.009054, 0.041535, 0.004921)",
+      "rotationDifference": 105.152832
+    },
+    {
+      "target": "index_02_dip_r",
+      "parent": "index_03_half_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.555325, 0.980929, 0.280204)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000017, 0.000017, 0.000065)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 102.92382
+    },
+    {
+      "target": "index_03_in_r",
+      "parent": "index_03_half_r",
+      "source": "RightIndexMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.540785, 0.977209, 0.276515)",
+      "sourcePosition": "(0.546510, 1.154595, 0.233581)",
+      "targetLocal": "(0.000036, -0.000010, -0.000086)",
+      "sourceLocal": "(-0.003606, 0.038452, 0.031244)",
+      "rotationDifference": 140.275055
+    },
+    {
+      "target": "thumb.01.L",
+      "parent": "MCH-thumb.01_drv.L",
+      "source": "LeftPinkyMetacarpal",
+      "sourceParent": "LeftHand",
+      "targetPosition": "(-0.486905, 1.071393, 0.201844)",
+      "sourcePosition": "(-0.555246, 1.131358, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(-0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 81.11669
+    },
+    {
+      "target": "thumb.01.R",
+      "parent": "MCH-thumb.01_drv.R",
+      "source": "RightPinkyMetacarpal",
+      "sourceParent": "RightHand",
+      "targetPosition": "(0.486905, 1.071392, 0.201844)",
+      "sourcePosition": "(0.555246, 1.131359, 0.183343)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000865, 0.035993, -0.024560)",
+      "rotationDifference": 81.11666
+    },
+    {
+      "target": "thumb.02.L",
+      "parent": "MCH-thumb.02_drv.L",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.491911, 1.050398, 0.233067)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 38.7586937
+    },
+    {
+      "target": "thumb.02.R",
+      "parent": "MCH-thumb.02_drv.R",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.491910, 1.050397, 0.233067)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 38.75865
+    },
+    {
+      "target": "thumb.03.L",
+      "parent": "MCH-thumb.03_drv.L",
+      "source": "LeftThumbDistal",
+      "sourceParent": "LeftThumbIntermediate",
+      "targetPosition": "(-0.496777, 1.026991, 0.261534)",
+      "sourcePosition": "(-0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 36.19509
+    },
+    {
+      "target": "thumb.03.R",
+      "parent": "MCH-thumb.03_drv.R",
+      "source": "RightThumbDistal",
+      "sourceParent": "RightThumbIntermediate",
+      "targetPosition": "(0.496776, 1.026989, 0.261534)",
+      "sourcePosition": "(0.526356, 1.104520, 0.295110)",
+      "targetLocal": "(0.000000, 0.000000, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039298, 0.000000)",
+      "rotationDifference": 36.1951141
+    },
+    {
+      "target": "thumb.01.L.001",
+      "parent": "thumb.03.L",
+      "source": "LeftRingDistal",
+      "sourceParent": "LeftRingIntermediate",
+      "targetPosition": "(-0.500844, 1.001400, 0.279279)",
+      "sourcePosition": "(-0.600022, 1.015248, 0.261671)",
+      "targetLocal": "(0.000000, 0.000314, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039241, 0.000000)",
+      "rotationDifference": 156.995834
+    },
+    {
+      "target": "thumb.01.R.001",
+      "parent": "thumb.03.R",
+      "source": "RightRingDistal",
+      "sourceParent": "RightRingIntermediate",
+      "targetPosition": "(0.500844, 1.001398, 0.279279)",
+      "sourcePosition": "(0.600021, 1.015248, 0.261672)",
+      "targetLocal": "(0.000000, 0.000314, 0.000000)",
+      "sourceLocal": "(0.000000, 0.039242, 0.000000)",
+      "rotationDifference": 156.995865
+    }
+  ],
+  "bodyBones": [
+    {
+      "name": "root",
+      "parent": "BAKED_Ethan_NewMetaHumanCharacter_body_rig"
+    },
+    {
+      "name": "pelvis",
+      "parent": "root"
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis"
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01"
+    },
+    {
+      "name": "spine_03",
+      "parent": "spine_02"
+    },
+    {
+      "name": "spine_04",
+      "parent": "spine_03"
+    },
+    {
+      "name": "spine_05",
+      "parent": "spine_04"
+    },
+    {
+      "name": "neck_01",
+      "parent": "spine_05"
+    },
+    {
+      "name": "neck_02",
+      "parent": "neck_01"
+    },
+    {
+      "name": "head",
+      "parent": "neck_02"
+    },
+    {
+      "name": "clavicle_l",
+      "parent": "spine_05"
+    },
+    {
+      "name": "upperarm_l",
+      "parent": "clavicle_l"
+    },
+    {
+      "name": "upperarm_correctiveRoot_l",
+      "parent": "upperarm_l"
+    },
+    {
+      "name": "upperarm_bck_l",
+      "parent": "upperarm_correctiveRoot_l"
+    },
+    {
+      "name": "upperarm_fwd_l",
+      "parent": "upperarm_correctiveRoot_l"
+    },
+    {
+      "name": "upperarm_in_l",
+      "parent": "upperarm_correctiveRoot_l"
+    },
+    {
+      "name": "upperarm_out_l",
+      "parent": "upperarm_correctiveRoot_l"
+    },
+    {
+      "name": "lowerarm_l",
+      "parent": "upperarm_l"
+    },
+    {
+      "name": "hand_l",
+      "parent": "lowerarm_l"
+    },
+    {
+      "name": "pinky_metacarpal_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "pinky_01_l",
+      "parent": "pinky_metacarpal_l"
+    },
+    {
+      "name": "pinky_02_l",
+      "parent": "pinky_01_l"
+    },
+    {
+      "name": "pinky_03_l",
+      "parent": "pinky_02_l"
+    },
+    {
+      "name": "pinky_03_bulge_l",
+      "parent": "pinky_03_l"
+    },
+    {
+      "name": "pinky_03_half_l",
+      "parent": "pinky_03_l"
+    },
+    {
+      "name": "pinky_03_in_l",
+      "parent": "pinky_03_half_l"
+    },
+    {
+      "name": "pinky_02_dip_l",
+      "parent": "pinky_03_half_l"
+    },
+    {
+      "name": "pinky_02_bulge_l",
+      "parent": "pinky_02_l"
+    },
+    {
+      "name": "pinky_02_side_out_l",
+      "parent": "pinky_02_l"
+    },
+    {
+      "name": "pinky_02_side_inn_l",
+      "parent": "pinky_02_l"
+    },
+    {
+      "name": "pinky_02_half_l",
+      "parent": "pinky_02_l"
+    },
+    {
+      "name": "pinky_02_in_l",
+      "parent": "pinky_02_half_l"
+    },
+    {
+      "name": "pinky_02_pip_l",
+      "parent": "pinky_02_half_l"
+    },
+    {
+      "name": "pinky_01_palmMid_l",
+      "parent": "pinky_01_l"
+    },
+    {
+      "name": "pinky_01_bulge_l",
+      "parent": "pinky_01_l"
+    },
+    {
+      "name": "pinky_01_side_out_l",
+      "parent": "pinky_01_l"
+    },
+    {
+      "name": "pinky_01_side_inn_l",
+      "parent": "pinky_01_l"
+    },
+    {
+      "name": "pinky_01_half_l",
+      "parent": "pinky_01_l"
+    },
+    {
+      "name": "pinky_01_mcp_l",
+      "parent": "pinky_01_half_l"
+    },
+    {
+      "name": "pinky_01_palm_l",
+      "parent": "pinky_01_half_l"
+    },
+    {
+      "name": "pinky_metacarpal_slide_l",
+      "parent": "pinky_metacarpal_l"
+    },
+    {
+      "name": "ring_metacarpal_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "ring_01_l",
+      "parent": "ring_metacarpal_l"
+    },
+    {
+      "name": "ring_02_l",
+      "parent": "ring_01_l"
+    },
+    {
+      "name": "ring_03_l",
+      "parent": "ring_02_l"
+    },
+    {
+      "name": "ring_03_bulge_l",
+      "parent": "ring_03_l"
+    },
+    {
+      "name": "ring_03_half_l",
+      "parent": "ring_03_l"
+    },
+    {
+      "name": "ring_02_dip_l",
+      "parent": "ring_03_half_l"
+    },
+    {
+      "name": "ring_03_in_l",
+      "parent": "ring_03_half_l"
+    },
+    {
+      "name": "ring_02_bulge_l",
+      "parent": "ring_02_l"
+    },
+    {
+      "name": "ring_02_side_out_l",
+      "parent": "ring_02_l"
+    },
+    {
+      "name": "ring_02_side_inn_l",
+      "parent": "ring_02_l"
+    },
+    {
+      "name": "ring_02_half_l",
+      "parent": "ring_02_l"
+    },
+    {
+      "name": "ring_02_in_l",
+      "parent": "ring_02_half_l"
+    },
+    {
+      "name": "ring_02_pip_l",
+      "parent": "ring_02_half_l"
+    },
+    {
+      "name": "ring_01_palmMid_l",
+      "parent": "ring_01_l"
+    },
+    {
+      "name": "ring_01_bulge_l",
+      "parent": "ring_01_l"
+    },
+    {
+      "name": "ring_01_side_out_l",
+      "parent": "ring_01_l"
+    },
+    {
+      "name": "ring_01_side_inn_l",
+      "parent": "ring_01_l"
+    },
+    {
+      "name": "ring_01_half_l",
+      "parent": "ring_01_l"
+    },
+    {
+      "name": "ring_01_mcp_l",
+      "parent": "ring_01_half_l"
+    },
+    {
+      "name": "ring_01_palm_l",
+      "parent": "ring_01_half_l"
+    },
+    {
+      "name": "ring_metacarpal_slide_l",
+      "parent": "ring_metacarpal_l"
+    },
+    {
+      "name": "thumb_01_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "thumb_02_l",
+      "parent": "thumb_01_l"
+    },
+    {
+      "name": "thumb_03_l",
+      "parent": "thumb_02_l"
+    },
+    {
+      "name": "thumb_03_bulge_l",
+      "parent": "thumb_03_l"
+    },
+    {
+      "name": "thumb_03_side_out_l",
+      "parent": "thumb_03_l"
+    },
+    {
+      "name": "thumb_03_side_inn_l",
+      "parent": "thumb_03_l"
+    },
+    {
+      "name": "thumb_03_half_l",
+      "parent": "thumb_03_l"
+    },
+    {
+      "name": "thumb_03_pip_l",
+      "parent": "thumb_03_half_l"
+    },
+    {
+      "name": "thumb_03_in_l",
+      "parent": "thumb_03_half_l"
+    },
+    {
+      "name": "thumb_02_bulge_l",
+      "parent": "thumb_02_l"
+    },
+    {
+      "name": "thumb_02_side_out_l",
+      "parent": "thumb_02_l"
+    },
+    {
+      "name": "thumb_02_side_inn_l",
+      "parent": "thumb_02_l"
+    },
+    {
+      "name": "thumb_02_half_l",
+      "parent": "thumb_02_l"
+    },
+    {
+      "name": "thumb_02_in_l",
+      "parent": "thumb_02_half_l"
+    },
+    {
+      "name": "thumb_02_mcp_l",
+      "parent": "thumb_02_half_l"
+    },
+    {
+      "name": "thumb_01_side_out_l",
+      "parent": "thumb_01_l"
+    },
+    {
+      "name": "thumb_01_side_inn_l",
+      "parent": "thumb_01_l"
+    },
+    {
+      "name": "middle_metacarpal_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "middle_01_l",
+      "parent": "middle_metacarpal_l"
+    },
+    {
+      "name": "middle_02_l",
+      "parent": "middle_01_l"
+    },
+    {
+      "name": "middle_03_l",
+      "parent": "middle_02_l"
+    },
+    {
+      "name": "middle_03_bulge_l",
+      "parent": "middle_03_l"
+    },
+    {
+      "name": "middle_03_half_l",
+      "parent": "middle_03_l"
+    },
+    {
+      "name": "middle_03_in_l",
+      "parent": "middle_03_half_l"
+    },
+    {
+      "name": "middle_02_dip_l",
+      "parent": "middle_03_half_l"
+    },
+    {
+      "name": "middle_02_bulge_l",
+      "parent": "middle_02_l"
+    },
+    {
+      "name": "middle_02_side_out_l",
+      "parent": "middle_02_l"
+    },
+    {
+      "name": "middle_02_side_inn_l",
+      "parent": "middle_02_l"
+    },
+    {
+      "name": "middle_02_half_l",
+      "parent": "middle_02_l"
+    },
+    {
+      "name": "middle_02_pip_l",
+      "parent": "middle_02_half_l"
+    },
+    {
+      "name": "middle_02_in_l",
+      "parent": "middle_02_half_l"
+    },
+    {
+      "name": "middle_01_palmMid_l",
+      "parent": "middle_01_l"
+    },
+    {
+      "name": "middle_01_bulge_l",
+      "parent": "middle_01_l"
+    },
+    {
+      "name": "middle_01_side_out_l",
+      "parent": "middle_01_l"
+    },
+    {
+      "name": "middle_01_side_inn_l",
+      "parent": "middle_01_l"
+    },
+    {
+      "name": "middle_01_half_l",
+      "parent": "middle_01_l"
+    },
+    {
+      "name": "middle_01_mcp_l",
+      "parent": "middle_01_half_l"
+    },
+    {
+      "name": "middle_01_palm_l",
+      "parent": "middle_01_half_l"
+    },
+    {
+      "name": "middle_metacarpal_slide_l",
+      "parent": "middle_metacarpal_l"
+    },
+    {
+      "name": "index_metacarpal_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "index_01_l",
+      "parent": "index_metacarpal_l"
+    },
+    {
+      "name": "index_02_l",
+      "parent": "index_01_l"
+    },
+    {
+      "name": "index_03_l",
+      "parent": "index_02_l"
+    },
+    {
+      "name": "index_03_bulge_l",
+      "parent": "index_03_l"
+    },
+    {
+      "name": "index_03_half_l",
+      "parent": "index_03_l"
+    },
+    {
+      "name": "index_02_dip_l",
+      "parent": "index_03_half_l"
+    },
+    {
+      "name": "index_03_in_l",
+      "parent": "index_03_half_l"
+    },
+    {
+      "name": "index_02_bulge_l",
+      "parent": "index_02_l"
+    },
+    {
+      "name": "index_02_side_out_l",
+      "parent": "index_02_l"
+    },
+    {
+      "name": "index_02_side_inn_l",
+      "parent": "index_02_l"
+    },
+    {
+      "name": "index_02_half_l",
+      "parent": "index_02_l"
+    },
+    {
+      "name": "index_02_in_l",
+      "parent": "index_02_half_l"
+    },
+    {
+      "name": "index_02_pip_l",
+      "parent": "index_02_half_l"
+    },
+    {
+      "name": "index_01_palmMid_l",
+      "parent": "index_01_l"
+    },
+    {
+      "name": "index_01_bulge_l",
+      "parent": "index_01_l"
+    },
+    {
+      "name": "index_01_side_out_l",
+      "parent": "index_01_l"
+    },
+    {
+      "name": "index_01_side_inn_l",
+      "parent": "index_01_l"
+    },
+    {
+      "name": "index_01_half_l",
+      "parent": "index_01_l"
+    },
+    {
+      "name": "index_01_mcp_l",
+      "parent": "index_01_half_l"
+    },
+    {
+      "name": "index_01_palm_l",
+      "parent": "index_01_half_l"
+    },
+    {
+      "name": "index_metacarpal_slide_l",
+      "parent": "index_metacarpal_l"
+    },
+    {
+      "name": "wrist_inner_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "wrist_outer_l",
+      "parent": "hand_l"
+    },
+    {
+      "name": "lowerarm_twist_02_l",
+      "parent": "lowerarm_l"
+    },
+    {
+      "name": "lowerarm_twist_01_l",
+      "parent": "lowerarm_l"
+    },
+    {
+      "name": "lowerarm_correctiveRoot_l",
+      "parent": "lowerarm_l"
+    },
+    {
+      "name": "lowerarm_in_l",
+      "parent": "lowerarm_correctiveRoot_l"
+    },
+    {
+      "name": "lowerarm_out_l",
+      "parent": "lowerarm_correctiveRoot_l"
+    },
+    {
+      "name": "lowerarm_fwd_l",
+      "parent": "lowerarm_correctiveRoot_l"
+    },
+    {
+      "name": "lowerarm_bck_l",
+      "parent": "lowerarm_correctiveRoot_l"
+    },
+    {
+      "name": "upperarm_twist_01_l",
+      "parent": "upperarm_l"
+    },
+    {
+      "name": "upperarm_twistCor_01_l",
+      "parent": "upperarm_twist_01_l"
+    },
+    {
+      "name": "upperarm_twist_02_l",
+      "parent": "upperarm_l"
+    },
+    {
+      "name": "upperarm_tricep_l",
+      "parent": "upperarm_twist_02_l"
+    },
+    {
+      "name": "upperarm_bicep_l",
+      "parent": "upperarm_twist_02_l"
+    },
+    {
+      "name": "upperarm_twistCor_02_l",
+      "parent": "upperarm_twist_02_l"
+    },
+    {
+      "name": "clavicle_out_l",
+      "parent": "clavicle_l"
+    },
+    {
+      "name": "clavicle_scap_l",
+      "parent": "clavicle_l"
+    },
+    {
+      "name": "clavicle_r",
+      "parent": "spine_05"
+    },
+    {
+      "name": "upperarm_r",
+      "parent": "clavicle_r"
+    },
+    {
+      "name": "upperarm_correctiveRoot_r",
+      "parent": "upperarm_r"
+    },
+    {
+      "name": "upperarm_bck_r",
+      "parent": "upperarm_correctiveRoot_r"
+    },
+    {
+      "name": "upperarm_in_r",
+      "parent": "upperarm_correctiveRoot_r"
+    },
+    {
+      "name": "upperarm_fwd_r",
+      "parent": "upperarm_correctiveRoot_r"
+    },
+    {
+      "name": "upperarm_out_r",
+      "parent": "upperarm_correctiveRoot_r"
+    },
+    {
+      "name": "lowerarm_r",
+      "parent": "upperarm_r"
+    },
+    {
+      "name": "hand_r",
+      "parent": "lowerarm_r"
+    },
+    {
+      "name": "pinky_metacarpal_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "pinky_01_r",
+      "parent": "pinky_metacarpal_r"
+    },
+    {
+      "name": "pinky_02_r",
+      "parent": "pinky_01_r"
+    },
+    {
+      "name": "pinky_03_r",
+      "parent": "pinky_02_r"
+    },
+    {
+      "name": "pinky_03_bulge_r",
+      "parent": "pinky_03_r"
+    },
+    {
+      "name": "pinky_03_half_r",
+      "parent": "pinky_03_r"
+    },
+    {
+      "name": "pinky_03_in_r",
+      "parent": "pinky_03_half_r"
+    },
+    {
+      "name": "pinky_02_dip_r",
+      "parent": "pinky_03_half_r"
+    },
+    {
+      "name": "pinky_02_bulge_r",
+      "parent": "pinky_02_r"
+    },
+    {
+      "name": "pinky_02_side_out_r",
+      "parent": "pinky_02_r"
+    },
+    {
+      "name": "pinky_02_side_inn_r",
+      "parent": "pinky_02_r"
+    },
+    {
+      "name": "pinky_02_half_r",
+      "parent": "pinky_02_r"
+    },
+    {
+      "name": "pinky_02_in_r",
+      "parent": "pinky_02_half_r"
+    },
+    {
+      "name": "pinky_02_pip_r",
+      "parent": "pinky_02_half_r"
+    },
+    {
+      "name": "pinky_01_palmMid_r",
+      "parent": "pinky_01_r"
+    },
+    {
+      "name": "pinky_01_bulge_r",
+      "parent": "pinky_01_r"
+    },
+    {
+      "name": "pinky_01_side_out_r",
+      "parent": "pinky_01_r"
+    },
+    {
+      "name": "pinky_01_side_inn_r",
+      "parent": "pinky_01_r"
+    },
+    {
+      "name": "pinky_01_half_r",
+      "parent": "pinky_01_r"
+    },
+    {
+      "name": "pinky_01_mcp_r",
+      "parent": "pinky_01_half_r"
+    },
+    {
+      "name": "pinky_01_palm_r",
+      "parent": "pinky_01_half_r"
+    },
+    {
+      "name": "pinky_metacarpal_slide_r",
+      "parent": "pinky_metacarpal_r"
+    },
+    {
+      "name": "ring_metacarpal_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "ring_01_r",
+      "parent": "ring_metacarpal_r"
+    },
+    {
+      "name": "ring_02_r",
+      "parent": "ring_01_r"
+    },
+    {
+      "name": "ring_03_r",
+      "parent": "ring_02_r"
+    },
+    {
+      "name": "ring_03_bulge_r",
+      "parent": "ring_03_r"
+    },
+    {
+      "name": "ring_03_half_r",
+      "parent": "ring_03_r"
+    },
+    {
+      "name": "ring_02_dip_r",
+      "parent": "ring_03_half_r"
+    },
+    {
+      "name": "ring_03_in_r",
+      "parent": "ring_03_half_r"
+    },
+    {
+      "name": "ring_02_bulge_r",
+      "parent": "ring_02_r"
+    },
+    {
+      "name": "ring_02_side_out_r",
+      "parent": "ring_02_r"
+    },
+    {
+      "name": "ring_02_side_inn_r",
+      "parent": "ring_02_r"
+    },
+    {
+      "name": "ring_02_half_r",
+      "parent": "ring_02_r"
+    },
+    {
+      "name": "ring_02_in_r",
+      "parent": "ring_02_half_r"
+    },
+    {
+      "name": "ring_02_pip_r",
+      "parent": "ring_02_half_r"
+    },
+    {
+      "name": "ring_01_palmMid_r",
+      "parent": "ring_01_r"
+    },
+    {
+      "name": "ring_01_bulge_r",
+      "parent": "ring_01_r"
+    },
+    {
+      "name": "ring_01_side_out_r",
+      "parent": "ring_01_r"
+    },
+    {
+      "name": "ring_01_side_inn_r",
+      "parent": "ring_01_r"
+    },
+    {
+      "name": "ring_01_half_r",
+      "parent": "ring_01_r"
+    },
+    {
+      "name": "ring_01_mcp_r",
+      "parent": "ring_01_half_r"
+    },
+    {
+      "name": "ring_01_palm_r",
+      "parent": "ring_01_half_r"
+    },
+    {
+      "name": "ring_metacarpal_slide_r",
+      "parent": "ring_metacarpal_r"
+    },
+    {
+      "name": "thumb_01_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "thumb_02_r",
+      "parent": "thumb_01_r"
+    },
+    {
+      "name": "thumb_03_r",
+      "parent": "thumb_02_r"
+    },
+    {
+      "name": "thumb_03_bulge_r",
+      "parent": "thumb_03_r"
+    },
+    {
+      "name": "thumb_03_side_out_r",
+      "parent": "thumb_03_r"
+    },
+    {
+      "name": "thumb_03_side_inn_r",
+      "parent": "thumb_03_r"
+    },
+    {
+      "name": "thumb_03_half_r",
+      "parent": "thumb_03_r"
+    },
+    {
+      "name": "thumb_03_pip_r",
+      "parent": "thumb_03_half_r"
+    },
+    {
+      "name": "thumb_03_in_r",
+      "parent": "thumb_03_half_r"
+    },
+    {
+      "name": "thumb_02_bulge_r",
+      "parent": "thumb_02_r"
+    },
+    {
+      "name": "thumb_02_side_out_r",
+      "parent": "thumb_02_r"
+    },
+    {
+      "name": "thumb_02_side_inn_r",
+      "parent": "thumb_02_r"
+    },
+    {
+      "name": "thumb_02_half_r",
+      "parent": "thumb_02_r"
+    },
+    {
+      "name": "thumb_02_in_r",
+      "parent": "thumb_02_half_r"
+    },
+    {
+      "name": "thumb_02_mcp_r",
+      "parent": "thumb_02_half_r"
+    },
+    {
+      "name": "thumb_01_side_out_r",
+      "parent": "thumb_01_r"
+    },
+    {
+      "name": "thumb_01_side_inn_r",
+      "parent": "thumb_01_r"
+    },
+    {
+      "name": "middle_metacarpal_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "middle_01_r",
+      "parent": "middle_metacarpal_r"
+    },
+    {
+      "name": "middle_02_r",
+      "parent": "middle_01_r"
+    },
+    {
+      "name": "middle_03_r",
+      "parent": "middle_02_r"
+    },
+    {
+      "name": "middle_03_bulge_r",
+      "parent": "middle_03_r"
+    },
+    {
+      "name": "middle_03_half_r",
+      "parent": "middle_03_r"
+    },
+    {
+      "name": "middle_03_in_r",
+      "parent": "middle_03_half_r"
+    },
+    {
+      "name": "middle_02_dip_r",
+      "parent": "middle_03_half_r"
+    },
+    {
+      "name": "middle_02_bulge_r",
+      "parent": "middle_02_r"
+    },
+    {
+      "name": "middle_02_side_out_r",
+      "parent": "middle_02_r"
+    },
+    {
+      "name": "middle_02_side_inn_r",
+      "parent": "middle_02_r"
+    },
+    {
+      "name": "middle_02_half_r",
+      "parent": "middle_02_r"
+    },
+    {
+      "name": "middle_02_pip_r",
+      "parent": "middle_02_half_r"
+    },
+    {
+      "name": "middle_02_in_r",
+      "parent": "middle_02_half_r"
+    },
+    {
+      "name": "middle_01_palmMid_r",
+      "parent": "middle_01_r"
+    },
+    {
+      "name": "middle_01_bulge_r",
+      "parent": "middle_01_r"
+    },
+    {
+      "name": "middle_01_side_out_r",
+      "parent": "middle_01_r"
+    },
+    {
+      "name": "middle_01_side_inn_r",
+      "parent": "middle_01_r"
+    },
+    {
+      "name": "middle_01_half_r",
+      "parent": "middle_01_r"
+    },
+    {
+      "name": "middle_01_mcp_r",
+      "parent": "middle_01_half_r"
+    },
+    {
+      "name": "middle_01_palm_r",
+      "parent": "middle_01_half_r"
+    },
+    {
+      "name": "middle_metacarpal_slide_r",
+      "parent": "middle_metacarpal_r"
+    },
+    {
+      "name": "index_metacarpal_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "index_01_r",
+      "parent": "index_metacarpal_r"
+    },
+    {
+      "name": "index_02_r",
+      "parent": "index_01_r"
+    },
+    {
+      "name": "index_03_r",
+      "parent": "index_02_r"
+    },
+    {
+      "name": "index_03_bulge_r",
+      "parent": "index_03_r"
+    },
+    {
+      "name": "index_03_half_r",
+      "parent": "index_03_r"
+    },
+    {
+      "name": "index_02_dip_r",
+      "parent": "index_03_half_r"
+    },
+    {
+      "name": "index_03_in_r",
+      "parent": "index_03_half_r"
+    },
+    {
+      "name": "index_02_bulge_r",
+      "parent": "index_02_r"
+    },
+    {
+      "name": "index_02_side_out_r",
+      "parent": "index_02_r"
+    },
+    {
+      "name": "index_02_side_inn_r",
+      "parent": "index_02_r"
+    },
+    {
+      "name": "index_02_half_r",
+      "parent": "index_02_r"
+    },
+    {
+      "name": "index_02_in_r",
+      "parent": "index_02_half_r"
+    },
+    {
+      "name": "index_02_pip_r",
+      "parent": "index_02_half_r"
+    },
+    {
+      "name": "index_01_palmMid_r",
+      "parent": "index_01_r"
+    },
+    {
+      "name": "index_01_bulge_r",
+      "parent": "index_01_r"
+    },
+    {
+      "name": "index_01_side_out_r",
+      "parent": "index_01_r"
+    },
+    {
+      "name": "index_01_side_inn_r",
+      "parent": "index_01_r"
+    },
+    {
+      "name": "index_01_half_r",
+      "parent": "index_01_r"
+    },
+    {
+      "name": "index_01_mcp_r",
+      "parent": "index_01_half_r"
+    },
+    {
+      "name": "index_01_palm_r",
+      "parent": "index_01_half_r"
+    },
+    {
+      "name": "index_metacarpal_slide_r",
+      "parent": "index_metacarpal_r"
+    },
+    {
+      "name": "wrist_inner_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "wrist_outer_r",
+      "parent": "hand_r"
+    },
+    {
+      "name": "lowerarm_twist_02_r",
+      "parent": "lowerarm_r"
+    },
+    {
+      "name": "lowerarm_twist_01_r",
+      "parent": "lowerarm_r"
+    },
+    {
+      "name": "lowerarm_correctiveRoot_r",
+      "parent": "lowerarm_r"
+    },
+    {
+      "name": "lowerarm_out_r",
+      "parent": "lowerarm_correctiveRoot_r"
+    },
+    {
+      "name": "lowerarm_in_r",
+      "parent": "lowerarm_correctiveRoot_r"
+    },
+    {
+      "name": "lowerarm_fwd_r",
+      "parent": "lowerarm_correctiveRoot_r"
+    },
+    {
+      "name": "lowerarm_bck_r",
+      "parent": "lowerarm_correctiveRoot_r"
+    },
+    {
+      "name": "upperarm_twist_01_r",
+      "parent": "upperarm_r"
+    },
+    {
+      "name": "upperarm_twistCor_01_r",
+      "parent": "upperarm_twist_01_r"
+    },
+    {
+      "name": "upperarm_twist_02_r",
+      "parent": "upperarm_r"
+    },
+    {
+      "name": "upperarm_tricep_r",
+      "parent": "upperarm_twist_02_r"
+    },
+    {
+      "name": "upperarm_bicep_r",
+      "parent": "upperarm_twist_02_r"
+    },
+    {
+      "name": "upperarm_twistCor_02_r",
+      "parent": "upperarm_twist_02_r"
+    },
+    {
+      "name": "clavicle_out_r",
+      "parent": "clavicle_r"
+    },
+    {
+      "name": "clavicle_scap_r",
+      "parent": "clavicle_r"
+    },
+    {
+      "name": "clavicle_pec_r",
+      "parent": "spine_05"
+    },
+    {
+      "name": "spine_04_latissimus_l",
+      "parent": "spine_05"
+    },
+    {
+      "name": "spine_04_latissimus_r",
+      "parent": "spine_05"
+    },
+    {
+      "name": "clavicle_pec_l",
+      "parent": "spine_05"
+    },
+    {
+      "name": "thigh_r",
+      "parent": "pelvis"
+    },
+    {
+      "name": "calf_r",
+      "parent": "thigh_r"
+    },
+    {
+      "name": "foot_r",
+      "parent": "calf_r"
+    },
+    {
+      "name": "ball_r",
+      "parent": "foot_r"
+    },
+    {
+      "name": "littletoe_01_r",
+      "parent": "ball_r"
+    },
+    {
+      "name": "littletoe_02_r",
+      "parent": "littletoe_01_r"
+    },
+    {
+      "name": "ringtoe_01_r",
+      "parent": "ball_r"
+    },
+    {
+      "name": "ringtoe_02_r",
+      "parent": "ringtoe_01_r"
+    },
+    {
+      "name": "middletoe_01_r",
+      "parent": "ball_r"
+    },
+    {
+      "name": "middletoe_02_r",
+      "parent": "middletoe_01_r"
+    },
+    {
+      "name": "bigtoe_01_r",
+      "parent": "ball_r"
+    },
+    {
+      "name": "bigtoe_02_r",
+      "parent": "bigtoe_01_r"
+    },
+    {
+      "name": "indextoe_01_r",
+      "parent": "ball_r"
+    },
+    {
+      "name": "indextoe_02_r",
+      "parent": "indextoe_01_r"
+    },
+    {
+      "name": "ankle_bck_r",
+      "parent": "foot_r"
+    },
+    {
+      "name": "ankle_fwd_r",
+      "parent": "foot_r"
+    },
+    {
+      "name": "calf_twist_02_r",
+      "parent": "calf_r"
+    },
+    {
+      "name": "calf_twistCor_02_r",
+      "parent": "calf_twist_02_r"
+    },
+    {
+      "name": "calf_twist_01_r",
+      "parent": "calf_r"
+    },
+    {
+      "name": "calf_correctiveRoot_r",
+      "parent": "calf_r"
+    },
+    {
+      "name": "calf_kneeBack_r",
+      "parent": "calf_correctiveRoot_r"
+    },
+    {
+      "name": "calf_knee_r",
+      "parent": "calf_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_twist_01_r",
+      "parent": "thigh_r"
+    },
+    {
+      "name": "thigh_twistCor_01_r",
+      "parent": "thigh_twist_01_r"
+    },
+    {
+      "name": "thigh_twist_02_r",
+      "parent": "thigh_r"
+    },
+    {
+      "name": "thigh_twistCor_02_r",
+      "parent": "thigh_twist_02_r"
+    },
+    {
+      "name": "thigh_correctiveRoot_r",
+      "parent": "thigh_r"
+    },
+    {
+      "name": "thigh_fwd_r",
+      "parent": "thigh_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_bck_r",
+      "parent": "thigh_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_out_r",
+      "parent": "thigh_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_in_r",
+      "parent": "thigh_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_bck_lwr_r",
+      "parent": "thigh_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_fwd_lwr_r",
+      "parent": "thigh_correctiveRoot_r"
+    },
+    {
+      "name": "thigh_l",
+      "parent": "pelvis"
+    },
+    {
+      "name": "calf_l",
+      "parent": "thigh_l"
+    },
+    {
+      "name": "foot_l",
+      "parent": "calf_l"
+    },
+    {
+      "name": "ball_l",
+      "parent": "foot_l"
+    },
+    {
+      "name": "indextoe_01_l",
+      "parent": "ball_l"
+    },
+    {
+      "name": "indextoe_02_l",
+      "parent": "indextoe_01_l"
+    },
+    {
+      "name": "bigtoe_01_l",
+      "parent": "ball_l"
+    },
+    {
+      "name": "bigtoe_02_l",
+      "parent": "bigtoe_01_l"
+    },
+    {
+      "name": "littletoe_01_l",
+      "parent": "ball_l"
+    },
+    {
+      "name": "littletoe_02_l",
+      "parent": "littletoe_01_l"
+    },
+    {
+      "name": "middletoe_01_l",
+      "parent": "ball_l"
+    },
+    {
+      "name": "middletoe_02_l",
+      "parent": "middletoe_01_l"
+    },
+    {
+      "name": "ringtoe_01_l",
+      "parent": "ball_l"
+    },
+    {
+      "name": "ringtoe_02_l",
+      "parent": "ringtoe_01_l"
+    },
+    {
+      "name": "ankle_bck_l",
+      "parent": "foot_l"
+    },
+    {
+      "name": "ankle_fwd_l",
+      "parent": "foot_l"
+    },
+    {
+      "name": "calf_twist_02_l",
+      "parent": "calf_l"
+    },
+    {
+      "name": "calf_twistCor_02_l",
+      "parent": "calf_twist_02_l"
+    },
+    {
+      "name": "calf_twist_01_l",
+      "parent": "calf_l"
+    },
+    {
+      "name": "calf_correctiveRoot_l",
+      "parent": "calf_l"
+    },
+    {
+      "name": "calf_kneeBack_l",
+      "parent": "calf_correctiveRoot_l"
+    },
+    {
+      "name": "calf_knee_l",
+      "parent": "calf_correctiveRoot_l"
+    },
+    {
+      "name": "thigh_twist_01_l",
+      "parent": "thigh_l"
+    },
+    {
+      "name": "thigh_twistCor_01_l",
+      "parent": "thigh_twist_01_l"
+    },
+    {
+      "name": "thigh_twist_02_l",
+      "parent": "thigh_l"
+    },
+    {
+      "name": "thigh_twistCor_02_l",
+      "parent": "thigh_twist_02_l"
+    },
+    {
+      "name": "thigh_correctiveRoot_l",
+      "parent": "thigh_l"
+    },
+    {
+      "name": "thigh_bck_l",
+      "parent": "thigh_correctiveRoot_l"
+    },
+    {
+      "name": "thigh_fwd_l",
+      "parent": "thigh_correctiveRoot_l"
+    },
+    {
+      "name": "thigh_out_l",
+      "parent": "thigh_correctiveRoot_l"
+    },
+    {
+      "name": "thigh_bck_lwr_l",
+      "parent": "thigh_correctiveRoot_l"
+    },
+    {
+      "name": "thigh_in_l",
+      "parent": "thigh_correctiveRoot_l"
+    },
+    {
+      "name": "thigh_fwd_lwr_l",
+      "parent": "thigh_correctiveRoot_l"
+    }
+  ]
+}

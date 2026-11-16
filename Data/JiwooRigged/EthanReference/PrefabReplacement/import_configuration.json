@@ -1,0 +1,25 @@
+{
+  "avatarValid": true,
+  "humanoid": true,
+  "humanBones": 52,
+  "calibratedFrom": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Rigged.fbx",
+  "referenceTPoseValid": true,
+  "rootScale": "(1.00, 1.00, 1.00)",
+  "bakeAxisConversion": true,
+  "bones": 160,
+  "sceneRoots": [
+    "Main Camera",
+    "Directional Light",
+    "Canvas",
+    "EventSystem",
+    "DialogueDemo",
+    "Ethan",
+    "Jiwoo_EthanSetup",
+    "Studio Volume",
+    "Left Light",
+    "Right Light",
+    "Ethan Studio Reflections",
+    "Jiwoo_Normalized",
+    "CharacterSelection"
+  ]
+}

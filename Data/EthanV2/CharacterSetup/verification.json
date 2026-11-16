@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "configurationErrors": [],
+  "avatar": "Ethan_unityAvatar",
+  "humanoid": true,
+  "bindings": 1080,
+  "neutralErrorsM": {
+    "BAKED_body_lod0_mesh": 8.335354E-07,
+    "BAKED_head_lod0_mesh": 1.07588039E-06,
+    "BAKED_Outfits_LOD0": 7.23167034E-07
+  },
+  "sampledClip": "Waving",
+  "visibleMeshMovementM": {
+    "BAKED_body_lod0_mesh": 1.048101,
+    "BAKED_head_lod0_mesh": 0.05208932,
+    "BAKED_Outfits_LOD0": 0.3923207
+  },
+  "phaseSamples": [
+    {
+      "definition": "Breathing Idle",
+      "clip": "Breathing Idle",
+      "maximumVertexRadiusM": 1.57396448
+    },
+    {
+      "definition": "Idle",
+      "clip": "Idle",
+      "maximumVertexRadiusM": 1.58313847
+    },
+    {
+      "definition": "Thinking",
+      "clip": "Thinking",
+      "maximumVertexRadiusM": 1.66961515
+    }
+  ],
+  "faceExpressionPreserved": true,
+  "lipSyncCallbackRemapped": true,
+  "phonemes": 8,
+  "synchronizedFacialMeshes": 9,
+  "synchronizedChecks": 657,
+  "playModeTested": false
+}

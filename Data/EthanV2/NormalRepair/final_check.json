@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "geometryExact": true,
+  "importerMetadataRestored": true,
+  "live": [
+    {
+      "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "mesh": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Head_FacialHairOptimized.asset",
+      "matches": true
+    }
+  ],
+  "temporaryReviewRemoved": true,
+  "playing": false,
+  "sceneSaved": false
+}

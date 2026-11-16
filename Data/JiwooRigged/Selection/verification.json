@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "sceneVoice": {
+    "root": "Jiwoo_Normalized",
+    "validHumanoid": true,
+    "namedVisemes": 8,
+    "profile": "Profile_Liora_ID",
+    "idle": "Remy@Idle",
+    "thinking": "Remy@Thinking",
+    "greeting": "Greeting Flow",
+    "response": "Jiwoo Response",
+    "idlePauseSeconds": 1.0
+  },
+  "prefabVoice": {
+    "root": "Jiwoo_Normalized",
+    "validHumanoid": true,
+    "namedVisemes": 8,
+    "profile": "Profile_Liora_ID",
+    "idle": "Remy@Idle",
+    "thinking": "Remy@Thinking",
+    "greeting": "Greeting Flow",
+    "response": "Jiwoo Response",
+    "idlePauseSeconds": 1.0
+  },
+  "boyButton": "SelectBoy",
+  "girlButton": "SelectGirl",
+  "initialSelection": "Ethan",
+  "protectedAssetsUnchanged": 29,
+  "playModeEntered": false,
+  "liveTestingPerformed": false
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "lash_vertices": 52032,
+  "head_vertices": 340466,
+  "shape_comparisons_including_basis": 74,
+  "max_fbx_lash_position_error_m": 1.07765890788869e-06,
+  "original_mesh_shape_comparisons": 888,
+  "max_original_geometry_roundtrip_error_m": 1.673285623837728e-06,
+  "mesh_count": 12,
+  "hidden_authoring_exported": false,
+  "materials": [
+    "Ethan_NewMetaHumanCharacter_head_shader",
+    "Ethan_V2_Eyebrows",
+    "Ethan_V2_EyelashStrands"
+  ]
+}

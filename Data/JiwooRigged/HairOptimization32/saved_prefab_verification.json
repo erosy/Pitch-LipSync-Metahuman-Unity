@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "preservedUnrelatedBlocks": 364,
+  "variant": "Assets/_Sandbox/Characters/Jiwoo New/Groom/Jiwoo_Scalp_32.asset",
+  "particles": 3215936,
+  "simulationHz": 30,
+  "missingScripts": 0,
+  "configurationErrors": [],
+  "headBoundary": "DiscreteSDF",
+  "editModeSimulation": false,
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": false,
+      "groom": "Assets/_Sandbox/Characters/Jiwoo New/Groom/Jiwoo_Scalp_32.asset",
+      "rate": "Fixed30Hz",
+      "editModeSimulation": false
+    }
+  ],
+  "runtimeTested": false
+}

@@ -1,0 +1,40 @@
+{
+  "grooms": [
+    {
+      "label": "Scalp",
+      "strandCount": 100498,
+      "strandParticleCount": 64,
+      "maxLength": 0.351923168,
+      "diameter": 0.0001,
+      "lods": 1
+    },
+    {
+      "label": "Eyebrows",
+      "strandCount": 1915,
+      "strandParticleCount": 32,
+      "maxLength": 0.008612332,
+      "diameter": 7E-05,
+      "lods": 1
+    },
+    {
+      "label": "Eyelashes",
+      "strandCount": 787,
+      "strandParticleCount": 32,
+      "maxLength": 0.009857158,
+      "diameter": 5E-05,
+      "lods": 1
+    }
+  ],
+  "materials": [
+    "Jiwoo_Outfit",
+    "Jiwoo_Body",
+    "Jiwoo_Head",
+    "Jiwoo_Teeth",
+    "Jiwoo_Saliva",
+    "Jiwoo_Eyes",
+    "Jiwoo_Eyes",
+    "Jiwoo_EyeShell",
+    "Jiwoo_EyeEdge",
+    "Jiwoo_Cartilage"
+  ]
+}

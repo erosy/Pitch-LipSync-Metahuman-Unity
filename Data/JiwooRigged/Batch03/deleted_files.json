@@ -1,0 +1,177 @@
+﻿[
+    {
+        "path":  "Data/JiwooReimport",
+        "files":  97,
+        "bytes":  1305010633
+    },
+    {
+        "path":  "Data/JiwooRigged/Batch02/Before",
+        "files":  24,
+        "bytes":  277668
+    },
+    {
+        "path":  "Data/JiwooRigged/Batch02/before.json",
+        "files":  1,
+        "bytes":  25930
+    },
+    {
+        "path":  "Data/JiwooRigged/Batch02/unity_shape_positions.bin",
+        "files":  1,
+        "bytes":  62187528
+    },
+    {
+        "path":  "Data/JiwooRigged/Batch02/unity_geometry.json",
+        "files":  1,
+        "bytes":  1196469
+    },
+    {
+        "path":  "Docs/JiwooReplacementHair.md",
+        "files":  1,
+        "bytes":  2760
+    },
+    {
+        "path":  "Docs/JiwooReimportBatch01.md",
+        "files":  1,
+        "bytes":  3735
+    },
+    {
+        "path":  "Docs/JiwooReimportBatch02.md",
+        "files":  1,
+        "bytes":  4077
+    },
+    {
+        "path":  "Docs/JiwooReimportUnityImport.md",
+        "files":  1,
+        "bytes":  7937
+    },
+    {
+        "path":  "Tools/Hair/ApplyJiwooFacialRepair.cs",
+        "files":  1,
+        "bytes":  3541
+    },
+    {
+        "path":  "Tools/Hair/ApplyJiwooReplacement.cs",
+        "files":  1,
+        "bytes":  5913
+    },
+    {
+        "path":  "Tools/Hair/AuditJiwooFacialSetup.cs",
+        "files":  1,
+        "bytes":  2791
+    },
+    {
+        "path":  "Tools/Hair/CheckJiwooFacialRepair.cs",
+        "files":  1,
+        "bytes":  3085
+    },
+    {
+        "path":  "Tools/Hair/CheckJiwooReplacement.cs",
+        "files":  1,
+        "bytes":  5448
+    },
+    {
+        "path":  "Tools/Hair/CopyJiwooFaceMaterials.cs",
+        "files":  1,
+        "bytes":  2672
+    },
+    {
+        "path":  "Tools/Hair/FixJiwooFacialSetup.cs",
+        "files":  1,
+        "bytes":  4183
+    },
+    {
+        "path":  "Tools/Hair/ImportJiwooReplacement.cs",
+        "files":  1,
+        "bytes":  2811
+    },
+    {
+        "path":  "Tools/Hair/InspectJiwooReplacement.cs",
+        "files":  1,
+        "bytes":  1637
+    },
+    {
+        "path":  "Tools/Hair/JiwooExportVerification.cs",
+        "files":  1,
+        "bytes":  6636
+    },
+    {
+        "path":  "Tools/Hair/JiwooMaterialAssignment.cs",
+        "files":  1,
+        "bytes":  5102
+    },
+    {
+        "path":  "Tools/Hair/SetupJiwooCharacter.cs",
+        "files":  1,
+        "bytes":  14665
+    },
+    {
+        "path":  "Tools/Hair/audit_facial_source_curves.py",
+        "files":  1,
+        "bytes":  992
+    },
+    {
+        "path":  "Tools/Hair/audit_jiwoo_blender.py",
+        "files":  1,
+        "bytes":  5772
+    },
+    {
+        "path":  "Tools/Hair/check_jiwoo_unity_import.py",
+        "files":  1,
+        "bytes":  3739
+    },
+    {
+        "path":  "Tools/Hair/export_jiwoo_batch03.py",
+        "files":  1,
+        "bytes":  7715
+    },
+    {
+        "path":  "Tools/Hair/inspect_jiwoo_facial_grooms.py",
+        "files":  1,
+        "bytes":  1612
+    },
+    {
+        "path":  "Tools/Hair/prepare_jiwoo_export.py",
+        "files":  1,
+        "bytes":  13393
+    },
+    {
+        "path":  "Tools/Hair/prepare_jiwoo_facial_grooms.py",
+        "files":  1,
+        "bytes":  10674
+    },
+    {
+        "path":  "Tools/Hair/prepare_jiwoo_replacement.py",
+        "files":  1,
+        "bytes":  3775
+    },
+    {
+        "path":  "Tools/Hair/preview_jiwoo_prepared.py",
+        "files":  1,
+        "bytes":  1447
+    },
+    {
+        "path":  "Tools/Hair/repair_jiwoo_facial_grooms.py",
+        "files":  1,
+        "bytes":  5087
+    },
+    {
+        "path":  "Tools/Hair/verify_facial_repair.py",
+        "files":  1,
+        "bytes":  1297
+    },
+    {
+        "path":  "Tools/Hair/verify_jiwoo_batch03_blender.py",
+        "files":  1,
+        "bytes":  5463
+    },
+    {
+        "path":  "Tools/Hair/verify_jiwoo_facial_grooms.py",
+        "files":  1,
+        "bytes":  2224
+    },
+    {
+        "path":  "Tools/Hair/verify_jiwoo_replacement.py",
+        "files":  1,
+        "bytes":  910
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "previewStopped": true,
+  "nonzeroWeights": [],
+  "playing": false,
+  "headMesh": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Head_FacialHairOptimized.asset",
+  "vertexCount": 104632,
+  "triangles": 187041,
+  "shapes": 73,
+  "meshMiB": 117.0497,
+  "sceneSaved": false,
+  "runtimeReplayVerified": false
+}

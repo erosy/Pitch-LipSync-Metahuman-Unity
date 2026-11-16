@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "asset": true,
+      "rootActive": true,
+      "avatar": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+      "faceVertices": 129822,
+      "outfitVertices": 5038,
+      "shapeCount": 73,
+      "readiness": true
+    },
+    {
+      "asset": false,
+      "rootActive": true,
+      "avatar": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+      "faceVertices": 129822,
+      "outfitVertices": 5038,
+      "shapeCount": 73,
+      "readiness": true
+    }
+  ],
+  "referenceTPoseValid": true,
+  "alembicDependencies": 0,
+  "oldModelDependency": false,
+  "clips": [
+    {
+      "name": "Thinking",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "__preview__mixamo.com",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "Talking (1)",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "__preview__mixamo.com",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "Standing Thumbs Up",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "__preview__mixamo.com",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "Waving",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "__preview__mixamo.com",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "Idle",
+      "isHumanMotion": true,
+      "isLooping": false
+    },
+    {
+      "name": "__preview__mixamo.com",
+      "isHumanMotion": true,
+      "isLooping": false
+    }
+  ],
+  "prefabGuid": "48dcd3a0926950846ad911bc2abe8ce9",
+  "playModeEntered": false,
+  "sceneDirty": true
+}

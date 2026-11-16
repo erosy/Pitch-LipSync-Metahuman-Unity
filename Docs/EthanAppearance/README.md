@@ -37,7 +37,7 @@ The starting lighting values were visually too dim after removing the original +
 
 Neutral and ACES cheek samples measure approximately 150.94 and 150.87 on a 0–255 display-luma scale at matching exposure. These are brightness-matching diagnostics, not a perceptual color-accuracy score. ACES has stronger contrast and a different color response; Neutral remains selected for the softer portrait.
 
-The studio map is produced from three white, HDR unlit softbox cards on a temporary isolated capture layer. Ethan is excluded. Capture cards are destroyed after baking, so there are no extra cards or layer-name changes in the saved scene. The probe uses **Custom** mode with `customBakedTexture` pointing to the baked EXR. Unity's standalone `BakeReflectionProbe` assignment to `bakedTexture` did not survive scene reload without scene lighting data; the explicit custom slot fixes persistence. This is still a static, precomputed reflection, not a realtime probe. `BakeEyeStudio.cs` recreates the map if needed.
+The studio map is produced from three white, HDR unlit softbox cards on a temporary isolated capture layer. Ethan is excluded. Capture cards are destroyed after baking, so there are no extra cards or layer-name changes in the saved scene. The probe uses **Custom** mode with `customBakedTexture` pointing to the baked EXR. Unity's standalone `BakeReflectionProbe` assignment to `bakedTexture` did not survive scene reload without scene lighting data; the explicit custom slot fixes persistence. This is still a static, precomputed reflection, not a realtime probe.
 
 ## Jaw-side shading follow-up
 
@@ -64,7 +64,7 @@ The scene overrides Ethan's face slots 0/1/3/4 and the outfit material. Source m
 
 The existing shared URP asset changes color grading from LDR to HDR. The shared renderer carries the SSAO settings listed above. These shared settings can affect other scenes/characters using them; this pass visually validates Ethan only.
 
-`Tools/Appearance` contains Editor-evaluated implementation and validation scripts. They are outside Assets and introduce no runtime scripts or public APIs. To reproduce from the preserved baseline: run `Prepare.cs`, `Apply.cs`, `BakeEyeStudio.cs`, `Calibrate.cs`, then `SaveSelection.cs` using `unity command eval_file --caller plugin --skill urp-postprocessing --file <path>`. Apply/Calibrate reset this pass's values; do not rerun over subsequent artistic edits without reviewing them.
+The one-off appearance authoring tools have been retired. Maintain the current scene/material assets directly and preserve later artistic edits when reviewing the recorded baseline.
 
 To inspect the alternate, assign `Ethan_ACES.asset` to Studio Volume's Profile. Assign `Ethan_Neutral.asset` to return. Both use the same materials and lighting; no double tonemapping or LUT is involved.
 

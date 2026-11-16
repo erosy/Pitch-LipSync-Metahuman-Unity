@@ -1,0 +1,6 @@
+{
+  "logs": [
+    "AvatarBuilder 'BAKED_rig': Transform 'DEF-spine' is not an ancestor of 'DEF-thigh.L'"
+  ],
+  "duplicates": []
+}

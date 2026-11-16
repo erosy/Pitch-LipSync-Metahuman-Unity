@@ -1,0 +1,2261 @@
+{
+  "source": "C:\\Users\\ina17\\Downloads\\Jiwoo_Rigged.blend",
+  "source_sha256": "3e171164402183e051db1253e53e10a6c3e79a8ad4e21359b35ce60e3ccb11bc",
+  "dna": "C:\\Users\\ina17\\Downloads\\Jiwoo_DNA_MetaHumanCharacter\\head.dna",
+  "dna_sha256": "0ebbfbf0deeae447c82b9d0d13f736a2f1c4eeab24baa6ff115771bcebe7757c",
+  "reference": {
+    "source": "D:\\UnityProject\\MetahumanTemplate\\Assets\\_Sandbox\\Characters\\Ethan\\Ethan_unity.fbx",
+    "sha256": "7ecec6ccb11e55d1ac13242198529229b6d95ac3ee72b20d756b100c6947884e",
+    "face_vertices": 99970,
+    "shape_names": [
+      "eyeBlinkLeft",
+      "eyeBlinkRight",
+      "eyeWideLeft",
+      "eyeWideRight",
+      "eyeSquintLeft",
+      "eyeSquintRight",
+      "eyeLookUpLeft",
+      "eyeLookDownLeft",
+      "eyeLookInLeft",
+      "eyeLookOutLeft",
+      "eyeLookUpRight",
+      "eyeLookDownRight",
+      "eyeLookInRight",
+      "eyeLookOutRight",
+      "browDownLeft",
+      "browDownRight",
+      "browInnerUp",
+      "browOuterUpLeft",
+      "browOuterUpRight",
+      "cheekPuff",
+      "cheekSquintLeft",
+      "cheekSquintRight",
+      "noseSneerLeft",
+      "noseSneerRight",
+      "jawOpen",
+      "jawForward",
+      "jawLeft",
+      "jawRight",
+      "mouthClose",
+      "mouthFunnel",
+      "mouthPucker",
+      "mouthLeft",
+      "mouthRight",
+      "mouthSmileLeft",
+      "mouthSmileRight",
+      "mouthFrownLeft",
+      "mouthFrownRight",
+      "mouthDimpleLeft",
+      "mouthDimpleRight",
+      "mouthStretchLeft",
+      "mouthStretchRight",
+      "mouthRollLower",
+      "mouthRollUpper",
+      "mouthShrugLower",
+      "mouthShrugUpper",
+      "mouthPressLeft",
+      "mouthPressRight",
+      "mouthLowerDownLeft",
+      "mouthLowerDownRight",
+      "mouthUpperUpLeft",
+      "mouthUpperUpRight",
+      "tongueOut",
+      "viseme_sil",
+      "viseme_PP",
+      "viseme_FF",
+      "viseme_TH",
+      "viseme_DD",
+      "viseme_kk",
+      "viseme_CH",
+      "viseme_SS",
+      "viseme_nn",
+      "viseme_RR",
+      "viseme_aa",
+      "viseme_E",
+      "viseme_I",
+      "viseme_O",
+      "viseme_U",
+      "emo_joy",
+      "emo_sadness",
+      "emo_anger",
+      "emo_surprise",
+      "emo_fear",
+      "emo_disgust"
+    ],
+    "materials": [
+      "Ethan_NewMetaHumanCharacter_head_shader",
+      "Ethan_NewMetaHumanCharacter_body_shader",
+      "Ethan_NewMetaHumanCharacter_teeth_shader",
+      "Ethan_NewMetaHumanCharacter_eyeLeft_shader",
+      "Ethan_NewMetaHumanCharacter_eyeRight_shader",
+      "Ethan_NewMetaHumanCharacter_cartilage_shader",
+      "Hair"
+    ]
+  },
+  "method": "Jiwoo DNA RigLogic raw controls, joint outputs converted using delivered legacy plan, DNA corrective shapes mapped by exact neutral vertex correspondence; evaluated world-space geometry baked onto a neutral deform rig.",
+  "pose_mapping": {
+    "eyeBlinkLeft": {
+      "eyeBlinkL": 1.0
+    },
+    "eyeWideLeft": {
+      "eyeWidenL": 1.0
+    },
+    "eyeSquintLeft": {
+      "eyeSquintInnerL": 0.8,
+      "eyeCheekRaiseL": 0.6,
+      "eyeBlinkL": 0.2
+    },
+    "browDownLeft": {
+      "browDownL": 1.0
+    },
+    "browOuterUpLeft": {
+      "browRaiseOuterL": 1.0
+    },
+    "cheekSquintLeft": {
+      "eyeCheekRaiseL": 1.0
+    },
+    "noseSneerLeft": {
+      "noseWrinkleL": 1.0
+    },
+    "mouthSmileLeft": {
+      "mouthCornerPullL": 1.0
+    },
+    "mouthFrownLeft": {
+      "mouthCornerDepressL": 1.0
+    },
+    "mouthDimpleLeft": {
+      "mouthDimpleL": 1.0
+    },
+    "mouthStretchLeft": {
+      "mouthStretchL": 1.0
+    },
+    "mouthLowerDownLeft": {
+      "mouthLowerLipDepressL": 1.0
+    },
+    "mouthUpperUpLeft": {
+      "mouthUpperLipRaiseL": 1.0
+    },
+    "eyeLookUpLeft": {
+      "eyeLookUpL": 1.0
+    },
+    "eyeLookDownLeft": {
+      "eyeLookDownL": 1.0
+    },
+    "eyeLookInLeft": {
+      "eyeLookRightL": 1.0
+    },
+    "eyeLookOutLeft": {
+      "eyeLookLeftL": 1.0
+    },
+    "mouthPressLeft": {
+      "mouthPressUL": 1.0,
+      "mouthPressDL": 1.0
+    },
+    "eyeBlinkRight": {
+      "eyeBlinkR": 1.0
+    },
+    "eyeWideRight": {
+      "eyeWidenR": 1.0
+    },
+    "eyeSquintRight": {
+      "eyeSquintInnerR": 0.8,
+      "eyeCheekRaiseR": 0.6,
+      "eyeBlinkR": 0.2
+    },
+    "browDownRight": {
+      "browDownR": 1.0
+    },
+    "browOuterUpRight": {
+      "browRaiseOuterR": 1.0
+    },
+    "cheekSquintRight": {
+      "eyeCheekRaiseR": 1.0
+    },
+    "noseSneerRight": {
+      "noseWrinkleR": 1.0
+    },
+    "mouthSmileRight": {
+      "mouthCornerPullR": 1.0
+    },
+    "mouthFrownRight": {
+      "mouthCornerDepressR": 1.0
+    },
+    "mouthDimpleRight": {
+      "mouthDimpleR": 1.0
+    },
+    "mouthStretchRight": {
+      "mouthStretchR": 1.0
+    },
+    "mouthLowerDownRight": {
+      "mouthLowerLipDepressR": 1.0
+    },
+    "mouthUpperUpRight": {
+      "mouthUpperLipRaiseR": 1.0
+    },
+    "eyeLookUpRight": {
+      "eyeLookUpR": 1.0
+    },
+    "eyeLookDownRight": {
+      "eyeLookDownR": 1.0
+    },
+    "eyeLookInRight": {
+      "eyeLookLeftR": 1.0
+    },
+    "eyeLookOutRight": {
+      "eyeLookRightR": 1.0
+    },
+    "mouthPressRight": {
+      "mouthPressUR": 1.0,
+      "mouthPressDR": 1.0
+    },
+    "browInnerUp": {
+      "browRaiseInL": 1.0,
+      "browRaiseInR": 1.0
+    },
+    "cheekPuff": {
+      "mouthCheekBlowL": 1.0,
+      "mouthCheekBlowR": 1.0
+    },
+    "jawOpen": {
+      "jawOpen": 1.0
+    },
+    "jawForward": {
+      "jawFwd": 1.0
+    },
+    "jawLeft": {
+      "jawLeft": 1.0
+    },
+    "jawRight": {
+      "jawRight": 1.0
+    },
+    "mouthLeft": {
+      "mouthLeft": 1.0
+    },
+    "mouthRight": {
+      "mouthRight": 1.0
+    },
+    "tongueOut": {
+      "tongueOut": 1.0
+    },
+    "mouthClose": {
+      "mouthLipsTogetherUL": 1.0,
+      "mouthLipsTogetherUR": 1.0,
+      "mouthLipsTogetherDL": 1.0,
+      "mouthLipsTogetherDR": 1.0,
+      "mouthPressUL": 0.5,
+      "mouthPressUR": 0.5,
+      "mouthPressDL": 0.5,
+      "mouthPressDR": 0.5,
+      "mouthLipsPressL": 0.5,
+      "mouthLipsPressR": 0.5
+    },
+    "mouthFunnel": {
+      "mouthFunnelUL": 1.0,
+      "mouthFunnelUR": 1.0,
+      "mouthFunnelDL": 1.0,
+      "mouthFunnelDR": 1.0
+    },
+    "mouthPucker": {
+      "mouthLipsPurseUL": 1.0,
+      "mouthLipsPurseUR": 1.0,
+      "mouthLipsPurseDL": 1.0,
+      "mouthLipsPurseDR": 1.0
+    },
+    "mouthRollLower": {
+      "mouthLowerLipRollInL": 1.0,
+      "mouthLowerLipRollInR": 1.0
+    },
+    "mouthRollUpper": {
+      "mouthUpperLipRollInL": 1.0,
+      "mouthUpperLipRollInR": 1.0
+    },
+    "mouthShrugLower": {
+      "jawChinRaiseDL": 1.0,
+      "jawChinRaiseDR": 1.0
+    },
+    "mouthShrugUpper": {
+      "jawChinRaiseUL": 1.0,
+      "jawChinRaiseUR": 1.0
+    },
+    "viseme_sil": {},
+    "viseme_PP": {
+      "mouthLipsTogetherUL": 0.8,
+      "mouthLipsTogetherUR": 0.8,
+      "mouthLipsTogetherDL": 0.8,
+      "mouthLipsTogetherDR": 0.8,
+      "mouthLipsPressL": 0.6,
+      "mouthLipsPressR": 0.6
+    },
+    "viseme_FF": {
+      "jawOpen": 0.12,
+      "mouthLowerLipBiteL": 0.8,
+      "mouthLowerLipBiteR": 0.8
+    },
+    "viseme_TH": {
+      "jawOpen": 0.25,
+      "tongueOut": 0.45,
+      "tongueUp": 0.2
+    },
+    "viseme_DD": {
+      "jawOpen": 0.22,
+      "tongueTipUp": 0.8,
+      "tongueUp": 0.25
+    },
+    "viseme_kk": {
+      "jawOpen": 0.4,
+      "tongueBendUp": 0.65
+    },
+    "viseme_CH": {
+      "jawOpen": 0.2,
+      "mouthFunnelUL": 0.55,
+      "mouthFunnelUR": 0.55,
+      "mouthFunnelDL": 0.55,
+      "mouthFunnelDR": 0.55
+    },
+    "viseme_SS": {
+      "jawOpen": 0.08,
+      "mouthStretchL": 0.45,
+      "mouthStretchR": 0.45
+    },
+    "viseme_nn": {
+      "jawOpen": 0.16,
+      "tongueTipUp": 0.75
+    },
+    "viseme_RR": {
+      "jawOpen": 0.25,
+      "tongueTipUp": 0.4,
+      "mouthLipsPurseUL": 0.4,
+      "mouthLipsPurseUR": 0.4,
+      "mouthLipsPurseDL": 0.4,
+      "mouthLipsPurseDR": 0.4
+    },
+    "viseme_aa": {
+      "jawOpen": 0.75
+    },
+    "viseme_E": {
+      "jawOpen": 0.35,
+      "mouthStretchL": 0.6,
+      "mouthStretchR": 0.6
+    },
+    "viseme_I": {
+      "jawOpen": 0.15,
+      "mouthStretchL": 0.8,
+      "mouthStretchR": 0.8
+    },
+    "viseme_O": {
+      "jawOpen": 0.5,
+      "mouthFunnelUL": 0.8,
+      "mouthFunnelUR": 0.8,
+      "mouthFunnelDL": 0.8,
+      "mouthFunnelDR": 0.8
+    },
+    "viseme_U": {
+      "jawOpen": 0.12,
+      "mouthLipsPurseUL": 0.85,
+      "mouthLipsPurseUR": 0.85,
+      "mouthLipsPurseDL": 0.85,
+      "mouthLipsPurseDR": 0.85
+    },
+    "emo_joy": {
+      "mouthCornerPullL": 1.0,
+      "mouthCornerPullR": 1.0,
+      "eyeCheekRaiseL": 1.0,
+      "eyeCheekRaiseR": 1.0
+    },
+    "emo_sadness": {
+      "mouthCornerDepressL": 1.0,
+      "mouthCornerDepressR": 1.0,
+      "browRaiseInL": 1.0,
+      "browRaiseInR": 1.0
+    },
+    "emo_anger": {
+      "browDownL": 1.0,
+      "browDownR": 1.0,
+      "mouthPressUL": 1.0,
+      "mouthPressDL": 1.0,
+      "mouthPressUR": 1.0,
+      "mouthPressDR": 1.0
+    },
+    "emo_surprise": {
+      "browRaiseInL": 1.0,
+      "browRaiseInR": 1.0,
+      "browRaiseOuterL": 1.0,
+      "browRaiseOuterR": 1.0,
+      "eyeWidenL": 1.0,
+      "eyeWidenR": 1.0,
+      "jawOpen": 1.0
+    },
+    "emo_fear": {
+      "browRaiseInL": 1.0,
+      "browRaiseInR": 1.0,
+      "eyeWidenL": 1.0,
+      "eyeWidenR": 1.0,
+      "mouthStretchL": 1.0,
+      "mouthStretchR": 1.0
+    },
+    "emo_disgust": {
+      "noseWrinkleL": 1.0,
+      "noseWrinkleR": 1.0,
+      "mouthUpperLipRaiseL": 1.0,
+      "mouthUpperLipRaiseR": 1.0
+    }
+  },
+  "dna_correspondence": [
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh",
+      "dna_mesh": "cartilage_lod0_mesh",
+      "max_position_error_m": 5.83746350457659e-06,
+      "corrective_targets": 76,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh",
+      "dna_mesh": "eyeEdge_lod0_mesh",
+      "max_position_error_m": 5.83746350457659e-06,
+      "corrective_targets": 0,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh",
+      "dna_mesh": "eyeLeft_lod0_mesh",
+      "max_position_error_m": 7.450580596923828e-08,
+      "corrective_targets": 2,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh",
+      "dna_mesh": "eyeRight_lod0_mesh",
+      "max_position_error_m": 7.450580596923828e-08,
+      "corrective_targets": 2,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh",
+      "dna_mesh": "eyeshell_lod0_mesh",
+      "max_position_error_m": 7.450580596923828e-08,
+      "corrective_targets": 0,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_head_lod0_mesh",
+      "dna_mesh": "head_lod0_mesh",
+      "max_position_error_m": 7.636845111846924e-08,
+      "corrective_targets": 733,
+      "correspondence_tolerance_m": 1e-05
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001",
+      "dna_mesh": "head_lod0_mesh",
+      "max_position_error_m": 0.00013524520909413695,
+      "corrective_targets": 589,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002",
+      "dna_mesh": "head_lod0_mesh",
+      "max_position_error_m": 4.8872479965211824e-05,
+      "corrective_targets": 589,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh",
+      "dna_mesh": "saliva_lod0_mesh",
+      "max_position_error_m": 6.705522537231445e-08,
+      "corrective_targets": 0,
+      "correspondence_tolerance_m": 0.0002
+    },
+    {
+      "source_mesh": "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh",
+      "dna_mesh": "teeth_lod0_mesh",
+      "max_position_error_m": 4.993794209440239e-05,
+      "corrective_targets": 41,
+      "correspondence_tolerance_m": 0.0002
+    }
+  ],
+  "shapes": [
+    {
+      "name": "eyeBlinkLeft",
+      "max_displacement_m": 0.011337903328239918,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.010890373960137367,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.010812999680638313,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0008935816586017609,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.011332890018820763,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.011337903328239918,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeBlinkRight",
+      "max_displacement_m": 0.011555078439414501,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.011047536507248878,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.01083370391279459,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0009076476562768221,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.011555078439414501,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.011444632895290852,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeWideLeft",
+      "max_displacement_m": 0.0038478190544992685,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0038044743705540895,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0036906239110976458,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0038478190544992685,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0038054166361689568,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeWideRight",
+      "max_displacement_m": 0.0040228161960840225,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.003963074646890163,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.00378604419529438,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0040228161960840225,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0039659300819039345,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeSquintLeft",
+      "max_displacement_m": 0.005299180280417204,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.004922868683934212,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.004492046311497688,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0001783946354407817,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0046890173107385635,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005299180280417204,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.00044922801316715777,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.00045306188985705376,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeSquintRight",
+      "max_displacement_m": 0.005693061277270317,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.004960421472787857,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.004539046436548233,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.00018171458214055747,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.004724069964140654,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005693061277270317,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.00044045146205462515,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0004546349518932402,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookUpLeft",
+      "max_displacement_m": 0.007839874364435673,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00500462856143713,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.004930345341563225,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.007839874364435673,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.005120956338942051,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005010733846575022,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookDownLeft",
+      "max_displacement_m": 0.010361919179558754,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.010040719993412495,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.009656941518187523,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.010361919179558754,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.01012269128113985,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.01010188553482294,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookInLeft",
+      "max_displacement_m": 0.00969678070396185,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.002258430700749159,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0022202739492058754,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.00969678070396185,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0022803687024861574,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0022911462001502514,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookOutLeft",
+      "max_displacement_m": 0.010559845715761185,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.001778914942406118,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0016849166713654995,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.010559845715761185,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0017188087804242969,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0017770173726603389,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookUpRight",
+      "max_displacement_m": 0.007911482825875282,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.004999634809792042,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.004839511588215828,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.007911482825875282,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.005129745230078697,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005014738067984581,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookDownRight",
+      "max_displacement_m": 0.010716302320361137,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.01064574159681797,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.009999554604291916,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.01023937202990055,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.010680113919079304,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.010716302320361137,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookInRight",
+      "max_displacement_m": 0.00958567950874567,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.002234814688563347,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.00216516200453043,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.00958567950874567,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0021920274011790752,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0022476830054074526,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "eyeLookOutRight",
+      "max_displacement_m": 0.010295180603861809,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0019978201016783714,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0019357339479029179,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.010295180603861809,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0020003928802907467,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0020077305380254984,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "browDownLeft",
+      "max_displacement_m": 0.0063166543841362,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0001598914823262021,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0063166543841362,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "browDownRight",
+      "max_displacement_m": 0.006044700276106596,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00016285634774249047,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.006044700276106596,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "browInnerUp",
+      "max_displacement_m": 0.007956113666296005,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00020286976359784603,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007956113666296005,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 1.3659520845976658e-05,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "browOuterUpLeft",
+      "max_displacement_m": 0.00796489603817463,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00038745204801671207,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.00796489603817463,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "browOuterUpRight",
+      "max_displacement_m": 0.007989615201950073,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00048448407324030995,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007989615201950073,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "cheekPuff",
+      "max_displacement_m": 0.01224858034402132,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 2.1764717530459166e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.01224858034402132,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.008878589607775211,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.00887856911867857,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "cheekSquintLeft",
+      "max_displacement_m": 0.005145895294845104,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.003717659041285515,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.003219827078282833,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0033656342420727015,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005145895294845104,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0007479016785509884,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0007547481800429523,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "cheekSquintRight",
+      "max_displacement_m": 0.005591780412942171,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0037746697198599577,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0033260532654821873,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0034689833410084248,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005591780412942171,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0007357562426477671,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0007594188791699708,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "noseSneerLeft",
+      "max_displacement_m": 0.009905298240482807,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 8.730690751690418e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.009905298240482807,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.00042549119098111987,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0032458018977195024,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "noseSneerRight",
+      "max_displacement_m": 0.010180615819990635,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0001006968377623707,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.010180615819990635,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.00047688453923910856,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.003349737264215946,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "jawOpen",
+      "max_displacement_m": 0.028456101194024086,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 2.5731336791068316e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.027946937829256058,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.028456101194024086,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.012643127702176571,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.02784457430243492,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.02820192463696003
+      }
+    },
+    {
+      "name": "jawForward",
+      "max_displacement_m": 0.008770433254539967,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 2.543486743888934e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.008770433254539967,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007861158810555935,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0040944949723780155,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.007814854383468628,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.007814861834049225
+      }
+    },
+    {
+      "name": "jawLeft",
+      "max_displacement_m": 0.014287338592112064,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 6.517683686979581e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.014287338592112064,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.012955555692315102,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006959363352507353,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.012469635345041752,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.012778411619365215
+      }
+    },
+    {
+      "name": "jawRight",
+      "max_displacement_m": 0.012821298092603683,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 3.7960323879815405e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.011546224355697632,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.012158113531768322,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006949770264327526,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.012511479668319225,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.012821298092603683
+      }
+    },
+    {
+      "name": "mouthClose",
+      "max_displacement_m": 0.005337809678167105,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 6.541376478708116e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.00494454987347126,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.005337809678167105,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.003686015959829092,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthFunnel",
+      "max_displacement_m": 0.010398526675999165,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.1046146028093062e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005965053103864193,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.010398526675999165,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.007775554433465004,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthPucker",
+      "max_displacement_m": 0.00947779044508934,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 2.042282403635909e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007484578061848879,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.009448488242924213,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.00947779044508934,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthLeft",
+      "max_displacement_m": 0.0228672306984663,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 4.1608884203014895e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.021614976227283478,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0228672306984663,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.022766076028347015,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthRight",
+      "max_displacement_m": 0.02261294610798359,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 4.143780824961141e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.021618256345391273,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.02261294610798359,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.022491147741675377,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthSmileLeft",
+      "max_displacement_m": 0.016292518004775047,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 5.4002859542379156e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.016217023134231567,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.016292518004775047,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.016292430460453033,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthSmileRight",
+      "max_displacement_m": 0.01675533503293991,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 5.8920701121678576e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0167132206261158,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.01675526797771454,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.01675533503293991,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthFrownLeft",
+      "max_displacement_m": 0.0075927358120679855,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.7020632867570384e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0075927358120679855,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006925160530954599,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0070477938279509544,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthFrownRight",
+      "max_displacement_m": 0.007161016575992107,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.2867089935753029e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007161016575992107,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006490135565400124,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006676909979432821,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthDimpleLeft",
+      "max_displacement_m": 0.012350613251328468,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.2647994481085334e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.012203165329992771,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.012350613251328468,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.012085475958883762,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthDimpleRight",
+      "max_displacement_m": 0.012373965233564377,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.1692941370711196e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.012338444590568542,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.012373965233564377,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.012117370963096619,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthStretchLeft",
+      "max_displacement_m": 0.014047207310795784,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.0708976333262399e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.014047207310795784,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.01385175809264183,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.01225728914141655,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthStretchRight",
+      "max_displacement_m": 0.013952274806797504,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.0482151083124336e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.013952274806797504,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.013688423670828342,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.01220276951789856,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthRollLower",
+      "max_displacement_m": 0.006801013369113207,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0016009454848244786,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006801013369113207,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0002532118814997375,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthRollUpper",
+      "max_displacement_m": 0.005433135200291872,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.002379384357482195,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0002126522595062852,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.005433135200291872,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthShrugLower",
+      "max_displacement_m": 0.010816636495292187,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.010816636495292187,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.010765974409878254,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.003102852962911129,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthShrugUpper",
+      "max_displacement_m": 0.008608942851424217,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.948922317751567e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005666668526828289,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.002360900631174445,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.008608942851424217,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthPressLeft",
+      "max_displacement_m": 0.006972512695938349,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 8.308230462716892e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.006955334916710854,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006972512695938349,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006290784105658531,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthPressRight",
+      "max_displacement_m": 0.007026259321719408,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.0010567166318651e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.006996802054345608,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007026259321719408,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.005752977915108204,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthLowerDownLeft",
+      "max_displacement_m": 0.007300819270312786,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005665889009833336,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007300819270312786,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0018600390758365393,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthLowerDownRight",
+      "max_displacement_m": 0.00702089536935091,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.005427399184554815,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.00702089536935091,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.001598668284714222,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthUpperUpLeft",
+      "max_displacement_m": 0.009088389575481415,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.4914135135768447e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.008715271949768066,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.002929654670879245,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.009088389575481415,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "mouthUpperUpRight",
+      "max_displacement_m": 0.009336870163679123,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.6996731574181467e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.008940791711211205,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.003237511031329632,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.009336870163679123,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "tongueOut",
+      "max_displacement_m": 0.03591171279549599,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.03591171279549599
+      }
+    },
+    {
+      "name": "viseme_sil",
+      "max_displacement_m": 0.0,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "viseme_PP",
+      "max_displacement_m": 0.002815852640196681,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 5.290069566399325e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.002815852640196681,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.001971628749743104,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0019244665745645761,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "viseme_FF",
+      "max_displacement_m": 0.007110427599400282,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 3.2094019388750894e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.0025021766778081656,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007110427599400282,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0023318128660321236,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0034340503625571728,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.00348075688816607
+      }
+    },
+    {
+      "name": "viseme_TH",
+      "max_displacement_m": 0.01307885255664587,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 6.424480034183944e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007164995186030865,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007284931838512421,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.003174782497808337,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.007129575125873089,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.01307885255664587
+      }
+    },
+    {
+      "name": "viseme_DD",
+      "max_displacement_m": 0.008892848156392574,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 5.663981482939562e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.006310923025012016,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006416222080588341,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0027941896114498377,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.006279224529862404,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.008892848156392574
+      }
+    },
+    {
+      "name": "viseme_kk",
+      "max_displacement_m": 0.011604920029640198,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.031501597026363e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.011411139741539955,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.011604920029640198,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.005075381603091955,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.011359157040715218,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.011510979384183884
+      }
+    },
+    {
+      "name": "viseme_CH",
+      "max_displacement_m": 0.011120876297354698,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 4.958187673764769e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.008963026106357574,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.011120876297354698,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.00375755550339818,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.005711311940103769,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.005788687616586685
+      }
+    },
+    {
+      "name": "viseme_SS",
+      "max_displacement_m": 0.007200175430625677,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 5.257998964225408e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007200175430625677,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007168927229940891,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006121523678302765,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.002291788812726736,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.002323000691831112
+      }
+    },
+    {
+      "name": "viseme_nn",
+      "max_displacement_m": 0.004674266558140516,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 4.133595211897045e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.004597719758749008,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.004674266558140516,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.002032848075032234,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.004573856946080923,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.004635991062968969
+      }
+    },
+    {
+      "name": "viseme_RR",
+      "max_displacement_m": 0.00722590321674943,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 6.351707270368934e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.006665216758847237,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006475353147834539,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.004130467772483826,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.007129575125873089,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.00722590321674943
+      }
+    },
+    {
+      "name": "viseme_aa",
+      "max_displacement_m": 0.021521344780921936,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.930467078636866e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.021149685606360435,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.021521344780921936,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.009496767073869705,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.021066976711153984,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.021341871470212936
+      }
+    },
+    {
+      "name": "viseme_E",
+      "max_displacement_m": 0.01405586302280426,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.0559199836279731e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.013895504176616669,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.01405586302280426,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.010521219111979008,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.009953734464943409,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.01008724793791771
+      }
+    },
+    {
+      "name": "viseme_I",
+      "max_displacement_m": 0.012942621484398842,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 9.122225492319558e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.012942621484398842,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.012897723354399204,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.011006482876837254,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.004289110191166401,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.004347469191998243
+      }
+    },
+    {
+      "name": "viseme_O",
+      "max_displacement_m": 0.02148771472275257,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.1907748557860032e-05,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.018387457355856895,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.02148771472275257,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006655094213783741,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.014156865887343884,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.014344639144837856
+      }
+    },
+    {
+      "name": "viseme_U",
+      "max_displacement_m": 0.007782367989420891,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 3.5275174923299346e-06,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.006142370868474245,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.007753914222121239,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.007782367989420891,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0034340503625571728,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.00348075688816607
+      }
+    },
+    {
+      "name": "emo_joy",
+      "max_displacement_m": 0.01708696223795414,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0038010738790035248,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.003328572493046522,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0034700732212513685,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.017048558220267296,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.017086893320083618,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.01708696223795414,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "emo_sadness",
+      "max_displacement_m": 0.007956113666296005,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00020286976359784603,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.007956113666296005,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.006925160530954599,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.0070477938279509544,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "emo_anger",
+      "max_displacement_m": 0.009310767985880375,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.00016253424109891057,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.009252608753740788,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.009310767985880375,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.006290784105658531,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "emo_surprise",
+      "max_displacement_m": 0.028456101194024086,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0039865681901574135,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.003796499455347657,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.004033381585031748,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.027946937829256058,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.028456101194024086,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.012643127702176571,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.02784457430243492,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.02820192463696003
+      }
+    },
+    {
+      "name": "emo_fear",
+      "max_displacement_m": 0.014047488570213318,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.003974693827331066,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0037913399282842875,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.004028120543807745,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.014047488570213318,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.013850470073521137,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.012263092212378979,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "name": "emo_disgust",
+      "max_displacement_m": 0.013179400004446507,
+      "per_mesh_m": {
+        "Jiwoo_MetaHumanCharacter_Outfits": 0.0,
+        "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 0.0001011345157166943,
+        "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 0.013179400004446507,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 0.0037624577526003122,
+        "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 0.011341726407408714,
+        "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    }
+  ],
+  "grooms": [
+    {
+      "label": "Eyebrows",
+      "strands": 1915,
+      "vertices": 45960,
+      "sides": 3,
+      "samples_per_strand": 8,
+      "root_gap_max_m": 3.1524407972938207e-07,
+      "radius_m": 3.5e-05,
+      "binding": "Barycentric head surface anchors and triangle frames, identical normalized root weights; all 73 shapes baked into the same Face mesh."
+    },
+    {
+      "label": "Eyelashes",
+      "strands": 787,
+      "vertices": 18888,
+      "sides": 3,
+      "samples_per_strand": 8,
+      "root_gap_max_m": 5.01975080169359e-07,
+      "radius_m": 2.5e-05,
+      "binding": "Barycentric head surface anchors and triangle frames, identical normalized root weights; all 73 shapes baked into the same Face mesh."
+    }
+  ],
+  "face_vertices": 127026,
+  "face_sections": [
+    {
+      "name": "Prepared_head_lod0_mesh",
+      "start": 0,
+      "count": 20004
+    },
+    {
+      "name": "Prepared_body_lod0_mesh",
+      "start": 20004,
+      "count": 30455
+    },
+    {
+      "name": "Prepared_cartilage_lod0_mesh",
+      "start": 50459,
+      "count": 386
+    },
+    {
+      "name": "Prepared_eyeEdge_lod0_mesh",
+      "start": 50845,
+      "count": 268
+    },
+    {
+      "name": "Prepared_eyeLeft_lod0_mesh",
+      "start": 51113,
+      "count": 770
+    },
+    {
+      "name": "Prepared_eyeRight_lod0_mesh",
+      "start": 51883,
+      "count": 770
+    },
+    {
+      "name": "Prepared_eyeshell_lod0_mesh",
+      "start": 52653,
+      "count": 552
+    },
+    {
+      "name": "Prepared_head_lod0_mesh.001",
+      "start": 53205,
+      "count": 2003
+    },
+    {
+      "name": "Prepared_head_lod0_mesh.002",
+      "start": 55208,
+      "count": 2109
+    },
+    {
+      "name": "Prepared_saliva_lod0_mesh",
+      "start": 57317,
+      "count": 660
+    },
+    {
+      "name": "Prepared_teeth_lod0_mesh",
+      "start": 57977,
+      "count": 4201
+    },
+    {
+      "name": "Eyebrows",
+      "start": 62178,
+      "count": 45960
+    },
+    {
+      "name": "Eyelashes",
+      "start": 108138,
+      "count": 18888
+    }
+  ],
+  "bones": 160,
+  "seam_pairs": [
+    [
+      9790,
+      21578
+    ],
+    [
+      9793,
+      21577
+    ],
+    [
+      9794,
+      21575
+    ],
+    [
+      9797,
+      21573
+    ],
+    [
+      9798,
+      21571
+    ],
+    [
+      9800,
+      21569
+    ],
+    [
+      9802,
+      21566
+    ],
+    [
+      9804,
+      21564
+    ],
+    [
+      9806,
+      21540
+    ],
+    [
+      14929,
+      9192
+    ],
+    [
+      14935,
+      9186
+    ],
+    [
+      14939,
+      13931
+    ],
+    [
+      9894,
+      16775
+    ],
+    [
+      9904,
+      16774
+    ],
+    [
+      9905,
+      21542
+    ],
+    [
+      14574,
+      9206
+    ],
+    [
+      14577,
+      9203
+    ],
+    [
+      14581,
+      9211
+    ],
+    [
+      14584,
+      9207
+    ],
+    [
+      14586,
+      9198
+    ],
+    [
+      14589,
+      15227
+    ],
+    [
+      14593,
+      15170
+    ],
+    [
+      4866,
+      30
+    ],
+    [
+      4867,
+      31
+    ],
+    [
+      14596,
+      9195
+    ],
+    [
+      4869,
+      29
+    ],
+    [
+      4870,
+      28
+    ],
+    [
+      14599,
+      15189
+    ],
+    [
+      4872,
+      24
+    ],
+    [
+      4873,
+      25
+    ],
+    [
+      14602,
+      15180
+    ],
+    [
+      4871,
+      26
+    ],
+    [
+      4874,
+      27
+    ],
+    [
+      2317,
+      9
+    ],
+    [
+      2318,
+      8
+    ],
+    [
+      2319,
+      7
+    ],
+    [
+      2320,
+      10
+    ],
+    [
+      2321,
+      6
+    ],
+    [
+      2322,
+      5
+    ],
+    [
+      2323,
+      2
+    ],
+    [
+      2324,
+      1
+    ],
+    [
+      2325,
+      0
+    ],
+    [
+      2326,
+      4
+    ],
+    [
+      14614,
+      15158
+    ],
+    [
+      2327,
+      12
+    ],
+    [
+      2328,
+      14
+    ],
+    [
+      2329,
+      15
+    ],
+    [
+      2330,
+      16
+    ],
+    [
+      2331,
+      17
+    ],
+    [
+      2332,
+      18
+    ],
+    [
+      2333,
+      19
+    ],
+    [
+      2334,
+      20
+    ],
+    [
+      2336,
+      11
+    ],
+    [
+      2335,
+      21
+    ],
+    [
+      4933,
+      43
+    ],
+    [
+      4936,
+      44
+    ],
+    [
+      2385,
+      22
+    ],
+    [
+      9555,
+      16789
+    ],
+    [
+      2388,
+      23
+    ],
+    [
+      9559,
+      16786
+    ],
+    [
+      9562,
+      16795
+    ],
+    [
+      9564,
+      16794
+    ],
+    [
+      9567,
+      16784
+    ],
+    [
+      9570,
+      7645
+    ],
+    [
+      9573,
+      22814
+    ],
+    [
+      9577,
+      16779
+    ],
+    [
+      9580,
+      22833
+    ],
+    [
+      9582,
+      22824
+    ],
+    [
+      9595,
+      22801
+    ],
+    [
+      2443,
+      3
+    ],
+    [
+      4865,
+      3818
+    ],
+    [
+      2474,
+      13
+    ],
+    [
+      4881,
+      40
+    ],
+    [
+      4868,
+      32
+    ],
+    [
+      4875,
+      34
+    ],
+    [
+      4876,
+      35
+    ],
+    [
+      4877,
+      36
+    ],
+    [
+      4878,
+      37
+    ],
+    [
+      4883,
+      42
+    ],
+    [
+      4879,
+      38
+    ],
+    [
+      14821,
+      13968
+    ],
+    [
+      14823,
+      13966
+    ],
+    [
+      14826,
+      13964
+    ],
+    [
+      14827,
+      13962
+    ],
+    [
+      4880,
+      39
+    ],
+    [
+      14830,
+      13960
+    ],
+    [
+      14832,
+      13958
+    ],
+    [
+      14834,
+      13957
+    ],
+    [
+      14836,
+      13955
+    ],
+    [
+      14838,
+      13927
+    ],
+    [
+      4882,
+      41
+    ],
+    [
+      4884,
+      33
+    ]
+  ],
+  "seam_max_correction_m": 4.568068855039594e-05,
+  "limitations": [
+    "73 semantic poses are mapped to Jiwoo controls; Ethan original control values and animation clips cannot be recovered from the FBX.",
+    "Visemes and emotion combinations are authored native-control recipes, requiring artistic review.",
+    "A linear shape combination approximates nonlinear DNA evaluation between the sampled endpoints.",
+    "Scalp remains separate curves and is not part of the FBX; facial hair is mesh geometry inside Face.",
+    "Baked facial bone motion must not also be applied as facial skeletal animation.",
+    "Visual expression/contact quality and Unity reimport have not been approved or tested in Play Mode."
+  ]
+}

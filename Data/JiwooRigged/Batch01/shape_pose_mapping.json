@@ -1,0 +1,1639 @@
+{
+  "eyeBlinkLeft": [
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        -0.008
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.004
+      ]
+    }
+  ],
+  "eyeWideLeft": [
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    }
+  ],
+  "eyeSquintLeft": [
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    },
+    {
+      "bone": "cheek.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "eyeLookUpLeft": [
+    {
+      "bone": "eye.L",
+      "translation_m": [
+        0,
+        0,
+        0.08
+      ]
+    }
+  ],
+  "eyeLookDownLeft": [
+    {
+      "bone": "eye.L",
+      "translation_m": [
+        0,
+        0,
+        -0.08
+      ]
+    }
+  ],
+  "eyeLookInLeft": [
+    {
+      "bone": "eye.L",
+      "translation_m": [
+        -0.08,
+        0,
+        0
+      ]
+    }
+  ],
+  "eyeLookOutLeft": [
+    {
+      "bone": "eye.L",
+      "translation_m": [
+        0.08,
+        0,
+        0
+      ]
+    }
+  ],
+  "browDownLeft": [
+    {
+      "bone": "brow.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "brow.T.L.003",
+      "translation_m": [
+        -0.002,
+        0,
+        -0.006
+      ]
+    }
+  ],
+  "browOuterUpLeft": [
+    {
+      "bone": "brow.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    }
+  ],
+  "cheekSquintLeft": [
+    {
+      "bone": "cheek.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "noseSneerLeft": [
+    {
+      "bone": "nose.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lip.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "mouthSmileLeft": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.007,
+        0,
+        0.006
+      ]
+    }
+  ],
+  "mouthFrownLeft": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    }
+  ],
+  "mouthDimpleLeft": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.004,
+        0.004,
+        0
+      ]
+    }
+  ],
+  "mouthStretchLeft": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.01,
+        0,
+        0
+      ]
+    }
+  ],
+  "mouthPressLeft": [
+    {
+      "bone": "lip.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        -0.002
+      ]
+    },
+    {
+      "bone": "lip.B.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "mouthLowerDownLeft": [
+    {
+      "bone": "lip.B.L.001",
+      "translation_m": [
+        0,
+        0,
+        -0.007
+      ]
+    }
+  ],
+  "mouthUpperUpLeft": [
+    {
+      "bone": "lip.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    }
+  ],
+  "eyeBlinkRight": [
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        -0.008
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.004
+      ]
+    }
+  ],
+  "eyeWideRight": [
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    }
+  ],
+  "eyeSquintRight": [
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    },
+    {
+      "bone": "cheek.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "eyeLookUpRight": [
+    {
+      "bone": "eye.R",
+      "translation_m": [
+        0,
+        0,
+        0.08
+      ]
+    }
+  ],
+  "eyeLookDownRight": [
+    {
+      "bone": "eye.R",
+      "translation_m": [
+        0,
+        0,
+        -0.08
+      ]
+    }
+  ],
+  "eyeLookInRight": [
+    {
+      "bone": "eye.R",
+      "translation_m": [
+        0.08,
+        0,
+        0
+      ]
+    }
+  ],
+  "eyeLookOutRight": [
+    {
+      "bone": "eye.R",
+      "translation_m": [
+        -0.08,
+        0,
+        0
+      ]
+    }
+  ],
+  "browDownRight": [
+    {
+      "bone": "brow.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "brow.T.R.003",
+      "translation_m": [
+        0.002,
+        0,
+        -0.006
+      ]
+    }
+  ],
+  "browOuterUpRight": [
+    {
+      "bone": "brow.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    }
+  ],
+  "cheekSquintRight": [
+    {
+      "bone": "cheek.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "noseSneerRight": [
+    {
+      "bone": "nose.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lip.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "mouthSmileRight": [
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.007,
+        0,
+        0.006
+      ]
+    }
+  ],
+  "mouthFrownRight": [
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    }
+  ],
+  "mouthDimpleRight": [
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.004,
+        0.004,
+        0
+      ]
+    }
+  ],
+  "mouthStretchRight": [
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.01,
+        0,
+        0
+      ]
+    }
+  ],
+  "mouthPressRight": [
+    {
+      "bone": "lip.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        -0.002
+      ]
+    },
+    {
+      "bone": "lip.B.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "mouthLowerDownRight": [
+    {
+      "bone": "lip.B.R.001",
+      "translation_m": [
+        0,
+        0,
+        -0.007
+      ]
+    }
+  ],
+  "mouthUpperUpRight": [
+    {
+      "bone": "lip.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    }
+  ],
+  "browInnerUp": [
+    {
+      "bone": "brow.T.L.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "brow.T.R.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    }
+  ],
+  "cheekPuff": [
+    {
+      "bone": "cheek.B.L.001",
+      "translation_m": [
+        0.005,
+        -0.008,
+        0
+      ]
+    },
+    {
+      "bone": "cheek.B.R.001",
+      "translation_m": [
+        -0.005,
+        -0.008,
+        0
+      ]
+    }
+  ],
+  "jawOpen": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.32,
+        0,
+        0
+      ]
+    }
+  ],
+  "jawForward": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        -0.008,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "jawLeft": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0.007,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "jawRight": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        -0.007,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "mouthClose": [
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        0,
+        -0.004
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    }
+  ],
+  "mouthFunnel": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.12,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.006,
+        -0.006,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.006,
+        -0.006,
+        0
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        -0.008,
+        0.002
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        -0.008,
+        -0.002
+      ]
+    }
+  ],
+  "mouthPucker": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.008,
+        -0.009,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.008,
+        -0.009,
+        0
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        -0.012,
+        -0.002
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        -0.012,
+        0.003
+      ]
+    }
+  ],
+  "mouthLeft": [
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0.007,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0.007,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.007,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.007,
+        0,
+        0
+      ]
+    }
+  ],
+  "mouthRight": [
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        -0.007,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        -0.007,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.007,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.007,
+        0,
+        0
+      ]
+    }
+  ],
+  "mouthRollLower": [
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        0.006,
+        0.002
+      ]
+    }
+  ],
+  "mouthRollUpper": [
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        0.006,
+        -0.002
+      ]
+    }
+  ],
+  "mouthShrugLower": [
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "chin.001",
+      "translation_m": [
+        0,
+        0,
+        0.004
+      ]
+    }
+  ],
+  "mouthShrugUpper": [
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "nose.004",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "tongueOut": [
+    {
+      "bone": "tongue_master",
+      "translation_m": [
+        0,
+        -0.025,
+        0
+      ]
+    },
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.1,
+        0,
+        0
+      ]
+    }
+  ],
+  "viseme_sil": [],
+  "viseme_PP": [
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        -0.002,
+        -0.004
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        -0.002,
+        0.005
+      ]
+    }
+  ],
+  "viseme_FF": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.05,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        0.004,
+        0.004
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "viseme_TH": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.12,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "tongue_master",
+      "translation_m": [
+        0,
+        -0.014,
+        0.003
+      ]
+    }
+  ],
+  "viseme_DD": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.16,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "tongue",
+      "translation_m": [
+        0,
+        -0.004,
+        0.009
+      ]
+    }
+  ],
+  "viseme_kk": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.2,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "tongue.002",
+      "translation_m": [
+        0,
+        0,
+        0.008
+      ]
+    }
+  ],
+  "viseme_CH": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.1,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.004,
+        -0.004,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.004,
+        -0.004,
+        0
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        -0.004,
+        0
+      ]
+    }
+  ],
+  "viseme_SS": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.035,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.004,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.004,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "viseme_nn": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.09,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "tongue",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    }
+  ],
+  "viseme_RR": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.14,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.003,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.003,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "tongue",
+      "translation_m": [
+        0,
+        0.004,
+        0.004
+      ]
+    }
+  ],
+  "viseme_aa": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.29,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    }
+  ],
+  "viseme_E": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.15,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.006,
+        0,
+        0.002
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.006,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "viseme_I": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.07,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.008,
+        0,
+        0.002
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.008,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "viseme_O": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.23,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.006,
+        -0.005,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.006,
+        -0.005,
+        0
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        -0.005,
+        0
+      ]
+    }
+  ],
+  "viseme_U": [
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.07,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        -0.008,
+        -0.009,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0.008,
+        -0.009,
+        0
+      ]
+    },
+    {
+      "bone": "lip.T",
+      "translation_m": [
+        0,
+        -0.009,
+        0
+      ]
+    },
+    {
+      "bone": "lip.B",
+      "translation_m": [
+        0,
+        -0.008,
+        0
+      ]
+    }
+  ],
+  "emo_joy": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.007,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.007,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "cheek.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    },
+    {
+      "bone": "cheek.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.002
+      ]
+    }
+  ],
+  "emo_sadness": [
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "brow.T.L.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "brow.T.R.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    }
+  ],
+  "emo_anger": [
+    {
+      "bone": "brow.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "brow.T.L.003",
+      "translation_m": [
+        -0.002,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "brow.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "brow.T.R.003",
+      "translation_m": [
+        0.002,
+        0,
+        -0.006
+      ]
+    },
+    {
+      "bone": "lip.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        -0.002
+      ]
+    },
+    {
+      "bone": "lip.B.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    },
+    {
+      "bone": "lip.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        -0.002
+      ]
+    },
+    {
+      "bone": "lip.B.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    }
+  ],
+  "emo_surprise": [
+    {
+      "bone": "brow.T.L.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "brow.T.R.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "brow.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "brow.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    },
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    },
+    {
+      "bone": "jaw_master",
+      "translation_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_rad": [
+        0.32,
+        0,
+        0
+      ]
+    }
+  ],
+  "emo_fear": [
+    {
+      "bone": "brow.T.L.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "brow.T.R.003",
+      "translation_m": [
+        0,
+        0,
+        0.009
+      ]
+    },
+    {
+      "bone": "lid.T.L.002",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lid.B.L.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    },
+    {
+      "bone": "lid.T.R.002",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lid.B.R.002",
+      "translation_m": [
+        0,
+        0,
+        -0.003
+      ]
+    },
+    {
+      "bone": "lips.L",
+      "translation_m": [
+        0.01,
+        0,
+        0
+      ]
+    },
+    {
+      "bone": "lips.R",
+      "translation_m": [
+        -0.01,
+        0,
+        0
+      ]
+    }
+  ],
+  "emo_disgust": [
+    {
+      "bone": "nose.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lip.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    },
+    {
+      "bone": "nose.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.005
+      ]
+    },
+    {
+      "bone": "lip.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.003
+      ]
+    },
+    {
+      "bone": "lip.T.L.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    },
+    {
+      "bone": "lip.T.R.001",
+      "translation_m": [
+        0,
+        0,
+        0.006
+      ]
+    }
+  ]
+}

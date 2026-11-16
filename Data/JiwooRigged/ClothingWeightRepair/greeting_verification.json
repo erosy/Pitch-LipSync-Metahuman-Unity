@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "clip": "Waving",
+  "sample_count": 21,
+  "body_pose_max_difference_m": 0.0,
+  "before_depth_score_m": 73.64243395120106,
+  "after_depth_score_m": 62.258534133024504,
+  "depth_score_reduction_fraction": 0.15458342707303863,
+  "before_vertex_frame_probes_over_1mm": 12619,
+  "after_vertex_frame_probes_over_1mm": 10935,
+  "metrics": [
+    {
+      "time": 0.0,
+      "vertices_inside_over_1mm": 524,
+      "vertices_inside_over_3mm": 390,
+      "max_depth_m": 0.09224826842546463,
+      "depth_excess_over_1mm_sum_m": 2.9727165485722944
+    },
+    {
+      "time": 0.236430019,
+      "vertices_inside_over_1mm": 524,
+      "vertices_inside_over_3mm": 390,
+      "max_depth_m": 0.09173249453306198,
+      "depth_excess_over_1mm_sum_m": 2.970306145585142
+    },
+    {
+      "time": 0.472860038,
+      "vertices_inside_over_1mm": 526,
+      "vertices_inside_over_3mm": 391,
+      "max_depth_m": 0.09173273295164108,
+      "depth_excess_over_1mm_sum_m": 2.9813665677336973
+    },
+    {
+      "time": 0.70929,
+      "vertices_inside_over_1mm": 519,
+      "vertices_inside_over_3mm": 386,
+      "max_depth_m": 0.09224709868431091,
+      "depth_excess_over_1mm_sum_m": 2.9794106210758904
+    },
+    {
+      "time": 0.9457201,
+      "vertices_inside_over_1mm": 514,
+      "vertices_inside_over_3mm": 386,
+      "max_depth_m": 0.09173323214054108,
+      "depth_excess_over_1mm_sum_m": 2.9546836920445783
+    },
+    {
+      "time": 1.18215013,
+      "vertices_inside_over_1mm": 514,
+      "vertices_inside_over_3mm": 384,
+      "max_depth_m": 0.09224780648946762,
+      "depth_excess_over_1mm_sum_m": 2.9499494362054386
+    },
+    {
+      "time": 1.41858,
+      "vertices_inside_over_1mm": 513,
+      "vertices_inside_over_3mm": 387,
+      "max_depth_m": 0.09224606305360794,
+      "depth_excess_over_1mm_sum_m": 2.9506988597922024
+    },
+    {
+      "time": 1.6550101,
+      "vertices_inside_over_1mm": 513,
+      "vertices_inside_over_3mm": 386,
+      "max_depth_m": 0.09173306822776794,
+      "depth_excess_over_1mm_sum_m": 2.947511237964965
+    },
+    {
+      "time": 1.89144015,
+      "vertices_inside_over_1mm": 512,
+      "vertices_inside_over_3mm": 385,
+      "max_depth_m": 0.0917326956987381,
+      "depth_excess_over_1mm_sum_m": 2.944410394865088
+    },
+    {
+      "time": 2.12787,
+      "vertices_inside_over_1mm": 510,
+      "vertices_inside_over_3mm": 384,
+      "max_depth_m": 0.09224579483270645,
+      "depth_excess_over_1mm_sum_m": 2.9461307620024306
+    },
+    {
+      "time": 2.36430025,
+      "vertices_inside_over_1mm": 514,
+      "vertices_inside_over_3mm": 387,
+      "max_depth_m": 0.09224656224250793,
+      "depth_excess_over_1mm_sum_m": 2.9547915204558515
+    },
+    {
+      "time": 2.60073018,
+      "vertices_inside_over_1mm": 513,
+      "vertices_inside_over_3mm": 389,
+      "max_depth_m": 0.09224805980920792,
+      "depth_excess_over_1mm_sum_m": 2.960500468069687
+    },
+    {
+      "time": 2.83716,
+      "vertices_inside_over_1mm": 526,
+      "vertices_inside_over_3mm": 387,
+      "max_depth_m": 0.09224814921617508,
+      "depth_excess_over_1mm_sum_m": 2.9634609011244026
+    },
+    {
+      "time": 3.07359028,
+      "vertices_inside_over_1mm": 524,
+      "vertices_inside_over_3mm": 388,
+      "max_depth_m": 0.09173019230365753,
+      "depth_excess_over_1mm_sum_m": 2.968583305924199
+    },
+    {
+      "time": 3.31002021,
+      "vertices_inside_over_1mm": 523,
+      "vertices_inside_over_3mm": 389,
+      "max_depth_m": 0.09172958880662918,
+      "depth_excess_over_1mm_sum_m": 2.9721959613244975
+    },
+    {
+      "time": 3.54645014,
+      "vertices_inside_over_1mm": 523,
+      "vertices_inside_over_3mm": 392,
+      "max_depth_m": 0.0917300283908844,
+      "depth_excess_over_1mm_sum_m": 2.973733819833025
+    },
+    {
+      "time": 3.78288031,
+      "vertices_inside_over_1mm": 526,
+      "vertices_inside_over_3mm": 396,
+      "max_depth_m": 0.09173139929771423,
+      "depth_excess_over_1mm_sum_m": 2.974457715359516
+    },
+    {
+      "time": 4.01931047,
+      "vertices_inside_over_1mm": 529,
+      "vertices_inside_over_3mm": 393,
+      "max_depth_m": 0.09173201024532318,
+      "depth_excess_over_1mm_sum_m": 2.9703667517555874
+    },
+    {
+      "time": 4.25574,
+      "vertices_inside_over_1mm": 532,
+      "vertices_inside_over_3mm": 393,
+      "max_depth_m": 0.09173262119293213,
+      "depth_excess_over_1mm_sum_m": 2.979242101900279
+    },
+    {
+      "time": 4.49217033,
+      "vertices_inside_over_1mm": 532,
+      "vertices_inside_over_3mm": 391,
+      "max_depth_m": 0.09173280000686646,
+      "depth_excess_over_1mm_sum_m": 2.9715583199933167
+    },
+    {
+      "time": 4.7286005,
+      "vertices_inside_over_1mm": 524,
+      "vertices_inside_over_3mm": 390,
+      "max_depth_m": 0.09173264354467392,
+      "depth_excess_over_1mm_sum_m": 2.9724590014424175
+    }
+  ],
+  "note": "Nearest-surface normal probes are comparative diagnostics, not visible-pixel counts or a guarantee against all intersections."
+}

@@ -1,0 +1,484 @@
+{
+  "bindings": [],
+  "meshes": [
+    {
+      "name": "Ethan_NewMetaHumanCharacter_head_lod0_mesh",
+      "dna_mesh": "head_lod0_mesh",
+      "vertices": 19250,
+      "dna_vertices": 24049,
+      "distance_max_m": 0.0002494382788427174,
+      "distance_p99_m": 0.0001990292714617679,
+      "unmatched_0_1mm": 422,
+      "raw_bounds": [
+        [
+          -0.1790989339351654,
+          -0.15874704718589783,
+          1.4678577184677124
+        ],
+        [
+          0.17933622002601624,
+          0.1128222644329071,
+          1.8750380277633667
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.17909893035888672,
+          -0.15874696731567384,
+          1.467857666015625
+        ],
+        [
+          0.17933622360229493,
+          0.11282233238220216,
+          1.8750379943847657
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001",
+      "dna_mesh": "head_lod0_mesh",
+      "vertices": 1857,
+      "dna_vertices": 24049,
+      "distance_max_m": 0.0002488426398485899,
+      "distance_p99_m": 0.00021888465853407983,
+      "unmatched_0_1mm": 59,
+      "raw_bounds": [
+        [
+          -0.0349026694893837,
+          -0.14784793555736542,
+          1.6854941844940186
+        ],
+        [
+          0.03401365131139755,
+          -0.051019661128520966,
+          1.7145625352859497
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.17909893035888672,
+          -0.15874696731567384,
+          1.467857666015625
+        ],
+        [
+          0.17933622360229493,
+          0.11282233238220216,
+          1.8750379943847657
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002",
+      "dna_mesh": "head_lod0_mesh",
+      "vertices": 1832,
+      "dna_vertices": 24049,
+      "distance_max_m": 0.0002733700966928154,
+      "distance_p99_m": 0.0002319117651495617,
+      "unmatched_0_1mm": 70,
+      "raw_bounds": [
+        [
+          -0.0348619669675827,
+          -0.14415095746517181,
+          1.6652618646621704
+        ],
+        [
+          0.03392735868692398,
+          -0.051019661128520966,
+          1.6882705688476562
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.17909893035888672,
+          -0.15874696731567384,
+          1.467857666015625
+        ],
+        [
+          0.17933622360229493,
+          0.11282233238220216,
+          1.8750379943847657
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh",
+      "dna_mesh": "teeth_lod0_mesh",
+      "vertices": 4246,
+      "dna_vertices": 4246,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.03617434948682785,
+          -0.13458389043807983,
+          1.6554580926895142
+        ],
+        [
+          0.036344755440950394,
+          -0.05107713118195534,
+          1.7133070230484009
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.036174349784851074,
+          -0.13458381652832033,
+          1.6554580688476563
+        ],
+        [
+          0.03634475708007812,
+          -0.05107706069946289,
+          1.7133070373535157
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh",
+      "dna_mesh": "saliva_lod0_mesh",
+      "vertices": 660,
+      "dna_vertices": 660,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.0351208858191967,
+          -0.13442400097846985,
+          1.6766072511672974
+        ],
+        [
+          0.03528847172856331,
+          -0.08224828541278839,
+          1.7028040885925293
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.03512088537216187,
+          -0.13442392349243165,
+          1.6766072082519532
+        ],
+        [
+          0.03528847217559815,
+          -0.08224821090698242,
+          1.7028041076660156
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh",
+      "dna_mesh": "eyeLeft_lod0_mesh",
+      "vertices": 770,
+      "dna_vertices": 770,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          0.01576264761388302,
+          -0.11523458361625671,
+          1.7454696893692017
+        ],
+        [
+          0.047450341284275055,
+          -0.08278416097164154,
+          1.7769759893417358
+        ]
+      ],
+      "dna_bounds": [
+        [
+          0.015762647390365602,
+          -0.1152345085144043,
+          1.7454696655273438
+        ],
+        [
+          0.04745034217834473,
+          -0.08278409004211426,
+          1.7769760131835939
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh",
+      "dna_mesh": "eyeRight_lod0_mesh",
+      "vertices": 770,
+      "dna_vertices": 770,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.04749296233057976,
+          -0.11506711691617966,
+          1.7455600500106812
+        ],
+        [
+          -0.01597556471824646,
+          -0.08298490941524506,
+          1.7769180536270142
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.047492961883544925,
+          -0.11506704330444337,
+          1.7455599975585938
+        ],
+        [
+          -0.01597556471824646,
+          -0.08298483848571778,
+          1.7769180297851563
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh",
+      "dna_mesh": "eyeshell_lod0_mesh",
+      "vertices": 552,
+      "dna_vertices": 552,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.04900951683521271,
+          -0.11690349131822586,
+          1.7537699937820435
+        ],
+        [
+          0.049182914197444916,
+          -0.1021098792552948,
+          1.762771487236023
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.04900951862335205,
+          -0.1169034194946289,
+          1.753769989013672
+        ],
+        [
+          0.04918291568756104,
+          -0.10210980415344238,
+          1.762771453857422
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh",
+      "dna_mesh": "eyelashes_lod0_mesh",
+      "vertices": 2144,
+      "dna_vertices": 2144,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.05869750678539276,
+          -0.1276436299085617,
+          1.7482702732086182
+        ],
+        [
+          0.05798912048339844,
+          -0.10102101415395737,
+          1.7696858644485474
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.058697504997253416,
+          -0.12764355659484863,
+          1.748270263671875
+        ],
+        [
+          0.05798912048339844,
+          -0.10102093696594239,
+          1.7696858215332032
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh",
+      "dna_mesh": "eyeEdge_lod0_mesh",
+      "vertices": 268,
+      "dna_vertices": 268,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.04826480522751808,
+          -0.11581592261791229,
+          1.7543458938598633
+        ],
+        [
+          0.04842483997344971,
+          -0.10194575786590576,
+          1.762480616569519
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.048264803886413576,
+          -0.11581584930419922,
+          1.7543458557128906
+        ],
+        [
+          0.04842483997344971,
+          -0.10194568634033203,
+          1.7624806213378907
+        ]
+      ]
+    },
+    {
+      "name": "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh",
+      "dna_mesh": "cartilage_lod0_mesh",
+      "vertices": 386,
+      "dna_vertices": 386,
+      "distance_max_m": 7.450580596923828e-08,
+      "distance_p99_m": 7.450580596923828e-08,
+      "unmatched_0_1mm": 0,
+      "raw_bounds": [
+        [
+          -0.05159851163625717,
+          -0.11786898225545883,
+          1.7521307468414307
+        ],
+        [
+          0.051699280738830566,
+          -0.10166271775960922,
+          1.7648022174835205
+        ]
+      ],
+      "dna_bounds": [
+        [
+          -0.0515985107421875,
+          -0.11786890983581544,
+          1.7521307373046875
+        ],
+        [
+          0.051699280738830566,
+          -0.10166264533996583,
+          1.76480224609375
+        ]
+      ]
+    }
+  ],
+  "test": [
+    {
+      "bone": "CTRL_L_eye_blink",
+      "y": -1,
+      "maxima_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0045945483174299724,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.004479819115545303,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.007180115263036269,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 1.202668879729355e-07,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.004622537921747932,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.004604750525882946,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "bone": "CTRL_L_eye_blink",
+      "y": 1,
+      "maxima_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 3.608006639188065e-07,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 1.3514129182113002e-07,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 3.709049885602305e-07,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 1.202668879729355e-07,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 1.3657139822709083e-07,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 2.525516041618331e-07,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "bone": "CTRL_C_jaw",
+      "y": -1,
+      "maxima_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "bone": "CTRL_C_jaw",
+      "y": 1,
+      "maxima_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 3.6133835733960485e-05,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.03445076427518498,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.014437199143002507,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.03479811919065013,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0344179760215487,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.03499447775596731
+      }
+    },
+    {
+      "bone": "CTRL_L_mouth_cornerPull",
+      "y": -1,
+      "maxima_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    },
+    {
+      "bone": "CTRL_L_mouth_cornerPull",
+      "y": 1,
+      "maxima_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 7.033848266831935e-05,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.019441912461857322,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0194418761336785,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.01944188826162522,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "matching_bones": 160,
+  "bone_max_error_m": 3.3494628915043226e-07,
+  "mesh_and_shape_max_error_m": 2.0641123219121346e-06,
+  "shape_errors_m": {
+    "Basis": 6.310975769337443e-07,
+    "eyeBlinkLeft": 1.5288356606176078e-06,
+    "eyeBlinkRight": 1.506084222581043e-06,
+    "eyeWideLeft": 1.534871278523121e-06,
+    "eyeWideRight": 1.7609701880013794e-06,
+    "eyeSquintLeft": 1.5359372841144269e-06,
+    "eyeSquintRight": 1.4786093170074835e-06,
+    "eyeLookUpLeft": 1.7681792109932332e-06,
+    "eyeLookDownLeft": 1.5395400875377637e-06,
+    "eyeLookInLeft": 1.6159679917877033e-06,
+    "eyeLookOutLeft": 1.5610192588842577e-06,
+    "eyeLookUpRight": 1.5556032101680778e-06,
+    "eyeLookDownRight": 1.6953451382727664e-06,
+    "eyeLookInRight": 1.6053356054451651e-06,
+    "eyeLookOutRight": 1.7188905972823972e-06,
+    "browDownLeft": 1.5429631189402416e-06,
+    "browDownRight": 1.5944377397038062e-06,
+    "browInnerUp": 1.8753389883135998e-06,
+    "browOuterUpLeft": 1.6531358088499095e-06,
+    "browOuterUpRight": 1.8753389883135998e-06,
+    "cheekPuff": 1.855465245963386e-06,
+    "cheekSquintLeft": 1.6121115100763929e-06,
+    "cheekSquintRight": 1.71282252284834e-06,
+    "noseSneerLeft": 1.5169110695351377e-06,
+    "noseSneerRight": 1.5593092307176483e-06,
+    "jawOpen": 1.5376280349897903e-06,
+    "jawForward": 1.9490582207835717e-06,
+    "jawLeft": 1.8392408648618064e-06,
+    "jawRight": 1.8582625212963687e-06,
+    "mouthClose": 1.760477424739551e-06,
+    "mouthFunnel": 1.9088815569795615e-06,
+    "mouthPucker": 1.8198523964365358e-06,
+    "mouthLeft": 1.8479947540626948e-06,
+    "mouthRight": 1.8983258978026507e-06,
+    "mouthSmileLeft": 1.8151610075611287e-06,
+    "mouthSmileRight": 1.8340823112147184e-06,
+    "mouthFrownLeft": 1.5595110778190414e-06,
+    "mouthFrownRight": 1.6698379312331665e-06,
+    "mouthDimpleLeft": 1.8460836859424798e-06,
+    "mouthDimpleRight": 1.7121964708481178e-06,
+    "mouthStretchLeft": 1.7122428128742218e-06,
+    "mouthStretchRight": 1.8212846194796642e-06,
+    "mouthRollLower": 1.5036090578333115e-06,
+    "mouthRollUpper": 1.7134226871807126e-06,
+    "mouthShrugLower": 1.5007071967299069e-06,
+    "mouthShrugUpper": 1.8751277007789346e-06,
+    "mouthPressLeft": 1.6729567578270983e-06,
+    "mouthPressRight": 1.760477424739551e-06,
+    "mouthLowerDownLeft": 1.5166355779229366e-06,
+    "mouthLowerDownRight": 1.7194260585099431e-06,
+    "mouthUpperUpLeft": 1.936127054966411e-06,
+    "mouthUpperUpRight": 1.765978539016194e-06,
+    "tongueOut": 1.5355852583522182e-06,
+    "viseme_sil": 6.310975769337443e-07,
+    "viseme_PP": 1.758329860923276e-06,
+    "viseme_FF": 1.673884974789187e-06,
+    "viseme_TH": 1.5350944275420438e-06,
+    "viseme_DD": 1.4871693837957321e-06,
+    "viseme_kk": 1.4865891722768544e-06,
+    "viseme_CH": 1.8614376837686533e-06,
+    "viseme_SS": 1.8716828127021638e-06,
+    "viseme_nn": 1.4791253645653569e-06,
+    "viseme_RR": 2.0641123219121346e-06,
+    "viseme_aa": 1.4920883811256994e-06,
+    "viseme_E": 1.890961963171876e-06,
+    "viseme_I": 1.8599800639986717e-06,
+    "viseme_O": 2.06054240886926e-06,
+    "viseme_U": 1.8198523964365358e-06,
+    "emo_joy": 1.8151610075611287e-06,
+    "emo_sadness": 1.6775472318429241e-06,
+    "emo_anger": 1.760477424739551e-06,
+    "emo_surprise": 1.5376280349897903e-06,
+    "emo_fear": 1.6592329772634465e-06,
+    "emo_disgust": 1.5438689775492898e-06
+  },
+  "unit_scale_max_error": 2.3800000004126076e-07,
+  "world_conversion": [
+    [
+      0.9999999269634964,
+      2.1453620061310846e-07,
+      1.72087179419539e-08,
+      -1.4831150649113797e-08
+    ],
+    [
+      1.1792961149903619e-07,
+      -9.796349294544093e-07,
+      1.0000003512746771,
+      -2.257901904056947e-07
+    ],
+    [
+      1.4749387761146322e-08,
+      0.9999997574395912,
+      3.0557998456637314e-07,
+      -1.4780748835985236e-07
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "head_local_conversion": [
+    [
+      0.9999999269634964,
+      1.7208714864796185e-08,
+      -2.14536157352608e-07,
+      9.134236262430504e-09
+    ],
+    [
+      1.1792964396191836e-07,
+      1.00000041046078,
+      8.008211995325525e-07,
+      -1.837613461397325e-08
+    ],
+    [
+      1.4749383986955792e-08,
+      7.556609108900567e-09,
+      -0.9999998978351429,
+      1.2619723458937027e-08
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "grooms": [
+    {
+      "label": "Scalp",
+      "strands": 100498,
+      "max_alignment_error_m": 1.2660392563710865e-07,
+      "width_error_m": 0.0
+    },
+    {
+      "label": "Eyebrows",
+      "strands": 1915,
+      "max_alignment_error_m": 1.0935749433026083e-07,
+      "width_error_m": 0.0
+    },
+    {
+      "label": "Eyelashes",
+      "strands": 787,
+      "max_alignment_error_m": 1.0478748269549318e-07,
+      "width_error_m": 0.0
+    }
+  ],
+  "live_testing_performed": false
+}

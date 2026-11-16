@@ -1,0 +1,118 @@
+{
+  "valid": false,
+  "human": false,
+  "rig": "BAKED_rig",
+  "mappedBones": 52,
+  "skeletonBones": 707,
+  "rigScale": 100.0,
+  "skins": [
+    {
+      "name": "BAKED_body_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_body_rig",
+          "count": 342
+        }
+      ]
+    },
+    {
+      "name": "BAKED_cartilage_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_eyeEdge_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_eyeLeft_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_eyeRight_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_eyeshell_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_Outfits_LOD0",
+      "boneRoots": [
+        {
+          "root": "BAKED_rig",
+          "count": 706
+        }
+      ]
+    },
+    {
+      "name": "BAKED_saliva_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    },
+    {
+      "name": "BAKED_teeth_lod0_mesh",
+      "boneRoots": [
+        {
+          "root": "BAKED_Ethan_NewMetaHumanCharacter_head_rig",
+          "count": 875
+        }
+      ]
+    }
+  ]
+}

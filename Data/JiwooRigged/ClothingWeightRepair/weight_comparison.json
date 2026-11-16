@@ -1,0 +1,758 @@
+{
+  "scores": {
+    "before": 73.64243395120106,
+    "cleaned_smoothed": 68.48423251055164,
+    "surface_transfer_50": 64.8101873724355,
+    "surface_transfer_100": 62.61744656358026,
+    "surface_transfer_seams_only": 62.2575617711713
+  },
+  "chosen": "surface_transfer_seams_only",
+  "prediction_error_m": 8.246870818467883e-06,
+  "metrics": {
+    "before": [
+      {
+        "time": 0.0,
+        "vertices_inside_over_1mm": 603,
+        "vertices_inside_over_3mm": 467,
+        "max_depth_m": 0.09224834468986212,
+        "depth_excess_over_1mm_sum_m": 3.4902758913154566
+      },
+      {
+        "time": 0.236430019,
+        "vertices_inside_over_1mm": 602,
+        "vertices_inside_over_3mm": 466,
+        "max_depth_m": 0.09173653964248463,
+        "depth_excess_over_1mm_sum_m": 3.495738395421506
+      },
+      {
+        "time": 0.472860038,
+        "vertices_inside_over_1mm": 615,
+        "vertices_inside_over_3mm": 477,
+        "max_depth_m": 0.09174169770264534,
+        "depth_excess_over_1mm_sum_m": 3.564527488504808
+      },
+      {
+        "time": 0.70929,
+        "vertices_inside_over_1mm": 622,
+        "vertices_inside_over_3mm": 473,
+        "max_depth_m": 0.0922696539015595,
+        "depth_excess_over_1mm_sum_m": 3.612133882119558
+      },
+      {
+        "time": 0.9457201,
+        "vertices_inside_over_1mm": 589,
+        "vertices_inside_over_3mm": 438,
+        "max_depth_m": 0.0922443612831032,
+        "depth_excess_over_1mm_sum_m": 3.363866551823791
+      },
+      {
+        "time": 1.18215013,
+        "vertices_inside_over_1mm": 568,
+        "vertices_inside_over_3mm": 417,
+        "max_depth_m": 0.09220761289352478,
+        "depth_excess_over_1mm_sum_m": 3.254531258011277
+      },
+      {
+        "time": 1.41858,
+        "vertices_inside_over_1mm": 600,
+        "vertices_inside_over_3mm": 461,
+        "max_depth_m": 0.09221936677287555,
+        "depth_excess_over_1mm_sum_m": 3.603559079626716
+      },
+      {
+        "time": 1.6550101,
+        "vertices_inside_over_1mm": 627,
+        "vertices_inside_over_3mm": 482,
+        "max_depth_m": 0.09166416507268867,
+        "depth_excess_over_1mm_sum_m": 3.633849047972857
+      },
+      {
+        "time": 1.89144015,
+        "vertices_inside_over_1mm": 594,
+        "vertices_inside_over_3mm": 437,
+        "max_depth_m": 0.09164698640279467,
+        "depth_excess_over_1mm_sum_m": 3.3683882324586647
+      },
+      {
+        "time": 2.12787,
+        "vertices_inside_over_1mm": 576,
+        "vertices_inside_over_3mm": 444,
+        "max_depth_m": 0.09219416776119733,
+        "depth_excess_over_1mm_sum_m": 3.4479402713498666
+      },
+      {
+        "time": 2.36430025,
+        "vertices_inside_over_1mm": 610,
+        "vertices_inside_over_3mm": 483,
+        "max_depth_m": 0.09219306956929588,
+        "depth_excess_over_1mm_sum_m": 3.756376513641699
+      },
+      {
+        "time": 2.60073018,
+        "vertices_inside_over_1mm": 629,
+        "vertices_inside_over_3mm": 487,
+        "max_depth_m": 0.09220408068033928,
+        "depth_excess_over_1mm_sum_m": 3.657897171840455
+      },
+      {
+        "time": 2.83716,
+        "vertices_inside_over_1mm": 580,
+        "vertices_inside_over_3mm": 442,
+        "max_depth_m": 0.09224099072682344,
+        "depth_excess_over_1mm_sum_m": 3.4393787431114893
+      },
+      {
+        "time": 3.07359028,
+        "vertices_inside_over_1mm": 584,
+        "vertices_inside_over_3mm": 450,
+        "max_depth_m": 0.09178967853087867,
+        "depth_excess_over_1mm_sum_m": 3.445739315640297
+      },
+      {
+        "time": 3.31002021,
+        "vertices_inside_over_1mm": 597,
+        "vertices_inside_over_3mm": 459,
+        "max_depth_m": 0.09179610688187817,
+        "depth_excess_over_1mm_sum_m": 3.48845122811293
+      },
+      {
+        "time": 3.54645014,
+        "vertices_inside_over_1mm": 597,
+        "vertices_inside_over_3mm": 465,
+        "max_depth_m": 0.09178642749031077,
+        "depth_excess_over_1mm_sum_m": 3.5082616997204448
+      },
+      {
+        "time": 3.78288031,
+        "vertices_inside_over_1mm": 603,
+        "vertices_inside_over_3mm": 470,
+        "max_depth_m": 0.09176828652587841,
+        "depth_excess_over_1mm_sum_m": 3.5063584875008984
+      },
+      {
+        "time": 4.01931047,
+        "vertices_inside_over_1mm": 606,
+        "vertices_inside_over_3mm": 470,
+        "max_depth_m": 0.09175228501733876,
+        "depth_excess_over_1mm_sum_m": 3.5038936671739056
+      },
+      {
+        "time": 4.25574,
+        "vertices_inside_over_1mm": 607,
+        "vertices_inside_over_3mm": 471,
+        "max_depth_m": 0.09172599306682043,
+        "depth_excess_over_1mm_sum_m": 3.505721946064718
+      },
+      {
+        "time": 4.49217033,
+        "vertices_inside_over_1mm": 607,
+        "vertices_inside_over_3mm": 469,
+        "max_depth_m": 0.09173037267079658,
+        "depth_excess_over_1mm_sum_m": 3.5040335954337234
+      },
+      {
+        "time": 4.7286005,
+        "vertices_inside_over_1mm": 603,
+        "vertices_inside_over_3mm": 467,
+        "max_depth_m": 0.0917326364622954,
+        "depth_excess_over_1mm_sum_m": 3.4915114843559993
+      }
+    ],
+    "cleaned_smoothed": [
+      {
+        "time": 0.0,
+        "vertices_inside_over_1mm": 586,
+        "vertices_inside_over_3mm": 445,
+        "max_depth_m": 0.09237381969638445,
+        "depth_excess_over_1mm_sum_m": 3.34308403981797
+      },
+      {
+        "time": 0.236430019,
+        "vertices_inside_over_1mm": 586,
+        "vertices_inside_over_3mm": 445,
+        "max_depth_m": 0.09238418284859894,
+        "depth_excess_over_1mm_sum_m": 3.343723002167424
+      },
+      {
+        "time": 0.472860038,
+        "vertices_inside_over_1mm": 586,
+        "vertices_inside_over_3mm": 442,
+        "max_depth_m": 0.09239206606020448,
+        "depth_excess_over_1mm_sum_m": 3.3122227140157117
+      },
+      {
+        "time": 0.70929,
+        "vertices_inside_over_1mm": 568,
+        "vertices_inside_over_3mm": 412,
+        "max_depth_m": 0.0924633801768442,
+        "depth_excess_over_1mm_sum_m": 3.2127634335321993
+      },
+      {
+        "time": 0.9457201,
+        "vertices_inside_over_1mm": 543,
+        "vertices_inside_over_3mm": 396,
+        "max_depth_m": 0.09248655841841512,
+        "depth_excess_over_1mm_sum_m": 3.114817271960354
+      },
+      {
+        "time": 1.18215013,
+        "vertices_inside_over_1mm": 546,
+        "vertices_inside_over_3mm": 397,
+        "max_depth_m": 0.09241520500042134,
+        "depth_excess_over_1mm_sum_m": 3.1709858376976623
+      },
+      {
+        "time": 1.41858,
+        "vertices_inside_over_1mm": 550,
+        "vertices_inside_over_3mm": 414,
+        "max_depth_m": 0.0924609927874264,
+        "depth_excess_over_1mm_sum_m": 3.158503073967867
+      },
+      {
+        "time": 1.6550101,
+        "vertices_inside_over_1mm": 555,
+        "vertices_inside_over_3mm": 408,
+        "max_depth_m": 0.09249891820658303,
+        "depth_excess_over_1mm_sum_m": 3.104828758167275
+      },
+      {
+        "time": 1.89144015,
+        "vertices_inside_over_1mm": 545,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.09248373460905922,
+        "depth_excess_over_1mm_sum_m": 3.0923551644531844
+      },
+      {
+        "time": 2.12787,
+        "vertices_inside_over_1mm": 546,
+        "vertices_inside_over_3mm": 404,
+        "max_depth_m": 0.0924513363088585,
+        "depth_excess_over_1mm_sum_m": 3.1329697047527105
+      },
+      {
+        "time": 2.36430025,
+        "vertices_inside_over_1mm": 547,
+        "vertices_inside_over_3mm": 419,
+        "max_depth_m": 0.09245989058173595,
+        "depth_excess_over_1mm_sum_m": 3.1694335114056624
+      },
+      {
+        "time": 2.60073018,
+        "vertices_inside_over_1mm": 567,
+        "vertices_inside_over_3mm": 418,
+        "max_depth_m": 0.09246580392583338,
+        "depth_excess_over_1mm_sum_m": 3.1675686848325215
+      },
+      {
+        "time": 2.83716,
+        "vertices_inside_over_1mm": 576,
+        "vertices_inside_over_3mm": 435,
+        "max_depth_m": 0.09246057484217883,
+        "depth_excess_over_1mm_sum_m": 3.3761872061204494
+      },
+      {
+        "time": 3.07359028,
+        "vertices_inside_over_1mm": 575,
+        "vertices_inside_over_3mm": 439,
+        "max_depth_m": 0.09246902557854203,
+        "depth_excess_over_1mm_sum_m": 3.3610361228069943
+      },
+      {
+        "time": 3.31002021,
+        "vertices_inside_over_1mm": 581,
+        "vertices_inside_over_3mm": 442,
+        "max_depth_m": 0.09245848439846954,
+        "depth_excess_over_1mm_sum_m": 3.3407912559526585
+      },
+      {
+        "time": 3.54645014,
+        "vertices_inside_over_1mm": 579,
+        "vertices_inside_over_3mm": 439,
+        "max_depth_m": 0.09242614348649004,
+        "depth_excess_over_1mm_sum_m": 3.327605181460814
+      },
+      {
+        "time": 3.78288031,
+        "vertices_inside_over_1mm": 587,
+        "vertices_inside_over_3mm": 447,
+        "max_depth_m": 0.09241257686096922,
+        "depth_excess_over_1mm_sum_m": 3.352885777053878
+      },
+      {
+        "time": 4.01931047,
+        "vertices_inside_over_1mm": 590,
+        "vertices_inside_over_3mm": 448,
+        "max_depth_m": 0.09240104649636179,
+        "depth_excess_over_1mm_sum_m": 3.3523475050386966
+      },
+      {
+        "time": 4.25574,
+        "vertices_inside_over_1mm": 592,
+        "vertices_inside_over_3mm": 448,
+        "max_depth_m": 0.09235580642166744,
+        "depth_excess_over_1mm_sum_m": 3.3526605233238307
+      },
+      {
+        "time": 4.49217033,
+        "vertices_inside_over_1mm": 591,
+        "vertices_inside_over_3mm": 447,
+        "max_depth_m": 0.09237025568875568,
+        "depth_excess_over_1mm_sum_m": 3.352539348996577
+      },
+      {
+        "time": 4.7286005,
+        "vertices_inside_over_1mm": 586,
+        "vertices_inside_over_3mm": 445,
+        "max_depth_m": 0.09237355125310215,
+        "depth_excess_over_1mm_sum_m": 3.3449243930271937
+      }
+    ],
+    "surface_transfer_50": [
+      {
+        "time": 0.0,
+        "vertices_inside_over_1mm": 560,
+        "vertices_inside_over_3mm": 416,
+        "max_depth_m": 0.09137578586802846,
+        "depth_excess_over_1mm_sum_m": 3.125686361379613
+      },
+      {
+        "time": 0.236430019,
+        "vertices_inside_over_1mm": 556,
+        "vertices_inside_over_3mm": 416,
+        "max_depth_m": 0.09139188163115679,
+        "depth_excess_over_1mm_sum_m": 3.125241889634713
+      },
+      {
+        "time": 0.472860038,
+        "vertices_inside_over_1mm": 558,
+        "vertices_inside_over_3mm": 414,
+        "max_depth_m": 0.09139570598039186,
+        "depth_excess_over_1mm_sum_m": 3.1215010863733808
+      },
+      {
+        "time": 0.70929,
+        "vertices_inside_over_1mm": 542,
+        "vertices_inside_over_3mm": 401,
+        "max_depth_m": 0.09148690051138618,
+        "depth_excess_over_1mm_sum_m": 3.0797164399575796
+      },
+      {
+        "time": 0.9457201,
+        "vertices_inside_over_1mm": 531,
+        "vertices_inside_over_3mm": 396,
+        "max_depth_m": 0.09152141769481162,
+        "depth_excess_over_1mm_sum_m": 3.0297377902038747
+      },
+      {
+        "time": 1.18215013,
+        "vertices_inside_over_1mm": 532,
+        "vertices_inside_over_3mm": 396,
+        "max_depth_m": 0.09140764176722117,
+        "depth_excess_over_1mm_sum_m": 3.05664358673313
+      },
+      {
+        "time": 1.41858,
+        "vertices_inside_over_1mm": 525,
+        "vertices_inside_over_3mm": 387,
+        "max_depth_m": 0.09147203467188866,
+        "depth_excess_over_1mm_sum_m": 2.989380176710474
+      },
+      {
+        "time": 1.6550101,
+        "vertices_inside_over_1mm": 530,
+        "vertices_inside_over_3mm": 398,
+        "max_depth_m": 0.09161211086225649,
+        "depth_excess_over_1mm_sum_m": 3.010266649811309
+      },
+      {
+        "time": 1.89144015,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 392,
+        "max_depth_m": 0.09158639533235868,
+        "depth_excess_over_1mm_sum_m": 3.018654277618432
+      },
+      {
+        "time": 2.12787,
+        "vertices_inside_over_1mm": 525,
+        "vertices_inside_over_3mm": 383,
+        "max_depth_m": 0.09143847538571905,
+        "depth_excess_over_1mm_sum_m": 2.9978104975667574
+      },
+      {
+        "time": 2.36430025,
+        "vertices_inside_over_1mm": 535,
+        "vertices_inside_over_3mm": 391,
+        "max_depth_m": 0.0914882389970285,
+        "depth_excess_over_1mm_sum_m": 2.9978703590316536
+      },
+      {
+        "time": 2.60073018,
+        "vertices_inside_over_1mm": 534,
+        "vertices_inside_over_3mm": 403,
+        "max_depth_m": 0.09158011899339102,
+        "depth_excess_over_1mm_sum_m": 3.0513459133690604
+      },
+      {
+        "time": 2.83716,
+        "vertices_inside_over_1mm": 547,
+        "vertices_inside_over_3mm": 408,
+        "max_depth_m": 0.0915483291068541,
+        "depth_excess_over_1mm_sum_m": 3.1501455062956536
+      },
+      {
+        "time": 3.07359028,
+        "vertices_inside_over_1mm": 544,
+        "vertices_inside_over_3mm": 404,
+        "max_depth_m": 0.09148794918100249,
+        "depth_excess_over_1mm_sum_m": 3.140390746891751
+      },
+      {
+        "time": 3.31002021,
+        "vertices_inside_over_1mm": 551,
+        "vertices_inside_over_3mm": 408,
+        "max_depth_m": 0.0914648662627121,
+        "depth_excess_over_1mm_sum_m": 3.1305315704921335
+      },
+      {
+        "time": 3.54645014,
+        "vertices_inside_over_1mm": 559,
+        "vertices_inside_over_3mm": 411,
+        "max_depth_m": 0.0914030429492894,
+        "depth_excess_over_1mm_sum_m": 3.123592283115588
+      },
+      {
+        "time": 3.78288031,
+        "vertices_inside_over_1mm": 563,
+        "vertices_inside_over_3mm": 417,
+        "max_depth_m": 0.09138444004336661,
+        "depth_excess_over_1mm_sum_m": 3.1351417893243014
+      },
+      {
+        "time": 4.01931047,
+        "vertices_inside_over_1mm": 562,
+        "vertices_inside_over_3mm": 418,
+        "max_depth_m": 0.0913871482586408,
+        "depth_excess_over_1mm_sum_m": 3.132531449733795
+      },
+      {
+        "time": 4.25574,
+        "vertices_inside_over_1mm": 564,
+        "vertices_inside_over_3mm": 417,
+        "max_depth_m": 0.091349761541493,
+        "depth_excess_over_1mm_sum_m": 3.1349314107740813
+      },
+      {
+        "time": 4.49217033,
+        "vertices_inside_over_1mm": 564,
+        "vertices_inside_over_3mm": 417,
+        "max_depth_m": 0.09136838759792398,
+        "depth_excess_over_1mm_sum_m": 3.132942365031989
+      },
+      {
+        "time": 4.7286005,
+        "vertices_inside_over_1mm": 560,
+        "vertices_inside_over_3mm": 416,
+        "max_depth_m": 0.09137538023396917,
+        "depth_excess_over_1mm_sum_m": 3.1261252223862273
+      }
+    ],
+    "surface_transfer_100": [
+      {
+        "time": 0.0,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 393,
+        "max_depth_m": 0.09037772069088201,
+        "depth_excess_over_1mm_sum_m": 2.9851278739159106
+      },
+      {
+        "time": 0.236430019,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 392,
+        "max_depth_m": 0.09039957739084027,
+        "depth_excess_over_1mm_sum_m": 2.9832455874001225
+      },
+      {
+        "time": 0.472860038,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 393,
+        "max_depth_m": 0.09039934741207593,
+        "depth_excess_over_1mm_sum_m": 2.9966002201782547
+      },
+      {
+        "time": 0.70929,
+        "vertices_inside_over_1mm": 520,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.09051038214160476,
+        "depth_excess_over_1mm_sum_m": 3.003066863732447
+      },
+      {
+        "time": 0.9457201,
+        "vertices_inside_over_1mm": 514,
+        "vertices_inside_over_3mm": 388,
+        "max_depth_m": 0.09055628601305535,
+        "depth_excess_over_1mm_sum_m": 2.9759543054663737
+      },
+      {
+        "time": 1.18215013,
+        "vertices_inside_over_1mm": 521,
+        "vertices_inside_over_3mm": 388,
+        "max_depth_m": 0.09040005493209077,
+        "depth_excess_over_1mm_sum_m": 2.970594276543702
+      },
+      {
+        "time": 1.41858,
+        "vertices_inside_over_1mm": 514,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.09048305884523677,
+        "depth_excess_over_1mm_sum_m": 2.9706065624601825
+      },
+      {
+        "time": 1.6550101,
+        "vertices_inside_over_1mm": 515,
+        "vertices_inside_over_3mm": 389,
+        "max_depth_m": 0.0907252785106888,
+        "depth_excess_over_1mm_sum_m": 2.9704841797937775
+      },
+      {
+        "time": 1.89144015,
+        "vertices_inside_over_1mm": 514,
+        "vertices_inside_over_3mm": 386,
+        "max_depth_m": 0.09068907170966364,
+        "depth_excess_over_1mm_sum_m": 2.9687573449220586
+      },
+      {
+        "time": 2.12787,
+        "vertices_inside_over_1mm": 515,
+        "vertices_inside_over_3mm": 387,
+        "max_depth_m": 0.09042560263721608,
+        "depth_excess_over_1mm_sum_m": 2.963520148197311
+      },
+      {
+        "time": 2.36430025,
+        "vertices_inside_over_1mm": 518,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.09051657958059003,
+        "depth_excess_over_1mm_sum_m": 2.9740186906867363
+      },
+      {
+        "time": 2.60073018,
+        "vertices_inside_over_1mm": 515,
+        "vertices_inside_over_3mm": 392,
+        "max_depth_m": 0.09069443974807817,
+        "depth_excess_over_1mm_sum_m": 2.979119777327406
+      },
+      {
+        "time": 2.83716,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 392,
+        "max_depth_m": 0.0906360951319111,
+        "depth_excess_over_1mm_sum_m": 2.9875705645409423
+      },
+      {
+        "time": 3.07359028,
+        "vertices_inside_over_1mm": 527,
+        "vertices_inside_over_3mm": 391,
+        "max_depth_m": 0.09050686943078981,
+        "depth_excess_over_1mm_sum_m": 2.9838571658372883
+      },
+      {
+        "time": 3.31002021,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 392,
+        "max_depth_m": 0.09047122866064437,
+        "depth_excess_over_1mm_sum_m": 2.9851096513669777
+      },
+      {
+        "time": 3.54645014,
+        "vertices_inside_over_1mm": 529,
+        "vertices_inside_over_3mm": 393,
+        "max_depth_m": 0.0903799296419055,
+        "depth_excess_over_1mm_sum_m": 2.9851871301941495
+      },
+      {
+        "time": 3.78288031,
+        "vertices_inside_over_1mm": 532,
+        "vertices_inside_over_3mm": 398,
+        "max_depth_m": 0.09035628502522565,
+        "depth_excess_over_1mm_sum_m": 2.985953467048364
+      },
+      {
+        "time": 4.01931047,
+        "vertices_inside_over_1mm": 533,
+        "vertices_inside_over_3mm": 395,
+        "max_depth_m": 0.09037325692701188,
+        "depth_excess_over_1mm_sum_m": 2.981459511537719
+      },
+      {
+        "time": 4.25574,
+        "vertices_inside_over_1mm": 536,
+        "vertices_inside_over_3mm": 395,
+        "max_depth_m": 0.0903436915920265,
+        "depth_excess_over_1mm_sum_m": 2.9921637082418187
+      },
+      {
+        "time": 4.49217033,
+        "vertices_inside_over_1mm": 536,
+        "vertices_inside_over_3mm": 395,
+        "max_depth_m": 0.09036652770546155,
+        "depth_excess_over_1mm_sum_m": 2.989560863962169
+      },
+      {
+        "time": 4.7286005,
+        "vertices_inside_over_1mm": 528,
+        "vertices_inside_over_3mm": 393,
+        "max_depth_m": 0.09037719105556791,
+        "depth_excess_over_1mm_sum_m": 2.985488670226548
+      }
+    ],
+    "surface_transfer_seams_only": [
+      {
+        "time": 0.0,
+        "vertices_inside_over_1mm": 524,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.0922483428714444,
+        "depth_excess_over_1mm_sum_m": 2.9726858597308308
+      },
+      {
+        "time": 0.236430019,
+        "vertices_inside_over_1mm": 524,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.09173254523529811,
+        "depth_excess_over_1mm_sum_m": 2.970289390558696
+      },
+      {
+        "time": 0.472860038,
+        "vertices_inside_over_1mm": 526,
+        "vertices_inside_over_3mm": 391,
+        "max_depth_m": 0.09173271919654484,
+        "depth_excess_over_1mm_sum_m": 2.981353287624374
+      },
+      {
+        "time": 0.70929,
+        "vertices_inside_over_1mm": 519,
+        "vertices_inside_over_3mm": 386,
+        "max_depth_m": 0.09224713520817591,
+        "depth_excess_over_1mm_sum_m": 2.9795120802498585
+      },
+      {
+        "time": 0.9457201,
+        "vertices_inside_over_1mm": 514,
+        "vertices_inside_over_3mm": 386,
+        "max_depth_m": 0.09224787498823735,
+        "depth_excess_over_1mm_sum_m": 2.9551796490479045
+      },
+      {
+        "time": 1.18215013,
+        "vertices_inside_over_1mm": 514,
+        "vertices_inside_over_3mm": 384,
+        "max_depth_m": 0.09224785455653235,
+        "depth_excess_over_1mm_sum_m": 2.94999165789858
+      },
+      {
+        "time": 1.41858,
+        "vertices_inside_over_1mm": 513,
+        "vertices_inside_over_3mm": 387,
+        "max_depth_m": 0.0922461855090579,
+        "depth_excess_over_1mm_sum_m": 2.9505950235324656
+      },
+      {
+        "time": 1.6550101,
+        "vertices_inside_over_1mm": 513,
+        "vertices_inside_over_3mm": 386,
+        "max_depth_m": 0.09173308105302523,
+        "depth_excess_over_1mm_sum_m": 2.9474933312249725
+      },
+      {
+        "time": 1.89144015,
+        "vertices_inside_over_1mm": 512,
+        "vertices_inside_over_3mm": 385,
+        "max_depth_m": 0.09173270473734851,
+        "depth_excess_over_1mm_sum_m": 2.9443778439674446
+      },
+      {
+        "time": 2.12787,
+        "vertices_inside_over_1mm": 510,
+        "vertices_inside_over_3mm": 384,
+        "max_depth_m": 0.0922458578325924,
+        "depth_excess_over_1mm_sum_m": 2.9458755829555483
+      },
+      {
+        "time": 2.36430025,
+        "vertices_inside_over_1mm": 514,
+        "vertices_inside_over_3mm": 387,
+        "max_depth_m": 0.0922465986526784,
+        "depth_excess_over_1mm_sum_m": 2.9547723363690586
+      },
+      {
+        "time": 2.60073018,
+        "vertices_inside_over_1mm": 513,
+        "vertices_inside_over_3mm": 389,
+        "max_depth_m": 0.09224808865464636,
+        "depth_excess_over_1mm_sum_m": 2.9604827409531307
+      },
+      {
+        "time": 2.83716,
+        "vertices_inside_over_1mm": 526,
+        "vertices_inside_over_3mm": 387,
+        "max_depth_m": 0.09224822627966486,
+        "depth_excess_over_1mm_sum_m": 2.963454235975462
+      },
+      {
+        "time": 3.07359028,
+        "vertices_inside_over_1mm": 524,
+        "vertices_inside_over_3mm": 388,
+        "max_depth_m": 0.09173021416441053,
+        "depth_excess_over_1mm_sum_m": 2.9681971356353145
+      },
+      {
+        "time": 3.31002021,
+        "vertices_inside_over_1mm": 523,
+        "vertices_inside_over_3mm": 389,
+        "max_depth_m": 0.0917296787293038,
+        "depth_excess_over_1mm_sum_m": 2.9721822313038606
+      },
+      {
+        "time": 3.54645014,
+        "vertices_inside_over_1mm": 523,
+        "vertices_inside_over_3mm": 392,
+        "max_depth_m": 0.09173001188845484,
+        "depth_excess_over_1mm_sum_m": 2.9733037890606244
+      },
+      {
+        "time": 3.78288031,
+        "vertices_inside_over_1mm": 526,
+        "vertices_inside_over_3mm": 396,
+        "max_depth_m": 0.09173148048833869,
+        "depth_excess_over_1mm_sum_m": 2.9746576809332725
+      },
+      {
+        "time": 4.01931047,
+        "vertices_inside_over_1mm": 529,
+        "vertices_inside_over_3mm": 393,
+        "max_depth_m": 0.09173206819800349,
+        "depth_excess_over_1mm_sum_m": 2.969979083703502
+      },
+      {
+        "time": 4.25574,
+        "vertices_inside_over_1mm": 532,
+        "vertices_inside_over_3mm": 393,
+        "max_depth_m": 0.09173268109073111,
+        "depth_excess_over_1mm_sum_m": 2.9792219878322825
+      },
+      {
+        "time": 4.49217033,
+        "vertices_inside_over_1mm": 532,
+        "vertices_inside_over_3mm": 391,
+        "max_depth_m": 0.09173282151557978,
+        "depth_excess_over_1mm_sum_m": 2.971521106498931
+      },
+      {
+        "time": 4.7286005,
+        "vertices_inside_over_1mm": 524,
+        "vertices_inside_over_3mm": 390,
+        "max_depth_m": 0.09173267695268317,
+        "depth_excess_over_1mm_sum_m": 2.9724357361151807
+      }
+    ]
+  }
+}

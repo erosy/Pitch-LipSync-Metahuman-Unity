@@ -1,0 +1,250 @@
+{
+  "archive": "Data/ProductionCleanup/2026-11-11/retired_authoring_files.zip",
+  "files": [
+    {
+      "path": "Tools/Hair/AssignJiwooNewMaterials.cs",
+      "sha256": "639cd108d0f357f39a36b5bc0b9081194ba3b655793591506e33bf5de184e0e3",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/AuditHairPerformance.cs",
+      "sha256": "d500217187556643bdcf01ca8cf8e7dd4f7bbf7f4a968b126ba778d184dc0553",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/AuditJiwooBlink.cs",
+      "sha256": "157c29c197b349de72daaf343237478f073823f505cb589ab72d8880ea987d10",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/AuditJiwooClothing.cs",
+      "sha256": "941204586ca3358ab859048c2a08de4306c50e8a972c757b87e58b9b7adc00be",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/audit_jiwoo_clothing.py",
+      "sha256": "67cdeaecc095b0ef92d629de14ea6db84dca26e619c110b4c9a669a99433b223",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/audit_jiwoo_deformation.py",
+      "sha256": "c4e533b7b81c11ead4515400def239a787dbbb6848c985e3bcf7b86523409946",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/audit_jiwoo_scalp.py",
+      "sha256": "12de05b0559a72dff6eff7aae57d10ad41bc8fbb755bbf3eceb02e81a3a4e283",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/bake_jiwoo_head_sdf.py",
+      "sha256": "068addcbc7ce5c1e0273eebd153396d7573ae8c414d948a25a6263d82dc0a4c3",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/bake_jiwoo_rigged_shapes.py",
+      "sha256": "e7b01aadf569befbc287cc1f8781a38426e24a65f6908640e992b4963fd3995e",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/ConfigureJiwooSelection.cs",
+      "sha256": "c13075e9d1af3f9bce7d34bd1441382d59bf5be66796b15edec638dce9b74745",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/export_jiwoo_rigged.py",
+      "sha256": "abfffa1a5227be193983b1805d3e509e271033ac393edea57ba6ff3e94446e73",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/export_jiwoo_scalp32.py",
+      "sha256": "0c757b94c829d1ee32816858ed7ab81689fbc719d5aa7becffad9763373673c7",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/inspect_jiwoo_blink_video.py",
+      "sha256": "b7458e30b752a6b9aa2b79f78d63bf19fda398bf1bb04758192ac827bb8cde5f",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/inspect_jiwoo_native.py",
+      "sha256": "4427ab9c2868d463432f4050b5a5ec60290e355baf5fa423e7c33b0a14737b73",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/InstallJiwooClothingSeams.cs",
+      "sha256": "226524b05f2556090c0b3d8772a25390460f0eba7fe18f98ca48f06833b639de",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/InstallJiwooRigged.cs",
+      "sha256": "481104f8b44876248e2976a854dde5cbb0ee41f853efc238e0e3330be4c0d6ac",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/jiwoo_shape_names.json",
+      "sha256": "d496c33b38d7d35e656d39ddfc8a5788dc888b90d059d5b7daaf2f4ac815f647",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/OptimizeJiwooScalp.cs",
+      "sha256": "75ed05b49c944422d94eb94990d8c94b6ec56080aa2ec37c0296ce71d5c5f03e",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/prepare_jiwoo_ethan_reference.py",
+      "sha256": "f1d4751a74b284ca02accdc8dc56b4fd097a8f284790f05a2295622acd4acbad",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/preview_jiwoo_clothing_greeting.py",
+      "sha256": "e5ffae99be212082debc7a484566d66e626743ea824939c6c7fe4e37c5f82fc9",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/preview_jiwoo_ethan_reference.py",
+      "sha256": "7f12fad9dadda8dcfdd5d1d5b4139baaf7e0f064339dd8989794cb1433b5f2ed",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/RepairJiwooAvatar.cs",
+      "sha256": "602282af2907ccc2ea2c38545357ed28841a0bbe45fb5dcd097f22374fd00ff9",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/RepairJiwooBlinkNormals.cs",
+      "sha256": "2c5e5c65ce3af7bf605fc860ef94b81f6bac58f4cf0826165fc502e9cd0d326d",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/RepairJiwooDeformation.cs",
+      "sha256": "6dce512782c3c3bcbe6691ee149d3c7c61c006a537e8296d8d5962bfc1eb3ee7",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/RepairJiwooScalpBoundary.cs",
+      "sha256": "70570cc0987737f84f62916f6d86215199bcc0747d3c3634cab2cd8d000e425f",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/repair_jiwoo_clothing_seams.py",
+      "sha256": "adde2e43f3c9dec75ea7979919e7785a6bb029890ba70480b666c4bb25b32cb5",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/repair_jiwoo_clothing_weights.py",
+      "sha256": "8e281236625a60fca7496e0d0d287732e8d25882d9d8d1648b980521922f1961",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/ReplaceJiwooPrefab.cs",
+      "sha256": "8629ec7b87cfa84251af2333fafb007b4c27829e4c3845793591a770a21fdef6",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/RestoreJiwooScalp.cs",
+      "sha256": "833ea654d986e540b522fdbc17e0371a93c288c5217875c41eabc59a23985a21",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/SampleJiwooClothingGreeting.cs",
+      "sha256": "634592aae763ffbc37641bc4ae3816795975200e8786e2ea1d0b5112cc095471",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/VerifyJiwooHeadSdf.compute",
+      "sha256": "87c947f0726597b794a43e9f7b20acec79c869e3ce820b61c066e8f461045e60",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/verify_jiwoo_clothing_greeting.py",
+      "sha256": "74c9ca73c1e04cfa45959637344be2ffbbbf0013bdff72987dd1608858c1673c",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/verify_jiwoo_clothing_seams.py",
+      "sha256": "439460310a874dadbb334de96128fc3cce48500fcdeec37ac82d0153d38bd351",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/verify_jiwoo_ethan_reference.py",
+      "sha256": "3777987694a43c01c7ec872967359da3496964f5480f414b6acddeaa6560f8cc",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/verify_jiwoo_rigged_export.py",
+      "sha256": "13c839d9dc3e21f2fb76b7dadb5f2b965a4430b3a058f1198f5f232e881831e6",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/verify_jiwoo_rigged_unity.py",
+      "sha256": "4bbe62c8d75306e68a95f4fac6fe36c2d24835ababd5efb093d7bec47963a66c",
+      "action": "remove"
+    },
+    {
+      "path": "Tools/Hair/verify_jiwoo_scalp_unity.py",
+      "sha256": "be207f3b74b91815fe9117c8023f4311429a36b21f0b53ea7d5da83915954528",
+      "action": "remove"
+    },
+    {
+      "path": "Docs/EthanFittedHair.md",
+      "sha256": "b7c675e34d93c55dae15dc7e42761867f74f0f8681a17db59354191d5a8e82a6",
+      "action": "remove"
+    },
+    {
+      "path": "Docs/FacialHair/README.md",
+      "sha256": "4da9b5c6f6662229bc2f18ef3c0a90db09312dfa8e42240bd189ca3e39aab129",
+      "action": "remove"
+    },
+    {
+      "path": "Docs/RenderingReview/README.md",
+      "sha256": "6816b693939c188aac6210cb8ad69380ecc5ee1fc54618a8806fafb0c81a83c2",
+      "action": "remove"
+    },
+    {
+      "path": "Docs/WebGL/HairFallback.md",
+      "sha256": "45841b44fe3ac76271b3448320085f4c2d5071140644c69b09d0bfeeb8b0b3fb",
+      "action": "remove"
+    },
+    {
+      "path": "Assets/_Sandbox/Scripts/FacialGroomSurfaceBinding.cs",
+      "sha256": "facdb7f8b359c9b866be9dfa4a95f210c2634b3f4af1f34b95e6db426774a2e0",
+      "action": "remove"
+    },
+    {
+      "path": "Assets/_Sandbox/Scripts/FacialGroomSurfaceBinding.cs.meta",
+      "sha256": "6cbc54794cda561a1123625fa1ee2f01c66da82c5adcdd63853cf3c1a30b1d87",
+      "action": "remove"
+    },
+    {
+      "path": "Assets/_Sandbox/Shaders/FacialGroomKinematics.compute",
+      "sha256": "4643ae2820bc26ab51fc1ad8c34d25ba9e7e7cf43ef69eaeb0596df6f9fd2602",
+      "action": "remove"
+    },
+    {
+      "path": "Assets/_Sandbox/Shaders/FacialGroomKinematics.compute.meta",
+      "sha256": "c650aa680a709cb0fbce26f0490bd88a264a11304596d662be896a1524212148",
+      "action": "remove"
+    },
+    {
+      "path": "Docs/JiwooRigged.md",
+      "sha256": "db6ec3d90e3da9994a8e349bb6e3899d5e76b2648c3f1bb790be0fc86ee90b89",
+      "action": "replace_documentation"
+    },
+    {
+      "path": "Docs/CharacterGroomWorkflow.md",
+      "sha256": "bf122d90ace3f313ce7f50cad05ea09addc80c9116610a1f6232b08ec90bc89b",
+      "action": "replace_documentation"
+    },
+    {
+      "path": "Docs/CharacterHairSupport.md",
+      "sha256": "4f7d57b8a8b4392e8d7f32d20c553ea5fe62727eb4f4b5b51fe5e65c2a65aa30",
+      "action": "replace_documentation"
+    },
+    {
+      "path": "Docs/EthanAppearance/README.md",
+      "sha256": "40068b222c3b07007d135743fbc226963a541dbc1d476a281576afdf73dadd0a",
+      "action": "replace_documentation"
+    }
+  ]
+}

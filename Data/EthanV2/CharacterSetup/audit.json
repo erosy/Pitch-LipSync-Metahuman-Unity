@@ -1,0 +1,233 @@
+{
+  "prefabs": [
+    {
+      "path": "Assets/_Sandbox/Characters/Ethan/Ethan.prefab",
+      "components": [
+        {
+          "path": "",
+          "type": "UnityEngine.Animator",
+          "json": "{\"Animator\":{\"serializedVersion\":\"7\",\"m_Enabled\":true,\"m_Avatar\":{\"fileID\":9000000,\"guid\":\"720d9831c785a2c4ca4c105429ab3610\",\"type\":3},\"m_Controller\":{\"instanceID\":0},\"m_CullingMode\":1,\"m_UpdateMode\":0,\"m_ApplyRootMotion\":false,\"m_LinearVelocityBlending\":false,\"m_StabilizeFeet\":false,\"m_AnimatePhysics\":false,\"m_WarningMessage\":\"\",\"m_HasTransformHierarchy\":true,\"m_AllowConstantClipSamplingOptimization\":true,\"m_KeepAnimatorStateOnDisable\":false,\"m_WriteDefaultValuesOnDisable\":false}}"
+        },
+        {
+          "path": "",
+          "type": "Sandbox.CharacterSystem.Character",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.Character\",\"modulesRoot\":{\"fileID\":5278021793876055992,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"defaultIdle\":{\"fileID\":11400000,\"guid\":\"f80906d8be53c5541938c0dbf66abfdc\",\"type\":2}}}"
+        },
+        {
+          "path": "",
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterSpeechPlayer\",\"audioSource\":{\"fileID\":5551865785391392933,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"lipSync\":{\"fileID\":3758915804124635853,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"clip\":{\"fileID\":8300000,\"guid\":\"03cb0612a9615a345835bb62fc978c2c\",\"type\":3},\"profile\":{\"fileID\":11400000,\"guid\":\"e7bee847b0146493d97aceaf14bb2903\",\"type\":2}}}"
+        },
+        {
+          "path": "",
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterFlowController\",\"character\":{\"fileID\":1243799847115089460,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"readinessProvider\":{\"fileID\":3822160102939553843,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"speechPlayer\":{\"fileID\":5520251339859051394,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"greetingFlow\":{\"fileID\":11400000,\"guid\":\"0c36cb8d7c3acb34c92e3ad8533430f6\",\"type\":2},\"responseFlow\":{\"fileID\":11400000,\"guid\":\"503160f56edf12d449f246abcf010543\",\"type\":2}}}"
+        },
+        {
+          "path": "Ethan_Armature/Root/Hips/Spine/Chest/UpperChest/Neck/Neck2/Head/Voice",
+          "type": "UnityEngine.AudioSource",
+          "json": "{\"AudioSource\":{\"m_Enabled\":true,\"serializedVersion\":\"4\",\"OutputAudioMixerGroup\":{\"instanceID\":0},\"m_audioClip\":{\"instanceID\":0},\"m_Resource\":{\"instanceID\":0},\"m_PlayOnAwake\":false,\"m_Volume\":1.0,\"m_Pitch\":1.0,\"Loop\":false,\"Mute\":false,\"Spatialize\":false,\"SpatializePostEffects\":false,\"Priority\":128,\"DopplerLevel\":1.0,\"MinDistance\":1.0,\"MaxDistance\":500.0,\"Pan2D\":0.0,\"rolloffMode\":0,\"BypassEffects\":false,\"BypassListenerEffects\":false,\"BypassReverbZones\":false,\"rolloffCustomCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":1.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.3333333432674408,\"outWeight\":0.3333333432674408},{\"serializedVersion\":\"3\",\"time\":1.0,\"value\":0.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.3333333432674408,\"outWeight\":0.3333333432674408}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4},\"panLevelCustomCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":0.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.3333333432674408,\"outWeight\":0.3333333432674408}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4},\"spreadCustomCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":0.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.3333333432674408,\"outWeight\":0.3333333432674408}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4},\"reverbZoneMixCustomCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":1.0,\"inSlope\":0.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.3333333432674408,\"outWeight\":0.3333333432674408}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4}}}"
+        },
+        {
+          "path": "Ethan_Armature/Root/Hips/Spine/Chest/UpperChest/Neck/Neck2/Head/Voice",
+          "type": "uLipSync.uLipSync",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"uLipSync.Runtime::uLipSync.uLipSync\",\"profile\":{\"fileID\":11400000,\"guid\":\"e7bee847b0146493d97aceaf14bb2903\",\"type\":2},\"onLipSyncUpdate\":{\"m_PersistentCalls\":{\"m_Calls\":[{\"m_Target\":{\"fileID\":8261497494913806455,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"m_TargetAssemblyTypeName\":\"uLipSync.uLipSyncBlendShape, uLipSync.Runtime\",\"m_MethodName\":\"OnLipSyncUpdate\",\"m_Mode\":0,\"m_Arguments\":{\"m_ObjectArgument\":{\"instanceID\":0},\"m_ObjectArgumentAssemblyTypeName\":\"\",\"m_IntArgument\":0,\"m_FloatArgument\":0.0,\"m_StringArgument\":\"\",\"m_BoolArgument\":false},\"m_CallState\":2}]}},\"outputSoundGain\":1.0,\"audioSourceProxy\":{\"instanceID\":0}}}"
+        },
+        {
+          "path": "Ethan_Armature/Root/Hips/Spine/Chest/UpperChest/Neck/Neck2/Head/Voice",
+          "type": "uLipSync.uLipSyncMicrophone",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"uLipSync.Runtime::uLipSync.uLipSyncMicrophone\",\"index\":0,\"isAutoStart\":false,\"latencyTolerance\":0.05000000074505806,\"bufferTime\":0.029999999329447748}}"
+        },
+        {
+          "path": "Ethan_Armature/Root/Hips/Spine/Chest/UpperChest/Neck/Neck2/Head/Collider",
+          "type": "UnityEngine.SphereCollider",
+          "json": "{\"SphereCollider\":{\"m_Material\":{\"instanceID\":0},\"m_IncludeLayers\":{\"serializedVersion\":\"2\",\"m_Bits\":0},\"m_ExcludeLayers\":{\"serializedVersion\":\"2\",\"m_Bits\":0},\"m_LayerOverridePriority\":0,\"m_IsTrigger\":false,\"m_ProvidesContacts\":false,\"m_Enabled\":true,\"serializedVersion\":\"3\",\"m_Radius\":0.0989999994635582,\"m_Center\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"
+        },
+        {
+          "path": "Ethan_Armature/Root/Hips/Spine/Chest/UpperChest/Neck/Neck2/Head/Collider (1)",
+          "type": "UnityEngine.SphereCollider",
+          "json": "{\"SphereCollider\":{\"m_Material\":{\"instanceID\":0},\"m_IncludeLayers\":{\"serializedVersion\":\"2\",\"m_Bits\":0},\"m_ExcludeLayers\":{\"serializedVersion\":\"2\",\"m_Bits\":0},\"m_LayerOverridePriority\":0,\"m_IsTrigger\":false,\"m_ProvidesContacts\":false,\"m_Enabled\":true,\"serializedVersion\":\"3\",\"m_Radius\":0.019999999552965165,\"m_Center\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"
+        },
+        {
+          "path": "Ethan_Armature/Root/Hips/Spine/Chest/UpperChest/Neck/Neck2/Head/Collider (2)",
+          "type": "UnityEngine.SphereCollider",
+          "json": "{\"SphereCollider\":{\"m_Material\":{\"instanceID\":0},\"m_IncludeLayers\":{\"serializedVersion\":\"2\",\"m_Bits\":0},\"m_ExcludeLayers\":{\"serializedVersion\":\"2\",\"m_Bits\":0},\"m_LayerOverridePriority\":0,\"m_IsTrigger\":false,\"m_ProvidesContacts\":false,\"m_Enabled\":true,\"serializedVersion\":\"3\",\"m_Radius\":0.019999999552965165,\"m_Center\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"
+        },
+        {
+          "path": "Face",
+          "type": "uLipSync.uLipSyncBlendShape",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"uLipSync.Runtime::uLipSync.uLipSyncBlendShape\",\"updateMethod\":0,\"skinnedMeshRenderer\":{\"fileID\":8432070352444510976,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"blendShapes\":[{\"phoneme\":\"A\",\"index\":24,\"maxWeight\":0.3400000035762787},{\"phoneme\":\"I\",\"index\":29,\"maxWeight\":0.5},{\"phoneme\":\"U\",\"index\":30,\"maxWeight\":1.0},{\"phoneme\":\"E\",\"index\":63,\"maxWeight\":1.0},{\"phoneme\":\"O\",\"index\":65,\"maxWeight\":1.0},{\"phoneme\":\"S\",\"index\":59,\"maxWeight\":1.0},{\"phoneme\":\"M\",\"index\":53,\"maxWeight\":1.0},{\"phoneme\":\"N\",\"index\":60,\"maxWeight\":1.0}],\"maxBlendShapeValue\":100.0,\"minVolume\":-3.514975070953369,\"maxVolume\":-0.9509148597717285,\"smoothness\":0.05000000074505806,\"usePhonemeBlend\":true}}"
+        },
+        {
+          "path": "Modules/Animation",
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.AnimationModule\",\"animator\":{\"fileID\":8880179093945890720,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"previewDefinition\":{\"fileID\":11400000,\"guid\":\"3e6126bf7c06472419258b2ad461447c\",\"type\":2}}}"
+        },
+        {
+          "path": "Modules/Emotion",
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.ExpressionModule\",\"face\":{\"fileID\":8432070352444510976,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"lipSync\":{\"fileID\":3758915804124635853,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"blendShapeDriver\":{\"fileID\":8261497494913806455,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"blendShapeDebugger\":{\"instanceID\":0},\"intensity\":1.0,\"neutralFadeDuration\":0.18000000715255738,\"endOfSpeechDelay\":0.15000000596046449,\"speechGaze\":{\"enabled\":true,\"target\":{\"instanceID\":0},\"head\":{\"instanceID\":0},\"blendDuration\":0.15000000596046449,\"horizontalEyeRange\":30.0,\"verticalEyeRange\":20.0,\"assistHead\":true,\"maximumHeadCorrection\":20.0},\"facialMotions\":[{\"name\":\"Blink\",\"enabled\":true,\"channel\":\"Blink\",\"idleOnly\":false,\"interval\":{\"x\":2.0,\"y\":6.0},\"easeIn\":0.05999999865889549,\"hold\":{\"x\":0.029999999329447748,\"y\":0.029999999329447748},\"easeOut\":0.11999999731779099,\"variants\":[{\"name\":\"Both eyes\",\"pose\":{\"targets\":[{\"shape\":\"eyeBlinkLeft\",\"weight\":100.0},{\"shape\":\"eyeBlinkRight\",\"weight\":100.0}]},\"strength\":{\"x\":1.0,\"y\":1.0}}],\"repeat\":{\"probability\":0.15000000596046449,\"maximumAdditionalRepetitions\":1,\"gap\":{\"x\":0.11999999731779099,\"y\":0.25}}},{\"name\":\"Lip purse\",\"enabled\":true,\"channel\":\"Mouth\",\"idleOnly\":true,\"interval\":{\"x\":8.0,\"y\":16.0},\"easeIn\":0.25,\"hold\":{\"x\":0.5,\"y\":1.5},\"easeOut\":0.3499999940395355,\"variants\":[{\"name\":\"Purse\",\"pose\":{\"targets\":[{\"shape\":\"mouthPressLeft\",\"weight\":75.0},{\"shape\":\"mouthPressRight\",\"weight\":75.0}]},\"strength\":{\"x\":2.0,\"y\":2.0}}],\"repeat\":{\"probability\":0.0,\"maximumAdditionalRepetitions\":1,\"gap\":{\"x\":0.11999999731779099,\"y\":0.25}}},{\"name\":\"Lip twitch\",\"enabled\":true,\"channel\":\"Mouth\",\"idleOnly\":true,\"interval\":{\"x\":3.0,\"y\":7.0},\"easeIn\":0.11999999731779099,\"hold\":{\"x\":0.11999999731779099,\"y\":0.11999999731779099},\"easeOut\":0.11999999731779099,\"variants\":[{\"name\":\"Left\",\"pose\":{\"targets\":[{\"shape\":\"mouthLeft\",\"weight\":50.0}]},\"strength\":{\"x\":0.5,\"y\":2.0}},{\"name\":\"Right\",\"pose\":{\"targets\":[{\"shape\":\"mouthRight\",\"weight\":50.0}]},\"strength\":{\"x\":0.5,\"y\":2.0}}],\"repeat\":{\"probability\":0.0,\"maximumAdditionalRepetitions\":1,\"gap\":{\"x\":0.11999999731779099,\"y\":0.25}}},{\"name\":\"Gaze\",\"enabled\":true,\"channel\":\"Gaze\",\"idleOnly\":true,\"interval\":{\"x\":4.0,\"y\":9.0},\"easeIn\":0.18000000715255738,\"hold\":{\"x\":0.800000011920929,\"y\":1.7999999523162842},\"easeOut\":0.25,\"variants\":[{\"name\":\"Character left\",\"pose\":{\"targets\":[{\"shape\":\"eyeLookOutLeft\",\"weight\":25.0},{\"shape\":\"eyeLookInRight\",\"weight\":25.0}]},\"strength\":{\"x\":0.6000000238418579,\"y\":1.0}},{\"name\":\"Character right\",\"pose\":{\"targets\":[{\"shape\":\"eyeLookInLeft\",\"weight\":25.0},{\"shape\":\"eyeLookOutRight\",\"weight\":25.0}]},\"strength\":{\"x\":0.6000000238418579,\"y\":1.0}},{\"name\":\"Up\",\"pose\":{\"targets\":[{\"shape\":\"eyeLookUpLeft\",\"weight\":25.0},{\"shape\":\"eyeLookUpRight\",\"weight\":25.0}]},\"strength\":{\"x\":0.6000000238418579,\"y\":1.0}},{\"name\":\"Down\",\"pose\":{\"targets\":[{\"shape\":\"eyeLookDownLeft\",\"weight\":25.0},{\"shape\":\"eyeLookDownRight\",\"weight\":25.0}]},\"strength\":{\"x\":0.6000000238418579,\"y\":1.0}}],\"repeat\":{\"probability\":0.0,\"maximumAdditionalRepetitions\":1,\"gap\":{\"x\":0.11999999731779099,\"y\":0.25}}},{\"name\":\"Pucker\",\"enabled\":true,\"channel\":\"Mouth\",\"idleOnly\":true,\"interval\":{\"x\":8.0,\"y\":16.0},\"easeIn\":0.25,\"hold\":{\"x\":0.25,\"y\":0.5},\"easeOut\":0.3499999940395355,\"variants\":[{\"name\":\"Pucker\",\"pose\":{\"targets\":[{\"shape\":\"mouthPucker\",\"weight\":50.0}]},\"strength\":{\"x\":2.0,\"y\":2.0}}],\"repeat\":{\"probability\":0.0,\"maximumAdditionalRepetitions\":1,\"gap\":{\"x\":0.11999999731779099,\"y\":0.25}}}],\"previewDefinition\":{\"fileID\":11400000,\"guid\":\"37db384675ac01c4f88c4ad277ff839b\",\"type\":2}}}"
+        }
+      ],
+      "animators": [
+        {
+          "path": "",
+          "avatar": "Ethan_unityAvatar",
+          "valid": true,
+          "human": true
+        }
+      ]
+    },
+    {
+      "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2.prefab",
+      "components": [
+        {
+          "path": "",
+          "type": "UnityEngine.Animator",
+          "json": "{\"Animator\":{\"serializedVersion\":\"7\",\"m_Enabled\":true,\"m_Avatar\":{\"fileID\":9000000,\"guid\":\"4ba5ac7cba18f56429d5b23728c318c9\",\"type\":3},\"m_Controller\":{\"instanceID\":0},\"m_CullingMode\":1,\"m_UpdateMode\":0,\"m_ApplyRootMotion\":false,\"m_LinearVelocityBlending\":false,\"m_StabilizeFeet\":false,\"m_AnimatePhysics\":false,\"m_WarningMessage\":\"\",\"m_HasTransformHierarchy\":true,\"m_AllowConstantClipSamplingOptimization\":true,\"m_KeepAnimatorStateOnDisable\":false,\"m_WriteDefaultValuesOnDisable\":false}}"
+        }
+      ],
+      "animators": [
+        {
+          "path": "",
+          "avatar": "Ethan_V2_73_BakedAvatar",
+          "valid": true,
+          "human": false
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": true,
+      "roots": [
+        {
+          "name": "Main Camera",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "EventSystem",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "DialogueDemo",
+          "active": true,
+          "components": [
+            {
+              "name": "DialogueDemo",
+              "type": "VoiceLipSyncDemo",
+              "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Assembly-CSharp::VoiceLipSyncDemo\",\"boy\":{\"label\":\"Ethan\",\"character\":{\"instanceID\":0},\"audioSource\":{\"instanceID\":0},\"lipSync\":{\"instanceID\":0},\"clip\":{\"fileID\":8300000,\"guid\":\"03cb0612a9615a345835bb62fc978c2c\",\"type\":3},\"profile\":{\"fileID\":11400000,\"guid\":\"e7bee847b0146493d97aceaf14bb2903\",\"type\":2},\"activity\":{\"fileID\":11400000,\"guid\":\"f3f3e3c4cc056ee40a95296002691005\",\"type\":2}},\"girl\":{\"label\":\"Liora\",\"character\":{\"instanceID\":0},\"audioSource\":{\"instanceID\":0},\"lipSync\":{\"instanceID\":0},\"clip\":{\"fileID\":8300000,\"guid\":\"bed7c60eb0c080f4fab89d9df9fe3c73\",\"type\":3},\"profile\":{\"fileID\":11400000,\"guid\":\"04d8d7db6114a384aaabeb1d02dd2013\",\"type\":2},\"activity\":{\"fileID\":11400000,\"guid\":\"230181ddca7faf045a54cd9ec11d9ba7\",\"type\":2}},\"statusText\":{\"instanceID\":0}}}"
+            }
+          ]
+        },
+        {
+          "name": "CharacterSelection",
+          "active": true,
+          "components": [
+            {
+              "name": "CharacterSelection",
+              "type": "Sandbox.CharacterSystem.CharacterSelectionController",
+              "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterSelectionController\",\"boy\":{\"instanceID\":0},\"girl\":{\"instanceID\":0}}}"
+            }
+          ]
+        },
+        {
+          "name": "========CANVASES====",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Canvas",
+          "active": true,
+          "components": [
+            {
+              "name": "Boy",
+              "type": "UnityEngine.UI.Button",
+              "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"UnityEngine.UI::UnityEngine.UI.Button\",\"m_Navigation\":{\"m_Mode\":3,\"m_WrapAround\":false,\"m_SelectOnUp\":{\"instanceID\":0},\"m_SelectOnDown\":{\"instanceID\":0},\"m_SelectOnLeft\":{\"instanceID\":0},\"m_SelectOnRight\":{\"instanceID\":0}},\"m_Transition\":1,\"m_Colors\":{\"m_NormalColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"m_HighlightedColor\":{\"r\":0.9607843160629273,\"g\":0.9607843160629273,\"b\":0.9607843160629273,\"a\":1.0},\"m_PressedColor\":{\"r\":0.7843137383460999,\"g\":0.7843137383460999,\"b\":0.7843137383460999,\"a\":1.0},\"m_SelectedColor\":{\"r\":0.9607843160629273,\"g\":0.9607843160629273,\"b\":0.9607843160629273,\"a\":1.0},\"m_DisabledColor\":{\"r\":0.7843137383460999,\"g\":0.7843137383460999,\"b\":0.7843137383460999,\"a\":0.501960813999176},\"m_ColorMultiplier\":1.0,\"m_FadeDuration\":0.10000000149011612},\"m_SpriteState\":{\"m_HighlightedSprite\":{\"instanceID\":0},\"m_PressedSprite\":{\"instanceID\":0},\"m_SelectedSprite\":{\"instanceID\":0},\"m_DisabledSprite\":{\"instanceID\":0}},\"m_AnimationTriggers\":{\"m_NormalTrigger\":\"Normal\",\"m_HighlightedTrigger\":\"Highlighted\",\"m_PressedTrigger\":\"Pressed\",\"m_SelectedTrigger\":\"Selected\",\"m_DisabledTrigger\":\"Disabled\"},\"m_Interactable\":true,\"m_TargetGraphic\":{\"instanceID\":0},\"m_OnClick\":{\"m_PersistentCalls\":{\"m_Calls\":[{\"m_Target\":{\"instanceID\":0},\"m_TargetAssemblyTypeName\":\"Sandbox.CharacterSystem.CharacterSelectionController, Sandbox.CharacterSystem\",\"m_MethodName\":\"SelectBoy\",\"m_Mode\":0,\"m_Arguments\":{\"m_ObjectArgument\":{\"instanceID\":0},\"m_ObjectArgumentAssemblyTypeName\":\"\",\"m_IntArgument\":0,\"m_FloatArgument\":0.0,\"m_StringArgument\":\"\",\"m_BoolArgument\":false},\"m_CallState\":2}]}}}}"
+            },
+            {
+              "name": "Girl",
+              "type": "UnityEngine.UI.Button",
+              "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"UnityEngine.UI::UnityEngine.UI.Button\",\"m_Navigation\":{\"m_Mode\":3,\"m_WrapAround\":false,\"m_SelectOnUp\":{\"instanceID\":0},\"m_SelectOnDown\":{\"instanceID\":0},\"m_SelectOnLeft\":{\"instanceID\":0},\"m_SelectOnRight\":{\"instanceID\":0}},\"m_Transition\":1,\"m_Colors\":{\"m_NormalColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"m_HighlightedColor\":{\"r\":0.9607843160629273,\"g\":0.9607843160629273,\"b\":0.9607843160629273,\"a\":1.0},\"m_PressedColor\":{\"r\":0.7843137383460999,\"g\":0.7843137383460999,\"b\":0.7843137383460999,\"a\":1.0},\"m_SelectedColor\":{\"r\":0.9607843160629273,\"g\":0.9607843160629273,\"b\":0.9607843160629273,\"a\":1.0},\"m_DisabledColor\":{\"r\":0.7843137383460999,\"g\":0.7843137383460999,\"b\":0.7843137383460999,\"a\":0.501960813999176},\"m_ColorMultiplier\":1.0,\"m_FadeDuration\":0.10000000149011612},\"m_SpriteState\":{\"m_HighlightedSprite\":{\"instanceID\":0},\"m_PressedSprite\":{\"instanceID\":0},\"m_SelectedSprite\":{\"instanceID\":0},\"m_DisabledSprite\":{\"instanceID\":0}},\"m_AnimationTriggers\":{\"m_NormalTrigger\":\"Normal\",\"m_HighlightedTrigger\":\"Highlighted\",\"m_PressedTrigger\":\"Pressed\",\"m_SelectedTrigger\":\"Selected\",\"m_DisabledTrigger\":\"Disabled\"},\"m_Interactable\":true,\"m_TargetGraphic\":{\"instanceID\":0},\"m_OnClick\":{\"m_PersistentCalls\":{\"m_Calls\":[{\"m_Target\":{\"instanceID\":0},\"m_TargetAssemblyTypeName\":\"Sandbox.CharacterSystem.CharacterSelectionController, Sandbox.CharacterSystem\",\"m_MethodName\":\"SelectGirl\",\"m_Mode\":0,\"m_Arguments\":{\"m_ObjectArgument\":{\"instanceID\":0},\"m_ObjectArgumentAssemblyTypeName\":\"\",\"m_IntArgument\":0,\"m_FloatArgument\":0.0,\"m_StringArgument\":\"\",\"m_BoolArgument\":false},\"m_CallState\":2}]}}}}"
+            }
+          ]
+        },
+        {
+          "name": "Background Canvas",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "========MODELS========",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Ethan",
+          "active": false,
+          "components": [
+            {
+              "name": "Ethan",
+              "type": "Sandbox.CharacterSystem.CharacterFlowController",
+              "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterFlowController\",\"character\":{\"instanceID\":0},\"readinessProvider\":{\"instanceID\":0},\"speechPlayer\":{\"instanceID\":0},\"greetingFlow\":{\"fileID\":11400000,\"guid\":\"0c36cb8d7c3acb34c92e3ad8533430f6\",\"type\":2},\"responseFlow\":{\"fileID\":11400000,\"guid\":\"503160f56edf12d449f246abcf010543\",\"type\":2}}}"
+            }
+          ]
+        },
+        {
+          "name": "Jiwoo_Normalized",
+          "active": false,
+          "components": [
+            {
+              "name": "Jiwoo_Normalized",
+              "type": "Sandbox.CharacterSystem.CharacterFlowController",
+              "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterFlowController\",\"character\":{\"instanceID\":0},\"readinessProvider\":{\"instanceID\":0},\"speechPlayer\":{\"instanceID\":0},\"greetingFlow\":{\"fileID\":11400000,\"guid\":\"0c36cb8d7c3acb34c92e3ad8533430f6\",\"type\":2},\"responseFlow\":{\"fileID\":11400000,\"guid\":\"5f6ffb560643c514d9aa93c18cac6e68\",\"type\":2}}}"
+            }
+          ]
+        },
+        {
+          "name": "Ethan_V2_73_Baked",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "========LIGHT SETTINGS====",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Left Light",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Right Light",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Directional Light",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "========POST PROCESSING",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Studio Volume",
+          "active": true,
+          "components": []
+        },
+        {
+          "name": "Ethan Studio Reflections",
+          "active": true,
+          "components": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "recompile",
+    "parameters": {},
+    "result": {
+      "status": "up_to_date",
+      "message": "No scripts needed recompilation."
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "D:\\UnityProject\\MetahumanTemplate"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

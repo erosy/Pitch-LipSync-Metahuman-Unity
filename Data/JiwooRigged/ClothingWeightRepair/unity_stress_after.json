@@ -1,0 +1,309 @@
+{
+  "playing": false,
+  "model": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+  "prefabUsesNewOutfit": true,
+  "sourceAndPrefabBoneOrderMatch": true,
+  "vertices": 5038,
+  "nearCoincidentPairs": 524,
+  "mismatchedPairs": 0,
+  "badPairs": [],
+  "importerSkinWeights": "Custom",
+  "maxBonesPerVertex": 32,
+  "minBoneWeight": 0.001,
+  "rendererQuality": "Auto",
+  "globalSkinWeights": "Unlimited",
+  "maximumStoredInfluences": 6,
+  "material": {
+    "name": "Jiwoo_Outfit",
+    "shader": "Universal Render Pipeline/Lit",
+    "cull": 2.0,
+    "alphaClip": 0.0
+  },
+  "stress": [
+    {
+      "bone": "DEF-shoulder.R",
+      "angleDegrees": 20,
+      "axis": "local Z",
+      "syntheticPose": true,
+      "pairsOver1mm": 0,
+      "worst": [
+        {
+          "a": 4071,
+          "b": 4545,
+          "weightDifference": 0.0,
+          "neutralGapM": 9.862761E-05,
+          "posedGapM": 9.829474E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9323415,
+            "DEF-upper_arm.R": 0.06765851
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9323415,
+            "DEF-upper_arm.R": 0.06765851
+          }
+        },
+        {
+          "a": 782,
+          "b": 1747,
+          "weightDifference": 0.0,
+          "neutralGapM": 8.640714E-05,
+          "posedGapM": 8.541882E-05,
+          "aWeights": {
+            "DEF-shoulder.R": 0.5750057,
+            "DEF-spine.004": 0.381017774,
+            "DEF-spine.005": 0.0439765
+          },
+          "bWeights": {
+            "DEF-shoulder.R": 0.5750057,
+            "DEF-spine.004": 0.381017774,
+            "DEF-spine.005": 0.0439765
+          }
+        },
+        {
+          "a": 3718,
+          "b": 4555,
+          "weightDifference": 0.0,
+          "neutralGapM": 8.026465E-05,
+          "posedGapM": 7.990311E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9139391,
+            "DEF-upper_arm.R": 0.0598153658,
+            "DEF-shoulder.R": 0.0262455177
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9139391,
+            "DEF-upper_arm.R": 0.0598153658,
+            "DEF-shoulder.R": 0.0262455177
+          }
+        },
+        {
+          "a": 1540,
+          "b": 1673,
+          "weightDifference": 0.0,
+          "neutralGapM": 7.564737E-05,
+          "posedGapM": 7.563597E-05,
+          "aWeights": {
+            "DEF-spine.005": 0.5586633,
+            "DEF-spine.004": 0.393865883,
+            "DEF-shoulder.R": 0.0411535837,
+            "DEF-spine.006": 0.006317235
+          },
+          "bWeights": {
+            "DEF-spine.005": 0.5586633,
+            "DEF-spine.004": 0.393865883,
+            "DEF-shoulder.R": 0.0411535837,
+            "DEF-spine.006": 0.006317235
+          }
+        },
+        {
+          "a": 7,
+          "b": 3758,
+          "weightDifference": 0.0,
+          "neutralGapM": 4.87642646E-05,
+          "posedGapM": 4.87032557E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9209125,
+            "DEF-upper_arm.R": 0.04959182,
+            "DEF-shoulder.R": 0.02949569
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9209125,
+            "DEF-upper_arm.R": 0.04959182,
+            "DEF-shoulder.R": 0.02949569
+          }
+        }
+      ]
+    },
+    {
+      "bone": "DEF-shoulder.L",
+      "angleDegrees": 20,
+      "axis": "local Z",
+      "syntheticPose": true,
+      "pairsOver1mm": 0,
+      "worst": [
+        {
+          "a": 4071,
+          "b": 4545,
+          "weightDifference": 0.0,
+          "neutralGapM": 9.862761E-05,
+          "posedGapM": 9.862761E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9323415,
+            "DEF-upper_arm.R": 0.06765851
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9323415,
+            "DEF-upper_arm.R": 0.06765851
+          }
+        },
+        {
+          "a": 782,
+          "b": 1747,
+          "weightDifference": 0.0,
+          "neutralGapM": 8.640714E-05,
+          "posedGapM": 8.640714E-05,
+          "aWeights": {
+            "DEF-shoulder.R": 0.5750057,
+            "DEF-spine.004": 0.381017774,
+            "DEF-spine.005": 0.0439765
+          },
+          "bWeights": {
+            "DEF-shoulder.R": 0.5750057,
+            "DEF-spine.004": 0.381017774,
+            "DEF-spine.005": 0.0439765
+          }
+        },
+        {
+          "a": 3718,
+          "b": 4555,
+          "weightDifference": 0.0,
+          "neutralGapM": 8.026465E-05,
+          "posedGapM": 8.026465E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9139391,
+            "DEF-upper_arm.R": 0.0598153658,
+            "DEF-shoulder.R": 0.0262455177
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9139391,
+            "DEF-upper_arm.R": 0.0598153658,
+            "DEF-shoulder.R": 0.0262455177
+          }
+        },
+        {
+          "a": 1540,
+          "b": 1673,
+          "weightDifference": 0.0,
+          "neutralGapM": 7.564737E-05,
+          "posedGapM": 7.564737E-05,
+          "aWeights": {
+            "DEF-spine.005": 0.5586633,
+            "DEF-spine.004": 0.393865883,
+            "DEF-shoulder.R": 0.0411535837,
+            "DEF-spine.006": 0.006317235
+          },
+          "bWeights": {
+            "DEF-spine.005": 0.5586633,
+            "DEF-spine.004": 0.393865883,
+            "DEF-shoulder.R": 0.0411535837,
+            "DEF-spine.006": 0.006317235
+          }
+        },
+        {
+          "a": 7,
+          "b": 3758,
+          "weightDifference": 0.0,
+          "neutralGapM": 4.87642646E-05,
+          "posedGapM": 4.87642646E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9209125,
+            "DEF-upper_arm.R": 0.04959182,
+            "DEF-shoulder.R": 0.02949569
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9209125,
+            "DEF-upper_arm.R": 0.04959182,
+            "DEF-shoulder.R": 0.02949569
+          }
+        }
+      ]
+    },
+    {
+      "bone": "DEF-spine.004",
+      "angleDegrees": 20,
+      "axis": "local Z",
+      "syntheticPose": true,
+      "pairsOver1mm": 0,
+      "worst": [
+        {
+          "a": 4071,
+          "b": 4545,
+          "weightDifference": 0.0,
+          "neutralGapM": 9.862761E-05,
+          "posedGapM": 9.862761E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9323415,
+            "DEF-upper_arm.R": 0.06765851
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9323415,
+            "DEF-upper_arm.R": 0.06765851
+          }
+        },
+        {
+          "a": 782,
+          "b": 1747,
+          "weightDifference": 0.0,
+          "neutralGapM": 8.640714E-05,
+          "posedGapM": 8.5298554E-05,
+          "aWeights": {
+            "DEF-shoulder.R": 0.5750057,
+            "DEF-spine.004": 0.381017774,
+            "DEF-spine.005": 0.0439765
+          },
+          "bWeights": {
+            "DEF-shoulder.R": 0.5750057,
+            "DEF-spine.004": 0.381017774,
+            "DEF-spine.005": 0.0439765
+          }
+        },
+        {
+          "a": 3718,
+          "b": 4555,
+          "weightDifference": 0.0,
+          "neutralGapM": 8.026465E-05,
+          "posedGapM": 8.026465E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9139391,
+            "DEF-upper_arm.R": 0.0598153658,
+            "DEF-shoulder.R": 0.0262455177
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9139391,
+            "DEF-upper_arm.R": 0.0598153658,
+            "DEF-shoulder.R": 0.0262455177
+          }
+        },
+        {
+          "a": 1540,
+          "b": 1673,
+          "weightDifference": 0.0,
+          "neutralGapM": 7.564737E-05,
+          "posedGapM": 7.563777E-05,
+          "aWeights": {
+            "DEF-spine.005": 0.5586633,
+            "DEF-spine.004": 0.393865883,
+            "DEF-shoulder.R": 0.0411535837,
+            "DEF-spine.006": 0.006317235
+          },
+          "bWeights": {
+            "DEF-spine.005": 0.5586633,
+            "DEF-spine.004": 0.393865883,
+            "DEF-shoulder.R": 0.0411535837,
+            "DEF-spine.006": 0.006317235
+          }
+        },
+        {
+          "a": 7,
+          "b": 3758,
+          "weightDifference": 0.0,
+          "neutralGapM": 4.87642646E-05,
+          "posedGapM": 4.87642646E-05,
+          "aWeights": {
+            "DEF-breast.R": 0.9209125,
+            "DEF-upper_arm.R": 0.04959182,
+            "DEF-shoulder.R": 0.02949569
+          },
+          "bWeights": {
+            "DEF-breast.R": 0.9209125,
+            "DEF-upper_arm.R": 0.04959182,
+            "DEF-shoulder.R": 0.02949569
+          }
+        }
+      ]
+    }
+  ],
+  "assetsModified": false,
+  "animationClipsSampled": false,
+  "playModeChanged": false
+}

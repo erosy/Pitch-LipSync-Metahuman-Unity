@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "runtime_script_compile": "completed",
+  "final_compile": "up_to_date",
+  "compiler_errors": [],
+  "compiler_warnings": [],
+  "compute_kernel": "FollowSurface",
+  "compute_compile_errors": [],
+  "play_mode_entered": false,
+  "live_testing_performed": false,
+  "build_performed": false
+}

@@ -1,0 +1,38 @@
+{
+  "installed": true,
+  "prefab": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+  "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "shapes": 73,
+  "mesh": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Rigged.fbx",
+  "avatar": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Rigged.fbx",
+  "visemes": [
+    "jawOpen",
+    "mouthFunnel",
+    "mouthPucker",
+    "viseme_E",
+    "viseme_O",
+    "viseme_SS",
+    "viseme_PP",
+    "viseme_nn"
+  ],
+  "grooms": [
+    {
+      "name": "EyeBrows",
+      "asset": "Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Eyebrows.asset",
+      "editModeSimulation": false
+    },
+    {
+      "name": "EyeLashes",
+      "asset": "Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Eyelashes.asset",
+      "editModeSimulation": false
+    },
+    {
+      "name": "Hair",
+      "asset": "Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp.asset",
+      "editModeSimulation": false
+    }
+  ],
+  "playModeEntered": false,
+  "liveTestingPerformed": false,
+  "cleanupDeferredToBatch3": true
+}

@@ -1,0 +1,270 @@
+{
+  "humans": [
+    {
+      "Key": "Hips",
+      "name": "DEF-spine",
+      "parent": "root"
+    },
+    {
+      "Key": "Spine",
+      "name": "DEF-spine.001",
+      "parent": "DEF-spine"
+    },
+    {
+      "Key": "Chest",
+      "name": "DEF-spine.003",
+      "parent": "DEF-spine.002"
+    },
+    {
+      "Key": "UpperChest",
+      "name": "DEF-spine.004",
+      "parent": "DEF-spine.003"
+    },
+    {
+      "Key": "Neck",
+      "name": "DEF-spine.005",
+      "parent": "DEF-spine.004"
+    },
+    {
+      "Key": "Head",
+      "name": "DEF-spine.006",
+      "parent": "DEF-spine.005"
+    },
+    {
+      "Key": "LeftShoulder",
+      "name": "DEF-shoulder.L",
+      "parent": "ORG-shoulder.L"
+    },
+    {
+      "Key": "LeftUpperArm",
+      "name": "DEF-upper_arm.L",
+      "parent": "ORG-shoulder.L"
+    },
+    {
+      "Key": "LeftLowerArm",
+      "name": "DEF-forearm.L",
+      "parent": "DEF-upper_arm.L.001"
+    },
+    {
+      "Key": "LeftHand",
+      "name": "DEF-hand.L",
+      "parent": "DEF-forearm.L.001"
+    },
+    {
+      "Key": "LeftUpperLeg",
+      "name": "DEF-thigh.L",
+      "parent": "ORG-spine"
+    },
+    {
+      "Key": "LeftLowerLeg",
+      "name": "DEF-shin.L",
+      "parent": "DEF-thigh.L.001"
+    },
+    {
+      "Key": "LeftFoot",
+      "name": "DEF-foot.L",
+      "parent": "DEF-shin.L.001"
+    },
+    {
+      "Key": "LeftToes",
+      "name": "DEF-toe.L",
+      "parent": "DEF-foot.L"
+    },
+    {
+      "Key": "LeftThumbProximal",
+      "name": "DEF-thumb.01.L",
+      "parent": "ORG-palm.01.L"
+    },
+    {
+      "Key": "LeftThumbIntermediate",
+      "name": "DEF-thumb.02.L",
+      "parent": "DEF-thumb.01.L"
+    },
+    {
+      "Key": "LeftThumbDistal",
+      "name": "DEF-thumb.03.L",
+      "parent": "DEF-thumb.02.L"
+    },
+    {
+      "Key": "LeftIndexProximal",
+      "name": "DEF-f_index.01.L",
+      "parent": "ORG-palm.01.L"
+    },
+    {
+      "Key": "LeftIndexIntermediate",
+      "name": "DEF-f_index.02.L",
+      "parent": "DEF-f_index.01.L"
+    },
+    {
+      "Key": "LeftIndexDistal",
+      "name": "DEF-f_index.03.L",
+      "parent": "DEF-f_index.02.L"
+    },
+    {
+      "Key": "LeftMiddleProximal",
+      "name": "DEF-f_middle.01.L",
+      "parent": "ORG-palm.02.L"
+    },
+    {
+      "Key": "LeftMiddleIntermediate",
+      "name": "DEF-f_middle.02.L",
+      "parent": "DEF-f_middle.01.L"
+    },
+    {
+      "Key": "LeftMiddleDistal",
+      "name": "DEF-f_middle.03.L",
+      "parent": "DEF-f_middle.02.L"
+    },
+    {
+      "Key": "LeftRingProximal",
+      "name": "DEF-f_ring.01.L",
+      "parent": "ORG-palm.03.L"
+    },
+    {
+      "Key": "LeftRingIntermediate",
+      "name": "DEF-f_ring.02.L",
+      "parent": "DEF-f_ring.01.L"
+    },
+    {
+      "Key": "LeftRingDistal",
+      "name": "DEF-f_ring.03.L",
+      "parent": "DEF-f_ring.02.L"
+    },
+    {
+      "Key": "LeftLittleProximal",
+      "name": "DEF-f_pinky.01.L",
+      "parent": "ORG-palm.04.L"
+    },
+    {
+      "Key": "LeftLittleIntermediate",
+      "name": "DEF-f_pinky.02.L",
+      "parent": "DEF-f_pinky.01.L"
+    },
+    {
+      "Key": "LeftLittleDistal",
+      "name": "DEF-f_pinky.03.L",
+      "parent": "DEF-f_pinky.02.L"
+    },
+    {
+      "Key": "RightShoulder",
+      "name": "DEF-shoulder.R",
+      "parent": "ORG-shoulder.R"
+    },
+    {
+      "Key": "RightUpperArm",
+      "name": "DEF-upper_arm.R",
+      "parent": "ORG-shoulder.R"
+    },
+    {
+      "Key": "RightLowerArm",
+      "name": "DEF-forearm.R",
+      "parent": "DEF-upper_arm.R.001"
+    },
+    {
+      "Key": "RightHand",
+      "name": "DEF-hand.R",
+      "parent": "DEF-forearm.R.001"
+    },
+    {
+      "Key": "RightUpperLeg",
+      "name": "DEF-thigh.R",
+      "parent": "ORG-spine"
+    },
+    {
+      "Key": "RightLowerLeg",
+      "name": "DEF-shin.R",
+      "parent": "DEF-thigh.R.001"
+    },
+    {
+      "Key": "RightFoot",
+      "name": "DEF-foot.R",
+      "parent": "DEF-shin.R.001"
+    },
+    {
+      "Key": "RightToes",
+      "name": "DEF-toe.R",
+      "parent": "DEF-foot.R"
+    },
+    {
+      "Key": "RightThumbProximal",
+      "name": "DEF-thumb.01.R",
+      "parent": "ORG-palm.01.R"
+    },
+    {
+      "Key": "RightThumbIntermediate",
+      "name": "DEF-thumb.02.R",
+      "parent": "DEF-thumb.01.R"
+    },
+    {
+      "Key": "RightThumbDistal",
+      "name": "DEF-thumb.03.R",
+      "parent": "DEF-thumb.02.R"
+    },
+    {
+      "Key": "RightIndexProximal",
+      "name": "DEF-f_index.01.R",
+      "parent": "ORG-palm.01.R"
+    },
+    {
+      "Key": "RightIndexIntermediate",
+      "name": "DEF-f_index.02.R",
+      "parent": "DEF-f_index.01.R"
+    },
+    {
+      "Key": "RightIndexDistal",
+      "name": "DEF-f_index.03.R",
+      "parent": "DEF-f_index.02.R"
+    },
+    {
+      "Key": "RightMiddleProximal",
+      "name": "DEF-f_middle.01.R",
+      "parent": "ORG-palm.02.R"
+    },
+    {
+      "Key": "RightMiddleIntermediate",
+      "name": "DEF-f_middle.02.R",
+      "parent": "DEF-f_middle.01.R"
+    },
+    {
+      "Key": "RightMiddleDistal",
+      "name": "DEF-f_middle.03.R",
+      "parent": "DEF-f_middle.02.R"
+    },
+    {
+      "Key": "RightRingProximal",
+      "name": "DEF-f_ring.01.R",
+      "parent": "ORG-palm.03.R"
+    },
+    {
+      "Key": "RightRingIntermediate",
+      "name": "DEF-f_ring.02.R",
+      "parent": "DEF-f_ring.01.R"
+    },
+    {
+      "Key": "RightRingDistal",
+      "name": "DEF-f_ring.03.R",
+      "parent": "DEF-f_ring.02.R"
+    },
+    {
+      "Key": "RightLittleProximal",
+      "name": "DEF-f_pinky.01.R",
+      "parent": "ORG-palm.04.R"
+    },
+    {
+      "Key": "RightLittleIntermediate",
+      "name": "DEF-f_pinky.02.R",
+      "parent": "DEF-f_pinky.01.R"
+    },
+    {
+      "Key": "RightLittleDistal",
+      "name": "DEF-f_pinky.03.R",
+      "parent": "DEF-f_pinky.02.R"
+    }
+  ],
+  "fields": [
+    "name",
+    "position",
+    "rotation",
+    "scale"
+  ]
+}

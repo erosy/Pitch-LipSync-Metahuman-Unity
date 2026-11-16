@@ -1,0 +1,1465 @@
+{
+  "zero_shapes": [],
+  "shapes": [
+    {
+      "name": "eyeBlinkLeft",
+      "max_displacement_m": 0.01658580902473052,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.01076024939648573,
+        "BAKED_eyeEdge_lod0_mesh": 0.010089615425072702,
+        "BAKED_eyelashes_lod0_mesh": 0.01658580902473052,
+        "BAKED_eyeLeft_lod0_mesh": 0.0010144369017611957,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.010462681573194216,
+        "BAKED_head_lod0_mesh": 0.01044784970260358,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeBlinkRight",
+      "max_displacement_m": 0.01609663733974736,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.01062152118495412,
+        "BAKED_eyeEdge_lod0_mesh": 0.009600403386068997,
+        "BAKED_eyelashes_lod0_mesh": 0.01609663733974736,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.001045333186902876,
+        "BAKED_eyeshell_lod0_mesh": 0.010168737800368886,
+        "BAKED_head_lod0_mesh": 0.01011045465139033,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeWideLeft",
+      "max_displacement_m": 0.007180153603030756,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.00459468328607283,
+        "BAKED_eyeEdge_lod0_mesh": 0.004479876428988049,
+        "BAKED_eyelashes_lod0_mesh": 0.007180153603030756,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.004622483283605606,
+        "BAKED_head_lod0_mesh": 0.004604798735058761,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeWideRight",
+      "max_displacement_m": 0.0073808473327441745,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.004632674432217088,
+        "BAKED_eyeEdge_lod0_mesh": 0.0044196897062402955,
+        "BAKED_eyelashes_lod0_mesh": 0.0073808473327441745,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.00466795120814473,
+        "BAKED_head_lod0_mesh": 0.004631205252754776,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeSquintLeft",
+      "max_displacement_m": 0.0029943559129323644,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.002224395617201162,
+        "BAKED_eyeEdge_lod0_mesh": 0.002087011293236438,
+        "BAKED_eyelashes_lod0_mesh": 0.0029943559129323644,
+        "BAKED_eyeLeft_lod0_mesh": 2.3097550904845027e-07,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.002158840427601814,
+        "BAKED_head_lod0_mesh": 0.0027063997961161495,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeSquintRight",
+      "max_displacement_m": 0.002830557255150829,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.002095865137331533,
+        "BAKED_eyeEdge_lod0_mesh": 0.0019650248336884803,
+        "BAKED_eyelashes_lod0_mesh": 0.0027281480602247055,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 5.960464477539062e-07,
+        "BAKED_eyeshell_lod0_mesh": 0.002032985930647219,
+        "BAKED_head_lod0_mesh": 0.002830557255150829,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookUpLeft",
+      "max_displacement_m": 0.010600399989018476,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.006735327788995791,
+        "BAKED_eyeEdge_lod0_mesh": 0.006721436038640186,
+        "BAKED_eyelashes_lod0_mesh": 0.010600399989018476,
+        "BAKED_eyeLeft_lod0_mesh": 0.009102830020580464,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.006903369821255945,
+        "BAKED_head_lod0_mesh": 0.006719273016281873,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookDownLeft",
+      "max_displacement_m": 0.016559470708903682,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.010189409687118317,
+        "BAKED_eyeEdge_lod0_mesh": 0.009912689137545831,
+        "BAKED_eyelashes_lod0_mesh": 0.016559470708903682,
+        "BAKED_eyeLeft_lod0_mesh": 0.012233547412639493,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.010250815081776554,
+        "BAKED_head_lod0_mesh": 0.010258055880281683,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookInLeft",
+      "max_displacement_m": 0.011292368446646136,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0025877756020552998,
+        "BAKED_eyeEdge_lod0_mesh": 0.002576761414762489,
+        "BAKED_eyelashes_lod0_mesh": 0.0032933254957193455,
+        "BAKED_eyeLeft_lod0_mesh": 0.011292368446646136,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.00264761097405791,
+        "BAKED_head_lod0_mesh": 0.002603953624503192,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookOutLeft",
+      "max_displacement_m": 0.012195112675124664,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0022362716019723953,
+        "BAKED_eyeEdge_lod0_mesh": 0.0021439953163336443,
+        "BAKED_eyelashes_lod0_mesh": 0.0031202320453330252,
+        "BAKED_eyeLeft_lod0_mesh": 0.012195112675124664,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0022017221339126337,
+        "BAKED_head_lod0_mesh": 0.002235396646726057,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookUpRight",
+      "max_displacement_m": 0.01046085358643484,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.006527692321473931,
+        "BAKED_eyeEdge_lod0_mesh": 0.006332328921646339,
+        "BAKED_eyelashes_lod0_mesh": 0.01046085358643484,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.009589206638790522,
+        "BAKED_eyeshell_lod0_mesh": 0.00664170735402193,
+        "BAKED_head_lod0_mesh": 0.006528577923819135,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookDownRight",
+      "max_displacement_m": 0.016860576435026767,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.010447778079961008,
+        "BAKED_eyeEdge_lod0_mesh": 0.009744641212127746,
+        "BAKED_eyelashes_lod0_mesh": 0.016860576435026767,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.012189978915827415,
+        "BAKED_eyeshell_lod0_mesh": 0.010307878791688135,
+        "BAKED_head_lod0_mesh": 0.010435214656414603,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookInRight",
+      "max_displacement_m": 0.01102469485897951,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0023379126593242087,
+        "BAKED_eyeEdge_lod0_mesh": 0.0023168026406141244,
+        "BAKED_eyelashes_lod0_mesh": 0.0027900793943344783,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.01102469485897951,
+        "BAKED_eyeshell_lod0_mesh": 0.0023918978855205783,
+        "BAKED_head_lod0_mesh": 0.002357811885332783,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "eyeLookOutRight",
+      "max_displacement_m": 0.011886700166765308,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0025065866505244515,
+        "BAKED_eyeEdge_lod0_mesh": 0.002397885329131079,
+        "BAKED_eyelashes_lod0_mesh": 0.003641334609268696,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.011886700166765308,
+        "BAKED_eyeshell_lod0_mesh": 0.0025184077704509954,
+        "BAKED_head_lod0_mesh": 0.0025159874549693564,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "browDownLeft",
+      "max_displacement_m": 0.006942295651872119,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.00010407728923275225,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.006942295651872119,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "browDownRight",
+      "max_displacement_m": 0.006822013785770523,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.00012223770442813385,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.006822013785770523,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "browInnerUp",
+      "max_displacement_m": 0.011130778929511123,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0002649408982523464,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.011130778929511123,
+        "BAKED_head_lod0_mesh.001": 2.0615228689217392e-05,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "browOuterUpLeft",
+      "max_displacement_m": 0.01104724626826352,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0004998146263304505,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.01104724626826352,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "browOuterUpRight",
+      "max_displacement_m": 0.01167841977903194,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0005530669992165565,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.01167841977903194,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "cheekPuff",
+      "max_displacement_m": 0.015111361602794143,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.464046633081602e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.015111361602794143,
+        "BAKED_head_lod0_mesh.001": 0.010446077963195594,
+        "BAKED_head_lod0_mesh.002": 0.010458924383721476,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "cheekSquintLeft",
+      "max_displacement_m": 0.007039250854381639,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0041121749266055125,
+        "BAKED_eyeEdge_lod0_mesh": 0.003484430183972592,
+        "BAKED_eyelashes_lod0_mesh": 0.005029037242547914,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0036259133534137177,
+        "BAKED_head_lod0_mesh": 0.007039250854381639,
+        "BAKED_head_lod0_mesh.001": 0.0009819881553848428,
+        "BAKED_head_lod0_mesh.002": 0.00099450784627435,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "cheekSquintRight",
+      "max_displacement_m": 0.00734811113254894,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.003921699446091258,
+        "BAKED_eyeEdge_lod0_mesh": 0.003374961556844417,
+        "BAKED_eyelashes_lod0_mesh": 0.004842827929929959,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0035191932383600633,
+        "BAKED_head_lod0_mesh": 0.00734811113254894,
+        "BAKED_head_lod0_mesh.001": 0.000966060144791813,
+        "BAKED_head_lod0_mesh.002": 0.0008898764105882375,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "noseSneerLeft",
+      "max_displacement_m": 0.005937339399021603,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 7.038530326195068e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.005937339399021603,
+        "BAKED_head_lod0_mesh.001": 0.0014271141792861202,
+        "BAKED_head_lod0_mesh.002": 0.00014296131613660562,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "noseSneerRight",
+      "max_displacement_m": 0.006129641828080656,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.00010367562213326118,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.006129641828080656,
+        "BAKED_head_lod0_mesh.001": 0.0014481283773242525,
+        "BAKED_head_lod0_mesh.002": 0.00016550850444006267,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "jawOpen",
+      "max_displacement_m": 0.034994477758902354,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.616715981693223e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.03445098072801866,
+        "BAKED_head_lod0_mesh.001": 0.014437282476758365,
+        "BAKED_head_lod0_mesh.002": 0.034798456398487186,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.03441797602287441,
+        "BAKED_teeth_lod0_mesh": 0.034994477758902354
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "jawForward",
+      "max_displacement_m": 0.0055206301115579585,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.3392838126410766e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.0055206301115579585,
+        "BAKED_head_lod0_mesh.001": 0.002125655035101026,
+        "BAKED_head_lod0_mesh.002": 0.004915526451767574,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.004251815378668474,
+        "BAKED_teeth_lod0_mesh": 0.004251822829249071
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "jawLeft",
+      "max_displacement_m": 0.014938260575889532,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 4.430397711972728e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.01418336459164619,
+        "BAKED_head_lod0_mesh.001": 0.007974505808504739,
+        "BAKED_head_lod0_mesh.002": 0.014479727254507408,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.014525529861790181,
+        "BAKED_teeth_lod0_mesh": 0.014938260575889532
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "jawRight",
+      "max_displacement_m": 0.017165775838325573,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 7.129852362217749e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.017165775838325573,
+        "BAKED_head_lod0_mesh.001": 0.007966444912915541,
+        "BAKED_head_lod0_mesh.002": 0.015065131549232948,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0143470926564895,
+        "BAKED_teeth_lod0_mesh": 0.014784753170973634
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthClose",
+      "max_displacement_m": 0.018398002974223095,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 9.73850523889781e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.015625938931425557,
+        "BAKED_head_lod0_mesh.001": 0.015209759594846451,
+        "BAKED_head_lod0_mesh.002": 0.018398002974223095,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthFunnel",
+      "max_displacement_m": 0.0123281908264251,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 2.1671264999672003e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.007780216985896192,
+        "BAKED_head_lod0_mesh.001": 0.009652966814629169,
+        "BAKED_head_lod0_mesh.002": 0.0123281908264251,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.002158780828915105,
+        "BAKED_teeth_lod0_mesh": 0.002208331327479048
+      },
+      "pose_source": "Polyhammer face-board pose library: scan_reference/Funneler"
+    },
+    {
+      "name": "mouthPucker",
+      "max_displacement_m": 0.020502476412479074,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 6.684765637817895e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.017034614195042142,
+        "BAKED_head_lod0_mesh.001": 0.020502476412479074,
+        "BAKED_head_lod0_mesh.002": 0.020455553666559958,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Polyhammer face-board pose library: scan_reference/Pucker"
+    },
+    {
+      "name": "mouthLeft",
+      "max_displacement_m": 0.026833719383614764,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 6.362530179185316e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.02598425848297646,
+        "BAKED_head_lod0_mesh.001": 0.026833719383614764,
+        "BAKED_head_lod0_mesh.002": 0.026799431535307016,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthRight",
+      "max_displacement_m": 0.02599152219880847,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 6.501596445463874e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.025345113936017953,
+        "BAKED_head_lod0_mesh.001": 0.0258459145127391,
+        "BAKED_head_lod0_mesh.002": 0.02599152219880847,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthSmileLeft",
+      "max_displacement_m": 0.019442103914719507,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 7.039979328501869e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.019442103914719507,
+        "BAKED_head_lod0_mesh.001": 0.01944206758654063,
+        "BAKED_head_lod0_mesh.002": 0.01944207971448302,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthSmileRight",
+      "max_displacement_m": 0.019070166186873683,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 7.784852550699011e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.019070166186873683,
+        "BAKED_head_lod0_mesh.001": 0.01906822528867907,
+        "BAKED_head_lod0_mesh.002": 0.019068247440949173,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthFrownLeft",
+      "max_displacement_m": 0.008440988034099485,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 4.6880173442662395e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.008440988034099485,
+        "BAKED_head_lod0_mesh.001": 0.007323027791811728,
+        "BAKED_head_lod0_mesh.002": 0.007224750116382483,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthFrownRight",
+      "max_displacement_m": 0.008230426204198307,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 4.2334265170310755e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.008230426204198307,
+        "BAKED_head_lod0_mesh.001": 0.007135325283963042,
+        "BAKED_head_lod0_mesh.002": 0.006866576973886394,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthDimpleLeft",
+      "max_displacement_m": 0.013196217653039662,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.741440254442426e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.013196217653039662,
+        "BAKED_head_lod0_mesh.001": 0.012985720416390454,
+        "BAKED_head_lod0_mesh.002": 0.013196211451365774,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthDimpleRight",
+      "max_displacement_m": 0.012899484035594617,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.5159747440318616e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.012899484035594617,
+        "BAKED_head_lod0_mesh.001": 0.012386299649756773,
+        "BAKED_head_lod0_mesh.002": 0.012899477140133665,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthStretchLeft",
+      "max_displacement_m": 0.015867366351787458,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.6364686063434434e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.015867366351787458,
+        "BAKED_head_lod0_mesh.001": 0.013093711644195852,
+        "BAKED_head_lod0_mesh.002": 0.01511502798586278,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthStretchRight",
+      "max_displacement_m": 0.015086482656140918,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.148376189531226e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.015086482656140918,
+        "BAKED_head_lod0_mesh.001": 0.01270757688321804,
+        "BAKED_head_lod0_mesh.002": 0.014485978049966966,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthRollLower",
+      "max_displacement_m": 0.007399744866098673,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.0018394212950544537,
+        "BAKED_head_lod0_mesh.001": 0.0002711323051937723,
+        "BAKED_head_lod0_mesh.002": 0.007399744866098673,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthRollUpper",
+      "max_displacement_m": 0.0059582908958767,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.0032524183684302273,
+        "BAKED_head_lod0_mesh.001": 0.0059582908958767,
+        "BAKED_head_lod0_mesh.002": 0.00017350412689793283,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthShrugLower",
+      "max_displacement_m": 0.013022655683757814,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.01249028064658759,
+        "BAKED_head_lod0_mesh.001": 0.002975386147924538,
+        "BAKED_head_lod0_mesh.002": 0.013022655683757814,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthShrugUpper",
+      "max_displacement_m": 0.010326260544123486,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 9.389674008747631e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.007340450105737516,
+        "BAKED_head_lod0_mesh.001": 0.010326260544123486,
+        "BAKED_head_lod0_mesh.002": 0.0033378619951420388,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthPressLeft",
+      "max_displacement_m": 0.008459193267083486,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.1347704486948558e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.008459193267083486,
+        "BAKED_head_lod0_mesh.001": 0.007442946849259142,
+        "BAKED_head_lod0_mesh.002": 0.008353880201341861,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthPressRight",
+      "max_displacement_m": 0.0083732090398472,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.5468942306419077e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.0083732090398472,
+        "BAKED_head_lod0_mesh.001": 0.006140270771566721,
+        "BAKED_head_lod0_mesh.002": 0.008258393349310706,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthLowerDownLeft",
+      "max_displacement_m": 0.008389535466639685,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.007180996143829362,
+        "BAKED_head_lod0_mesh.001": 0.002011082129068102,
+        "BAKED_head_lod0_mesh.002": 0.008389535466639685,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthLowerDownRight",
+      "max_displacement_m": 0.008049221340965756,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.006862950773658378,
+        "BAKED_head_lod0_mesh.001": 0.001876111822459002,
+        "BAKED_head_lod0_mesh.002": 0.008049221340965756,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthUpperUpLeft",
+      "max_displacement_m": 0.010586124262771307,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 2.335411503583621e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.010531861728738424,
+        "BAKED_head_lod0_mesh.001": 0.010586124262771307,
+        "BAKED_head_lod0_mesh.002": 0.0037853292462198982,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "mouthUpperUpRight",
+      "max_displacement_m": 0.010658568960539867,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 2.45127852377306e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.010658568960539867,
+        "BAKED_head_lod0_mesh.001": 0.010562700523958897,
+        "BAKED_head_lod0_mesh.002": 0.0039583318509471685,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "tongueOut",
+      "max_displacement_m": 0.020204843696894865,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 9.055986863538507e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.008870654021686438,
+        "BAKED_head_lod0_mesh.001": 0.0036259677475049814,
+        "BAKED_head_lod0_mesh.002": 0.008958973492769752,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.008869391971993493,
+        "BAKED_teeth_lod0_mesh": 0.020204843696894865
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "viseme_sil",
+      "max_displacement_m": 0.0,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh.001": 0.0,
+        "BAKED_head_lod0_mesh.002": 0.0,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Corresponding MetaHuman GUI controls"
+    },
+    {
+      "name": "viseme_PP",
+      "max_displacement_m": 0.0017729235747443643,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 4.018399087796666e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.0017729235747443643,
+        "BAKED_head_lod0_mesh.001": 0.0012576171094843503,
+        "BAKED_head_lod0_mesh.002": 0.0012808152054656194,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0,
+        "BAKED_teeth_lod0_mesh": 0.0
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/23_MBP"
+    },
+    {
+      "name": "viseme_FF",
+      "max_displacement_m": 0.0061096560185719935,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 8.088309812212214e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.004450784856495552,
+        "BAKED_head_lod0_mesh.001": 0.003302094863351925,
+        "BAKED_head_lod0_mesh.002": 0.005581326612016434,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.005996307685922282,
+        "BAKED_teeth_lod0_mesh": 0.0061096560185719935
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/20_FV"
+    },
+    {
+      "name": "viseme_TH",
+      "max_displacement_m": 0.03561684035736928,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.616715981693223e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.03445098072801866,
+        "BAKED_head_lod0_mesh.001": 0.014437282476758365,
+        "BAKED_head_lod0_mesh.002": 0.034798456398487186,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.03441797602287441,
+        "BAKED_teeth_lod0_mesh": 0.03561684035736928
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/25_Tongue-Th"
+    },
+    {
+      "name": "viseme_DD",
+      "max_displacement_m": 0.004463595572166642,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 4.966638072386692e-06,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.003875114383866898,
+        "BAKED_head_lod0_mesh.001": 0.002540836333451219,
+        "BAKED_head_lod0_mesh.002": 0.004463595572166642,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.002099282557643194,
+        "BAKED_teeth_lod0_mesh": 0.002159927915401974
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/01_TDS-Ah"
+    },
+    {
+      "name": "viseme_kk",
+      "max_displacement_m": 0.036009083318939,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.616715981693223e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.03445098072801866,
+        "BAKED_head_lod0_mesh.001": 0.014437282476758365,
+        "BAKED_head_lod0_mesh.002": 0.034798456398487186,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.03441797602287441,
+        "BAKED_teeth_lod0_mesh": 0.036009083318939
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/26_Tongue-KGY"
+    },
+    {
+      "name": "viseme_CH",
+      "max_displacement_m": 0.008159163155744803,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.4400612103586078e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.005815102274083173,
+        "BAKED_head_lod0_mesh.001": 0.006641655000916268,
+        "BAKED_head_lod0_mesh.002": 0.008159163155744803,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.002158780828915105,
+        "BAKED_teeth_lod0_mesh": 0.002208331327479048
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/14_ChJjSh"
+    },
+    {
+      "name": "viseme_SS",
+      "max_displacement_m": 0.034994477758902354,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.616715981693223e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.03445098072801866,
+        "BAKED_head_lod0_mesh.001": 0.014437282476758365,
+        "BAKED_head_lod0_mesh.002": 0.034798456398487186,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.03441797602287441,
+        "BAKED_teeth_lod0_mesh": 0.034994477758902354
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/23_Tongue_LNTDS"
+    },
+    {
+      "name": "viseme_nn",
+      "max_displacement_m": 0.034994477758902354,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 3.616715981693223e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.03445098072801866,
+        "BAKED_head_lod0_mesh.001": 0.014437282476758365,
+        "BAKED_head_lod0_mesh.002": 0.034798456398487186,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.03441797602287441,
+        "BAKED_teeth_lod0_mesh": 0.034994477758902354
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/24_Tongue-LNTDS"
+    },
+    {
+      "name": "viseme_RR",
+      "max_displacement_m": 0.009224730470346658,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.1665920698740247e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.007800638981376536,
+        "BAKED_head_lod0_mesh.001": 0.009224730470346658,
+        "BAKED_head_lod0_mesh.002": 0.008769798949535708,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.007667898798094194,
+        "BAKED_teeth_lod0_mesh": 0.007747440513959107
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/17_Rr"
+    },
+    {
+      "name": "viseme_aa",
+      "max_displacement_m": 0.013667401844851896,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.3558362289855908e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.013446712098736616,
+        "BAKED_head_lod0_mesh.001": 0.005271647354614653,
+        "BAKED_head_lod0_mesh.002": 0.013581269694812804,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.013446705507406722,
+        "BAKED_teeth_lod0_mesh": 0.013667401844851896
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/08_Ah"
+    },
+    {
+      "name": "viseme_E",
+      "max_displacement_m": 0.006895891025171517,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.8287838232771368e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.006310264217943012,
+        "BAKED_head_lod0_mesh.001": 0.00487423232855461,
+        "BAKED_head_lod0_mesh.002": 0.006895891025171517,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.004360831341365884,
+        "BAKED_teeth_lod0_mesh": 0.004425638339545909
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/03_Ee"
+    },
+    {
+      "name": "viseme_I",
+      "max_displacement_m": 0.00809638988345538,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.000598896742256e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.007692989665363772,
+        "BAKED_head_lod0_mesh.001": 0.0031422138678346063,
+        "BAKED_head_lod0_mesh.002": 0.00809638988345538,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0059691383906447905,
+        "BAKED_teeth_lod0_mesh": 0.0060144691951918355
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/04_Ih"
+    },
+    {
+      "name": "viseme_O",
+      "max_displacement_m": 0.01687774482113735,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.7151115162371923e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.01393417629532018,
+        "BAKED_head_lod0_mesh.001": 0.00833624250170523,
+        "BAKED_head_lod0_mesh.002": 0.014234344958190407,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.016618669612025315,
+        "BAKED_teeth_lod0_mesh": 0.01687774482113735
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/09_Oh"
+    },
+    {
+      "name": "viseme_U",
+      "max_displacement_m": 0.0153779143602861,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 1.3181292108987672e-05,
+        "BAKED_eyeEdge_lod0_mesh": 0.0,
+        "BAKED_eyelashes_lod0_mesh": 0.0,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0,
+        "BAKED_head_lod0_mesh": 0.012291259550622397,
+        "BAKED_head_lod0_mesh.001": 0.0153779143602861,
+        "BAKED_head_lod0_mesh.002": 0.01529207556913823,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.012119415848029268,
+        "BAKED_teeth_lod0_mesh": 0.012271890185156096
+      },
+      "pose_source": "Polyhammer face-board pose library: visemes/12_Oo"
+    },
+    {
+      "name": "emo_joy",
+      "max_displacement_m": 0.017323145569778316,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.004211490842737734,
+        "BAKED_eyeEdge_lod0_mesh": 0.0038236202991563176,
+        "BAKED_eyelashes_lod0_mesh": 0.005529793735163598,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.003961220582848117,
+        "BAKED_head_lod0_mesh": 0.017323145569778316,
+        "BAKED_head_lod0_mesh.001": 0.017278118384066923,
+        "BAKED_head_lod0_mesh.002": 0.017024880686006053,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.002572827830441421,
+        "BAKED_teeth_lod0_mesh": 0.002614771536289899
+      },
+      "pose_source": "Polyhammer face-board pose library: emotions/Joy-03_Joy"
+    },
+    {
+      "name": "emo_sadness",
+      "max_displacement_m": 0.013232315887218127,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.00819066838927659,
+        "BAKED_eyeEdge_lod0_mesh": 0.007417058965071892,
+        "BAKED_eyelashes_lod0_mesh": 0.012155230079163621,
+        "BAKED_eyeLeft_lod0_mesh": 0.0010124111106562794,
+        "BAKED_eyeRight_lod0_mesh": 0.0010447224364304771,
+        "BAKED_eyeshell_lod0_mesh": 0.007714351776183308,
+        "BAKED_head_lod0_mesh": 0.013024876314419086,
+        "BAKED_head_lod0_mesh.001": 0.011230149532760757,
+        "BAKED_head_lod0_mesh.002": 0.013232315887218127,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.010687114934219817,
+        "BAKED_teeth_lod0_mesh": 0.01102752211109957
+      },
+      "pose_source": "Polyhammer face-board pose library: emotions/Sadness-03_Sadness"
+    },
+    {
+      "name": "emo_anger",
+      "max_displacement_m": 0.013591300815232677,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0035978009618639895,
+        "BAKED_eyeEdge_lod0_mesh": 0.0031456528155761735,
+        "BAKED_eyelashes_lod0_mesh": 0.004560397358844592,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.0032694800096741256,
+        "BAKED_head_lod0_mesh": 0.013591300815232677,
+        "BAKED_head_lod0_mesh.001": 0.010338142506674539,
+        "BAKED_head_lod0_mesh.002": 0.007856185973516472,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.0044574464291294675,
+        "BAKED_teeth_lod0_mesh": 0.004606275556748686
+      },
+      "pose_source": "Polyhammer face-board pose library: emotions/Anger-03_Anger"
+    },
+    {
+      "name": "emo_surprise",
+      "max_displacement_m": 0.020287070632757614,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.00370022741264427,
+        "BAKED_eyeEdge_lod0_mesh": 0.003550087913886051,
+        "BAKED_eyelashes_lod0_mesh": 0.005838074829572555,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.00369715218564765,
+        "BAKED_head_lod0_mesh": 0.01973506176795364,
+        "BAKED_head_lod0_mesh.001": 0.00750978031160021,
+        "BAKED_head_lod0_mesh.002": 0.020287070632757614,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.019273296181441316,
+        "BAKED_teeth_lod0_mesh": 0.01959126939671712
+      },
+      "pose_source": "Polyhammer face-board pose library: emotions/Surprise-03_Surprise"
+    },
+    {
+      "name": "emo_fear",
+      "max_displacement_m": 0.01595812305585753,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0033519686186968736,
+        "BAKED_eyeEdge_lod0_mesh": 0.0032317894560516544,
+        "BAKED_eyelashes_lod0_mesh": 0.0052929032413372564,
+        "BAKED_eyeLeft_lod0_mesh": 0.0,
+        "BAKED_eyeRight_lod0_mesh": 0.0,
+        "BAKED_eyeshell_lod0_mesh": 0.003361413189266143,
+        "BAKED_head_lod0_mesh": 0.01533976106251278,
+        "BAKED_head_lod0_mesh.001": 0.010792773487112812,
+        "BAKED_head_lod0_mesh.002": 0.01595812305585753,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.01238188608217881,
+        "BAKED_teeth_lod0_mesh": 0.012584975525564219
+      },
+      "pose_source": "Polyhammer face-board pose library: emotions/Fear-03_Fear"
+    },
+    {
+      "name": "emo_disgust",
+      "max_displacement_m": 0.01569723183434254,
+      "per_mesh_displacement_m": {
+        "BAKED_body_lod0_mesh": 0.0,
+        "BAKED_cartilage_lod0_mesh": 0.0059505177882239225,
+        "BAKED_eyeEdge_lod0_mesh": 0.0050852870038785,
+        "BAKED_eyelashes_lod0_mesh": 0.007496256815153118,
+        "BAKED_eyeLeft_lod0_mesh": 0.0002520674472717464,
+        "BAKED_eyeRight_lod0_mesh": 0.00025872861646687305,
+        "BAKED_eyeshell_lod0_mesh": 0.005295365975730856,
+        "BAKED_head_lod0_mesh": 0.01569723183434254,
+        "BAKED_head_lod0_mesh.001": 0.008454957177085883,
+        "BAKED_head_lod0_mesh.002": 0.011200453347604566,
+        "BAKED_Outfits_LOD0": 0.0,
+        "BAKED_saliva_lod0_mesh": 0.001439601182938827,
+        "BAKED_teeth_lod0_mesh": 0.0014396086335185202
+      },
+      "pose_source": "Polyhammer face-board pose library: emotions/Disgust-03_Disgust"
+    }
+  ]
+}

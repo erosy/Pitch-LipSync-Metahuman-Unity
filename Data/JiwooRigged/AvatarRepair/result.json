@@ -1,0 +1,19 @@
+{
+  "beforePoseError": 394.16745,
+  "afterPoseError": 0.0,
+  "referenceTPoseValid": true,
+  "changedReferenceBones": [
+    "DEF-spine",
+    "DEF-shoulder.L",
+    "DEF-upper_arm.L",
+    "DEF-forearm.L",
+    "DEF-shoulder.R",
+    "DEF-upper_arm.R",
+    "DEF-forearm.R"
+  ],
+  "avatarValid": true,
+  "shapeCount": 73,
+  "sourceMeshReexported": false,
+  "animationsPlayed": false,
+  "playModeEntered": false
+}

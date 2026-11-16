@@ -1,0 +1,22 @@
+[
+  {
+    "pose": "Neutral",
+    "mean_absolute_channel_error_255": 1.6338634490966797,
+    "pixels_changed_over_10_fraction": 0.03774261474609375
+  },
+  {
+    "pose": "eyeBlinkLeft",
+    "mean_absolute_channel_error_255": 1.6811548868815105,
+    "pixels_changed_over_10_fraction": 0.038463592529296875
+  },
+  {
+    "pose": "eyeBlinkRight",
+    "mean_absolute_channel_error_255": 1.5936845143636067,
+    "pixels_changed_over_10_fraction": 0.035022735595703125
+  },
+  {
+    "pose": "browInnerUp",
+    "mean_absolute_channel_error_255": 1.7317085266113281,
+    "pixels_changed_over_10_fraction": 0.03932380676269531
+  }
+]

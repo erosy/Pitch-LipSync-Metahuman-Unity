@@ -1,0 +1,11 @@
+{
+  "command": "unity recompile",
+  "status": "up_to_date",
+  "compilation_failed": false,
+  "compiler_errors": [],
+  "compiler_warnings": [],
+  "tooling_advisory": "The installed Pipeline package exposes older command names; no package upgrade was performed.",
+  "play_mode_entered": false,
+  "live_testing_performed": false,
+  "build_performed": false
+}

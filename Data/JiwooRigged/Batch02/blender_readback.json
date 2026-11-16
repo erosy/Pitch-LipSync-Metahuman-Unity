@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "vertices": 67216,
+  "bones": 160,
+  "shape_count": 73,
+  "max_fbx_error_m": 1.2408348766257404e-06,
+  "grooms": [
+    {
+      "label": "Scalp",
+      "strands": 100498,
+      "max_error_m": 0.0,
+      "diameter_m": 9.999999747378752e-05
+    },
+    {
+      "label": "Eyebrows",
+      "strands": 1915,
+      "max_error_m": 0.0,
+      "diameter_m": 7.000000186963007e-05
+    },
+    {
+      "label": "Eyelashes",
+      "strands": 787,
+      "max_error_m": 0.0,
+      "diameter_m": 4.999999873689376e-05
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "seam": {
+    "matchedPairs": 92,
+    "maxRestGapM": 0.0,
+    "maxWeightL1": 0.0,
+    "maxShapeDeltaMismatchM": 0.0,
+    "shapes": 73
+  },
+  "sceneBindings": [
+    {
+      "name": "EyeBrows",
+      "roots": 1915
+    },
+    {
+      "name": "EyeLashes",
+      "roots": 787
+    }
+  ],
+  "prefabBindings": [
+    {
+      "name": "EyeBrows",
+      "roots": 1915
+    },
+    {
+      "name": "EyeLashes",
+      "roots": 787
+    }
+  ],
+  "computeKernelCompiled": true,
+  "playModeEntered": false,
+  "liveTestingPerformed": false
+}

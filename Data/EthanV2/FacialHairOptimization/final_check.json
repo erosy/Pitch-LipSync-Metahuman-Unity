@@ -1,0 +1,14 @@
+{
+  "headVertices": 104632,
+  "headTriangles": 187041,
+  "headMeshMiB": 118.597519,
+  "wholeCharacterVertices": 159712,
+  "wholeCharacterTriangles": 274793,
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": true,
+      "mesh": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Head_FacialHairOptimized.asset"
+    }
+  ]
+}

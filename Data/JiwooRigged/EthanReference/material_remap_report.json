@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "model": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+  "remapped": 11,
+  "slots": [
+    {
+      "renderer": "Face",
+      "materials": [
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Head.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Body.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Cartilage.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_EyeEdge.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Eyes.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Eyes.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_EyeShell.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Saliva.mat",
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Teeth.mat",
+        "Assets/_Sandbox/Characters/Jiwoo New/Materials/Jiwoo_FacialHair_Mesh.mat"
+      ]
+    },
+    {
+      "renderer": "Outfit",
+      "materials": [
+        "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_Outfit.mat"
+      ]
+    }
+  ]
+}

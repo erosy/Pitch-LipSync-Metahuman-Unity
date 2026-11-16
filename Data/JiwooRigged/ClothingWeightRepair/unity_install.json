@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "model": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+  "prefab": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+  "modelGuid": "42d0ed3c84aa9bb499736b0d51ff7f26",
+  "prefabGuid": "48dcd3a0926950846ad911bc2abe8ce9",
+  "avatarValid": true,
+  "humanoid": true,
+  "faceShapeCount": 73,
+  "materialRemapsPreserved": true,
+  "humanoidMappingPreserved": true,
+  "sceneSaved": false,
+  "playModeChanged": false
+}

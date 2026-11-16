@@ -1,0 +1,504 @@
+[
+  {
+    "name": "Jiwoo_Normalized",
+    "hairs": [
+      {
+        "name": "Jiwoo_ScalpHair",
+        "active": true,
+        "enabled": true,
+        "executive": {
+          "updateMode": 0,
+          "updateSimulation": true,
+          "updateSimulationRate": 1,
+          "updateSimulationInEditor": false,
+          "updateTimeStep": 0.0099999997764825821,
+          "updateStepsMin": false,
+          "updateStepsMinValue": 1,
+          "updateStepsMax": true,
+          "updateStepsMaxValue": 2
+        },
+        "volume": {
+          "gridPrecision": 0,
+          "gridResolution": 32,
+          "gridStaggered": false,
+          "splatMethod": 1,
+          "splatClusters": true,
+          "pressureIterations": 5,
+          "pressureSolution": 1,
+          "restDensity": 0,
+          "restDensityScale": 1.0,
+          "restDensityInfluence": 1.0,
+          "scatteringProbe": false,
+          "scatteringProbeCellSubsteps": 1,
+          "scatteringProbeBias": 1.0,
+          "probeSamplesTheta": 5,
+          "probeSamplesPhi": 10,
+          "probeOcclusion": true,
+          "probeOcclusionMode": 0,
+          "probeOcclusionSolidDensity": 5.0,
+          "windPropagation": true,
+          "windPropagationCellSubsteps": 1,
+          "windOcclusion": true,
+          "windOcclusionMode": 1,
+          "windDepth": 1.0
+        },
+        "geometry": {
+          "strandScale": 0,
+          "strandLength": false,
+          "strandLengthValue": 0.25,
+          "strandDiameter": false,
+          "strandDiameterValue": 1.0,
+          "strandSeparation": 0.0,
+          "tipScale": false,
+          "tipScaleValue": 0.15000000596046448,
+          "tipScaleOffset": false,
+          "tipScaleOffsetValue": 0.75,
+          "boundsMode": 0,
+          "boundsCenter": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "boundsExtent": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "boundsScale": false,
+          "boundsScaleValue": 1.25,
+          "stagingPrecision": 1,
+          "stagingSubdivision": false,
+          "stagingSubdivisionCount": 1
+        },
+        "rendering": {
+          "material": true,
+          "materialAsset": {
+            "instanceID": 568105584918857514
+          },
+          "renderer": 2,
+          "rendererLayers": 257,
+          "rendererShadows": 1,
+          "shadowLayers": false,
+          "shadowLayersValue": 257,
+          "shadowSubstitute": false,
+          "shadowSubstituteValue": 0,
+          "motionVectors": 1,
+          "allowIndirect": true,
+          "allowInstancing": true,
+          "kLODSelection": 0,
+          "kLODSelectionValue": 1.0,
+          "kLODCeiling": 1.0,
+          "kLODScale": 1.0,
+          "kLODBias": 0.0,
+          "clipThreshold": 0.05000000074505806
+        },
+        "physics": {
+          "solver": 1,
+          "solverSubsteps": 2,
+          "constraintIterations": 8,
+          "constraintStiffness": 1.0,
+          "constraintSOR": 1.0,
+          "dampingLinear": true,
+          "dampingLinearFactor": 0.20000000298023224,
+          "dampingLinearInterval": 0,
+          "dampingAngular": true,
+          "dampingAngularFactor": 0.5,
+          "dampingAngularInterval": 0,
+          "cellPressure": 1.0,
+          "cellVelocity": 0.05000000074505806,
+          "cellExternal": 1.0,
+          "gravity": 0.20000000298023224,
+          "boundaryCollision": true,
+          "boundaryCollisionFriction": 0.5,
+          "distance": true,
+          "distanceLRA": true,
+          "distanceFTL": false,
+          "distanceFTLCorrection": 0.800000011920929,
+          "localCurvature": false,
+          "localCurvatureMode": 1,
+          "localCurvatureValue": 0.10000000149011612,
+          "localShape": true,
+          "localShapeMode": 1,
+          "localShapeInfluence": 1.0,
+          "localShapeBias": true,
+          "localShapeBiasValue": 0.699999988079071,
+          "globalPosition": true,
+          "globalPositionInfluence": 0.30000001192092896,
+          "globalPositionInterval": 0,
+          "globalRotation": true,
+          "globalRotationInfluence": 0.699999988079071,
+          "globalFade": true,
+          "globalFadeOffset": 0.10000000149011612,
+          "globalFadeExtent": 0.20000000298023224,
+          "kLODSelection": 0,
+          "kLODSelectionValue": 1.0,
+          "kLODCeiling": 1.0,
+          "kLODScale": 1.0,
+          "kLODBias": 0.0
+        },
+        "overrides": [],
+        "material": "Assets/_Sandbox/Characters/Jiwoo/Materials/Jiwoo_StrandHair.mat",
+        "shader": "Hair/Custom/EthanHair",
+        "boundaries": [
+          {
+            "name": "Jiwoo_HairBoundary_Head",
+            "type": "DiscreteSDF",
+            "texture": "Assets/_Sandbox/Characters/Jiwoo New/Groom/Collision/Jiwoo_HeadSDF.asset",
+            "resolution": 96
+          },
+          {
+            "name": "Jiwoo_HairBoundary_Neck",
+            "type": "Capsule",
+            "texture": "",
+            "resolution": 0
+          },
+          {
+            "name": "Jiwoo_HairBoundary_ShoulderL",
+            "type": "Capsule",
+            "texture": "",
+            "resolution": 0
+          },
+          {
+            "name": "Jiwoo_HairBoundary_ShoulderR",
+            "type": "Capsule",
+            "texture": "",
+            "resolution": 0
+          }
+        ],
+        "groups": [
+          {
+            "asset": "Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp.asset",
+            "bytes": 85246464,
+            "clustersEnabled": false,
+            "strandCount": 100498,
+            "strandParticleCount": 64,
+            "particles": 6431872,
+            "lodCount": 1,
+            "lodGuideCount": [
+              100498
+            ],
+            "lodThreshold": [
+              1.0
+            ],
+            "solverParticlesPerLOD": [
+              6431872
+            ],
+            "maxLength": 0.351923168,
+            "averageLength": 0.1735426,
+            "geometry": {
+              "alembicAsset": {
+                "instanceID": 568105584918862602
+              },
+              "alembicAssetGroups": 0,
+              "alembicScalePositions": 0,
+              "alembicScaleDiameters": 0,
+              "settingsResolve": {
+                "rootUVConstant": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "resampleParticleCount": 0,
+                "resampleCurves": false,
+                "resampleResolution": 64,
+                "resampleQuality": 3,
+                "rootUV": 2,
+                "rootUVMesh": {
+                  "instanceID": 0
+                },
+                "rootUVFallback": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "strandDiameter": 0,
+                "strandDiameterFallback": 0.10000000149011612,
+                "tipScale": 1,
+                "tipScaleFallback": 0.15000000596046448,
+                "tipScaleFallbackOffset": 0.75,
+                "additionalData": false,
+                "additionalDataMask": 3
+              }
+            },
+            "clusters": {
+              "clusterVoid": 1,
+              "clusterAllocation": 2,
+              "clusterAllocationOrder": 0,
+              "clusterRefinement": true,
+              "clusterRefinementIterations": 100,
+              "baseLOD": {
+                "baseLOD": 0
+              },
+              "baseLODParamsGenerated": {
+                "baseLODClusterQuantity": 0.0010000000474974513
+              },
+              "baseLODParamsUVMapped": {
+                "baseLODClusterFormat": 0,
+                "baseLODClusterMaps": []
+              },
+              "highLOD": {
+                "highLOD": true,
+                "highLODMode": 0
+              },
+              "highLODParamsAutomatic": {
+                "highLODClusterQuantity": 1.0,
+                "highLODClusterExpansion": 2.0
+              },
+              "highLODParamsManual": {
+                "highLODClusterQuantities": [
+                  0.25,
+                  0.5,
+                  0.75,
+                  1.0
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "warmup": [
+      "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Assembly-CSharp::CharacterHairStartupWarmup\",\"targetAnimator\":{\"instanceID\":0},\"strandHair\":[{\"instanceID\":0}],\"poseWarmupFrames\":8,\"framesAfterReset\":3}}"
+    ]
+  },
+  {
+    "name": "Ethan",
+    "hairs": [
+      {
+        "name": "Hair",
+        "active": true,
+        "enabled": true,
+        "executive": {
+          "updateMode": 0,
+          "updateSimulation": true,
+          "updateSimulationRate": 0,
+          "updateSimulationInEditor": true,
+          "updateTimeStep": 0.0099999997764825821,
+          "updateStepsMin": false,
+          "updateStepsMinValue": 1,
+          "updateStepsMax": true,
+          "updateStepsMaxValue": 4
+        },
+        "volume": {
+          "gridPrecision": 0,
+          "gridResolution": 32,
+          "gridStaggered": false,
+          "splatMethod": 1,
+          "splatClusters": true,
+          "pressureIterations": 5,
+          "pressureSolution": 1,
+          "restDensity": 0,
+          "restDensityScale": 1.0,
+          "restDensityInfluence": 1.0,
+          "scatteringProbe": false,
+          "scatteringProbeCellSubsteps": 1,
+          "scatteringProbeBias": 1.0,
+          "probeSamplesTheta": 5,
+          "probeSamplesPhi": 10,
+          "probeOcclusion": true,
+          "probeOcclusionMode": 0,
+          "probeOcclusionSolidDensity": 5.0,
+          "windPropagation": true,
+          "windPropagationCellSubsteps": 1,
+          "windOcclusion": true,
+          "windOcclusionMode": 1,
+          "windDepth": 1.0
+        },
+        "geometry": {
+          "strandScale": 0,
+          "strandLength": false,
+          "strandLengthValue": 0.25,
+          "strandDiameter": false,
+          "strandDiameterValue": 1.0,
+          "strandSeparation": 0.0,
+          "tipScale": false,
+          "tipScaleValue": 0.15000000596046448,
+          "tipScaleOffset": false,
+          "tipScaleOffsetValue": 0.75,
+          "boundsMode": 0,
+          "boundsCenter": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "boundsExtent": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "boundsScale": false,
+          "boundsScaleValue": 1.25,
+          "stagingPrecision": 1,
+          "stagingSubdivision": false,
+          "stagingSubdivisionCount": 1
+        },
+        "rendering": {
+          "material": true,
+          "materialAsset": {
+            "instanceID": 568105584918856794
+          },
+          "renderer": 2,
+          "rendererLayers": 257,
+          "rendererShadows": 1,
+          "shadowLayers": false,
+          "shadowLayersValue": 257,
+          "shadowSubstitute": false,
+          "shadowSubstituteValue": 0,
+          "motionVectors": 1,
+          "allowIndirect": true,
+          "allowInstancing": true,
+          "kLODSelection": 4,
+          "kLODSelectionValue": 1.0,
+          "kLODCeiling": 1.0,
+          "kLODScale": 1.0,
+          "kLODBias": 0.0,
+          "clipThreshold": 0.05000000074505806
+        },
+        "physics": {
+          "solver": 1,
+          "solverSubsteps": 4,
+          "constraintIterations": 12,
+          "constraintStiffness": 1.0,
+          "constraintSOR": 1.0,
+          "dampingLinear": true,
+          "dampingLinearFactor": 0.20000000298023224,
+          "dampingLinearInterval": 1,
+          "dampingAngular": true,
+          "dampingAngularFactor": 0.5,
+          "dampingAngularInterval": 0,
+          "cellPressure": 1.0,
+          "cellVelocity": 0.05000000074505806,
+          "cellExternal": 1.0,
+          "gravity": 0.20000000298023224,
+          "boundaryCollision": true,
+          "boundaryCollisionFriction": 0.5,
+          "distance": true,
+          "distanceLRA": true,
+          "distanceFTL": false,
+          "distanceFTLCorrection": 0.800000011920929,
+          "localCurvature": false,
+          "localCurvatureMode": 1,
+          "localCurvatureValue": 0.10000000149011612,
+          "localShape": true,
+          "localShapeMode": 1,
+          "localShapeInfluence": 1.0,
+          "localShapeBias": true,
+          "localShapeBiasValue": 0.699999988079071,
+          "globalPosition": true,
+          "globalPositionInfluence": 0.30000001192092896,
+          "globalPositionInterval": 1,
+          "globalRotation": true,
+          "globalRotationInfluence": 0.699999988079071,
+          "globalFade": true,
+          "globalFadeOffset": 0.10000000149011612,
+          "globalFadeExtent": 0.20000000298023224,
+          "kLODSelection": 2,
+          "kLODSelectionValue": 0.0,
+          "kLODCeiling": 1.0,
+          "kLODScale": 1.0,
+          "kLODBias": 0.0
+        },
+        "overrides": [],
+        "material": "Assets/_Sandbox/Characters/Ethan/Materials/Ethan/Ethan_StrandHair.mat",
+        "shader": "Hair/Custom/EthanHair",
+        "boundaries": [
+          {
+            "name": "Head Hair SDF",
+            "type": "DiscreteSDF",
+            "texture": "Assets/_Sandbox/Groom Hair Asset/Fitted Male/Ethan_HeadSdf.asset",
+            "resolution": 96
+          }
+        ],
+        "groups": [
+          {
+            "asset": "Assets/_Sandbox/Groom Hair Asset/Fitted Male/Ethan_BlenderFitted.asset",
+            "bytes": 43829456,
+            "clustersEnabled": false,
+            "strandCount": 94408,
+            "strandParticleCount": 32,
+            "particles": 3021056,
+            "lodCount": 1,
+            "lodGuideCount": [
+              94408
+            ],
+            "lodThreshold": [
+              1.0
+            ],
+            "solverParticlesPerLOD": [
+              3021056
+            ],
+            "maxLength": 0.438062072,
+            "averageLength": 0.185621724,
+            "geometry": {
+              "alembicAsset": {
+                "instanceID": 0
+              },
+              "alembicAssetGroups": 0,
+              "alembicScalePositions": 0,
+              "alembicScaleDiameters": 1,
+              "settingsResolve": {
+                "rootUVConstant": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "resampleParticleCount": 0,
+                "resampleCurves": true,
+                "resampleResolution": 16,
+                "resampleQuality": 3,
+                "rootUV": 2,
+                "rootUVMesh": {
+                  "instanceID": 0
+                },
+                "rootUVFallback": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "strandDiameter": 0,
+                "strandDiameterFallback": 1.0,
+                "tipScale": 0,
+                "tipScaleFallback": 0.15000000596046448,
+                "tipScaleFallbackOffset": 0.75,
+                "additionalData": false,
+                "additionalDataMask": 3
+              }
+            },
+            "clusters": {
+              "clusterVoid": 1,
+              "clusterAllocation": 2,
+              "clusterAllocationOrder": 0,
+              "clusterRefinement": true,
+              "clusterRefinementIterations": 100,
+              "baseLOD": {
+                "baseLOD": 0
+              },
+              "baseLODParamsGenerated": {
+                "baseLODClusterQuantity": 0.0010000000474974513
+              },
+              "baseLODParamsUVMapped": {
+                "baseLODClusterFormat": 0,
+                "baseLODClusterMaps": []
+              },
+              "highLOD": {
+                "highLOD": true,
+                "highLODMode": 0
+              },
+              "highLODParamsAutomatic": {
+                "highLODClusterQuantity": 1.0,
+                "highLODClusterExpansion": 2.0
+              },
+              "highLODParamsManual": {
+                "highLODClusterQuantities": [
+                  0.25,
+                  0.5,
+                  0.75,
+                  1.0
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "warmup": [
+      "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Assembly-CSharp::EthanHairStartupWarmup\",\"targetAnimator\":{\"instanceID\":0},\"strandHair\":[],\"poseWarmupFrames\":8,\"framesAfterReset\":3}}"
+    ]
+  }
+]

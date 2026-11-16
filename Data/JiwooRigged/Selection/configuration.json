@@ -1,0 +1,99 @@
+{
+  "applied": true,
+  "prefabVoice": {
+    "profile": "Assets/_Sandbox/LipSync/Profile_Liora_ID.asset",
+    "clip": "Assets/_Sandbox/Audio/liora.mp3",
+    "tuningPreserved": true,
+    "bindings": [
+      {
+        "phoneme": "A",
+        "shape": "viseme_aa",
+        "gain": 0.34
+      },
+      {
+        "phoneme": "I",
+        "shape": "viseme_I",
+        "gain": 0.5
+      },
+      {
+        "phoneme": "U",
+        "shape": "viseme_U",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "E",
+        "shape": "viseme_E",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "O",
+        "shape": "viseme_O",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "S",
+        "shape": "viseme_SS",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "M",
+        "shape": "viseme_PP",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "N",
+        "shape": "viseme_nn",
+        "gain": 1.0
+      }
+    ]
+  },
+  "sceneVoice": {
+    "profile": "Assets/_Sandbox/LipSync/Profile_Liora_ID.asset",
+    "clip": "Assets/_Sandbox/Audio/liora.mp3",
+    "tuningPreserved": true,
+    "bindings": [
+      {
+        "phoneme": "A",
+        "shape": "viseme_aa",
+        "gain": 0.34
+      },
+      {
+        "phoneme": "I",
+        "shape": "viseme_I",
+        "gain": 0.5
+      },
+      {
+        "phoneme": "U",
+        "shape": "viseme_U",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "E",
+        "shape": "viseme_E",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "O",
+        "shape": "viseme_O",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "S",
+        "shape": "viseme_SS",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "M",
+        "shape": "viseme_PP",
+        "gain": 1.0
+      },
+      {
+        "phoneme": "N",
+        "shape": "viseme_nn",
+        "gain": 1.0
+      }
+    ]
+  },
+  "initialSelection": "Ethan",
+  "liveTestingPerformed": false
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "prefab": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+  "model": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+  "prefabResult": {
+    "preservedConfigurationComponents": 8,
+    "visemeCount": 8,
+    "shapeCount": 73,
+    "bodyBones": 160,
+    "neutralSkinErrorM": 2.38418579E-07,
+    "avatarValid": true,
+    "humanoid": true,
+    "hairInstances": 0,
+    "ready": true,
+    "configurationErrors": []
+  },
+  "scenes": [
+    {
+      "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "result": {
+        "preservedConfigurationComponents": 8,
+        "visemeCount": 8,
+        "shapeCount": 73,
+        "bodyBones": 160,
+        "neutralSkinErrorM": 4.76837158E-07,
+        "avatarValid": true,
+        "humanoid": true,
+        "hairInstances": 0,
+        "ready": true,
+        "configurationErrors": []
+      }
+    }
+  ],
+  "disabledPreviews": [
+    "Assets/_Sandbox/Scenes/CharacterTesting.unity:Jiwoo_EthanSetup"
+  ],
+  "sceneSaved": false
+}

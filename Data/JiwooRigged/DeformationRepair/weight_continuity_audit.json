@@ -1,0 +1,1331 @@
+{
+  "mismatched_coincident_boundary_pairs": 92,
+  "largest_mismatches": [
+    {
+      "a": 8,
+      "b": 32773,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6721864994906355e-06,
+      "position": [
+        -0.15889449417591095,
+        0.007048218045383692,
+        1.4460103511810303
+      ],
+      "weight_l1": 1.3139559292099428,
+      "weights_a": {
+        "DEF-shoulder.R": 0.34302203539502857,
+        "DEF-upper_arm.R": 0.6569779646049714
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.0418294968467541,
+        "DEF-shoulder.R": 0.9581705031532459
+      }
+    },
+    {
+      "a": 30,
+      "b": 35321,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6824569684104063e-06,
+      "position": [
+        0.15890885889530182,
+        0.00704642990604043,
+        1.4460084438323975
+      ],
+      "weight_l1": 1.3137018913081653,
+      "weights_a": {
+        "DEF-shoulder.L": 0.3431490543459173,
+        "DEF-upper_arm.L": 0.6568509456540826
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.043109871928820494,
+        "DEF-shoulder.L": 0.9568901280711795
+      }
+    },
+    {
+      "a": 9195,
+      "b": 45051,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6837620933074504e-06,
+      "position": [
+        -0.15980903804302216,
+        -0.0017543716821819544,
+        1.4438810348510742
+      ],
+      "weight_l1": 1.3088271118121937,
+      "weights_a": {
+        "DEF-shoulder.R": 0.34558644409390316,
+        "DEF-upper_arm.R": 0.6544135559060968
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.0351516565589195,
+        "DEF-shoulder.R": 0.9648483434410805
+      }
+    },
+    {
+      "a": 16779,
+      "b": 40032,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.7227761190952151e-06,
+      "position": [
+        0.15982384979724884,
+        -0.0017557055689394474,
+        1.4438798427581787
+      ],
+      "weight_l1": 1.3085704218049559,
+      "weights_a": {
+        "DEF-shoulder.L": 0.345714789097522,
+        "DEF-upper_arm.L": 0.6542852109024779
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.03626815820675684,
+        "DEF-shoulder.L": 0.9637318417932431
+      }
+    },
+    {
+      "a": 15170,
+      "b": 45048,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6828319076012122e-06,
+      "position": [
+        -0.1566028743982315,
+        0.01556490920484066,
+        1.4467623233795166
+      ],
+      "weight_l1": 1.2566085954506936,
+      "weights_a": {
+        "DEF-shoulder.R": 0.37169570227465315,
+        "DEF-upper_arm.R": 0.6283042977253468
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.05009253744489041,
+        "DEF-shoulder.R": 0.9499074625551096
+      }
+    },
+    {
+      "a": 22814,
+      "b": 40028,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6677449821145274e-06,
+      "position": [
+        0.1566172093153,
+        0.01556265540421009,
+        1.4467610120773315
+      ],
+      "weight_l1": 1.2563525806995142,
+      "weights_a": {
+        "DEF-shoulder.L": 0.37182370965024286,
+        "DEF-upper_arm.L": 0.6281762903497571
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.051531772040031114,
+        "DEF-shoulder.L": 0.9484682279599689
+      }
+    },
+    {
+      "a": 9,
+      "b": 32772,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.76523758455005e-06,
+      "position": [
+        -0.1588454246520996,
+        -0.010180606506764889,
+        1.4397894144058228
+      ],
+      "weight_l1": 1.225105646151572,
+      "weights_a": {
+        "DEF-shoulder.R": 0.387447176924214,
+        "DEF-upper_arm.R": 0.6125528230757861
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.029584931595451898,
+        "DEF-shoulder.R": 0.970415068404548
+      }
+    },
+    {
+      "a": 3818,
+      "b": 35320,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.7904128526424756e-06,
+      "position": [
+        0.1588602066040039,
+        -0.010181906633079052,
+        1.43978750705719
+      ],
+      "weight_l1": 1.2248399815116116,
+      "weights_a": {
+        "DEF-shoulder.L": 0.3875800092441943,
+        "DEF-upper_arm.L": 0.6124199907558058
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.030538138041380513,
+        "DEF-shoulder.L": 0.9694618619586195
+      }
+    },
+    {
+      "a": 7,
+      "b": 32774,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6625075431875302e-06,
+      "position": [
+        -0.15326336026191711,
+        0.02371498942375183,
+        1.4464983940124512
+      ],
+      "weight_l1": 1.1806850382251806,
+      "weights_a": {
+        "DEF-shoulder.R": 0.40965748088740966,
+        "DEF-upper_arm.R": 0.5903425191125903
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.06048049955825129,
+        "DEF-shoulder.R": 0.9395195004417487
+      }
+    },
+    {
+      "a": 31,
+      "b": 35322,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.665559921093518e-06,
+      "position": [
+        0.15327757596969604,
+        0.02371235005557537,
+        1.4464994668960571
+      ],
+      "weight_l1": 1.1804161057792402,
+      "weights_a": {
+        "DEF-shoulder.L": 0.4097919471103799,
+        "DEF-upper_arm.L": 0.5902080528896201
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.06206191756155647,
+        "DEF-shoulder.L": 0.9379380824384436
+      }
+    },
+    {
+      "a": 15158,
+      "b": 45069,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.8061781474898453e-06,
+      "position": [
+        -0.15634924173355103,
+        -0.017762351781129837,
+        1.4346221685409546
+      ],
+      "weight_l1": 1.1083643928167886,
+      "weights_a": {
+        "DEF-shoulder.R": 0.4458178035916057,
+        "DEF-upper_arm.R": 0.5541821964083943
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 22801,
+      "b": 40050,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.8482630821381463e-06,
+      "position": [
+        0.1563638597726822,
+        -0.017763877287507057,
+        1.4346215724945068
+      ],
+      "weight_l1": 1.1080934395971558,
+      "weights_a": {
+        "DEF-shoulder.L": 0.4459532802014221,
+        "DEF-upper_arm.L": 0.5540467197985779
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.025696435414702908,
+        "DEF-shoulder.L": 0.9743035645852971
+      }
+    },
+    {
+      "a": 15180,
+      "b": 45057,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6787631693659932e-06,
+      "position": [
+        -0.14907723665237427,
+        0.03171113505959511,
+        1.4453883171081543
+      ],
+      "weight_l1": 1.0805926638294603,
+      "weights_a": {
+        "DEF-shoulder.R": 0.45970366808526986,
+        "DEF-upper_arm.R": 0.5402963319147301
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.0736344978367094,
+        "DEF-shoulder.R": 0.9263655021632906
+      }
+    },
+    {
+      "a": 22824,
+      "b": 40037,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6779569023128715e-06,
+      "position": [
+        0.14909103512763977,
+        0.0317084901034832,
+        1.4453887939453125
+      ],
+      "weight_l1": 1.0803066264147207,
+      "weights_a": {
+        "DEF-shoulder.L": 0.4598466867926396,
+        "DEF-upper_arm.L": 0.5401533132073604
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.07538110200943896,
+        "DEF-shoulder.L": 0.9246188979905611
+      }
+    },
+    {
+      "a": 16795,
+      "b": 40017,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.0595130081346724e-06,
+      "position": [
+        0.009870899841189384,
+        0.0740039274096489,
+        1.4244683980941772
+      ],
+      "weight_l1": 0.981156048263297,
+      "weights_a": {
+        "DEF-spine.003": 0.8638383152000326,
+        "DEF-shoulder.L": 0.08047466317823129,
+        "DEF-shoulder.R": 0.036811345289952294,
+        "DEF-breast.L": 0.018875676331783782
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.40932217444709956,
+        "DEF-spine.004": 0.4905780241316485,
+        "DEF-shoulder.L": 0.07478348035252107,
+        "DEF-shoulder.R": 0.025316321068730812
+      }
+    },
+    {
+      "a": 9211,
+      "b": 45036,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.0595637124642963e-06,
+      "position": [
+        -0.009861916303634644,
+        0.07400443404912949,
+        1.424466848373413
+      ],
+      "weight_l1": 0.9810152721484263,
+      "weights_a": {
+        "DEF-spine.003": 0.8638475527489963,
+        "DEF-shoulder.L": 0.036830169850997525,
+        "DEF-shoulder.R": 0.08045651816318768,
+        "DEF-breast.R": 0.01886575923681848
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.40940520791847645,
+        "DEF-spine.004": 0.49050763607421316,
+        "DEF-shoulder.L": 0.025010002037191514,
+        "DEF-shoulder.R": 0.07507715397011884
+      }
+    },
+    {
+      "a": 3,
+      "b": 32898,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.066151409962913e-06,
+      "position": [
+        2.346316796320025e-05,
+        0.07300131022930145,
+        1.424345850944519
+      ],
+      "weight_l1": 0.9756988717502637,
+      "weights_a": {
+        "DEF-spine.003": 0.86771452714804,
+        "DEF-shoulder.L": 0.059950552990681166,
+        "DEF-shoulder.R": 0.059877359256514835,
+        "DEF-breast.L": 0.0062532888313055375,
+        "DEF-breast.R": 0.0062042717734584404
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.4066324098092632,
+        "DEF-spine.004": 0.48784943587513185,
+        "DEF-shoulder.L": 0.052665289774689414,
+        "DEF-shoulder.R": 0.05285286454091551
+      }
+    },
+    {
+      "a": 13962,
+      "b": 45282,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.7541284453036496e-06,
+      "position": [
+        -0.05220281332731247,
+        -0.08602003008127213,
+        1.3755217790603638
+      ],
+      "weight_l1": 0.9737730633139964,
+      "weights_a": {
+        "DEF-spine.003": 0.029560839659249737,
+        "DEF-shoulder.L": 0.05507733903871542,
+        "DEF-shoulder.R": 0.4994093988789943,
+        "DEF-breast.L": 0.056918211113227986,
+        "DEF-breast.R": 0.3590342113098125
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 0.013704069464007507,
+        "DEF-shoulder.R": 0.9862959305359925
+      }
+    },
+    {
+      "a": 11,
+      "b": 32791,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.886634322545433e-06,
+      "position": [
+        -0.152871772646904,
+        -0.024293312802910805,
+        1.4290920495986938
+      ],
+      "weight_l1": 0.9734198215125502,
+      "weights_a": {
+        "DEF-shoulder.R": 0.5132900892437249,
+        "DEF-upper_arm.R": 0.4867099107562751
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 33,
+      "b": 35339,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.9127542145724874e-06,
+      "position": [
+        0.15288686752319336,
+        -0.02429463528096676,
+        1.4290907382965088
+      ],
+      "weight_l1": 0.9731404368138274,
+      "weights_a": {
+        "DEF-shoulder.L": 0.5134297815930863,
+        "DEF-upper_arm.L": 0.4865702184069138
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    },
+    {
+      "a": 27,
+      "b": 35329,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.052901891147485e-06,
+      "position": [
+        0.019968949258327484,
+        0.0757075622677803,
+        1.424806833267212
+      ],
+      "weight_l1": 0.9680954523783871,
+      "weights_a": {
+        "DEF-spine.003": 0.8408027655323103,
+        "DEF-shoulder.L": 0.1093891591176156,
+        "DEF-shoulder.R": 0.01529701080151665,
+        "DEF-breast.L": 0.03451106454855755
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.40542168783112376,
+        "DEF-spine.004": 0.4840477261891935,
+        "DEF-shoulder.L": 0.10614221911114835,
+        "DEF-shoulder.R": 0.004388366868534359
+      }
+    },
+    {
+      "a": 4,
+      "b": 32781,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.059604639725876e-06,
+      "position": [
+        -0.01995992101728916,
+        0.07570833712816238,
+        1.4248088598251343
+      ],
+      "weight_l1": 0.9676591083924568,
+      "weights_a": {
+        "DEF-spine.003": 0.8408261565080002,
+        "DEF-shoulder.L": 0.015312000362918982,
+        "DEF-shoulder.R": 0.10936434548206578,
+        "DEF-breast.R": 0.034497497647015
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.4054853308234452,
+        "DEF-spine.004": 0.4838295541962285,
+        "DEF-shoulder.L": 0.004155552230934259,
+        "DEF-shoulder.R": 0.1065295627493921
+      }
+    },
+    {
+      "a": 21573,
+      "b": 40252,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.780147497105645e-06,
+      "position": [
+        0.052210208028554916,
+        -0.08602052927017212,
+        1.3755204677581787
+      ],
+      "weight_l1": 0.9624609926606972,
+      "weights_a": {
+        "DEF-spine.003": 0.029559667749780746,
+        "DEF-shoulder.L": 0.5024154308838418,
+        "DEF-shoulder.R": 0.052023900562816215,
+        "DEF-breast.L": 0.35916057030549925,
+        "DEF-breast.R": 0.056840430498062054
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 0.9836459272141903,
+        "DEF-shoulder.R": 0.016354072785809637
+      }
+    },
+    {
+      "a": 10,
+      "b": 32775,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.7141679791166098e-06,
+      "position": [
+        -0.14379261434078217,
+        0.039419762790203094,
+        1.4432084560394287
+      ],
+      "weight_l1": 0.9537411335177193,
+      "weights_a": {
+        "DEF-shoulder.R": 0.5231294332411404,
+        "DEF-upper_arm.R": 0.4768705667588596
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.09027454946475846,
+        "DEF-shoulder.R": 0.9097254505352416
+      }
+    },
+    {
+      "a": 32,
+      "b": 35323,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.7053571355063468e-06,
+      "position": [
+        0.14380612969398499,
+        0.03941725566983223,
+        1.4432096481323242
+      ],
+      "weight_l1": 0.953449542609282,
+      "weights_a": {
+        "DEF-shoulder.L": 0.5232752286953589,
+        "DEF-upper_arm.L": 0.476724771304641
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.09220043184152059,
+        "DEF-shoulder.L": 0.9077995681584794
+      }
+    },
+    {
+      "a": 15,
+      "b": 32784,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.786938011922757e-06,
+      "position": [
+        -0.04463702067732811,
+        -0.08755117654800415,
+        1.3746018409729004
+      ],
+      "weight_l1": 0.939114406667074,
+      "weights_a": {
+        "DEF-spine.003": 0.03536991983658543,
+        "DEF-shoulder.L": 0.07027789972748336,
+        "DEF-shoulder.R": 0.48513650836153577,
+        "DEF-breast.L": 0.06932685590025957,
+        "DEF-breast.R": 0.33988881617413585
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 0.04530628830492721,
+        "DEF-shoulder.R": 0.9546937116950728
+      }
+    },
+    {
+      "a": 9207,
+      "b": 45039,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.111060666720732e-06,
+      "position": [
+        -0.03055538982152939,
+        0.07740163058042526,
+        1.4252036809921265
+      ],
+      "weight_l1": 0.9366949014017529,
+      "weights_a": {
+        "DEF-spine.003": 0.770680749738575,
+        "DEF-shoulder.R": 0.14427819051985408,
+        "DEF-upper_arm.R": 0.03443412004422141,
+        "DEF-breast.R": 0.050606939697349466
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.38737435877926946,
+        "DEF-spine.004": 0.4638129265701594,
+        "DEF-shoulder.R": 0.14881271465057114
+      }
+    },
+    {
+      "a": 16794,
+      "b": 40019,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.0595161913661286e-06,
+      "position": [
+        0.030564697459340096,
+        0.07740094512701035,
+        1.4252040386199951
+      ],
+      "weight_l1": 0.9365347523357734,
+      "weights_a": {
+        "DEF-spine.003": 0.770646557372609,
+        "DEF-shoulder.L": 0.14431415070639614,
+        "DEF-upper_arm.L": 0.034415480100367164,
+        "DEF-breast.L": 0.050623811820627744
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.38741847312571714,
+        "DEF-spine.004": 0.46443093276898545,
+        "DEF-shoulder.L": 0.1481505941052974
+      }
+    },
+    {
+      "a": 16,
+      "b": 32785,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.773738287942251e-06,
+      "position": [
+        -0.05969775840640068,
+        -0.08416005223989487,
+        1.376621127128601
+      ],
+      "weight_l1": 0.9299941508440575,
+      "weights_a": {
+        "DEF-shoulder.L": 0.0360268461014366,
+        "DEF-shoulder.R": 0.5350029245779713,
+        "DEF-breast.L": 0.042587453819880314,
+        "DEF-breast.R": 0.38638277550071176
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 36,
+      "b": 35332,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.7931828299188055e-06,
+      "position": [
+        0.044644422829151154,
+        -0.08755145967006683,
+        1.3746024370193481
+      ],
+      "weight_l1": 0.9246572156757802,
+      "weights_a": {
+        "DEF-spine.003": 0.03536848197726402,
+        "DEF-shoulder.L": 0.4890659373047549,
+        "DEF-shoulder.R": 0.06630675356557698,
+        "DEF-breast.L": 0.34002325541963846,
+        "DEF-breast.R": 0.06923557173276565
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 0.951394545142645,
+        "DEF-shoulder.R": 0.04860545485735498
+      }
+    }
+  ],
+  "shoulder_pairs": [
+    {
+      "a": 1,
+      "b": 32779,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.0464292447286425e-06,
+      "position": [
+        -0.0639423280954361,
+        0.07883176952600479,
+        1.4268018007278442
+      ],
+      "weight_l1": 0.7795287936979836,
+      "weights_a": {
+        "DEF-spine.003": 0.5144735017006602,
+        "DEF-shoulder.R": 0.33667713855971027,
+        "DEF-upper_arm.R": 0.07739021752421235,
+        "DEF-breast.R": 0.07145914221541723
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.27355846459129796,
+        "DEF-spine.004": 0.36964384965019814,
+        "DEF-shoulder.R": 0.3567976857585039
+      }
+    },
+    {
+      "a": 2,
+      "b": 32778,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.9867920855176635e-06,
+      "position": [
+        -0.08657977730035782,
+        0.07329490035772324,
+        1.4284765720367432
+      ],
+      "weight_l1": 0.6614293104789336,
+      "weights_a": {
+        "DEF-spine.003": 0.2933349425986157,
+        "DEF-shoulder.R": 0.5134045921061712,
+        "DEF-upper_arm.R": 0.12499086918032348,
+        "DEF-breast.R": 0.06826959611488968
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.15588075265436202,
+        "DEF-spine.004": 0.2871922865375332,
+        "DEF-shoulder.R": 0.5569269608081048
+      }
+    },
+    {
+      "a": 5,
+      "b": 32777,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.9330343548062956e-06,
+      "position": [
+        -0.10881593078374863,
+        0.0645519495010376,
+        1.4315544366836548
+      ],
+      "weight_l1": 0.6060919221428657,
+      "weights_a": {
+        "DEF-spine.003": 0.1396514976395967,
+        "DEF-shoulder.R": 0.614397166553579,
+        "DEF-upper_arm.R": 0.19939757181960294,
+        "DEF-breast.R": 0.04655376398722134
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.08255687237498816,
+        "DEF-spine.004": 0.20108654146998112,
+        "DEF-shoulder.R": 0.7163565861550307
+      }
+    },
+    {
+      "a": 6,
+      "b": 32776,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.8116137425749912e-06,
+      "position": [
+        -0.12916052341461182,
+        0.05349608138203621,
+        1.4370276927947998
+      ],
+      "weight_l1": 0.6799442108760083,
+      "weights_a": {
+        "DEF-spine.003": 0.058866537773083705,
+        "DEF-shoulder.R": 0.616809952444518,
+        "DEF-upper_arm.R": 0.32242769709082036,
+        "DEF-breast.R": 0.0018958126915779583
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.043217942117477856,
+        "DEF-spine.004": 0.1323475591827559,
+        "DEF-shoulder.R": 0.8244344986997663
+      }
+    },
+    {
+      "a": 7,
+      "b": 32774,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6625075431875302e-06,
+      "position": [
+        -0.15326336026191711,
+        0.02371498942375183,
+        1.4464983940124512
+      ],
+      "weight_l1": 1.1806850382251806,
+      "weights_a": {
+        "DEF-shoulder.R": 0.40965748088740966,
+        "DEF-upper_arm.R": 0.5903425191125903
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.06048049955825129,
+        "DEF-shoulder.R": 0.9395195004417487
+      }
+    },
+    {
+      "a": 8,
+      "b": 32773,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6721864994906355e-06,
+      "position": [
+        -0.15889449417591095,
+        0.007048218045383692,
+        1.4460103511810303
+      ],
+      "weight_l1": 1.3139559292099428,
+      "weights_a": {
+        "DEF-shoulder.R": 0.34302203539502857,
+        "DEF-upper_arm.R": 0.6569779646049714
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.0418294968467541,
+        "DEF-shoulder.R": 0.9581705031532459
+      }
+    },
+    {
+      "a": 9,
+      "b": 32772,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.76523758455005e-06,
+      "position": [
+        -0.1588454246520996,
+        -0.010180606506764889,
+        1.4397894144058228
+      ],
+      "weight_l1": 1.225105646151572,
+      "weights_a": {
+        "DEF-shoulder.R": 0.387447176924214,
+        "DEF-upper_arm.R": 0.6125528230757861
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.029584931595451898,
+        "DEF-shoulder.R": 0.970415068404548
+      }
+    },
+    {
+      "a": 10,
+      "b": 32775,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.7141679791166098e-06,
+      "position": [
+        -0.14379261434078217,
+        0.039419762790203094,
+        1.4432084560394287
+      ],
+      "weight_l1": 0.9537411335177193,
+      "weights_a": {
+        "DEF-shoulder.R": 0.5231294332411404,
+        "DEF-upper_arm.R": 0.4768705667588596
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.09027454946475846,
+        "DEF-shoulder.R": 0.9097254505352416
+      }
+    },
+    {
+      "a": 11,
+      "b": 32791,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.886634322545433e-06,
+      "position": [
+        -0.152871772646904,
+        -0.024293312802910805,
+        1.4290920495986938
+      ],
+      "weight_l1": 0.9734198215125502,
+      "weights_a": {
+        "DEF-shoulder.R": 0.5132900892437249,
+        "DEF-upper_arm.R": 0.4867099107562751
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 16,
+      "b": 32785,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.773738287942251e-06,
+      "position": [
+        -0.05969775840640068,
+        -0.08416005223989487,
+        1.376621127128601
+      ],
+      "weight_l1": 0.9299941508440575,
+      "weights_a": {
+        "DEF-shoulder.L": 0.0360268461014366,
+        "DEF-shoulder.R": 0.5350029245779713,
+        "DEF-breast.L": 0.042587453819880314,
+        "DEF-breast.R": 0.38638277550071176
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 17,
+      "b": 32786,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.642520485096611e-06,
+      "position": [
+        -0.07463297247886658,
+        -0.0792834460735321,
+        1.3792632818222046
+      ],
+      "weight_l1": 0.8544364113192662,
+      "weights_a": {
+        "DEF-shoulder.L": 5.860103935242133e-05,
+        "DEF-shoulder.R": 0.5727817943403669,
+        "DEF-upper_arm.R": 0.031832922019874345,
+        "DEF-breast.L": 0.0073123040614063,
+        "DEF-breast.R": 0.388014378539
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 18,
+      "b": 32787,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.6666418762033572e-06,
+      "position": [
+        -0.08962646126747131,
+        -0.07271785289049149,
+        1.3824037313461304
+      ],
+      "weight_l1": 0.7888978120135417,
+      "weights_a": {
+        "DEF-shoulder.R": 0.6055510939932292,
+        "DEF-upper_arm.R": 0.04962512311106738,
+        "DEF-breast.R": 0.3448237828957035
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 19,
+      "b": 32788,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.506021473891451e-06,
+      "position": [
+        -0.10308944433927536,
+        -0.06438997387886047,
+        1.3857990503311157
+      ],
+      "weight_l1": 0.7053168385504036,
+      "weights_a": {
+        "DEF-shoulder.R": 0.6473415807247982,
+        "DEF-upper_arm.R": 0.07795815011977458,
+        "DEF-breast.R": 0.2747002691554273
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 20,
+      "b": 32789,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.4263968043669593e-06,
+      "position": [
+        -0.11415436863899231,
+        -0.05557505413889885,
+        1.3897438049316406
+      ],
+      "weight_l1": 0.6316710927665248,
+      "weights_a": {
+        "DEF-shoulder.R": 0.6841644536167376,
+        "DEF-upper_arm.R": 0.1149386117177463,
+        "DEF-breast.R": 0.2008969346655161
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 21,
+      "b": 32790,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.329399876543903e-06,
+      "position": [
+        -0.12431080639362335,
+        -0.04660743474960327,
+        1.3951568603515625
+      ],
+      "weight_l1": 0.5915205761714404,
+      "weights_a": {
+        "DEF-shoulder.R": 0.7042397119142798,
+        "DEF-upper_arm.R": 0.16286614992486964,
+        "DEF-breast.R": 0.13289413816085058
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 22,
+      "b": 32840,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.057874780803104e-06,
+      "position": [
+        -0.14360210299491882,
+        -0.033553969115018845,
+        1.4162237644195557
+      ],
+      "weight_l1": 0.7301748740673704,
+      "weights_a": {
+        "DEF-shoulder.R": 0.6349125629663148,
+        "DEF-upper_arm.R": 0.3304880112055281,
+        "DEF-breast.R": 0.03459942582815709
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 23,
+      "b": 32843,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.2042167984182015e-06,
+      "position": [
+        -0.13384386897087097,
+        -0.03928012400865555,
+        1.4037617444992065
+      ],
+      "weight_l1": 0.6154535876694318,
+      "weights_a": {
+        "DEF-shoulder.R": 0.6922732061652841,
+        "DEF-upper_arm.R": 0.2291114411908592,
+        "DEF-breast.R": 0.07861535264385676
+      },
+      "weights_b": {
+        "DEF-shoulder.R": 1.0
+      }
+    },
+    {
+      "a": 24,
+      "b": 35327,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.00043587028631e-06,
+      "position": [
+        0.06395172327756882,
+        0.07883117347955704,
+        1.4268025159835815
+      ],
+      "weight_l1": 0.7789130656341465,
+      "weights_a": {
+        "DEF-spine.003": 0.5144423818580631,
+        "DEF-shoulder.L": 0.33674492074366935,
+        "DEF-upper_arm.L": 0.07734535647285175,
+        "DEF-breast.L": 0.07146734092541573
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.27379854643925733,
+        "DEF-spine.004": 0.3715035274143426,
+        "DEF-shoulder.L": 0.3546979261464
+      }
+    },
+    {
+      "a": 26,
+      "b": 35326,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.000810354729765e-06,
+      "position": [
+        0.0865902379155159,
+        0.07329306751489639,
+        1.4284781217575073
+      ],
+      "weight_l1": 0.660555364759536,
+      "weights_a": {
+        "DEF-spine.003": 0.2932966738051845,
+        "DEF-shoulder.L": 0.5135085560072612,
+        "DEF-upper_arm.L": 0.12492102332428737,
+        "DEF-breast.L": 0.06827374686326688
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.15621376161297076,
+        "DEF-spine.004": 0.2897749820096025,
+        "DEF-shoulder.L": 0.5540112563774268
+      }
+    },
+    {
+      "a": 28,
+      "b": 35325,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.9330343548062956e-06,
+      "position": [
+        0.10882670432329178,
+        0.06455042958259583,
+        1.4315552711486816
+      ],
+      "weight_l1": 0.605465659356232,
+      "weights_a": {
+        "DEF-spine.003": 0.13962269057531118,
+        "DEF-shoulder.L": 0.6145267115862256,
+        "DEF-upper_arm.L": 0.19929568952683,
+        "DEF-breast.L": 0.04655490831163316
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.08274045873565837,
+        "DEF-spine.004": 0.20371706936682682,
+        "DEF-shoulder.L": 0.7135424718975149
+      }
+    },
+    {
+      "a": 29,
+      "b": 35324,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.8152067013943451e-06,
+      "position": [
+        0.1291729360818863,
+        0.053493909537792206,
+        1.437028169631958
+      ],
+      "weight_l1": 0.6793928582814501,
+      "weights_a": {
+        "DEF-spine.003": 0.058852410652365995,
+        "DEF-shoulder.L": 0.6169569898892548,
+        "DEF-upper_arm.L": 0.32229315368931366,
+        "DEF-breast.L": 0.0018974457690655161
+      },
+      "weights_b": {
+        "DEF-spine.003": 0.04334658097002012,
+        "DEF-spine.004": 0.13463254375354383,
+        "DEF-shoulder.L": 0.8220208752764361
+      }
+    },
+    {
+      "a": 30,
+      "b": 35321,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.6824569684104063e-06,
+      "position": [
+        0.15890885889530182,
+        0.00704642990604043,
+        1.4460084438323975
+      ],
+      "weight_l1": 1.3137018913081653,
+      "weights_a": {
+        "DEF-shoulder.L": 0.3431490543459173,
+        "DEF-upper_arm.L": 0.6568509456540826
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.043109871928820494,
+        "DEF-shoulder.L": 0.9568901280711795
+      }
+    },
+    {
+      "a": 31,
+      "b": 35322,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.665559921093518e-06,
+      "position": [
+        0.15327757596969604,
+        0.02371235005557537,
+        1.4464994668960571
+      ],
+      "weight_l1": 1.1804161057792402,
+      "weights_a": {
+        "DEF-shoulder.L": 0.4097919471103799,
+        "DEF-upper_arm.L": 0.5902080528896201
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.06206191756155647,
+        "DEF-shoulder.L": 0.9379380824384436
+      }
+    },
+    {
+      "a": 32,
+      "b": 35323,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.7053571355063468e-06,
+      "position": [
+        0.14380612969398499,
+        0.03941725566983223,
+        1.4432096481323242
+      ],
+      "weight_l1": 0.953449542609282,
+      "weights_a": {
+        "DEF-shoulder.L": 0.5232752286953589,
+        "DEF-upper_arm.L": 0.476724771304641
+      },
+      "weights_b": {
+        "DEF-spine.004": 0.09220043184152059,
+        "DEF-shoulder.L": 0.9077995681584794
+      }
+    },
+    {
+      "a": 33,
+      "b": 35339,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 1.9127542145724874e-06,
+      "position": [
+        0.15288686752319336,
+        -0.02429463528096676,
+        1.4290907382965088
+      ],
+      "weight_l1": 0.9731404368138274,
+      "weights_a": {
+        "DEF-shoulder.L": 0.5134297815930863,
+        "DEF-upper_arm.L": 0.4865702184069138
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    },
+    {
+      "a": 37,
+      "b": 35333,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.78671882369963e-06,
+      "position": [
+        0.0597052201628685,
+        -0.08416062593460083,
+        1.3766214847564697
+      ],
+      "weight_l1": 0.9224895383053573,
+      "weights_a": {
+        "DEF-shoulder.L": 0.5387552308473214,
+        "DEF-shoulder.R": 0.031213234160229666,
+        "DEF-breast.L": 0.38747130386891193,
+        "DEF-breast.R": 0.04256023112353706
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    },
+    {
+      "a": 38,
+      "b": 35334,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.7126047825731803e-06,
+      "position": [
+        0.07464072108268738,
+        -0.07928409427404404,
+        1.379263162612915
+      ],
+      "weight_l1": 0.8531514669642744,
+      "weights_a": {
+        "DEF-shoulder.L": 0.5734242665178628,
+        "DEF-upper_arm.L": 0.03175425825379422,
+        "DEF-breast.L": 0.387604076571669,
+        "DEF-breast.R": 0.007217398656673947
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    },
+    {
+      "a": 39,
+      "b": 35335,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.6281547889084322e-06,
+      "position": [
+        0.08963464945554733,
+        -0.07271833717823029,
+        1.3824044466018677
+      ],
+      "weight_l1": 0.7883265404362116,
+      "weights_a": {
+        "DEF-shoulder.L": 0.6058367297818942,
+        "DEF-upper_arm.L": 0.049531076525389364,
+        "DEF-breast.L": 0.34463219369271647
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    },
+    {
+      "a": 40,
+      "b": 35336,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.505090833437862e-06,
+      "position": [
+        0.10309886932373047,
+        -0.06439042091369629,
+        1.3857990503311157
+      ],
+      "weight_l1": 0.7050447366507522,
+      "weights_a": {
+        "DEF-shoulder.L": 0.6474776316746239,
+        "DEF-upper_arm.L": 0.07784592543981728,
+        "DEF-breast.L": 0.2746764428855588
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    },
+    {
+      "a": 41,
+      "b": 35337,
+      "mesh_a": "BAKED_body_lod0_mesh",
+      "mesh_b": "BAKED_head_lod0_mesh",
+      "distance_m": 2.432315113765071e-06,
+      "position": [
+        0.11416609585285187,
+        -0.05557579547166824,
+        1.389743685722351
+      ],
+      "weight_l1": 0.6315260063216932,
+      "weights_a": {
+        "DEF-shoulder.L": 0.6842369968391534,
+        "DEF-upper_arm.L": 0.11480834396248557,
+        "DEF-breast.L": 0.20095465919836097
+      },
+      "weights_b": {
+        "DEF-shoulder.L": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "BAKED_body_lod0_mesh",
+    "vertices": 32408,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 0,
+    "nonzeroNormalDeltas": 0,
+    "nonzeroTangentDeltas": 2348702,
+    "maxBoneInfluences": 8
+  },
+  {
+    "name": "BAKED_cartilage_lod0_mesh",
+    "vertices": 392,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 7790,
+    "nonzeroNormalDeltas": 4900,
+    "nonzeroTangentDeltas": 28616,
+    "maxBoneInfluences": 8
+  },
+  {
+    "name": "BAKED_eyeEdge_lod0_mesh",
+    "vertices": 300,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 4200,
+    "nonzeroNormalDeltas": 424,
+    "nonzeroTangentDeltas": 21900,
+    "maxBoneInfluences": 5
+  },
+  {
+    "name": "BAKED_eyeLeft_lod0_mesh",
+    "vertices": 802,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 5614,
+    "nonzeroNormalDeltas": 4483,
+    "nonzeroTangentDeltas": 58546,
+    "maxBoneInfluences": 2
+  },
+  {
+    "name": "BAKED_eyeRight_lod0_mesh",
+    "vertices": 802,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 5614,
+    "nonzeroNormalDeltas": 4500,
+    "nonzeroTangentDeltas": 58414,
+    "maxBoneInfluences": 2
+  },
+  {
+    "name": "BAKED_eyeshell_lod0_mesh",
+    "vertices": 588,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 8232,
+    "nonzeroNormalDeltas": 2578,
+    "nonzeroTangentDeltas": 42865,
+    "maxBoneInfluences": 8
+  },
+  {
+    "name": "BAKED_head_lod0_mesh",
+    "vertices": 341443,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 3888333,
+    "nonzeroNormalDeltas": 709127,
+    "nonzeroTangentDeltas": 1473227,
+    "maxBoneInfluences": 8
+  },
+  {
+    "name": "BAKED_head_lod0_mesh.001",
+    "vertices": 2119,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 107646,
+    "nonzeroNormalDeltas": 50949,
+    "nonzeroTangentDeltas": 154686,
+    "maxBoneInfluences": 8
+  },
+  {
+    "name": "BAKED_head_lod0_mesh.002",
+    "vertices": 2133,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 107381,
+    "nonzeroNormalDeltas": 50092,
+    "nonzeroTangentDeltas": 155709,
+    "maxBoneInfluences": 8
+  },
+  {
+    "name": "BAKED_Outfits_LOD0",
+    "vertices": 10101,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 131108,
+    "nonzeroNormalDeltas": 384491,
+    "nonzeroTangentDeltas": 726277,
+    "maxBoneInfluences": 12
+  },
+  {
+    "name": "BAKED_saliva_lod0_mesh",
+    "vertices": 678,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 8200,
+    "nonzeroNormalDeltas": 4391,
+    "nonzeroTangentDeltas": 49494,
+    "maxBoneInfluences": 1
+  },
+  {
+    "name": "BAKED_teeth_lod0_mesh",
+    "vertices": 4757,
+    "shapes": 73,
+    "nonzeroPositionDeltas": 67725,
+    "nonzeroNormalDeltas": 48546,
+    "nonzeroTangentDeltas": 346994,
+    "maxBoneInfluences": 8
+  }
+]

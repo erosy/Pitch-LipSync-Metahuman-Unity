@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "strands": 94408,
+  "points": 32,
+  "simulationHz": 30,
+  "maxEndpointError": 0.0,
+  "normalizedAttachmentScaleError": 2.38418579E-07,
+  "collisionFollowsHead": true,
+  "sdfResolution": 96,
+  "sdfMin": -0.11835131,
+  "sdfMax": 0.187429368,
+  "warmup": true,
+  "readiness": true,
+  "editModeSimulation": false,
+  "playModeTested": false,
+  "sceneSaved": false
+}

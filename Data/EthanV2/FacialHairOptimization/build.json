@@ -1,0 +1,32 @@
+{
+  "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+  "target": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Head_FacialHairOptimized.asset",
+  "oldVertices": 341443,
+  "newVertices": 104632,
+  "oldTriangles": 660663,
+  "newTriangles": 187041,
+  "maxCenterlineErrorMeshUnits": 6.60050546E-07,
+  "headWorldScale": 100.0,
+  "sections": [
+    {
+      "section": 1,
+      "strands": 2804,
+      "oldVertices": 269184,
+      "newVertices": 75210,
+      "oldTriangles": 521544,
+      "newTriangles": 133596,
+      "minRings": 5,
+      "maxRings": 12
+    },
+    {
+      "section": 2,
+      "strands": 542,
+      "oldVertices": 52032,
+      "newVertices": 9195,
+      "oldTriangles": 100812,
+      "newTriangles": 15138,
+      "minRings": 3,
+      "maxRings": 9
+    }
+  ]
+}

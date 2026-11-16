@@ -1,0 +1,11 @@
+[
+  {
+    "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+    "head": "BAKED_head_lod0_mesh",
+    "changed": false,
+    "materials": [
+      "Ethan_Head",
+      "Ethan_Eyebrows"
+    ]
+  }
+]

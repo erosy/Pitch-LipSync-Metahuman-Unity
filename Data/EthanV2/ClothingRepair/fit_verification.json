@@ -1,0 +1,518 @@
+{
+  "maxOffsetM": 0.025,
+  "offset95M": 0.019706488167001997,
+  "samples": [
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.0,
+      "variant": "before",
+      "insideOver1mm": 457,
+      "penetrationSumM": 9.992684536431915,
+      "worstM": -0.05838755287722361
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.0,
+      "variant": "after",
+      "insideOver1mm": 458,
+      "penetrationSumM": 10.07038817139874,
+      "worstM": -0.05838755287722361
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.125,
+      "variant": "before",
+      "insideOver1mm": 472,
+      "penetrationSumM": 9.51170518158184,
+      "worstM": -0.05832317176811315
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.125,
+      "variant": "after",
+      "insideOver1mm": 471,
+      "penetrationSumM": 9.548768654897062,
+      "worstM": -0.05832317176811315
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.25,
+      "variant": "before",
+      "insideOver1mm": 453,
+      "penetrationSumM": 10.247529764012647,
+      "worstM": -0.059502665709087105
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.25,
+      "variant": "after",
+      "insideOver1mm": 456,
+      "penetrationSumM": 10.332953568299809,
+      "worstM": -0.059502665709087105
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.375,
+      "variant": "before",
+      "insideOver1mm": 460,
+      "penetrationSumM": 10.124600172444055,
+      "worstM": -0.06138126135626099
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.375,
+      "variant": "after",
+      "insideOver1mm": 455,
+      "penetrationSumM": 10.16862436072834,
+      "worstM": -0.06138126135626099
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.5,
+      "variant": "before",
+      "insideOver1mm": 475,
+      "penetrationSumM": 9.983004838761028,
+      "worstM": -0.0590130996923513
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.5,
+      "variant": "after",
+      "insideOver1mm": 472,
+      "penetrationSumM": 10.157786367591342,
+      "worstM": -0.0590130996923513
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.625,
+      "variant": "before",
+      "insideOver1mm": 426,
+      "penetrationSumM": 9.713871550713115,
+      "worstM": -0.061182450011843116
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.625,
+      "variant": "after",
+      "insideOver1mm": 421,
+      "penetrationSumM": 9.718200460934295,
+      "worstM": -0.061182450011843116
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.75,
+      "variant": "before",
+      "insideOver1mm": 451,
+      "penetrationSumM": 10.059831070819216,
+      "worstM": -0.059242636491246455
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.75,
+      "variant": "after",
+      "insideOver1mm": 453,
+      "penetrationSumM": 10.18137082404941,
+      "worstM": -0.059242636491246455
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.875,
+      "variant": "before",
+      "insideOver1mm": 460,
+      "penetrationSumM": 9.98843844845816,
+      "worstM": -0.06106347372177308
+    },
+    {
+      "pose": "Breathing Idle",
+      "fraction": 0.875,
+      "variant": "after",
+      "insideOver1mm": 449,
+      "penetrationSumM": 10.022767484638736,
+      "worstM": -0.06106347372177308
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.0,
+      "variant": "before",
+      "insideOver1mm": 1022,
+      "penetrationSumM": 15.953567632374247,
+      "worstM": -0.05958265554618734
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.0,
+      "variant": "after",
+      "insideOver1mm": 1071,
+      "penetrationSumM": 18.137654803170435,
+      "worstM": -0.059573592531624545
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.125,
+      "variant": "before",
+      "insideOver1mm": 1037,
+      "penetrationSumM": 16.146230302527044,
+      "worstM": -0.05954679213230555
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.125,
+      "variant": "after",
+      "insideOver1mm": 1085,
+      "penetrationSumM": 18.414991678089663,
+      "worstM": -0.05953774040458292
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.25,
+      "variant": "before",
+      "insideOver1mm": 1054,
+      "penetrationSumM": 16.271347609512045,
+      "worstM": -0.05922405919205511
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.25,
+      "variant": "after",
+      "insideOver1mm": 1088,
+      "penetrationSumM": 18.454010206152116,
+      "worstM": -0.0592149880828601
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.375,
+      "variant": "before",
+      "insideOver1mm": 1051,
+      "penetrationSumM": 16.348978300417464,
+      "worstM": -0.05923684532799667
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.375,
+      "variant": "after",
+      "insideOver1mm": 1089,
+      "penetrationSumM": 18.516759538974355,
+      "worstM": -0.0592277645438158
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.5,
+      "variant": "before",
+      "insideOver1mm": 1032,
+      "penetrationSumM": 16.040537037736655,
+      "worstM": -0.0597108174195582
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.5,
+      "variant": "after",
+      "insideOver1mm": 1080,
+      "penetrationSumM": 18.143097363862136,
+      "worstM": -0.05970177283003106
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.625,
+      "variant": "before",
+      "insideOver1mm": 1052,
+      "penetrationSumM": 16.33272993178384,
+      "worstM": -0.059436211751929494
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.625,
+      "variant": "after",
+      "insideOver1mm": 1087,
+      "penetrationSumM": 18.51597609683791,
+      "worstM": -0.059427163236607766
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.75,
+      "variant": "before",
+      "insideOver1mm": 1060,
+      "penetrationSumM": 16.413762419853708,
+      "worstM": -0.059095580534248085
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.75,
+      "variant": "after",
+      "insideOver1mm": 1117,
+      "penetrationSumM": 18.68620028299568,
+      "worstM": -0.05908651353485698
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.875,
+      "variant": "before",
+      "insideOver1mm": 1034,
+      "penetrationSumM": 15.999168405573876,
+      "worstM": -0.05945152819175601
+    },
+    {
+      "pose": "Idle",
+      "fraction": 0.875,
+      "variant": "after",
+      "insideOver1mm": 1071,
+      "penetrationSumM": 18.203443632649694,
+      "worstM": -0.059442461884058974
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.0,
+      "variant": "before",
+      "insideOver1mm": 900,
+      "penetrationSumM": 14.188596454033231,
+      "worstM": -0.05644400159917067
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.0,
+      "variant": "after",
+      "insideOver1mm": 899,
+      "penetrationSumM": 14.771297399565025,
+      "worstM": -0.05644400159917067
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.125,
+      "variant": "before",
+      "insideOver1mm": 413,
+      "penetrationSumM": 10.396097567618826,
+      "worstM": -0.06061331152298771
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.125,
+      "variant": "after",
+      "insideOver1mm": 399,
+      "penetrationSumM": 10.274106008353291,
+      "worstM": -0.06061331152298771
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.25,
+      "variant": "before",
+      "insideOver1mm": 557,
+      "penetrationSumM": 13.755768573023747,
+      "worstM": -0.12071537172562306
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.25,
+      "variant": "after",
+      "insideOver1mm": 531,
+      "penetrationSumM": 13.734577763353359,
+      "worstM": -0.12071537172562306
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.375,
+      "variant": "before",
+      "insideOver1mm": 555,
+      "penetrationSumM": 9.056031049442831,
+      "worstM": -0.04991849512851805
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.375,
+      "variant": "after",
+      "insideOver1mm": 555,
+      "penetrationSumM": 10.343889472572837,
+      "worstM": -0.074826798447178
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.5,
+      "variant": "before",
+      "insideOver1mm": 558,
+      "penetrationSumM": 9.092170673171807,
+      "worstM": -0.05034201227020572
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.5,
+      "variant": "after",
+      "insideOver1mm": 559,
+      "penetrationSumM": 10.078077754479981,
+      "worstM": -0.07671290449933221
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.625,
+      "variant": "before",
+      "insideOver1mm": 569,
+      "penetrationSumM": 11.815563932531818,
+      "worstM": -0.11985664848855578
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.625,
+      "variant": "after",
+      "insideOver1mm": 565,
+      "penetrationSumM": 12.35944016410195,
+      "worstM": -0.11985664848855578
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.75,
+      "variant": "before",
+      "insideOver1mm": 543,
+      "penetrationSumM": 10.852120026756548,
+      "worstM": -0.0595002907590334
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.75,
+      "variant": "after",
+      "insideOver1mm": 544,
+      "penetrationSumM": 11.17188065012133,
+      "worstM": -0.0595002907590334
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.875,
+      "variant": "before",
+      "insideOver1mm": 849,
+      "penetrationSumM": 13.087225029039567,
+      "worstM": -0.05382208031704663
+    },
+    {
+      "pose": "Thinking",
+      "fraction": 0.875,
+      "variant": "after",
+      "insideOver1mm": 912,
+      "penetrationSumM": 14.449281793736514,
+      "worstM": -0.05382208031704663
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.0,
+      "variant": "before",
+      "insideOver1mm": 746,
+      "penetrationSumM": 13.867933122978721,
+      "worstM": -0.06391400168342834
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.0,
+      "variant": "after",
+      "insideOver1mm": 785,
+      "penetrationSumM": 14.43756991454217,
+      "worstM": -0.06391400168342834
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.125,
+      "variant": "before",
+      "insideOver1mm": 690,
+      "penetrationSumM": 12.802174361365854,
+      "worstM": -0.05975906805984804
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.125,
+      "variant": "after",
+      "insideOver1mm": 671,
+      "penetrationSumM": 12.821278356319096,
+      "worstM": -0.05975906805984804
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.25,
+      "variant": "before",
+      "insideOver1mm": 745,
+      "penetrationSumM": 14.383010611798976,
+      "worstM": -0.058985850604467906
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.25,
+      "variant": "after",
+      "insideOver1mm": 674,
+      "penetrationSumM": 13.985310148373868,
+      "worstM": -0.058985850604467906
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.375,
+      "variant": "before",
+      "insideOver1mm": 580,
+      "penetrationSumM": 12.259871409314464,
+      "worstM": -0.06379868665560398
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.375,
+      "variant": "after",
+      "insideOver1mm": 587,
+      "penetrationSumM": 12.669395894608398,
+      "worstM": -0.06379868665560398
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.5,
+      "variant": "before",
+      "insideOver1mm": 624,
+      "penetrationSumM": 11.365406948663855,
+      "worstM": -0.05839380090166072
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.5,
+      "variant": "after",
+      "insideOver1mm": 618,
+      "penetrationSumM": 11.693391287527959,
+      "worstM": -0.05839380090166072
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.625,
+      "variant": "before",
+      "insideOver1mm": 711,
+      "penetrationSumM": 13.261923428562698,
+      "worstM": -0.0627847049845725
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.625,
+      "variant": "after",
+      "insideOver1mm": 663,
+      "penetrationSumM": 12.969365880540401,
+      "worstM": -0.0627847049845725
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.75,
+      "variant": "before",
+      "insideOver1mm": 795,
+      "penetrationSumM": 13.941123816311968,
+      "worstM": -0.061212630804116326
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.75,
+      "variant": "after",
+      "insideOver1mm": 812,
+      "penetrationSumM": 14.337294119950457,
+      "worstM": -0.061212630804116326
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.875,
+      "variant": "before",
+      "insideOver1mm": 749,
+      "penetrationSumM": 13.866391383039973,
+      "worstM": -0.06385484154141957
+    },
+    {
+      "pose": "Waving",
+      "fraction": 0.875,
+      "variant": "after",
+      "insideOver1mm": 780,
+      "penetrationSumM": 14.394389376196573,
+      "worstM": -0.06385484154141957
+    }
+  ]
+}

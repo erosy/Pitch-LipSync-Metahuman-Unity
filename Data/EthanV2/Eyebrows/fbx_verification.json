@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "brow_vertices": 269184,
+  "head_vertices": 288434,
+  "shape_comparisons_including_basis": 74,
+  "max_fbx_brow_position_error_m": 1.6732857375245658e-06,
+  "original_mesh_shape_comparisons": 962,
+  "max_original_geometry_roundtrip_error_m": 1.5502398582611931e-06,
+  "mesh_count": 13,
+  "hidden_authoring_exported": false,
+  "materials": [
+    "Ethan_NewMetaHumanCharacter_head_shader",
+    "Ethan_V2_Eyebrows"
+  ]
+}

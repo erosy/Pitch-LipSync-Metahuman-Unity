@@ -1,0 +1,52 @@
+{
+  "new_groom": "BAKED_Groom_01_Center_part_curtains",
+  "old_asset": "D:\\UnityProject\\MetahumanTemplate\\Assets\\_Sandbox\\Groom Hair Asset\\Fitted Male\\Ethan_BlenderFitted.bytes",
+  "strands_old": 94408,
+  "strands_new": 94408,
+  "old_samples": 32,
+  "new_authored_points": 1032951,
+  "comparison_samples": 32,
+  "ordered_comparison_after_rigid_alignment_no_scaling": true,
+  "reflection_allowed_for_coordinate_conversion": true,
+  "point_error_mm": {
+    "min": 0.23230452212060126,
+    "median": 12.470692579500732,
+    "p95": 49.11780616633496,
+    "max": 249.5108997484324
+  },
+  "root_error_mm": {
+    "min": 3.2451676437385117,
+    "median": 11.077017353773225,
+    "p95": 16.125284528053154,
+    "max": 24.8816972199953
+  },
+  "tip_error_mm": {
+    "min": 1.3854761346734485,
+    "median": 12.855026324876107,
+    "p95": 136.417211534398,
+    "max": 249.5108997484324
+  },
+  "old_length_mm": {
+    "min": 0.03524521913242011,
+    "median": 69.21058212385225,
+    "p95": 290.06159707638375,
+    "max": 438.06205375224084
+  },
+  "new_length_mm": {
+    "min": 0.09687805254003973,
+    "median": 59.98206542488668,
+    "p95": 184.9015644018261,
+    "max": 259.89593883427307
+  },
+  "paired_length_error_mm": {
+    "min": 0.0001360104678084506,
+    "median": 3.7356763478881803,
+    "p95": 128.00500132418364,
+    "max": 256.27534553254213
+  },
+  "paired_length_correlation": 0.9204684039549823,
+  "notes": [
+    "New CURVES control polygons resampled by arc length for comparison; old production samples include skull registration and root clearance corrections.",
+    "Rigid fit removes coordinate orientation/position only, with no uniform scale or reshaping."
+  ]
+}

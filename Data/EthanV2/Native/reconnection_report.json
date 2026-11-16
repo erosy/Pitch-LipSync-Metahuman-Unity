@@ -1,0 +1,30 @@
+{
+  "instances": [
+    {
+      "name": "Ethan_NewMetaHumanCharacter",
+      "head_rig": "Ethan_NewMetaHumanCharacter_head_rig",
+      "body_rig": "Ethan_NewMetaHumanCharacter_body_rig",
+      "control_rig": null,
+      "head_mesh": "Ethan_NewMetaHumanCharacter_head_lod0_mesh",
+      "head_coordinate_version": 0
+    }
+  ],
+  "capability": [
+    true,
+    "Native runtime available"
+  ],
+  "migration": [
+    "default",
+    1,
+    0
+  ],
+  "instances_after": [
+    {
+      "name": "Ethan_NewMetaHumanCharacter",
+      "binding_issues": [],
+      "head_initialized": true,
+      "errors": {}
+    }
+  ],
+  "saved": "D:\\UnityProject\\MetahumanTemplate\\Data\\EthanV2\\Native\\Ethan_V2_Reconnected.blend"
+}

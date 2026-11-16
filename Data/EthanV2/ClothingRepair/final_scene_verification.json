@@ -1,0 +1,14 @@
+{
+  "scene": "CharacterTesting",
+  "sceneDirty": true,
+  "shirt": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Outfit_CollarRestored.asset",
+  "body": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Body_ShirtCoverage.asset",
+  "bodyTriangles": 49140,
+  "coveredBodyTrianglesHidden": 11676,
+  "originalFullBodyPreserved": true,
+  "runtimeClothingDeformerAbsent": true,
+  "sameBones": false,
+  "shirtCullingRoot": "Ethan_V2_73_Baked",
+  "shirtBounds": "Center: (0.00, 1.10, 0.00), Extents: (1.20, 1.20, 1.20)",
+  "oldEthanHidden": true
+}

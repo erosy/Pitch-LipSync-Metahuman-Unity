@@ -1,0 +1,653 @@
+{
+  "source": "C:\\Users\\ina17\\Downloads\\Ethan2_Ver2\\Ethan_Ver2.blend",
+  "source_saved": false,
+  "tested_controls": 4,
+  "samples": 24,
+  "max_mesh_displacement_m": 0.0,
+  "tests": [
+    {
+      "control": "CTRL_L_eye_blink",
+      "axis": "x",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        -1.000030517578125,
+        1.52587890625e-05,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_eye_blink",
+      "axis": "x",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        0.999969482421875,
+        1.52587890625e-05,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_eye_blink",
+      "axis": "y",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        -3.0517578125e-05,
+        -0.9999847412109375,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_eye_blink",
+      "axis": "y",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        -3.0517578125e-05,
+        1.0000152587890625,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_eye_blink",
+      "axis": "z",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        -3.0517578125e-05,
+        1.52587890625e-05,
+        -1.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_eye_blink",
+      "axis": "z",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        -3.0517578125e-05,
+        1.52587890625e-05,
+        1.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_C_jaw",
+      "axis": "x",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_C_jaw",
+      "axis": "x",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_C_jaw",
+      "axis": "y",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_C_jaw",
+      "axis": "y",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_C_jaw",
+      "axis": "z",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_C_jaw",
+      "axis": "z",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_mouth_cornerPull",
+      "axis": "x",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        -0.9999618530273438,
+        -7.62939453125e-06,
+        -2.384185791015625e-07
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_mouth_cornerPull",
+      "axis": "x",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        1.0000381469726562,
+        -7.62939453125e-06,
+        -2.384185791015625e-07
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_mouth_cornerPull",
+      "axis": "y",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        3.814697265625e-05,
+        -1.0000076293945312,
+        -2.384185791015625e-07
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_mouth_cornerPull",
+      "axis": "y",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        3.814697265625e-05,
+        0.9999923706054688,
+        -2.384185791015625e-07
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_mouth_cornerPull",
+      "axis": "z",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        3.814697265625e-05,
+        -7.62939453125e-06,
+        -1.000000238418579
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_mouth_cornerPull",
+      "axis": "z",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        3.814697265625e-05,
+        -7.62939453125e-06,
+        0.9999997615814209
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_brow_raiseIn",
+      "axis": "x",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        -0.9999923706054688,
+        0.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_brow_raiseIn",
+      "axis": "x",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        1.0000076293945312,
+        0.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_brow_raiseIn",
+      "axis": "y",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        7.62939453125e-06,
+        -1.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_brow_raiseIn",
+      "axis": "y",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        7.62939453125e-06,
+        1.0,
+        0.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_brow_raiseIn",
+      "axis": "z",
+      "delta": -1.0,
+      "evaluated_control_location": [
+        7.62939453125e-06,
+        0.0,
+        -1.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    },
+    {
+      "control": "CTRL_L_brow_raiseIn",
+      "axis": "z",
+      "delta": 1.0,
+      "evaluated_control_location": [
+        7.62939453125e-06,
+        0.0,
+        1.0
+      ],
+      "mesh_displacement_m": {
+        "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0,
+        "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+        "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+        "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+        "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+      },
+      "max_mesh_displacement_m": 0.0
+    }
+  ],
+  "native_driver_status": [
+    {
+      "object": "Ethan_NewMetaHumanCharacter_body_native",
+      "expression": "character_dna_native_solve_v1(self, depsgraph)",
+      "valid": false,
+      "muted": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_head_native",
+      "expression": "character_dna_native_solve_v1(self, depsgraph)",
+      "valid": false,
+      "muted": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_switches_native",
+      "expression": "character_dna_native_solve_v1(self, depsgraph)",
+      "valid": false,
+      "muted": false
+    }
+  ]
+}

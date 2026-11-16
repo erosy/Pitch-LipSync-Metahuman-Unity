@@ -1,0 +1,12 @@
+{
+  "command": "unity recompile",
+  "initial_compile_status": "completed",
+  "final_compile_status": "up_to_date",
+  "failed": false,
+  "compiler_errors": [],
+  "compiler_warnings": [],
+  "play_mode_entered": false,
+  "live_testing_performed": false,
+  "audio_or_animation_preview_performed": false,
+  "build_performed": false
+}

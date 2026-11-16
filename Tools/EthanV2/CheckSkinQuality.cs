@@ -1,0 +1,2 @@
+using System;using System.Linq;using UnityEngine;using UnityEditor;
+public static class CheckSkinQuality {public static object Run(){var root=PrefabUtility.LoadPrefabContents("Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2.prefab");try{return new{global=QualitySettings.skinWeights.ToString(),value=(int)QualitySettings.skinWeights,renderers=root.GetComponentsInChildren<SkinnedMeshRenderer>(true).Select(r=>new{name=r.name,quality=r.quality.ToString(),value=(int)r.quality}).ToArray()};}finally{PrefabUtility.UnloadPrefabContents(root);}}}

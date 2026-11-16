@@ -1,0 +1,116 @@
+{
+  "method": "Original DNA deltas with nearest neutral vertex matching for split head; original mesh positions and weights retained.",
+  "meshes": [
+    {
+      "object": "Ethan_NewMetaHumanCharacter_head_lod0_mesh",
+      "dna_mesh": "head_lod0_mesh",
+      "restored_targets": 737,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 0.00024943664902821183,
+      "p99_neutral_vertex_match_distance_m": 0.000199035008845385,
+      "vertices": 19250,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001",
+      "dna_mesh": "head_lod0_mesh",
+      "restored_targets": 586,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 0.0002488410100340843,
+      "p99_neutral_vertex_match_distance_m": 0.00021888324350584302,
+      "vertices": 1857,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002",
+      "dna_mesh": "head_lod0_mesh",
+      "restored_targets": 590,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 0.0002733657311182469,
+      "p99_neutral_vertex_match_distance_m": 0.00023192398773971948,
+      "vertices": 1832,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh",
+      "dna_mesh": "teeth_lod0_mesh",
+      "restored_targets": 41,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.490232506284883e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4901161193847656e-07,
+      "vertices": 4246,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh",
+      "dna_mesh": "saliva_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.490232506284883e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4901161193847656e-07,
+      "vertices": 660,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh",
+      "dna_mesh": "eyeLeft_lod0_mesh",
+      "restored_targets": 2,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4467609332768916e-07,
+      "vertices": 770,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh",
+      "dna_mesh": "eyeRight_lod0_mesh",
+      "restored_targets": 2,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "vertices": 770,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh",
+      "dna_mesh": "eyeshell_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "vertices": 552,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh",
+      "dna_mesh": "eyelashes_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4905816669852356e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "vertices": 2144,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh",
+      "dna_mesh": "eyeEdge_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "vertices": 268,
+      "weights_changed": false
+    },
+    {
+      "object": "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh",
+      "dna_mesh": "cartilage_lod0_mesh",
+      "restored_targets": 76,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4471206100097334e-07,
+      "vertices": 386,
+      "weights_changed": false
+    }
+  ],
+  "binding_issues": []
+}

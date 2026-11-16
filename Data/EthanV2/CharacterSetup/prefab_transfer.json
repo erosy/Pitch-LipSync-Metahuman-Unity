@@ -1,0 +1,40 @@
+{
+  "avatar": "Ethan_unityAvatar",
+  "human": true,
+  "bindings": 1080,
+  "visemes": [
+    {
+      "phoneme": "A",
+      "shape": "jawOpen"
+    },
+    {
+      "phoneme": "I",
+      "shape": "mouthFunnel"
+    },
+    {
+      "phoneme": "U",
+      "shape": "mouthPucker"
+    },
+    {
+      "phoneme": "E",
+      "shape": "viseme_E"
+    },
+    {
+      "phoneme": "O",
+      "shape": "viseme_O"
+    },
+    {
+      "phoneme": "S",
+      "shape": "viseme_SS"
+    },
+    {
+      "phoneme": "M",
+      "shape": "viseme_PP"
+    },
+    {
+      "phoneme": "N",
+      "shape": "viseme_nn"
+    }
+  ],
+  "errors": []
+}

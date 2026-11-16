@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Ethan",
+    "active": false,
+    "renderers": [
+      {
+        "name": "Face",
+        "mesh": "Face",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Root",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (0.0000, -0.0882, 0.9572), Extents: (0.6288, 0.3409, 1.0507)",
+        "meshBounds": "Center: (0.0000, -0.0985, 1.0031), Extents: (0.6151, 0.2339, 1.0048)",
+        "bones": 74,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Head_CyclesMatch",
+          "Ethan_Body_CyclesMatch",
+          "Ethan_Teeth",
+          "Ethan_Eyes_ClearCoat",
+          "Ethan_Eyes_ClearCoat",
+          "Ethan_Cartilage",
+          "Ethan_Hair"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "Hair_Cards",
+        "mesh": "Hair_Cards",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Root",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (-0.0088, -0.0324, 1.9173), Extents: (0.1494, 0.1485, 0.1456)",
+        "meshBounds": "Center: (-0.0088, -0.0324, 1.9173), Extents: (0.1494, 0.1485, 0.1456)",
+        "bones": 74,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_HairCards"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "Hair_Cards_Baked",
+        "mesh": "Hair_Cards_Baked",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Root",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (-0.0088, -0.0324, 1.9173), Extents: (0.1494, 0.1485, 0.1456)",
+        "meshBounds": "Center: (-0.0088, -0.0324, 1.9173), Extents: (0.1494, 0.1485, 0.1456)",
+        "bones": 74,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_HairCardsSoft"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "Hair_Dense",
+        "mesh": "Hair_Dense",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Root",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (-0.0112, -0.0376, 1.9105), Extents: (0.1355, 0.1480, 0.1537)",
+        "meshBounds": "Center: (-0.0112, -0.0376, 1.9105), Extents: (0.1355, 0.1480, 0.1537)",
+        "bones": 74,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Hair"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "Hair_Light",
+        "mesh": "Hair_Light",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Root",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (-0.0109, -0.0378, 1.9105), Extents: (0.1353, 0.1479, 0.1534)",
+        "meshBounds": "Center: (-0.0109, -0.0378, 1.9105), Extents: (0.1353, 0.1479, 0.1534)",
+        "bones": 74,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Hair"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "Outfit",
+        "mesh": "Outfit",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Root",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (0.0042, -0.0421, 0.9129), Extents: (0.6192, 0.4322, 0.8838)",
+        "meshBounds": "Center: (0.0038, -0.0188, 0.9288), Extents: (0.5680, 0.1963, 0.8452)",
+        "bones": 74,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Shirt_CyclesMatch"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      }
+    ],
+    "scripts": [
+      "CharacterHairStartupWarmup",
+      "Character",
+      "CharacterHairFallback",
+      "CharacterReadiness",
+      "CharacterSpeechPlayer",
+      "CharacterFlowController",
+      "HairInstance",
+      "uLipSync",
+      "uLipSyncMicrophone",
+      "HairBoundary",
+      "uLipSyncBlendShape",
+      "AnimationModule",
+      "ExpressionModule"
+    ]
+  },
+  {
+    "name": "Jiwoo_Normalized",
+    "active": false,
+    "renderers": [
+      {
+        "name": "Face",
+        "mesh": "Face",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "DEF-spine",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (0.0000, 0.0296, -0.0924), Extents: (0.5216, 0.8757, 0.2305)",
+        "meshBounds": "Center: (0.0000, -0.0887, -0.8724), Extents: (0.5107, 0.1846, 0.8757)",
+        "bones": 160,
+        "missingBones": 0,
+        "materials": [
+          "Jiwoo_Head",
+          "Jiwoo_Body",
+          "Jiwoo_Cartilage",
+          "Jiwoo_EyeEdge",
+          "Jiwoo_Eyes",
+          "Jiwoo_Eyes",
+          "Jiwoo_EyeShell",
+          "Jiwoo_Saliva",
+          "Jiwoo_Teeth",
+          "Jiwoo_FacialHair_Mesh"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "Outfit",
+        "mesh": "Outfit",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "DEF-spine",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (0.0025, 0.3999, -0.0695), Extents: (0.2073, 0.2909, 0.1995)",
+        "meshBounds": "Center: (-0.0022, -0.0216, -1.2427), Extents: (0.1660, 0.1274, 0.2909)",
+        "bones": 160,
+        "missingBones": 0,
+        "materials": [
+          "Jiwoo_Outfit"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      }
+    ],
+    "scripts": [
+      "Character",
+      "CharacterReadiness",
+      "CharacterSpeechPlayer",
+      "CharacterFlowController",
+      "CharacterHairStartupWarmup",
+      "uLipSyncBlendShape",
+      "AnimationModule",
+      "ExpressionModule",
+      "uLipSync",
+      "uLipSyncMicrophone",
+      "HairBoundary",
+      "HairInstance"
+    ]
+  },
+  {
+    "name": "Ethan_V2_73_Baked",
+    "active": false,
+    "renderers": [
+      {
+        "name": "BAKED_body_lod0_mesh",
+        "mesh": "BAKED_body_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0081, -0.0007), Extents: (0.0060, 0.0083, 0.0023)",
+        "meshBounds": "Center: (0.0000, -0.0008, 0.0077), Extents: (0.0058, 0.0021, 0.0077)",
+        "bones": 342,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Body"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_cartilage_lod0_mesh",
+        "mesh": "BAKED_cartilage_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0176, -0.0011), Extents: (0.0006, 0.0001, 0.0001)",
+        "meshBounds": "Center: (0.0000, -0.0011, 0.0176), Extents: (0.0005, 0.0001, 0.0001)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Cartilage"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_eyeEdge_lod0_mesh",
+        "mesh": "BAKED_eyeEdge_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0176, -0.0011), Extents: (0.0005, 0.0001, 0.0001)",
+        "meshBounds": "Center: (0.0000, -0.0011, 0.0176), Extents: (0.0005, 0.0001, 0.0001)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_EyeEdge"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_eyeLeft_lod0_mesh",
+        "mesh": "BAKED_eyeLeft_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (-0.0003, -0.0176, -0.0010), Extents: (0.0002, 0.0002, 0.0002)",
+        "meshBounds": "Center: (-0.0003, -0.0010, 0.0176), Extents: (0.0002, 0.0002, 0.0002)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Eyes"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_eyeRight_lod0_mesh",
+        "mesh": "BAKED_eyeRight_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0003, -0.0176, -0.0010), Extents: (0.0002, 0.0002, 0.0002)",
+        "meshBounds": "Center: (0.0003, -0.0010, 0.0176), Extents: (0.0002, 0.0002, 0.0002)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Eyes"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_eyeshell_lod0_mesh",
+        "mesh": "BAKED_eyeshell_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0176, -0.0011), Extents: (0.0005, 0.0001, 0.0001)",
+        "meshBounds": "Center: (0.0000, -0.0011, 0.0176), Extents: (0.0005, 0.0001, 0.0001)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_EyeShell"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_head_lod0_mesh",
+        "mesh": "BAKED_head_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0167, -0.0001), Extents: (0.0020, 0.0025, 0.0015)",
+        "meshBounds": "Center: (0.0000, -0.0002, 0.0167), Extents: (0.0018, 0.0014, 0.0020)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Head",
+          "Ethan_Eyebrows",
+          "Ethan_EyelashStrands"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_head_lod0_mesh.001",
+        "mesh": "BAKED_head_lod0_mesh.001",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0169, -0.0011), Extents: (0.0006, 0.0004, 0.0006)",
+        "meshBounds": "Center: (0.0000, -0.0010, 0.0169), Extents: (0.0004, 0.0005, 0.0002)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Head"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_head_lod0_mesh.002",
+        "mesh": "BAKED_head_lod0_mesh.002",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0167, -0.0011), Extents: (0.0006, 0.0005, 0.0007)",
+        "meshBounds": "Center: (0.0000, -0.0010, 0.0167), Extents: (0.0004, 0.0005, 0.0003)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Head"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_Outfits_LOD0",
+        "mesh": "EthanV2_Outfit_Clearance",
+        "enabled": true,
+        "active": false,
+        "scale": "(1.0000, 1.0000, 1.0000)",
+        "root": "Ethan_V2_73_Baked",
+        "rootScale": "(1.0000, 1.0000, 1.0000)",
+        "bounds": "Center: (0.0000, 1.1000, 0.0000), Extents: (1.2000, 1.2000, 1.2000)",
+        "meshBounds": "Center: (-0.0034, -0.0232, 1.2429), Extents: (0.3758, 0.1630, 0.4022)",
+        "bones": 342,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Outfit"
+        ],
+        "quality": "Bone4",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_saliva_lod0_mesh",
+        "mesh": "BAKED_saliva_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0167, -0.0011), Extents: (0.0004, 0.0003, 0.0003)",
+        "meshBounds": "Center: (0.0000, -0.0011, 0.0167), Extents: (0.0004, 0.0003, 0.0003)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Saliva"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      },
+      {
+        "name": "BAKED_teeth_lod0_mesh",
+        "mesh": "BAKED_teeth_lod0_mesh",
+        "enabled": true,
+        "active": false,
+        "scale": "(100.0000, 100.0000, 100.0000)",
+        "root": "root",
+        "rootScale": "(100.0000, 100.0000, 100.0000)",
+        "bounds": "Center: (0.0000, -0.0167, -0.0009), Extents: (0.0004, 0.0004, 0.0006)",
+        "meshBounds": "Center: (0.0000, -0.0009, 0.0168), Extents: (0.0004, 0.0004, 0.0004)",
+        "bones": 875,
+        "missingBones": 0,
+        "materials": [
+          "Ethan_Teeth"
+        ],
+        "quality": "Auto",
+        "updateOffscreen": false
+      }
+    ],
+    "scripts": [
+      "CharacterHairStartupWarmup",
+      "CharacterReadiness",
+      "Character",
+      "CharacterSpeechPlayer",
+      "CharacterFlowController",
+      "CharacterSkeletonPoseBridge",
+      "CharacterFacialMeshSync",
+      "HairBoundary",
+      "HairInstance",
+      "uLipSync",
+      "uLipSyncMicrophone",
+      "uLipSyncBlendShape",
+      "AnimationModule",
+      "ExpressionModule"
+    ]
+  }
+]

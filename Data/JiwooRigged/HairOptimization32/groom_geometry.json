@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "strandCount": 100498,
+  "strandParticleCount": 32,
+  "particles": 3215936,
+  "rootError": 0.0,
+  "tipError": 0.0,
+  "maxLengthChange": 0.008241087,
+  "diameter": 0.0001,
+  "oldParticles": 6431872,
+  "original": "Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp.asset",
+  "variant": "Assets/_Sandbox/Characters/Jiwoo New/Groom/Jiwoo_Scalp_32.asset"
+}

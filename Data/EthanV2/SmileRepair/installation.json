@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all73ShapePositionNormalTangentArraysExact": true,
+  "baseAttributesExact": true,
+  "sourceReimported": true,
+  "vertexCount": 104632,
+  "triangles": 187041,
+  "playing": false,
+  "sceneSaved": false
+}

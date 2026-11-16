@@ -1,0 +1,35 @@
+{
+  "prefab": [
+    {
+      "groom": "EyeBrows",
+      "roots": 1915,
+      "maxSurfaceOffsetMM": 0.000474477565,
+      "maxRestErrorM": 0.0,
+      "maxRigidCovarianceErrorM": 2.59061721E-07
+    },
+    {
+      "groom": "EyeLashes",
+      "roots": 787,
+      "maxSurfaceOffsetMM": 0.000408021355,
+      "maxRestErrorM": 0.0,
+      "maxRigidCovarianceErrorM": 2.54849056E-07
+    }
+  ],
+  "scene": [
+    {
+      "groom": "EyeBrows",
+      "roots": 1915,
+      "maxSurfaceOffsetMM": 0.000494510343,
+      "maxRestErrorM": 0.0,
+      "maxRigidCovarianceErrorM": 2.682209E-07
+    },
+    {
+      "groom": "EyeLashes",
+      "roots": 787,
+      "maxSurfaceOffsetMM": 0.000426395243,
+      "maxRestErrorM": 0.0,
+      "maxRigidCovarianceErrorM": 2.5156055E-07
+    }
+  ],
+  "liveTestingPerformed": false
+}

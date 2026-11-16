@@ -1,0 +1,182 @@
+[
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5063, 1.9465, -0.0047)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_bulge_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5070, 1.9615, 0.0024)",
+    "targetScale": "(100.0001, 100.0000, 100.0000)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_side_out_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5190, 1.9519, 0.0056)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_side_inn_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5112, 1.9595, -0.0112)",
+    "targetScale": "(100.0001, 100.0000, 100.0003)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_half_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5063, 1.9465, -0.0047)",
+    "targetScale": "(100.0000, 100.0001, 100.0001)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_pip_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5141, 1.9372, -0.0084)",
+    "targetScale": "(100.0000, 100.0000, 100.0001)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_in_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5016, 1.9523, 0.0012)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "middle_02_dip_r",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5282, 1.9685, -0.0016)",
+    "targetScale": "(100.0000, 100.0001, 100.0001)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleIntermediate",
+    "target": "DEF-f_middle.02.R",
+    "position": "(0.5402, 1.9177, -0.0871)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5438, 1.9627, -0.0082)",
+    "targetScale": "(100.0001, 99.9999, 100.0000)",
+    "delta": 3.21309328
+  },
+  {
+    "source": "RightMiddleDistal",
+    "target": "middle_03_r",
+    "position": "(0.5599, 1.9552, -0.0798)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5210, 1.9722, -0.0003)",
+    "targetScale": "(100.0000, 100.0001, 100.0001)",
+    "delta": 3.210599
+  },
+  {
+    "source": "RightMiddleDistal",
+    "target": "middle_03_bulge_r",
+    "position": "(0.5599, 1.9552, -0.0798)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5196, 1.9832, 0.0058)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.210599
+  },
+  {
+    "source": "RightMiddleDistal",
+    "target": "middle_03_half_r",
+    "position": "(0.5599, 1.9552, -0.0798)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5210, 1.9722, -0.0003)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.210599
+  },
+  {
+    "source": "RightMiddleDistal",
+    "target": "middle_03_in_r",
+    "position": "(0.5599, 1.9552, -0.0798)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5150, 1.9750, 0.0041)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.210599
+  },
+  {
+    "source": "RightMiddleDistal",
+    "target": "DEF-f_middle.03.R",
+    "position": "(0.5599, 1.9552, -0.0798)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5600, 1.9880, -0.0023)",
+    "targetScale": "(100.0000, 100.0002, 100.0000)",
+    "delta": 3.210599
+  },
+  {
+    "source": "RightRingDistal",
+    "target": "ring_03_r",
+    "position": "(0.5560, 1.9361, -0.0510)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5203, 1.9588, 0.0255)",
+    "targetScale": "(100.0000, 100.0001, 100.0001)",
+    "delta": 3.187718
+  },
+  {
+    "source": "RightRingDistal",
+    "target": "ring_03_bulge_r",
+    "position": "(0.5560, 1.9361, -0.0510)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5169, 1.9647, 0.0319)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.187718
+  },
+  {
+    "source": "RightRingDistal",
+    "target": "ring_03_half_r",
+    "position": "(0.5560, 1.9361, -0.0510)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5203, 1.9588, 0.0255)",
+    "targetScale": "(100.0000, 100.0001, 100.0001)",
+    "delta": 3.187718
+  },
+  {
+    "source": "RightRingDistal",
+    "target": "ring_03_in_r",
+    "position": "(0.5560, 1.9361, -0.0510)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5147, 1.9588, 0.0304)",
+    "targetScale": "(100.0000, 100.0000, 100.0000)",
+    "delta": 3.187718
+  },
+  {
+    "source": "RightRingDistal",
+    "target": "ORG-f_index.02.R",
+    "position": "(0.5560, 1.9361, -0.0510)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5245, 1.9676, -0.0222)",
+    "targetScale": "(100.0000, 100.0001, 100.0000)",
+    "delta": 3.187718
+  },
+  {
+    "source": "RightRingDistal",
+    "target": "ORG-f_middle.02.R",
+    "position": "(0.5560, 1.9361, -0.0510)",
+    "sourceScale": "(1.0000, 1.0000, 1.0000)",
+    "targetPosition": "(0.5482, 1.9559, -0.0093)",
+    "targetScale": "(100.0001, 99.9999, 100.0000)",
+    "delta": 3.187718
+  }
+]

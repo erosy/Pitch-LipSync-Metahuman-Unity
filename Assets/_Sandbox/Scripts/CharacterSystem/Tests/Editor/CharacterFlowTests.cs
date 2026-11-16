@@ -497,11 +497,11 @@ namespace Sandbox.CharacterSystem.Tests
         }
 
         [Test]
-        public void EthanReadinessUsesWarmupOrFallbackEvenWhenWarmupIsDisabled()
+        public void CharacterReadinessUsesWarmupOrFallbackEvenWhenWarmupIsDisabled()
         {
-            var warmupType = Type.GetType("EthanHairStartupWarmup, Assembly-CSharp", true);
-            var fallbackType = Type.GetType("EthanWebHairFallback, Assembly-CSharp", true);
-            var adapterType = Type.GetType("EthanFlowReadiness, Assembly-CSharp", true);
+            var warmupType = Type.GetType("CharacterHairStartupWarmup, Assembly-CSharp", true);
+            var fallbackType = Type.GetType("CharacterHairFallback, Assembly-CSharp", true);
+            var adapterType = Type.GetType("CharacterReadiness, Assembly-CSharp", true);
             var root = rig.Character.gameObject;
             var warmup = (MonoBehaviour)root.AddComponent(warmupType);
             var fallback = root.AddComponent(fallbackType);
@@ -520,6 +520,105 @@ namespace Sandbox.CharacterSystem.Tests
             Set(rig.Controller, "readinessProvider", adapter);
             Ready();
             Assert.That(rig.Character.CurrentActivity, Is.SameAs(wave));
+        }
+
+        [Test]
+        public void WarmupReactivationResetsReadinessAndInterruptionRestoresVisibility()
+        {
+            var type = Type.GetType("CharacterHairStartupWarmup, Assembly-CSharp", true);
+            var root = rig.Character.gameObject;
+            var warmup = (MonoBehaviour)root.AddComponent(type);
+            var renderer = root.AddComponent<MeshRenderer>();
+            Set(warmup, "poseWarmupFrames", 1); Set(warmup, "framesAfterReset", 1);
+            var animator = rig.Body.Animator;
+            animator.cullingMode = AnimatorCullingMode.CullCompletely;
+            var initialize = type.GetMethod("InitializeHidden", BindingFlags.Instance | BindingFlags.NonPublic);
+            var ready = type.GetProperty("IsReady");
+            for (int activation = 0; activation < 2; activation++)
+            {
+                Assert.That(ready.GetValue(warmup), Is.False);
+                var routine = (System.Collections.IEnumerator)initialize.Invoke(warmup, null);
+                Assert.That(routine.MoveNext(), Is.True);
+                Assert.That(renderer.enabled, Is.False);
+                Assert.That(animator.cullingMode, Is.EqualTo(AnimatorCullingMode.AlwaysAnimate));
+                while (routine.MoveNext()) { }
+                Assert.That(ready.GetValue(warmup), Is.True);
+                Assert.That(renderer.enabled, Is.True);
+                Assert.That(animator.cullingMode, Is.EqualTo(AnimatorCullingMode.CullCompletely));
+                // Non-ExecuteAlways lifecycle callbacks are driven explicitly in
+                // Edit Mode; do not enter Play Mode to exercise reactivation.
+                Invoke(warmup, "OnDisable");
+                Assert.That(ready.GetValue(warmup), Is.False);
+                Invoke(warmup, "OnEnable");
+            }
+            Assert.That(type.GetProperty("ResetCount").GetValue(warmup), Is.EqualTo(2));
+            var interrupted = (System.Collections.IEnumerator)initialize.Invoke(warmup, null);
+            interrupted.MoveNext();
+            Invoke(warmup, "OnDisable");
+            Assert.That(renderer.enabled, Is.True);
+            Assert.That(animator.cullingMode, Is.EqualTo(AnimatorCullingMode.CullCompletely));
+            Assert.That(ready.GetValue(warmup), Is.False);
+        }
+
+        [Test]
+        public void MissingFallbackLeavesWarmupEnabledAndDoesNotClaimReadiness()
+        {
+            var warmupType = Type.GetType("CharacterHairStartupWarmup, Assembly-CSharp", true);
+            var fallbackType = Type.GetType("CharacterHairFallback, Assembly-CSharp", true);
+            var root = rig.Character.gameObject;
+            var warmup = (MonoBehaviour)root.AddComponent(warmupType);
+            var fallback = root.AddComponent(fallbackType);
+            Set(fallback, "startupWarmup", warmup);
+            LogAssert.Expect(LogType.Error, new Regex("assign a mesh/card hair fallback"));
+            var applied = fallbackType.GetMethod("ApplyFallback", BindingFlags.Instance | BindingFlags.NonPublic).Invoke(fallback, null);
+            Assert.That(applied, Is.False);
+            Assert.That(warmup.enabled, Is.True);
+            Assert.That(fallbackType.GetProperty("IsUsingFallback").GetValue(fallback), Is.False);
+        }
+
+        [Test]
+        public void FallbackActivatesScalpAndFacialReplacementsTogether()
+        {
+            var fallbackType = Type.GetType("CharacterHairFallback, Assembly-CSharp", true);
+            var root = rig.Character.gameObject;
+            var fallback = root.AddComponent(fallbackType);
+            var scalp = new GameObject("Scalp cards"); scalp.transform.SetParent(root.transform); scalp.SetActive(false);
+            var brows = new GameObject("Brow cards"); brows.transform.SetParent(root.transform); brows.SetActive(false);
+            var lashes = new GameObject("Lash cards"); lashes.transform.SetParent(root.transform); lashes.SetActive(false);
+            Set(fallback, "fallbackRoot", scalp);
+            Set(fallback, "additionalFallbackRoots", new[] { brows, lashes });
+            Assert.That(fallbackType.GetMethod("ApplyFallback", BindingFlags.Instance | BindingFlags.NonPublic).Invoke(fallback, null), Is.True);
+            Assert.That(scalp.activeSelf && brows.activeSelf && lashes.activeSelf, Is.True);
+            Assert.That(fallbackType.GetProperty("IsUsingFallback").GetValue(fallback), Is.True);
+        }
+
+        [Test]
+        public void CharacterWithoutStrandHairDoesNotRequireWarmup()
+        {
+            var type = Type.GetType("CharacterReadiness, Assembly-CSharp", true);
+            var readiness = (ICharacterReadiness)rig.Character.gameObject.AddComponent(type);
+            var errors = new List<string>(); readiness.ValidateConfiguration(errors);
+            Assert.That(errors, Is.Empty);
+            Assert.That(readiness.IsReady, Is.True);
+        }
+
+        [Test]
+        public void EthanPrefabPreservesRenamedHairScriptsAndTheirReferences()
+        {
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/_Sandbox/Characters/Ethan/Ethan.prefab");
+            var warmupType = Type.GetType("CharacterHairStartupWarmup, Assembly-CSharp", true);
+            var fallbackType = Type.GetType("CharacterHairFallback, Assembly-CSharp", true);
+            var readinessType = Type.GetType("CharacterReadiness, Assembly-CSharp", true);
+            var warmup = prefab.GetComponent(warmupType);
+            var fallback = prefab.GetComponent(fallbackType);
+            var readiness = prefab.GetComponent(readinessType);
+            Assert.That(warmup && fallback && readiness, Is.True);
+            var fallbackData = new SerializedObject(fallback);
+            Assert.That(fallbackData.FindProperty("startupWarmup").objectReferenceValue, Is.SameAs(warmup));
+            Assert.That(fallbackData.FindProperty("fallbackRoot").objectReferenceValue.name, Is.EqualTo("Hair_Cards_Baked"));
+            var readinessData = new SerializedObject(readiness);
+            Assert.That(readinessData.FindProperty("startupWarmup").objectReferenceValue, Is.SameAs(warmup));
+            Assert.That(readinessData.FindProperty("hairFallback").objectReferenceValue, Is.SameAs(fallback));
         }
 
         void Ready() { rig.Controller.Tick(0); rig.Controller.Tick(0); }
@@ -608,6 +707,11 @@ namespace Sandbox.CharacterSystem.Tests
             else if (value is bool flag) property.boolValue = flag;
             else if (value is float number) property.floatValue = number;
             else if (value is int integer) property.intValue = integer;
+            else if (value is UnityEngine.Object[] objects)
+            {
+                property.arraySize = objects.Length;
+                for (int i = 0; i < objects.Length; i++) property.GetArrayElementAtIndex(i).objectReferenceValue = objects[i];
+            }
             else throw new ArgumentException(field);
             serialized.ApplyModifiedPropertiesWithoutUndo();
         }

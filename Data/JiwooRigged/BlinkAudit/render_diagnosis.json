@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "displacements": {
+    "neutral": 0.0,
+    "eyeBlinkLeft": 0.0165603235,
+    "eyeBlinkRight": 0.01644703
+  },
+  "materials": [
+    {
+      "name": "Jiwoo_Head",
+      "shader": "Universal Render Pipeline/Lit",
+      "shadowCasterPass": true,
+      "alpha": 1.0
+    },
+    {
+      "name": "Jiwoo_Body",
+      "shader": "Universal Render Pipeline/Lit",
+      "shadowCasterPass": true,
+      "alpha": 1.0
+    },
+    {
+      "name": "Jiwoo_Cartilage",
+      "shader": "Universal Render Pipeline/Lit",
+      "shadowCasterPass": true,
+      "alpha": 1.0
+    },
+    {
+      "name": "Jiwoo_EyeEdge",
+      "shader": "Universal Render Pipeline/Unlit",
+      "shadowCasterPass": false,
+      "alpha": 0.35
+    },
+    {
+      "name": "Jiwoo_Eyes",
+      "shader": "Universal Render Pipeline/Lit",
+      "shadowCasterPass": true,
+      "alpha": 1.0
+    },
+    {
+      "name": "Jiwoo_Eyes",
+      "shader": "Universal Render Pipeline/Lit",
+      "shadowCasterPass": true,
+      "alpha": 1.0
+    },
+    {
+      "name": "Jiwoo_EyeShell",
+      "shader": "Universal Render Pipeline/Unlit",
+      "shadowCasterPass": false,
+      "alpha": 0.0
+    },
+    {
+      "name": "Jiwoo_Saliva",
+      "shader": "Universal Render Pipeline/Unlit",
+      "shadowCasterPass": false,
+      "alpha": 0.2
+    },
+    {
+      "name": "Jiwoo_Teeth",
+      "shader": "Universal Render Pipeline/Unlit",
+      "shadowCasterPass": false,
+      "alpha": 1.0
+    },
+    {
+      "name": "Jiwoo_FacialHair_Mesh",
+      "shader": "Universal Render Pipeline/Lit",
+      "shadowCasterPass": true,
+      "alpha": 1.0
+    }
+  ],
+  "assetsModified": false,
+  "livePoseModified": false,
+  "playModeChanged": false
+}

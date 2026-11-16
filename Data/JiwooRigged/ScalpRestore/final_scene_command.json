@@ -1,0 +1,42 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "file": "Tools/Hair/RestoreJiwooScalp.cs",
+      "entry": "RestoreJiwooScalp.InspectLoadedScene"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 79,
+      "executeMs": 6,
+      "assemblyName": "PipelineRunScript_RestoreJiwooScalp_e58ec95bbb4b47ba96190a3fdb465dd2",
+      "success": true,
+      "result": [
+        {
+          "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+          "isDirty": false,
+          "active": false,
+          "prefab": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+          "scalpCount": 1,
+          "hairActive": [
+            true
+          ],
+          "editModeSimulation": [
+            false
+          ],
+          "configurationErrors": [],
+          "missingScripts": 0
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\UnityProject\\MetahumanTemplate"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

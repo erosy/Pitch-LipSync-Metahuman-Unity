@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "samples": {
+    "inside_skull": -0.061641182750463486,
+    "above_head": 0.023106947541236877
+  }
+}

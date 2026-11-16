@@ -1,0 +1,307 @@
+{
+  "status": "completed",
+  "duration": 0.62,
+  "summary": {
+    "total": 42,
+    "passed": 42,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.AnotherCharactersSpeechPlayerIsRejectedBeforeReplacement",
+      "Status": "Passed",
+      "Duration": 0.0394382,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.CharacterReadinessUsesWarmupOrFallbackEvenWhenWarmupIsDisabled",
+      "Status": "Passed",
+      "Duration": 0.0037565,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.CharacterWithoutStrandHairDoesNotRequireWarmup",
+      "Status": "Passed",
+      "Duration": 0.0021585,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ClickDuringGreetingReplacesItWithThinking",
+      "Status": "Passed",
+      "Duration": 0.0026164,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ClickDuringIdlePauseDiscardsElapsedDelay",
+      "Status": "Passed",
+      "Duration": 0.0066279,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ClickDuringSpeechStopsItAndOldPlaybackCannotStopTheNewSpeech",
+      "Status": "Passed",
+      "Duration": 0.0070493,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ClickDuringThinkingRestartsAndRejectsStaleCompletion",
+      "Status": "Passed",
+      "Duration": 0.0033905,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.DisableAfterExternalCommandDoesNotResetItsActivity",
+      "Status": "Passed",
+      "Duration": 0.0024353,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.EarlierCompletionObserverCannotTransferExternalActivityOwnershipToFlow",
+      "Status": "Passed",
+      "Duration": 0.0022846,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.EditingFlowListDoesNotReorderAnActiveRun",
+      "Status": "Passed",
+      "Duration": 0.0023325,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.EthanPrefabPreservesRenamedHairScriptsAndTheirReferences",
+      "Status": "Passed",
+      "Duration": 0.1341024,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.EveryActivationRestartsReadinessAndGreetingAndCleansSubscriptions",
+      "Status": "Passed",
+      "Duration": 0.0034854,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ExternalActivityCancelsFlowAndPreservesNewOutput",
+      "Status": "Passed",
+      "Duration": 0.0026201,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ExternalCommandAfterNaturalCompletionIsNotMistakenForIdle",
+      "Status": "Passed",
+      "Duration": 0.0024752,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.FallbackActivatesScalpAndFacialReplacementsTogether",
+      "Status": "Passed",
+      "Duration": 0.0052246,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.GreetingWaitsForActualAnimationAndFinishesInIdle",
+      "Status": "Passed",
+      "Duration": 0.0023051,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.InitializationMustFinishBeforeReadinessCanAdvance",
+      "Status": "Passed",
+      "Duration": 0.002395,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.InvalidDurationIsRejectedWithoutReplacingGreeting(-1.0f)",
+      "Status": "Passed",
+      "Duration": 0.0028356,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.InvalidDurationIsRejectedWithoutReplacingGreeting(float.NaN)",
+      "Status": "Passed",
+      "Duration": 0.0025564,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.InvalidDurationIsRejectedWithoutReplacingGreeting(float.PositiveInfinity)",
+      "Status": "Passed",
+      "Duration": 0.0024971,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.InvalidReplacementDoesNotStopValidSpeech",
+      "Status": "Passed",
+      "Duration": 0.0032419,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.InvalidSpeechServiceIsRejectedBeforeInterruptingGreeting",
+      "Status": "Passed",
+      "Duration": 0.0035686,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.LosingBodyDuringAnimationWaitFailsRatherThanHanging",
+      "Status": "Passed",
+      "Duration": 0.0024923,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.MissingBodyOrLoopingAnimationCannotWaitForAnimationEnd",
+      "Status": "Passed",
+      "Duration": 0.0020968,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.MissingFallbackLeavesWarmupEnabledAndDoesNotClaimReadiness",
+      "Status": "Passed",
+      "Duration": 0.0031063,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.NaturalCompletionEventIsDeliveredOnceAfterEveryReceiverGetsIdle",
+      "Status": "Passed",
+      "Duration": 0.0034435,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.NoProviderStillWaitsAnAdditionalFrame",
+      "Status": "Passed",
+      "Duration": 0.0022185,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ReadinessIgnoresClicksAndAddsOneFrameBeforeGreeting",
+      "Status": "Passed",
+      "Duration": 0.0020464,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ResponseWaitsForThinkingThenOneSecondIdleAndActualSpeechEnd",
+      "Status": "Passed",
+      "Duration": 0.0025536,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SameStateAssetCanAppearTwiceWithFreshRuntimeProgress",
+      "Status": "Passed",
+      "Duration": 0.0021403,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ScaledDelayDoesNotAdvanceWithZeroOrInvalidDelta",
+      "Status": "Passed",
+      "Duration": 0.0023525,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SharedDefinitionsHaveIndependentProgressAndSpeech",
+      "Status": "Passed",
+      "Duration": 0.0030577,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SpeechFailureCleansUpAndReturnsToIdle(Failed)",
+      "Status": "Passed",
+      "Duration": 0.0031289,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SpeechFailureCleansUpAndReturnsToIdle(Interrupted)",
+      "Status": "Passed",
+      "Duration": 0.0026296,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SpeechPlayerPollsCompletionAndRejectsStaleStopTokensWithoutPlayingAudio",
+      "Status": "Passed",
+      "Duration": 0.0055487,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SpeechPlayerReportsMissingReferencesAndNeverPlaysInEditMode",
+      "Status": "Passed",
+      "Duration": 0.0033123,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SpeechPlayerValidatesExistingRouteAndRejectsLoopingOrUnanalysedAudio",
+      "Status": "Passed",
+      "Duration": 0.0029335,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SpeechStartFailureReturnsOwnedCharacterToIdle",
+      "Status": "Passed",
+      "Duration": 0.0027399,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SynchronousCommandOverloadReturnsFinishedRequestRatherThanIdleId",
+      "Status": "Passed",
+      "Duration": 0.0019474,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.SynchronousCompletionRetainsOriginalAcceptedIdAndDefersTransition",
+      "Status": "Passed",
+      "Duration": 0.0021808,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.WarmupReactivationResetsReadinessAndInterruptionRestoresVisibility",
+      "Status": "Passed",
+      "Duration": 0.0038289,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "Sandbox.CharacterSystem.Tests.CharacterFlowTests.ZeroDurationAndInsertedCustomStateAdvanceWithoutRunnerChanges",
+      "Status": "Passed",
+      "Duration": 0.002834,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

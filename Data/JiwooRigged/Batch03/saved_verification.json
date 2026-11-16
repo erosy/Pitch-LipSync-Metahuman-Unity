@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "errors": [],
+  "missingAssetGuids": 0,
+  "missingSceneScripts": 0,
+  "ethanSharedSupportPreserved": true,
+  "selectorRemoved": true,
+  "legacyImportDirectoryRemoved": true,
+  "playing": false,
+  "liveTestingPerformed": false
+}

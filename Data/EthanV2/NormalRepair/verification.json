@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "geometrySkinUVsAll73ShapePositionsExact": true,
+  "neutralNormalsAndTangentsExact": true,
+  "vertexRemappingUsed": false,
+  "vertexCount": 104632,
+  "triangles": 187041,
+  "browLashVertices": 84405,
+  "browLashTriangles": 148734,
+  "shapes": 73,
+  "meshMemoryMiB": 118.863739,
+  "playing": false,
+  "sceneSaved": false
+}

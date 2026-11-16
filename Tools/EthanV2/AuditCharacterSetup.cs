@@ -1,0 +1,9 @@
+using System;using System.IO;using System.Linq;using UnityEditor;using UnityEngine;using UnityEngine.SceneManagement;using Newtonsoft.Json;
+public static class AuditV2CharacterSetup {
+ public static object Run(){
+ Directory.CreateDirectory("Data/EthanV2/CharacterSetup");var rows=new System.Collections.Generic.List<object>();
+ foreach(var path in new[]{"Assets/_Sandbox/Characters/Ethan/Ethan.prefab","Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2.prefab"}){
+ var r=AssetDatabase.LoadAssetAtPath<GameObject>(path);rows.Add(new{path,components=r.GetComponentsInChildren<Component>(true).Where(c=>c&&!(c is Transform)&&!(c is Renderer)&&!(c is MeshFilter)&&!c.GetType().Namespace?.StartsWith("Unity.DemoTeam.Hair")==true).Select(c=>new{path=AnimationUtility.CalculateTransformPath(c.transform,r.transform),type=c.GetType().FullName,json=EditorJsonUtility.ToJson(c)}).ToArray(),animators=r.GetComponentsInChildren<Animator>(true).Select(a=>new{path=AnimationUtility.CalculateTransformPath(a.transform,r.transform),avatar=a.avatar?a.avatar.name:null,valid=a.avatar&&a.avatar.isValid,human=a.avatar&&a.avatar.isHuman}).ToArray()});}
+ var scenes=Enumerable.Range(0,SceneManager.sceneCount).Select(i=>SceneManager.GetSceneAt(i)).Where(s=>s.isLoaded).Select(s=>new{s.path,s.isDirty,roots=s.GetRootGameObjects().Select(r=>new{r.name,active=r.activeSelf,components=r.GetComponentsInChildren<MonoBehaviour>(true).Where(c=>c&&new[]{"CharacterSelectionController","VoiceLipSyncDemo","Button","CharacterFlowController"}.Contains(c.GetType().Name)).Select(c=>new{name=c.name,type=c.GetType().FullName,json=EditorJsonUtility.ToJson(c)}).ToArray()}).ToArray()}).ToArray();
+ var result=new{prefabs=rows,scenes};File.WriteAllText("Data/EthanV2/CharacterSetup/audit.json",JsonConvert.SerializeObject(result,Formatting.Indented));return new{saved=true,scenes=scenes.Select(s=>new{s.path,s.isDirty})};}
+}

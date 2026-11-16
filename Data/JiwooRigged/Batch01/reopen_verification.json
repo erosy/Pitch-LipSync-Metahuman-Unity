@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "max_evaluated_error_m": 1.0693597966946644e-06,
+  "mesh_shape_checks": 876,
+  "neutral_weights_and_names_checked": true,
+  "groom_checks": [
+    {
+      "name": "BAKED_ScalpGroom",
+      "curves": 100498,
+      "control_points_and_world_frame_preserved": true
+    },
+    {
+      "name": "BAKED_EyebrowGroom",
+      "curves": 787,
+      "control_points_and_world_frame_preserved": true
+    },
+    {
+      "name": "BAKED_EyelashGroom",
+      "curves": 1915,
+      "control_points_and_world_frame_preserved": true
+    }
+  ],
+  "prepared_sha256": "0f02b119c96ee66ea33257fc07a4e4aeab4ea9299997a23aad6f50e1400a75a9",
+  "source_unchanged": true,
+  "visual_review_required": true
+}

@@ -1,0 +1,15 @@
+{
+  "productionWritten": false,
+  "maxPositionErrorMeshUnits": 9.580233E-06,
+  "maxPositionErrorWorldMm": 0.9580233,
+  "vertexCount": 104632,
+  "shapes": 73,
+  "duplicateVertices": 1604,
+  "mismatches": 4392,
+  "ambiguousNormals": 0,
+  "ambiguousTangents": 62672,
+  "ambiguousVertexCount": 0,
+  "changedNormals": 1341086,
+  "nonzeroImportedNormals": 694238,
+  "allCandidatesExactAndNormalsUnambiguous": false
+}

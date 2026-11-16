@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "scene": {
+    "root": "Jiwoo_Normalized",
+    "model": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Rigged.fbx",
+    "avatar": "Jiwoo_RiggedAvatar",
+    "shapes": 73,
+    "materials": [
+      "Jiwoo_Outfit",
+      "Jiwoo_Body",
+      "Jiwoo_Head",
+      "Jiwoo_Teeth",
+      "Jiwoo_Saliva",
+      "Jiwoo_Eyes",
+      "Jiwoo_Eyes",
+      "Jiwoo_EyeShell",
+      "Jiwoo_EyeEdge",
+      "Jiwoo_Cartilage"
+    ],
+    "headScale": {
+      "x": 0.999999762,
+      "y": 0.999999762,
+      "z": 0.9999996
+    },
+    "rootScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "voice": "Assets/_Sandbox/Audio/liora.mp3",
+    "grooms": [
+      {
+        "name": "EyeBrows",
+        "count": 1915
+      },
+      {
+        "name": "EyeLashes",
+        "count": 787
+      },
+      {
+        "name": "Hair",
+        "count": 100498
+      }
+    ],
+    "missingScripts": 0,
+    "configurationErrors": []
+  },
+  "prefab": {
+    "root": "Jiwoo_Normalized",
+    "model": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Rigged.fbx",
+    "avatar": "Jiwoo_RiggedAvatar",
+    "shapes": 73,
+    "materials": [
+      "Jiwoo_Outfit",
+      "Jiwoo_Body",
+      "Jiwoo_Head",
+      "Jiwoo_Teeth",
+      "Jiwoo_Saliva",
+      "Jiwoo_Eyes",
+      "Jiwoo_Eyes",
+      "Jiwoo_EyeShell",
+      "Jiwoo_EyeEdge",
+      "Jiwoo_Cartilage"
+    ],
+    "headScale": {
+      "x": 0.999999762,
+      "y": 0.999999762,
+      "z": 0.9999996
+    },
+    "rootScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "voice": "Assets/_Sandbox/Audio/liora.mp3",
+    "grooms": [
+      {
+        "name": "EyeBrows",
+        "count": 1915
+      },
+      {
+        "name": "EyeLashes",
+        "count": 787
+      },
+      {
+        "name": "Hair",
+        "count": 100498
+      }
+    ],
+    "missingScripts": 0,
+    "configurationErrors": []
+  },
+  "buttons": [
+    {
+      "name": "Girl",
+      "calls": [
+        {
+          "target": "Jiwoo_Normalized",
+          "method": "PlayResponse",
+          "isJiwoo": true
+        }
+      ]
+    },
+    {
+      "name": "Boy",
+      "calls": [
+        {
+          "target": "Ethan",
+          "method": "PlayResponse",
+          "isJiwoo": false
+        }
+      ]
+    }
+  ],
+  "legacyModelOrGroomDependencies": [],
+  "playModeEntered": false,
+  "liveTestingPerformed": false
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "unchanged_geometry_uvs_topology_materials_and_73_shapes": true,
+  "max_shape_position_error_m": {
+    "Face": 0.0,
+    "Outfit": 0.0
+  },
+  "max_outfit_weight_export_error": 2.5804738346124623e-09,
+  "near_coincident_pairs": 524,
+  "mismatched_pairs": 0
+}

@@ -1,0 +1,2266 @@
+{
+  "playing": false,
+  "skinWeights": "Unlimited",
+  "prefabs": [
+    {
+      "name": "Ethan",
+      "active": false,
+      "meshes": [
+        {
+          "name": "Face",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 103825,
+          "triangles": 148270,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 45462
+            },
+            {
+              "index": 1,
+              "triangles": 60800
+            },
+            {
+              "index": 2,
+              "triangles": 8350
+            },
+            {
+              "index": 3,
+              "triangles": 1536
+            },
+            {
+              "index": 4,
+              "triangles": 1536
+            },
+            {
+              "index": 5,
+              "triangles": 576
+            },
+            {
+              "index": 6,
+              "triangles": 30010
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head_CyclesMatch",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Body_CyclesMatch",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Teeth",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Ethan_Eyes_ClearCoat",
+              "shader": "Universal Render Pipeline/Complex Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Eyes_ClearCoat",
+              "shader": "Universal Render Pipeline/Complex Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Cartilage",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Hair",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 103004804
+        },
+        {
+          "name": "Hair_Cards",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 24030,
+          "triangles": 20022,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 20022
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_HairCards",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2746000
+        },
+        {
+          "name": "Hair_Cards_Baked",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 24030,
+          "triangles": 20022,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 20022
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_HairCardsSoft",
+              "shader": "Custom/HairCardsSoft",
+              "passes": 5
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2746000
+        },
+        {
+          "name": "Hair_Dense",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 488256,
+          "triangles": 374962,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 374962
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Hair",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 59784328
+        },
+        {
+          "name": "Hair_Light",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 202668,
+          "triangles": 155524,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 155524
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Hair",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 24816664
+        },
+        {
+          "name": "Outfit",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 8864,
+          "triangles": 16670,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 16670
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Shirt_CyclesMatch",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 1558252
+        }
+      ],
+      "components": [
+        {
+          "type": "CharacterHairStartupWarmup",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.Character",
+          "count": 1
+        },
+        {
+          "type": "CharacterHairFallback",
+          "count": 1
+        },
+        {
+          "type": "CharacterReadiness",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairInstance",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSync",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncMicrophone",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairBoundary",
+          "count": 4
+        },
+        {
+          "type": "uLipSync.uLipSyncBlendShape",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "count": 1
+        }
+      ],
+      "hairs": [
+        {
+          "name": "Hair",
+          "active": false,
+          "exec": {
+            "updateMode": 0,
+            "updateSimulation": true,
+            "updateSimulationRate": 0,
+            "updateSimulationInEditor": true,
+            "updateTimeStep": 0.0099999997764825821,
+            "updateStepsMin": false,
+            "updateStepsMinValue": 1,
+            "updateStepsMax": true,
+            "updateStepsMaxValue": 4
+          },
+          "physics": {
+            "solver": 1,
+            "solverSubsteps": 4,
+            "constraintIterations": 12,
+            "constraintStiffness": 1.0,
+            "constraintSOR": 1.0,
+            "dampingLinear": true,
+            "dampingLinearFactor": 0.20000000298023224,
+            "dampingLinearInterval": 1,
+            "dampingAngular": true,
+            "dampingAngularFactor": 0.5,
+            "dampingAngularInterval": 0,
+            "cellPressure": 1.0,
+            "cellVelocity": 0.05000000074505806,
+            "cellExternal": 1.0,
+            "gravity": 0.20000000298023224,
+            "boundaryCollision": true,
+            "boundaryCollisionFriction": 0.5,
+            "distance": true,
+            "distanceLRA": true,
+            "distanceFTL": false,
+            "distanceFTLCorrection": 0.800000011920929,
+            "localCurvature": false,
+            "localCurvatureMode": 1,
+            "localCurvatureValue": 0.10000000149011612,
+            "localShape": true,
+            "localShapeMode": 1,
+            "localShapeInfluence": 1.0,
+            "localShapeBias": true,
+            "localShapeBiasValue": 0.699999988079071,
+            "globalPosition": true,
+            "globalPositionInfluence": 0.30000001192092896,
+            "globalPositionInterval": 1,
+            "globalRotation": true,
+            "globalRotationInfluence": 0.699999988079071,
+            "globalFade": true,
+            "globalFadeOffset": 0.10000000149011612,
+            "globalFadeExtent": 0.20000000298023224,
+            "kLODSelection": 2,
+            "kLODSelectionValue": 0.0,
+            "kLODCeiling": 1.0,
+            "kLODScale": 1.0,
+            "kLODBias": 0.0
+          },
+          "groups": [
+            {
+              "strandCount": 94408,
+              "strandParticleCount": 32,
+              "lodCount": 1,
+              "lodGuideCount": [
+                94408
+              ],
+              "particles": 3021056
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ethan_V2",
+      "active": false,
+      "meshes": [
+        {
+          "name": "BAKED_body_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Body_ShirtCoverage.asset",
+          "vertices": 32408,
+          "triangles": 49140,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 49140
+            }
+          ],
+          "bones": 342,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Body",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 101697956
+        },
+        {
+          "name": "BAKED_cartilage_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 392,
+          "triangles": 576,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 576
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Cartilage",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 1277768
+        },
+        {
+          "name": "BAKED_eyeEdge_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 300,
+          "triangles": 386,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 386
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_EyeEdge",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 991704
+        },
+        {
+          "name": "BAKED_eyeLeft_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 802,
+          "triangles": 1536,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 1536
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2533516
+        },
+        {
+          "name": "BAKED_eyeRight_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 802,
+          "triangles": 1536,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 1536
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2528236
+        },
+        {
+          "name": "BAKED_eyeshell_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 588,
+          "triangles": 980,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 980
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_EyeShell",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 1883400
+        },
+        {
+          "name": "BAKED_head_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 341443,
+          "triangles": 660663,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 38307
+            },
+            {
+              "index": 1,
+              "triangles": 521544
+            },
+            {
+              "index": 2,
+              "triangles": 100812
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Eyebrows",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_EyelashStrands",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 280557175
+        },
+        {
+          "name": "BAKED_head_lod0_mesh.001",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 2119,
+          "triangles": 3597,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 3597
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 6653962
+        },
+        {
+          "name": "BAKED_head_lod0_mesh.002",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 2133,
+          "triangles": 3545,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 3545
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 6698386
+        },
+        {
+          "name": "BAKED_Outfits_LOD0",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Outfit_CollarRestored.asset",
+          "vertices": 10101,
+          "triangles": 17102,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 17102
+            }
+          ],
+          "bones": 1048,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Outfit",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 31316737
+        },
+        {
+          "name": "BAKED_saliva_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 678,
+          "triangles": 1004,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 1004
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Saliva",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2131916
+        },
+        {
+          "name": "BAKED_teeth_lod0_mesh",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 4757,
+          "triangles": 8350,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 8350
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Teeth",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 14743688
+        }
+      ],
+      "components": [
+        {
+          "type": "CharacterHairStartupWarmup",
+          "count": 1
+        },
+        {
+          "type": "CharacterReadiness",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.Character",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "count": 1
+        },
+        {
+          "type": "CharacterSkeletonPoseBridge",
+          "count": 1
+        },
+        {
+          "type": "CharacterFacialMeshSync",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairBoundary",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairInstance",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSync",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncMicrophone",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncBlendShape",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "count": 1
+        }
+      ],
+      "hairs": [
+        {
+          "name": "EthanV2_ScalpHair",
+          "active": false,
+          "exec": {
+            "updateMode": 0,
+            "updateSimulation": true,
+            "updateSimulationRate": 0,
+            "updateSimulationInEditor": false,
+            "updateTimeStep": 0.0099999997764825821,
+            "updateStepsMin": false,
+            "updateStepsMinValue": 1,
+            "updateStepsMax": true,
+            "updateStepsMaxValue": 4
+          },
+          "physics": {
+            "solver": 1,
+            "solverSubsteps": 4,
+            "constraintIterations": 12,
+            "constraintStiffness": 1.0,
+            "constraintSOR": 1.0,
+            "dampingLinear": true,
+            "dampingLinearFactor": 0.20000000298023224,
+            "dampingLinearInterval": 1,
+            "dampingAngular": true,
+            "dampingAngularFactor": 0.5,
+            "dampingAngularInterval": 0,
+            "cellPressure": 1.0,
+            "cellVelocity": 0.05000000074505806,
+            "cellExternal": 1.0,
+            "gravity": 0.20000000298023224,
+            "boundaryCollision": true,
+            "boundaryCollisionFriction": 0.5,
+            "distance": true,
+            "distanceLRA": true,
+            "distanceFTL": false,
+            "distanceFTLCorrection": 0.800000011920929,
+            "localCurvature": false,
+            "localCurvatureMode": 1,
+            "localCurvatureValue": 0.10000000149011612,
+            "localShape": true,
+            "localShapeMode": 1,
+            "localShapeInfluence": 1.0,
+            "localShapeBias": true,
+            "localShapeBiasValue": 0.699999988079071,
+            "globalPosition": true,
+            "globalPositionInfluence": 0.30000001192092896,
+            "globalPositionInterval": 1,
+            "globalRotation": true,
+            "globalRotationInfluence": 0.699999988079071,
+            "globalFade": true,
+            "globalFadeOffset": 0.10000000149011612,
+            "globalFadeExtent": 0.20000000298023224,
+            "kLODSelection": 2,
+            "kLODSelectionValue": 0.0,
+            "kLODCeiling": 1.0,
+            "kLODScale": 1.0,
+            "kLODBias": 0.0
+          },
+          "groups": [
+            {
+              "strandCount": 94408,
+              "strandParticleCount": 32,
+              "lodCount": 1,
+              "lodGuideCount": [
+                94408
+              ],
+              "particles": 3021056
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jiwoo_Normalized",
+      "active": false,
+      "meshes": [
+        {
+          "name": "Face",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+          "vertices": 129822,
+          "triangles": 241782,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 47780
+            },
+            {
+              "index": 1,
+              "triangles": 60816
+            },
+            {
+              "index": 2,
+              "triangles": 576
+            },
+            {
+              "index": 3,
+              "triangles": 386
+            },
+            {
+              "index": 4,
+              "triangles": 1536
+            },
+            {
+              "index": 5,
+              "triangles": 1536
+            },
+            {
+              "index": 6,
+              "triangles": 980
+            },
+            {
+              "index": 7,
+              "triangles": 1004
+            },
+            {
+              "index": 8,
+              "triangles": 8280
+            },
+            {
+              "index": 9,
+              "triangles": 118888
+            }
+          ],
+          "bones": 160,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Jiwoo_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_Body",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_Cartilage",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_EyeEdge",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_EyeShell",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_Saliva",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_Teeth",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_FacialHair_Mesh",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 108575868
+        },
+        {
+          "name": "Outfit",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+          "vertices": 5038,
+          "triangles": 9029,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 9029
+            }
+          ],
+          "bones": 160,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Jiwoo_Outfit",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 977534
+        }
+      ],
+      "components": [
+        {
+          "type": "Sandbox.CharacterSystem.Character",
+          "count": 1
+        },
+        {
+          "type": "CharacterReadiness",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "count": 1
+        },
+        {
+          "type": "CharacterHairStartupWarmup",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncBlendShape",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSync",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncMicrophone",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairBoundary",
+          "count": 4
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairInstance",
+          "count": 1
+        }
+      ],
+      "hairs": [
+        {
+          "name": "Jiwoo_ScalpHair",
+          "active": false,
+          "exec": {
+            "updateMode": 0,
+            "updateSimulation": true,
+            "updateSimulationRate": 0,
+            "updateSimulationInEditor": false,
+            "updateTimeStep": 0.0099999997764825821,
+            "updateStepsMin": false,
+            "updateStepsMinValue": 1,
+            "updateStepsMax": true,
+            "updateStepsMaxValue": 2
+          },
+          "physics": {
+            "solver": 1,
+            "solverSubsteps": 2,
+            "constraintIterations": 8,
+            "constraintStiffness": 1.0,
+            "constraintSOR": 1.0,
+            "dampingLinear": true,
+            "dampingLinearFactor": 0.20000000298023224,
+            "dampingLinearInterval": 0,
+            "dampingAngular": true,
+            "dampingAngularFactor": 0.5,
+            "dampingAngularInterval": 0,
+            "cellPressure": 1.0,
+            "cellVelocity": 0.05000000074505806,
+            "cellExternal": 1.0,
+            "gravity": 0.20000000298023224,
+            "boundaryCollision": true,
+            "boundaryCollisionFriction": 0.5,
+            "distance": true,
+            "distanceLRA": true,
+            "distanceFTL": false,
+            "distanceFTLCorrection": 0.800000011920929,
+            "localCurvature": false,
+            "localCurvatureMode": 1,
+            "localCurvatureValue": 0.10000000149011612,
+            "localShape": true,
+            "localShapeMode": 1,
+            "localShapeInfluence": 1.0,
+            "localShapeBias": true,
+            "localShapeBiasValue": 0.699999988079071,
+            "globalPosition": true,
+            "globalPositionInfluence": 0.30000001192092896,
+            "globalPositionInterval": 0,
+            "globalRotation": true,
+            "globalRotationInfluence": 0.699999988079071,
+            "globalFade": true,
+            "globalFadeOffset": 0.10000000149011612,
+            "globalFadeExtent": 0.20000000298023224,
+            "kLODSelection": 0,
+            "kLODSelectionValue": 1.0,
+            "kLODCeiling": 1.0,
+            "kLODScale": 1.0,
+            "kLODBias": 0.0
+          },
+          "groups": [
+            {
+              "strandCount": 100498,
+              "strandParticleCount": 32,
+              "lodCount": 1,
+              "lodGuideCount": [
+                100498
+              ],
+              "particles": 3215936
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scene": [
+    {
+      "name": "Ethan_V2_73_Baked",
+      "active": true,
+      "meshes": [
+        {
+          "name": "BAKED_body_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Body_ShirtCoverage.asset",
+          "vertices": 32408,
+          "triangles": 49140,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 49140
+            }
+          ],
+          "bones": 342,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Body",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 101697956
+        },
+        {
+          "name": "BAKED_cartilage_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 392,
+          "triangles": 576,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 576
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Cartilage",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 1277768
+        },
+        {
+          "name": "BAKED_eyeEdge_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 300,
+          "triangles": 386,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 386
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_EyeEdge",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 991704
+        },
+        {
+          "name": "BAKED_eyeLeft_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 802,
+          "triangles": 1536,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 1536
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2533516
+        },
+        {
+          "name": "BAKED_eyeRight_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 802,
+          "triangles": 1536,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 1536
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2528236
+        },
+        {
+          "name": "BAKED_eyeshell_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 588,
+          "triangles": 980,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 980
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_EyeShell",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 1883400
+        },
+        {
+          "name": "BAKED_head_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 341443,
+          "triangles": 660663,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 38307
+            },
+            {
+              "index": 1,
+              "triangles": 521544
+            },
+            {
+              "index": 2,
+              "triangles": 100812
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Eyebrows",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_EyelashStrands",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 280557175
+        },
+        {
+          "name": "BAKED_head_lod0_mesh.001",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 2119,
+          "triangles": 3597,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 3597
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 6653962
+        },
+        {
+          "name": "BAKED_head_lod0_mesh.002",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 2133,
+          "triangles": 3545,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 3545
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 6698386
+        },
+        {
+          "name": "BAKED_Outfits_LOD0",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Outfit_CollarRestored.asset",
+          "vertices": 10101,
+          "triangles": 17102,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 17102
+            }
+          ],
+          "bones": 1048,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Outfit",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 31316737
+        },
+        {
+          "name": "BAKED_saliva_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 678,
+          "triangles": 1004,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 1004
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Saliva",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2131916
+        },
+        {
+          "name": "BAKED_teeth_lod0_mesh",
+          "enabled": true,
+          "active": true,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+          "vertices": 4757,
+          "triangles": 8350,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 8350
+            }
+          ],
+          "bones": 875,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Teeth",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 14743688
+        }
+      ],
+      "components": [
+        {
+          "type": "CharacterHairStartupWarmup",
+          "count": 1
+        },
+        {
+          "type": "CharacterReadiness",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.Character",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "count": 1
+        },
+        {
+          "type": "CharacterSkeletonPoseBridge",
+          "count": 1
+        },
+        {
+          "type": "CharacterFacialMeshSync",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairBoundary",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairInstance",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSync",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncMicrophone",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncBlendShape",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "count": 1
+        }
+      ],
+      "hairs": [
+        {
+          "name": "EthanV2_ScalpHair",
+          "active": true,
+          "exec": {
+            "updateMode": 0,
+            "updateSimulation": true,
+            "updateSimulationRate": 0,
+            "updateSimulationInEditor": false,
+            "updateTimeStep": 0.0099999997764825821,
+            "updateStepsMin": false,
+            "updateStepsMinValue": 1,
+            "updateStepsMax": true,
+            "updateStepsMaxValue": 4
+          },
+          "physics": {
+            "solver": 1,
+            "solverSubsteps": 4,
+            "constraintIterations": 12,
+            "constraintStiffness": 1.0,
+            "constraintSOR": 1.0,
+            "dampingLinear": true,
+            "dampingLinearFactor": 0.20000000298023224,
+            "dampingLinearInterval": 1,
+            "dampingAngular": true,
+            "dampingAngularFactor": 0.5,
+            "dampingAngularInterval": 0,
+            "cellPressure": 1.0,
+            "cellVelocity": 0.05000000074505806,
+            "cellExternal": 1.0,
+            "gravity": 0.20000000298023224,
+            "boundaryCollision": true,
+            "boundaryCollisionFriction": 0.5,
+            "distance": true,
+            "distanceLRA": true,
+            "distanceFTL": false,
+            "distanceFTLCorrection": 0.800000011920929,
+            "localCurvature": false,
+            "localCurvatureMode": 1,
+            "localCurvatureValue": 0.10000000149011612,
+            "localShape": true,
+            "localShapeMode": 1,
+            "localShapeInfluence": 1.0,
+            "localShapeBias": true,
+            "localShapeBiasValue": 0.699999988079071,
+            "globalPosition": true,
+            "globalPositionInfluence": 0.30000001192092896,
+            "globalPositionInterval": 1,
+            "globalRotation": true,
+            "globalRotationInfluence": 0.699999988079071,
+            "globalFade": true,
+            "globalFadeOffset": 0.10000000149011612,
+            "globalFadeExtent": 0.20000000298023224,
+            "kLODSelection": 2,
+            "kLODSelectionValue": 0.0,
+            "kLODCeiling": 1.0,
+            "kLODScale": 1.0,
+            "kLODBias": 0.0
+          },
+          "groups": [
+            {
+              "strandCount": 94408,
+              "strandParticleCount": 32,
+              "lodCount": 1,
+              "lodGuideCount": [
+                94408
+              ],
+              "particles": 3021056
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ethan",
+      "active": false,
+      "meshes": [
+        {
+          "name": "Face",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 103825,
+          "triangles": 148270,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 45462
+            },
+            {
+              "index": 1,
+              "triangles": 60800
+            },
+            {
+              "index": 2,
+              "triangles": 8350
+            },
+            {
+              "index": 3,
+              "triangles": 1536
+            },
+            {
+              "index": 4,
+              "triangles": 1536
+            },
+            {
+              "index": 5,
+              "triangles": 576
+            },
+            {
+              "index": 6,
+              "triangles": 30010
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Head_CyclesMatch",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Body_CyclesMatch",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Teeth",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Ethan_Eyes_ClearCoat",
+              "shader": "Universal Render Pipeline/Complex Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Eyes_ClearCoat",
+              "shader": "Universal Render Pipeline/Complex Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Cartilage",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Ethan_Hair",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 103004804
+        },
+        {
+          "name": "Hair_Cards",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 24030,
+          "triangles": 20022,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 20022
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_HairCards",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2746000
+        },
+        {
+          "name": "Hair_Cards_Baked",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 24030,
+          "triangles": 20022,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 20022
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_HairCardsSoft",
+              "shader": "Custom/HairCardsSoft",
+              "passes": 5
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 2746000
+        },
+        {
+          "name": "Hair_Dense",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 488256,
+          "triangles": 374962,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 374962
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Hair",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 59784328
+        },
+        {
+          "name": "Hair_Light",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": false,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 202668,
+          "triangles": 155524,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 155524
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Hair",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 24816664
+        },
+        {
+          "name": "Outfit",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Ethan/Ethan_unity.fbx",
+          "vertices": 8864,
+          "triangles": 16670,
+          "shapes": 0,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 16670
+            }
+          ],
+          "bones": 74,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Ethan_Shirt_CyclesMatch",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 1558252
+        }
+      ],
+      "components": [
+        {
+          "type": "CharacterHairStartupWarmup",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.Character",
+          "count": 1
+        },
+        {
+          "type": "CharacterHairFallback",
+          "count": 1
+        },
+        {
+          "type": "CharacterReadiness",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairInstance",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSync",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncMicrophone",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairBoundary",
+          "count": 4
+        },
+        {
+          "type": "uLipSync.uLipSyncBlendShape",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "count": 1
+        }
+      ],
+      "hairs": [
+        {
+          "name": "Hair",
+          "active": false,
+          "exec": {
+            "updateMode": 0,
+            "updateSimulation": true,
+            "updateSimulationRate": 0,
+            "updateSimulationInEditor": true,
+            "updateTimeStep": 0.0099999997764825821,
+            "updateStepsMin": false,
+            "updateStepsMinValue": 1,
+            "updateStepsMax": true,
+            "updateStepsMaxValue": 4
+          },
+          "physics": {
+            "solver": 1,
+            "solverSubsteps": 4,
+            "constraintIterations": 12,
+            "constraintStiffness": 1.0,
+            "constraintSOR": 1.0,
+            "dampingLinear": true,
+            "dampingLinearFactor": 0.20000000298023224,
+            "dampingLinearInterval": 1,
+            "dampingAngular": true,
+            "dampingAngularFactor": 0.5,
+            "dampingAngularInterval": 0,
+            "cellPressure": 1.0,
+            "cellVelocity": 0.05000000074505806,
+            "cellExternal": 1.0,
+            "gravity": 0.20000000298023224,
+            "boundaryCollision": true,
+            "boundaryCollisionFriction": 0.5,
+            "distance": true,
+            "distanceLRA": true,
+            "distanceFTL": false,
+            "distanceFTLCorrection": 0.800000011920929,
+            "localCurvature": false,
+            "localCurvatureMode": 1,
+            "localCurvatureValue": 0.10000000149011612,
+            "localShape": true,
+            "localShapeMode": 1,
+            "localShapeInfluence": 1.0,
+            "localShapeBias": true,
+            "localShapeBiasValue": 0.699999988079071,
+            "globalPosition": true,
+            "globalPositionInfluence": 0.30000001192092896,
+            "globalPositionInterval": 1,
+            "globalRotation": true,
+            "globalRotationInfluence": 0.699999988079071,
+            "globalFade": true,
+            "globalFadeOffset": 0.10000000149011612,
+            "globalFadeExtent": 0.20000000298023224,
+            "kLODSelection": 2,
+            "kLODSelectionValue": 0.0,
+            "kLODCeiling": 1.0,
+            "kLODScale": 1.0,
+            "kLODBias": 0.0
+          },
+          "groups": [
+            {
+              "strandCount": 94408,
+              "strandParticleCount": 32,
+              "lodCount": 1,
+              "lodGuideCount": [
+                94408
+              ],
+              "particles": 3021056
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jiwoo_Normalized",
+      "active": false,
+      "meshes": [
+        {
+          "name": "Face",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+          "vertices": 129822,
+          "triangles": 241782,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 47780
+            },
+            {
+              "index": 1,
+              "triangles": 60816
+            },
+            {
+              "index": 2,
+              "triangles": 576
+            },
+            {
+              "index": 3,
+              "triangles": 386
+            },
+            {
+              "index": 4,
+              "triangles": 1536
+            },
+            {
+              "index": 5,
+              "triangles": 1536
+            },
+            {
+              "index": 6,
+              "triangles": 980
+            },
+            {
+              "index": 7,
+              "triangles": 1004
+            },
+            {
+              "index": 8,
+              "triangles": 8280
+            },
+            {
+              "index": 9,
+              "triangles": 118888
+            }
+          ],
+          "bones": 160,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Jiwoo_Head",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_Body",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_Cartilage",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_EyeEdge",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_Eyes",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            },
+            {
+              "name": "Jiwoo_EyeShell",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_Saliva",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_Teeth",
+              "shader": "Universal Render Pipeline/Unlit",
+              "passes": 7
+            },
+            {
+              "name": "Jiwoo_FacialHair_Mesh",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 108575868
+        },
+        {
+          "name": "Outfit",
+          "enabled": true,
+          "active": false,
+          "activeWhenRootEnabled": true,
+          "path": "Assets/_Sandbox/Characters/Jiwoo New/Jiwoo_EthanSetup.fbx",
+          "vertices": 5038,
+          "triangles": 9029,
+          "shapes": 73,
+          "submeshes": [
+            {
+              "index": 0,
+              "triangles": 9029
+            }
+          ],
+          "bones": 160,
+          "quality": "Auto",
+          "updateWhenOffscreen": false,
+          "skinnedMotionVectors": true,
+          "materials": [
+            {
+              "name": "Jiwoo_Outfit",
+              "shader": "Universal Render Pipeline/Lit",
+              "passes": 9
+            }
+          ],
+          "nonzeroShapes": [],
+          "meshBytes": 977534
+        }
+      ],
+      "components": [
+        {
+          "type": "Sandbox.CharacterSystem.Character",
+          "count": 1
+        },
+        {
+          "type": "CharacterReadiness",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterSpeechPlayer",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.CharacterFlowController",
+          "count": 1
+        },
+        {
+          "type": "CharacterHairStartupWarmup",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncBlendShape",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.AnimationModule",
+          "count": 1
+        },
+        {
+          "type": "Sandbox.CharacterSystem.ExpressionModule",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSync",
+          "count": 1
+        },
+        {
+          "type": "uLipSync.uLipSyncMicrophone",
+          "count": 1
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairBoundary",
+          "count": 4
+        },
+        {
+          "type": "Unity.DemoTeam.Hair.HairInstance",
+          "count": 1
+        }
+      ],
+      "hairs": [
+        {
+          "name": "Jiwoo_ScalpHair",
+          "active": false,
+          "exec": {
+            "updateMode": 0,
+            "updateSimulation": true,
+            "updateSimulationRate": 0,
+            "updateSimulationInEditor": false,
+            "updateTimeStep": 0.0099999997764825821,
+            "updateStepsMin": false,
+            "updateStepsMinValue": 1,
+            "updateStepsMax": true,
+            "updateStepsMaxValue": 2
+          },
+          "physics": {
+            "solver": 1,
+            "solverSubsteps": 2,
+            "constraintIterations": 8,
+            "constraintStiffness": 1.0,
+            "constraintSOR": 1.0,
+            "dampingLinear": true,
+            "dampingLinearFactor": 0.20000000298023224,
+            "dampingLinearInterval": 0,
+            "dampingAngular": true,
+            "dampingAngularFactor": 0.5,
+            "dampingAngularInterval": 0,
+            "cellPressure": 1.0,
+            "cellVelocity": 0.05000000074505806,
+            "cellExternal": 1.0,
+            "gravity": 0.20000000298023224,
+            "boundaryCollision": true,
+            "boundaryCollisionFriction": 0.5,
+            "distance": true,
+            "distanceLRA": true,
+            "distanceFTL": false,
+            "distanceFTLCorrection": 0.800000011920929,
+            "localCurvature": false,
+            "localCurvatureMode": 1,
+            "localCurvatureValue": 0.10000000149011612,
+            "localShape": true,
+            "localShapeMode": 1,
+            "localShapeInfluence": 1.0,
+            "localShapeBias": true,
+            "localShapeBiasValue": 0.699999988079071,
+            "globalPosition": true,
+            "globalPositionInfluence": 0.30000001192092896,
+            "globalPositionInterval": 0,
+            "globalRotation": true,
+            "globalRotationInfluence": 0.699999988079071,
+            "globalFade": true,
+            "globalFadeOffset": 0.10000000149011612,
+            "globalFadeExtent": 0.20000000298023224,
+            "kLODSelection": 0,
+            "kLODSelectionValue": 1.0,
+            "kLODCeiling": 1.0,
+            "kLODScale": 1.0,
+            "kLODBias": 0.0
+          },
+          "groups": [
+            {
+              "strandCount": 100498,
+              "strandParticleCount": 32,
+              "lodCount": 1,
+              "lodGuideCount": [
+                100498
+              ],
+              "particles": 3215936
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

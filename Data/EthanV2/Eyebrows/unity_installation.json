@@ -1,0 +1,15 @@
+{
+  "model": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+  "guidPreserved": true,
+  "headVertices": 289411,
+  "shapes": 73,
+  "materials": [
+    "Ethan_Head",
+    "Ethan_Eyebrows"
+  ],
+  "lashVertices": 2144,
+  "lashesUnchanged": true,
+  "renderers": 13,
+  "materialRemaps": 12,
+  "playing": false
+}

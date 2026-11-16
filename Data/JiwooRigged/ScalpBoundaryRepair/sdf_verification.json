@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "resolution": 96,
+  "closed_proxy_vertices": 23965,
+  "closed_proxy_faces": 47784,
+  "filled_holes": 4,
+  "root_sdf_percentiles_m": [
+    -0.00015331396163592023,
+    2.26584303700306e-05,
+    8.259854315367544e-05,
+    0.00022762902419203225
+  ],
+  "root_max_abs_sdf_m": 0.00022762902419203225,
+  "outside_6mm_min_m": 0.005243743834836936,
+  "inside_6mm_max_m": -0.005756908642316363,
+  "positive_border_min_m": 0.03271866962313652,
+  "old_capsule_gap_percentiles_m": [
+    -0.009754946920369614,
+    0.002037034057422185,
+    0.01710733342374559,
+    0.02723021365672665
+  ],
+  "probe_count": 4096,
+  "format": "RFloat",
+  "byte_count": 3538944
+}

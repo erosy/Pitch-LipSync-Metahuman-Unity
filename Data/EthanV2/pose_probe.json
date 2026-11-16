@@ -1,0 +1,263 @@
+{
+  "bounds": {
+    "Ethan_NewMetaHumanCharacter_body_lod0_mesh": {
+      "min": [
+        -0.576195478439331,
+        -0.2936086654663086,
+        -0.0020023260731250048
+      ],
+      "max": [
+        0.5757173299789429,
+        0.13181878626346588,
+        1.5472313165664673
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": {
+      "min": [
+        -0.05159850791096687,
+        -0.1178697720170021,
+        1.7521294355392456
+      ],
+      "max": [
+        0.051699258387088776,
+        -0.10166344046592712,
+        1.7648009061813354
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": {
+      "min": [
+        -0.04826481267809868,
+        -0.11581671983003616,
+        1.7543445825576782
+      ],
+      "max": [
+        0.04842483252286911,
+        -0.10194648802280426,
+        1.7624794244766235
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": {
+      "min": [
+        -0.05869750678539276,
+        -0.12764447927474976,
+        1.7482688426971436
+      ],
+      "max": [
+        0.05798909813165665,
+        -0.10102172195911407,
+        1.7696843147277832
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": {
+      "min": [
+        0.015762604773044586,
+        -0.11523529142141342,
+        1.7454686164855957
+      ],
+      "max": [
+        0.04745032265782356,
+        -0.08278486877679825,
+        1.7769749164581299
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": {
+      "min": [
+        -0.047492992132902145,
+        -0.11506781727075577,
+        1.7455589771270752
+      ],
+      "max": [
+        -0.015975577756762505,
+        -0.08298564702272415,
+        1.7769169807434082
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": {
+      "min": [
+        -0.049009524285793304,
+        -0.11690422147512436,
+        1.7537686824798584
+      ],
+      "max": [
+        0.049182891845703125,
+        -0.10211056470870972,
+        1.7627702951431274
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_head_lod0_mesh": {
+      "min": [
+        -0.17909960448741913,
+        -0.1587473750114441,
+        1.4678571224212646
+      ],
+      "max": [
+        0.17933623492717743,
+        0.11282448470592499,
+        1.8750379085540771
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": {
+      "min": [
+        -0.0349026620388031,
+        -0.14784789085388184,
+        1.6854932308197021
+      ],
+      "max": [
+        0.03401365503668785,
+        -0.05101962387561798,
+        1.7145614624023438
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": {
+      "min": [
+        -0.03486199304461479,
+        -0.1441507488489151,
+        1.6652612686157227
+      ],
+      "max": [
+        0.033927395939826965,
+        -0.05101960897445679,
+        1.6882691383361816
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_Outfits_LOD0": {
+      "min": [
+        -37.18317413330078,
+        -18.617822647094727,
+        84.0737533569336
+      ],
+      "max": [
+        37.74888229370117,
+        13.927977561950684,
+        164.51280212402344
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": {
+      "min": [
+        -0.035120874643325806,
+        -0.13442394137382507,
+        1.6766057014465332
+      ],
+      "max": [
+        0.035288482904434204,
+        -0.08224829286336899,
+        1.702803134918213
+      ]
+    },
+    "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": {
+      "min": [
+        -0.03617435321211815,
+        -0.13458378612995148,
+        1.655457615852356
+      ],
+      "max": [
+        0.03634478524327278,
+        -0.05107664316892624,
+        1.713305950164795
+      ]
+    }
+  },
+  "motion": {
+    "eyeBlinkLeft": {
+      "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0019905834924429655,
+      "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.00029533501947298646,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0002939862315542996,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0010818196460604668,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+      "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+      "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+    },
+    "jawOpen": {
+      "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.00010436066804686561,
+      "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.00010231578926322982,
+      "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.00045462066191248596,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.041351597756147385,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.020096134394407272,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.03568930923938751,
+      "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.036969177424907684,
+      "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.03388315811753273
+    },
+    "tongueOut": {
+      "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 3.275425478932448e-05,
+      "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 3.211480361642316e-05,
+      "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.00014424191613215953,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.024117065593600273,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0116727938875556,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.024147437885403633,
+      "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.011597299948334694,
+      "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.020931532606482506
+    },
+    "mouthSmileLeft": {
+      "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.00023359224724117666,
+      "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.00012297695502638817,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 0.0009724359842948616,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.008397694677114487,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.006135032512247562,
+      "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+      "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.006635337136685848
+    },
+    "eyeLookUpLeft": {
+      "Ethan_NewMetaHumanCharacter_body_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_cartilage_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeEdge_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyelashes_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeLeft_lod0_mesh": 0.0017799597699195147,
+      "Ethan_NewMetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_eyeshell_lod0_mesh": 0.0001002467397483997,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh": 9.651054278947413e-05,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.001": 0.0009425882017239928,
+      "Ethan_NewMetaHumanCharacter_head_lod0_mesh.002": 0.0,
+      "Ethan_NewMetaHumanCharacter_Outfits_LOD0": 0.0,
+      "Ethan_NewMetaHumanCharacter_saliva_lod0_mesh": 0.0,
+      "Ethan_NewMetaHumanCharacter_teeth_lod0_mesh": 0.0
+    }
+  },
+  "curves": [
+    {
+      "name": "0",
+      "curves": 2804,
+      "points": 30844,
+      "surface": "Ethan_NewMetaHumanCharacter_head_lod0_mesh",
+      "parent_type": "OBJECT",
+      "parent_bone": ""
+    },
+    {
+      "name": "01_Center_part_curtains",
+      "curves": 94408,
+      "points": 1032951,
+      "surface": null,
+      "parent_type": "BONE",
+      "parent_bone": "head"
+    },
+    {
+      "name": "Group_0",
+      "curves": 542,
+      "points": 8672,
+      "surface": "Ethan_NewMetaHumanCharacter_head_lod0_mesh",
+      "parent_type": "OBJECT",
+      "parent_bone": ""
+    }
+  ]
+}

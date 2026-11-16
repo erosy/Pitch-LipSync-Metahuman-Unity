@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Breathing Idle",
+    "fraction": 0.0,
+    "before": {
+      "anchorDistanceChange95M": 0.012024777167015274,
+      "edgeStretch99": 1.2503115518881953,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.00288595528961565,
+      "edgeStretch99": 1.6569109410507121,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Breathing Idle",
+    "fraction": 0.25,
+    "before": {
+      "anchorDistanceChange95M": 0.011353948682424831,
+      "edgeStretch99": 1.2152985010062667,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.0026724710003497992,
+      "edgeStretch99": 1.6019279868720202,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Breathing Idle",
+    "fraction": 0.5,
+    "before": {
+      "anchorDistanceChange95M": 0.011595494911606479,
+      "edgeStretch99": 1.2346404605878973,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.002846441180885076,
+      "edgeStretch99": 1.620002018113199,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Breathing Idle",
+    "fraction": 0.75,
+    "before": {
+      "anchorDistanceChange95M": 0.012877297634827818,
+      "edgeStretch99": 1.2850410430801142,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.0030311712724805095,
+      "edgeStretch99": 1.7270521804119607,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Idle",
+    "fraction": 0.0,
+    "before": {
+      "anchorDistanceChange95M": 0.0170093287078244,
+      "edgeStretch99": 1.2900937694446781,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.004585201124209848,
+      "edgeStretch99": 1.8587014574277005,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Idle",
+    "fraction": 0.25,
+    "before": {
+      "anchorDistanceChange95M": 0.017006341112741727,
+      "edgeStretch99": 1.2889487873811283,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.004563498537463448,
+      "edgeStretch99": 1.8558474236680216,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Idle",
+    "fraction": 0.5,
+    "before": {
+      "anchorDistanceChange95M": 0.01608921122854215,
+      "edgeStretch99": 1.2942563439851997,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.0046133869759863305,
+      "edgeStretch99": 1.8629262491661989,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Idle",
+    "fraction": 0.75,
+    "before": {
+      "anchorDistanceChange95M": 0.01715773907637619,
+      "edgeStretch99": 1.292667720929731,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.004580014543245931,
+      "edgeStretch99": 1.8641744915998788,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Thinking",
+    "fraction": 0.0,
+    "before": {
+      "anchorDistanceChange95M": 0.015492285851791816,
+      "edgeStretch99": 1.3036630431887637,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.004476885097557767,
+      "edgeStretch99": 1.8629117557302648,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Thinking",
+    "fraction": 0.25,
+    "before": {
+      "anchorDistanceChange95M": 0.04108463599080311,
+      "edgeStretch99": 1.8103879916547008,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.004558906220331546,
+      "edgeStretch99": 2.288463549329128,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Thinking",
+    "fraction": 0.5,
+    "before": {
+      "anchorDistanceChange95M": 0.04634000275213384,
+      "edgeStretch99": 1.7985617298919045,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.005059411699521801,
+      "edgeStretch99": 2.4986659851560247,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Thinking",
+    "fraction": 0.75,
+    "before": {
+      "anchorDistanceChange95M": 0.018747930361665603,
+      "edgeStretch99": 1.3067329847951217,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.003948720133412822,
+      "edgeStretch99": 1.852261781651639,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Waving",
+    "fraction": 0.0,
+    "before": {
+      "anchorDistanceChange95M": 0.016941476853706516,
+      "edgeStretch99": 1.3284225453506626,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.0038362229976462436,
+      "edgeStretch99": 1.8934307900797118,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Waving",
+    "fraction": 0.25,
+    "before": {
+      "anchorDistanceChange95M": 0.02282566090552724,
+      "edgeStretch99": 1.8214685918298361,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.00563480546332157,
+      "edgeStretch99": 2.23049712045654,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Waving",
+    "fraction": 0.5,
+    "before": {
+      "anchorDistanceChange95M": 0.021660157573557767,
+      "edgeStretch99": 1.7322903225674537,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.005591389123482924,
+      "edgeStretch99": 2.088522069633462,
+      "maxSeamGapM": 0.0
+    }
+  },
+  {
+    "name": "Waving",
+    "fraction": 0.75,
+    "before": {
+      "anchorDistanceChange95M": 0.01701191664856922,
+      "edgeStretch99": 1.3182229715863416,
+      "maxSeamGapM": 0.0
+    },
+    "after": {
+      "anchorDistanceChange95M": 0.003919648424663483,
+      "edgeStretch99": 1.8927801181062451,
+      "maxSeamGapM": 0.0
+    }
+  }
+]

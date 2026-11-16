@@ -1,0 +1,24 @@
+{
+  "created": [
+    {
+      "source": "Ethan_NewMetaHumanCharacter_eyeEdge_shader",
+      "material": "Assets/_Sandbox/Characters/Ethan_V2/Materials/Ethan_EyeEdge.mat",
+      "alpha": 0,
+      "sourceHasTexture": false
+    },
+    {
+      "source": "Ethan_NewMetaHumanCharacter_eyeshell_shader",
+      "material": "Assets/_Sandbox/Characters/Ethan_V2/Materials/Ethan_EyeShell.mat",
+      "alpha": 0,
+      "sourceHasTexture": false
+    },
+    {
+      "source": "Ethan_NewMetaHumanCharacter_saliva_shader",
+      "material": "Assets/_Sandbox/Characters/Ethan_V2/Materials/Ethan_Saliva.mat",
+      "alpha": 0,
+      "sourceHasTexture": false
+    }
+  ],
+  "materialRemapCount": 11,
+  "playing": false
+}

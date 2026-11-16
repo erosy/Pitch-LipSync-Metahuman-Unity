@@ -1,0 +1,1306 @@
+{
+  "passed": true,
+  "bindings": 210,
+  "joints": 38,
+  "correctedSourceMappings": 157,
+  "neutralSkinErrorM": 8.335354E-07,
+  "isolatedCurls": 30,
+  "crossFingerErrorM": 0.0,
+  "localPositionErrorM": 0.0,
+  "before": {
+    "clips": [
+      "Breathing Idle",
+      "Idle",
+      "Nod",
+      "Talking",
+      "Thinking",
+      "Thumbs Up",
+      "Waving",
+      "ThumbsUp"
+    ],
+    "frames": 72,
+    "maxLocalDisplacementM": 0.228162736,
+    "maxHelperLocalRotationDegrees": 179.97995,
+    "maxJointRotationErrorDegrees": 0.0
+  },
+  "after": {
+    "clips": [
+      "Breathing Idle",
+      "Idle",
+      "Nod",
+      "Talking",
+      "Thinking",
+      "Thumbs Up",
+      "Waving",
+      "ThumbsUp"
+    ],
+    "frames": 72,
+    "maxLocalDisplacementM": 0.0,
+    "maxHelperLocalRotationDegrees": 0.0,
+    "maxJointRotationErrorDegrees": 0.0
+  },
+  "changes": [
+    {
+      "target": "pinky_metacarpal_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_metacarpal_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "thumb_01_l",
+      "before": "LeftThumbProximal",
+      "after": "LeftThumbProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_metacarpal_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_metacarpal_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_metacarpal_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_metacarpal_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "thumb_01_r",
+      "before": "RightThumbProximal",
+      "after": "RightThumbProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_metacarpal_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_metacarpal_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexMetacarpal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_01_l",
+      "before": "LeftPinkyProximal",
+      "after": "LeftPinkyProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_metacarpal_slide_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_l",
+      "before": "LeftRingProximal",
+      "after": "LeftRingProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_metacarpal_slide_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_l",
+      "before": "LeftThumbIntermediate",
+      "after": "LeftThumbIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "thumb_01_side_out_l",
+      "before": "LeftThumbProximal",
+      "after": "LeftThumbProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_01_side_inn_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_l",
+      "before": "LeftMiddleProximal",
+      "after": "LeftMiddleProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_metacarpal_slide_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_l",
+      "before": "LeftIndexProximal",
+      "after": "LeftIndexProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_metacarpal_slide_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_r",
+      "before": "RightPinkyProximal",
+      "after": "RightPinkyProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_metacarpal_slide_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_r",
+      "before": "RightRingProximal",
+      "after": "RightRingProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_metacarpal_slide_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_r",
+      "before": "RightThumbIntermediate",
+      "after": "RightThumbIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "thumb_01_side_out_r",
+      "before": "RightThumbIntermediate",
+      "after": "RightThumbProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_01_side_inn_r",
+      "before": "RightPinkyDistal",
+      "after": "RightThumbProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_r",
+      "before": "RightMiddleProximal",
+      "after": "RightMiddleProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_metacarpal_slide_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_r",
+      "before": "RightIndexProximal",
+      "after": "RightIndexProximal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_metacarpal_slide_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexMetacarpal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_l",
+      "before": "LeftPinkyIntermediate",
+      "after": "LeftPinkyIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_01_palmMid_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_bulge_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_side_out_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_side_inn_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_half_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_l",
+      "before": "LeftRingIntermediate",
+      "after": "LeftRingIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_01_palmMid_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_bulge_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_side_out_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_side_inn_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_half_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "thumb_02_bulge_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_side_out_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_side_inn_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_half_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_l",
+      "before": "LeftMiddleIntermediate",
+      "after": "LeftMiddleIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_01_palmMid_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_bulge_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_side_out_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_side_inn_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_half_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_l",
+      "before": "LeftIndexIntermediate",
+      "after": "LeftIndexIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_01_palmMid_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_bulge_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_side_out_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_side_inn_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_half_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_r",
+      "before": "RightPinkyIntermediate",
+      "after": "RightPinkyIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_01_palmMid_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_bulge_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_side_out_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_side_inn_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_half_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_r",
+      "before": "RightRingIntermediate",
+      "after": "RightRingIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_01_palmMid_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_bulge_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_side_out_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_side_inn_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_half_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "thumb_02_bulge_r",
+      "before": "RightPinkyDistal",
+      "after": "RightThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_side_out_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_side_inn_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_half_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_r",
+      "before": "RightMiddleIntermediate",
+      "after": "RightMiddleIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_01_palmMid_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_bulge_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_side_out_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_side_inn_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_half_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_r",
+      "before": "RightIndexIntermediate",
+      "after": "RightIndexIntermediate",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_01_palmMid_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_bulge_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_side_out_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_side_inn_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_half_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftPinkyDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_02_bulge_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_side_out_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_side_inn_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_half_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_mcp_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_palm_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_l",
+      "before": "LeftRingDistal",
+      "after": "LeftRingDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_02_bulge_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_side_out_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_side_inn_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_half_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_mcp_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_palm_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_bulge_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_side_out_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_side_inn_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_half_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_in_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_mcp_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_l",
+      "before": "LeftMiddleDistal",
+      "after": "LeftMiddleDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_02_bulge_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_side_out_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_side_inn_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_half_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_mcp_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_palm_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_l",
+      "before": "LeftIndexDistal",
+      "after": "LeftIndexDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_02_bulge_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_side_out_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_side_inn_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_half_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_mcp_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_palm_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_r",
+      "before": "RightPinkyDistal",
+      "after": "RightPinkyDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "pinky_02_bulge_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_side_out_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_side_inn_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_half_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_mcp_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_01_palm_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_r",
+      "before": "RightRingDistal",
+      "after": "RightRingDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "ring_02_bulge_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_side_out_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_side_inn_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_half_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_mcp_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_01_palm_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_bulge_r",
+      "before": "RightPinkyDistal",
+      "after": "RightThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_side_out_r",
+      "before": "RightPinkyDistal",
+      "after": "RightThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_side_inn_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_half_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_in_r",
+      "before": "RightPinkyDistal",
+      "after": "RightThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_02_mcp_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_r",
+      "before": "RightMiddleDistal",
+      "after": "RightMiddleDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "middle_02_bulge_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_side_out_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_side_inn_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_half_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_mcp_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_01_palm_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_r",
+      "before": "RightIndexDistal",
+      "after": "RightIndexDistal",
+      "mode": "RotationOnly"
+    },
+    {
+      "target": "index_02_bulge_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_side_out_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_side_inn_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_half_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_mcp_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_01_palm_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexProximal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_bulge_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_half_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_in_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_pip_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_bulge_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_half_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_in_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_pip_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_pip_l",
+      "before": "LeftThumbDistal",
+      "after": "LeftThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_in_l",
+      "before": "LeftPinkyDistal",
+      "after": "LeftThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_bulge_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_half_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_pip_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_in_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_bulge_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_half_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_in_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_pip_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_bulge_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_half_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_in_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_pip_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_bulge_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_half_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_in_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_pip_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_pip_r",
+      "before": "RightThumbDistal",
+      "after": "RightThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "thumb_03_in_r",
+      "before": "RightPinkyDistal",
+      "after": "RightThumbDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_bulge_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_half_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_pip_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_in_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_bulge_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_half_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_in_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_pip_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_in_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_dip_l",
+      "before": "LeftPinkyMetacarpal",
+      "after": "LeftPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_dip_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_in_l",
+      "before": "LeftRingMetacarpal",
+      "after": "LeftRingDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_in_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_dip_l",
+      "before": "LeftMiddleMetacarpal",
+      "after": "LeftMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_dip_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_in_l",
+      "before": "LeftIndexMetacarpal",
+      "after": "LeftIndexDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_03_in_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "pinky_02_dip_r",
+      "before": "RightPinkyMetacarpal",
+      "after": "RightPinkyIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_02_dip_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "ring_03_in_r",
+      "before": "RightRingMetacarpal",
+      "after": "RightRingDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_03_in_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleDistal",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "middle_02_dip_r",
+      "before": "RightMiddleMetacarpal",
+      "after": "RightMiddleIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_02_dip_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexIntermediate",
+      "mode": "FollowParent"
+    },
+    {
+      "target": "index_03_in_r",
+      "before": "RightIndexMetacarpal",
+      "after": "RightIndexDistal",
+      "mode": "FollowParent"
+    }
+  ],
+  "playModeEntered": false,
+  "sourceFbxModified": false
+}

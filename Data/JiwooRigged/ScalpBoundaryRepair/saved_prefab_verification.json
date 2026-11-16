@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "changedBlocks": [
+    "--- !u!4 &8313933830911402070",
+    "--- !u!114 &6536190223262765720"
+  ],
+  "texture": "Assets/_Sandbox/Characters/Jiwoo New/Groom/Collision/Jiwoo_HeadSDF.asset",
+  "textureResolution": 96,
+  "center": [
+    7.405877E-06,
+    -0.00258342922,
+    -0.0128664561
+  ],
+  "size": [
+    0.389632881,
+    0.44598338,
+    0.2816177
+  ],
+  "maxSampleError": 2.64587252E-05,
+  "poseChecks": 3,
+  "gpuSamples": 576,
+  "boundaryCount": 4,
+  "missingScripts": 0,
+  "configurationErrors": [],
+  "editModeSimulation": false,
+  "runtimeTested": false
+}

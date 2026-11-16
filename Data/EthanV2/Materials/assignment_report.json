@@ -1,0 +1,69 @@
+{
+  "materials": [
+    {
+      "name": "Ethan_Head",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": {
+        "_MainTex": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Head_Basecolor.png",
+        "_BumpMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Head_Normal.png",
+        "_BaseMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Head_Basecolor.png"
+      }
+    },
+    {
+      "name": "Ethan_Body",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": {
+        "_MainTex": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Body_Basecolor.png",
+        "_BumpMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Body_Normal.png",
+        "_BaseMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Body_Basecolor.png"
+      }
+    },
+    {
+      "name": "Ethan_Teeth",
+      "shader": "Universal Render Pipeline/Unlit",
+      "textures": {
+        "_MainTex": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Teeth_Color.png",
+        "_BumpMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Teeth_Normal.png",
+        "_BaseMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Teeth_Color.png"
+      }
+    },
+    {
+      "name": "Ethan_Eyes",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": {
+        "_MainTex": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Dark Brown Iris Macro Texture.png",
+        "_BumpMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Eyes_Normal.png",
+        "_BaseMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Dark Brown Iris Macro Texture.png"
+      }
+    },
+    {
+      "name": "Ethan_Outfit",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": {
+        "_MainTex": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Shirt_SHD_BaseColor.png",
+        "_BumpMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Shirt_SHD_Normal.png",
+        "_BaseMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Shirt_SHD_BaseColor.png",
+        "_MetallicGlossMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Shirt_MetallicSmoothness.png"
+      }
+    },
+    {
+      "name": "Ethan_Eyelashes",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": {
+        "_MainTex": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Eyelashes_Color.png",
+        "_BaseMap": "Assets/_Sandbox/Characters/Ethan_V2/Textures/Eyelashes_Color.png"
+      }
+    }
+  ],
+  "remaps": {
+    "Ethan_NewMetaHumanCharacter_body_shader": "Ethan_Body",
+    "Ethan_NewMetaHumanCharacter_cartilage_shader": "Ethan_Cartilage",
+    "Ethan_NewMetaHumanCharacter_eyelashes_shader": "Ethan_Eyelashes",
+    "Ethan_NewMetaHumanCharacter_eyeLeft_shader": "Ethan_Eyes",
+    "Ethan_NewMetaHumanCharacter_eyeRight_shader": "Ethan_Eyes",
+    "Ethan_NewMetaHumanCharacter_head_shader": "Ethan_Head",
+    "Shirt_SHD": "Ethan_Outfit",
+    "Ethan_NewMetaHumanCharacter_teeth_shader": "Ethan_Teeth"
+  },
+  "playing": false
+}

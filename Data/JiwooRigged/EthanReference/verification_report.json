@@ -1,0 +1,73 @@
+{
+  "source_neutral_max_error_m": 2.9065646514668473e-06,
+  "source_neutral_per_mesh_m": {
+    "Jiwoo_MetaHumanCharacter_body_lod0_mesh": 0.0,
+    "Jiwoo_MetaHumanCharacter_cartilage_lod0_mesh": 1.2902786748241777e-07,
+    "Jiwoo_MetaHumanCharacter_eyeEdge_lod0_mesh": 1.2902786748241777e-07,
+    "Jiwoo_MetaHumanCharacter_eyeLeft_lod0_mesh": 0.0,
+    "Jiwoo_MetaHumanCharacter_eyeRight_lod0_mesh": 0.0,
+    "Jiwoo_MetaHumanCharacter_eyeshell_lod0_mesh": 1.3329305248569582e-07,
+    "Jiwoo_MetaHumanCharacter_head_lod0_mesh": 2.9065646514668473e-06,
+    "Jiwoo_MetaHumanCharacter_head_lod0_mesh.001": 2.385422383121933e-07,
+    "Jiwoo_MetaHumanCharacter_head_lod0_mesh.002": 2.394640249012142e-07,
+    "Jiwoo_MetaHumanCharacter_saliva_lod0_mesh": 1.2128666836596787e-07,
+    "Jiwoo_MetaHumanCharacter_teeth_lod0_mesh": 2.3946402888056794e-07
+  },
+  "blend": {
+    "meshes": {
+      "Face": {
+        "shape_count": 73,
+        "vertices": 127026,
+        "max_shape_position_error_m": 0.0,
+        "max_evaluated_error_m": 3.5771382451972014e-07
+      },
+      "Outfit": {
+        "shape_count": 73,
+        "vertices": 5038,
+        "max_shape_position_error_m": 0.0,
+        "max_evaluated_error_m": 1.221986075256521e-07
+      }
+    },
+    "facial_hair": {
+      "Eyebrows": {
+        "vertices": 45960,
+        "max_surface_following_error_m": 6.030656187914985e-08
+      },
+      "Eyelashes": {
+        "vertices": 18888,
+        "max_surface_following_error_m": 6.04697589702393e-08
+      }
+    },
+    "seam_max_gap_m": 0.0,
+    "bones": 160
+  },
+  "fbx": {
+    "meshes": {
+      "Face": {
+        "shape_count": 73,
+        "vertices": 127026,
+        "max_shape_position_error_m": 1.5676175719155746e-06,
+        "max_evaluated_error_m": 1.5070517935023537e-06
+      },
+      "Outfit": {
+        "shape_count": 73,
+        "vertices": 5038,
+        "max_shape_position_error_m": 2.5579276477316676e-07,
+        "max_evaluated_error_m": 4.2514641028668234e-07
+      }
+    },
+    "facial_hair": {
+      "Eyebrows": {
+        "vertices": 45960,
+        "max_surface_following_error_m": 6.030656187914985e-08
+      },
+      "Eyelashes": {
+        "vertices": 18888,
+        "max_surface_following_error_m": 6.04697589702393e-08
+      }
+    },
+    "seam_max_gap_m": 0.0,
+    "bones": 160
+  },
+  "passed": true
+}

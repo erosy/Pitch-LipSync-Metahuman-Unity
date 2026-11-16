@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "prefab": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+      "points": 32,
+      "simulationHz": 30,
+      "strands": 100498,
+      "particles": 3215936,
+      "boundaries": 4,
+      "missingScripts": 0
+    },
+    {
+      "prefab": "Assets/_Sandbox/Characters/Ethan/Ethan.prefab",
+      "points": 32,
+      "simulationHz": 30,
+      "strands": 94408,
+      "particles": 3021056,
+      "boundaries": 1,
+      "missingScripts": 0
+    }
+  ],
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": false
+    }
+  ],
+  "playing": false
+}

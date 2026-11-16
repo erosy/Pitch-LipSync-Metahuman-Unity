@@ -1,0 +1,147 @@
+{
+  "bones": [
+    {
+      "name": "head",
+      "path": "BAKED_Ethan_NewMetaHumanCharacter_head_rig/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head",
+      "matrix": [
+        0.00122241641,
+        -99.9999847,
+        7.39879761E-05,
+        4.651763E-05,
+        -99.9999847,
+        -0.00122308743,
+        -0.000170618267,
+        1.6975019,
+        0.000170618267,
+        -7.41568438E-05,
+        -99.9999847,
+        0.0129925478,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "FACIAL_C_FacialRoot",
+      "path": "BAKED_Ethan_NewMetaHumanCharacter_head_rig/root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/FACIAL_C_FacialRoot",
+      "matrix": [
+        99.9999847,
+        0.00010974842,
+        -0.0012581792,
+        5.16819418E-05,
+        0.00125885021,
+        1.89989878E-05,
+        99.99998,
+        1.73995245,
+        0.000109919558,
+        -99.99996,
+        1.527369E-05,
+        0.002489707,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "meshMatrix": [
+    100.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.1920929E-05,
+    99.99999,
+    0.0,
+    0.0,
+    -99.99999,
+    -1.1920929E-05,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "first": [
+    [
+      0.000478330068,
+      -0.00102103816,
+      0.0175689459
+    ],
+    [
+      0.000481068739,
+      -0.0010209399,
+      0.017571969
+    ],
+    [
+      0.000475203618,
+      -0.001017566,
+      0.0175715666
+    ]
+  ],
+  "scenes": [
+    {
+      "name": "BAKED_body_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_body_lod0_mesh"
+    },
+    {
+      "name": "BAKED_cartilage_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_cartilage_lod0_mesh"
+    },
+    {
+      "name": "BAKED_eyeEdge_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_eyeEdge_lod0_mesh"
+    },
+    {
+      "name": "BAKED_eyeLeft_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_eyeLeft_lod0_mesh"
+    },
+    {
+      "name": "BAKED_eyeRight_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_eyeRight_lod0_mesh"
+    },
+    {
+      "name": "BAKED_eyeshell_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_eyeshell_lod0_mesh"
+    },
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_head_lod0_mesh"
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_head_lod0_mesh.001"
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_head_lod0_mesh.002"
+    },
+    {
+      "name": "BAKED_Outfits_LOD0",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_Outfits_LOD0"
+    },
+    {
+      "name": "BAKED_saliva_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_saliva_lod0_mesh"
+    },
+    {
+      "name": "BAKED_teeth_lod0_mesh",
+      "root": "Ethan_V2_73_Baked",
+      "path": "BAKED_teeth_lod0_mesh"
+    }
+  ],
+  "oldHair": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Unity.DemoTeam.Hair.Runtime::Unity.DemoTeam.Hair.HairInstance\",\"data_0_settingsSystem\":{\"boundsMode\":0,\"boundsCenter\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"boundsExtent\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"boundsScale\":false,\"boundsScaleValue\":1.25,\"kLODSearch\":1,\"kLODSearchViews\":-3,\"kLODSearchCurve\":{\"serializedVersion\":\"2\",\"m_Curve\":[{\"serializedVersion\":\"3\",\"time\":0.0,\"value\":0.0,\"inSlope\":0.0,\"outSlope\":1.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.0,\"outWeight\":0.0},{\"serializedVersion\":\"3\",\"time\":1.0,\"value\":1.0,\"inSlope\":1.0,\"outSlope\":0.0,\"tangentMode\":0,\"weightedMode\":0,\"inWeight\":0.0,\"outWeight\":0.0}],\"m_PreInfinity\":2,\"m_PostInfinity\":2,\"m_RotationOrder\":4},\"kLODSearchValue\":1.0,\"kLODBlending\":false,\"strandRenderer\":1,\"strandShadows\":1,\"strandLayers\":257,\"motionVectors\":1,\"updateMode\":0,\"simulation\":true,\"simulationRate\":0,\"simulationInEditor\":true,\"simulationTimeStep\":0.009999999776482582,\"stepsMin\":false,\"stepsMinValue\":1,\"stepsMax\":true,\"stepsMaxValue\":1},\"data_0_settingsVolume\":{\"gridPrecision\":0,\"gridResolution\":32,\"splatMethod\":1,\"splatClusters\":true,\"pressureIterations\":3,\"pressureSolution\":1,\"targetDensity\":0,\"targetDensityInfluence\":1.0,\"scatteringProbe\":false,\"scatteringProbeCellSubsteps\":1,\"scatteringProbeBias\":1.0,\"probeSamplesTheta\":5,\"probeSamplesPhi\":10,\"probeOcclusion\":true,\"probeOcclusionMode\":0,\"probeOcclusionSolidDensity\":5.0,\"windPropagation\":true,\"windPropagationCellSubsteps\":1,\"windOcclusion\":true,\"windOcclusionMode\":1,\"windExtinction\":1.0,\"collisionMargin\":0.25,\"boundariesCollect\":true,\"boundariesCollectMode\":1,\"boundariesCollectLayer\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"boundariesPriority\":[]},\"data_0_strandGroupDefaults\":{\"settingsStrands\":{\"material\":false,\"materialValue\":{\"instanceID\":0},\"strandScale\":0,\"strandDiameter\":1.0,\"strandMargin\":0.0,\"stagingPrecision\":1,\"stagingSubdivision\":0},\"settingsStrandsToggle\":false,\"settingsSolver\":{\"method\":1,\"iterations\":3,\"substeps\":1,\"stiffness\":1.0,\"kSOR\":1.0,\"damping\":false,\"dampingFactor\":0.5,\"dampingInterval\":0,\"angularDamping\":false,\"angularDampingFactor\":0.5,\"angularDampingInterval\":0,\"cellPressure\":1.0,\"cellVelocity\":0.05000000074505806,\"cellForces\":1.0,\"gravity\":1.0,\"gravityRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"boundaryCollision\":true,\"boundaryCollisionFriction\":0.5,\"distance\":true,\"distanceLRA\":true,\"distanceFTL\":false,\"distanceFTLCorrection\":0.800000011920929,\"localCurvature\":false,\"localCurvatureMode\":1,\"localCurvatureValue\":0.10000000149011612,\"localShape\":true,\"localShapeMode\":1,\"localShapeInfluence\":1.0,\"localShapeBias\":true,\"localShapeBiasValue\":0.5,\"globalPosition\":false,\"globalPositionInfluence\":1.0,\"globalPositionInterval\":0,\"globalRotation\":false,\"globalRotationInfluence\":1.0,\"globalFade\":false,\"globalFadeOffset\":0.10000000149011612,\"globalFadeExtent\":0.20000000298023225},\"settingsSolverToggle\":false},\"data_0_strandGroupSettings\":[],\"<version>k__BackingField\":2,\"strandGroupChecksums\":[\"776e2fcec48b918fd72eb5b1ea8abd11\"],\"strandGroupProviders\":[{\"hairAsset\":{\"fileID\":11400000,\"guid\":\"8a41e35f80c09bc4186a323dbafb6ecf\",\"type\":2},\"hairAssetQuickEdit\":false}],\"strandGroupInstances\":[{\"groupAssetReference\":{\"hairAsset\":{\"fileID\":11400000,\"guid\":\"8a41e35f80c09bc4186a323dbafb6ecf\",\"type\":2},\"hairAssetGroupIndex\":0},\"sceneObjects\":{\"groupContainer\":{\"fileID\":2321327874545182601,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"rootMeshContainer\":{\"fileID\":2777800684696815222,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"rootMeshFilter\":{\"fileID\":8488392338175273058,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"strandMeshContainer\":{\"fileID\":5123607667943391860,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"strandMeshFilter\":{\"fileID\":3104762152532577230,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3},\"strandMeshRenderer\":{\"fileID\":3650177749944127190,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3}},\"settingsIndex\":-1}],\"strandGroupSettings\":[],\"strandGroupDefaults\":{\"groupAssetReferences\":[],\"settingsSkinning\":{},\"settingsSkinningToggle\":false,\"settingsGeometry\":{\"strandScale\":0,\"strandLength\":false,\"strandLengthValue\":0.25,\"strandDiameter\":false,\"strandDiameterValue\":1.0,\"strandSeparation\":0.0,\"tipScale\":false,\"tipScaleValue\":0.15000000596046449,\"tipScaleOffset\":false,\"tipScaleOffsetValue\":0.75,\"boundsMode\":0,\"boundsCenter\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"boundsExtent\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"boundsScale\":false,\"boundsScaleValue\":1.25,\"stagingPrecision\":1,\"stagingSubdivision\":false,\"stagingSubdivisionCount\":1},\"settingsGeometryToggle\":false,\"settingsRendering\":{\"material\":true,\"materialAsset\":{\"fileID\":2100000,\"guid\":\"28481eea0a6ac474cb6e34066b035373\",\"type\":2},\"renderer\":2,\"rendererLayers\":257,\"rendererShadows\":1,\"shadowLayers\":false,\"shadowLayersValue\":257,\"shadowSubstitute\":false,\"shadowSubstituteValue\":0,\"motionVectors\":1,\"allowIndirect\":true,\"allowInstancing\":true,\"kLODSelection\":4,\"kLODSelectionValue\":1.0,\"kLODCeiling\":1.0,\"kLODScale\":1.0,\"kLODBias\":0.0,\"clipThreshold\":0.05000000074505806},\"settingsRenderingToggle\":false,\"settingsPhysics\":{\"solver\":1,\"solverSubsteps\":4,\"constraintIterations\":12,\"constraintStiffness\":1.0,\"constraintSOR\":1.0,\"dampingLinear\":true,\"dampingLinearFactor\":0.20000000298023225,\"dampingLinearInterval\":1,\"dampingAngular\":true,\"dampingAngularFactor\":0.5,\"dampingAngularInterval\":0,\"cellPressure\":1.0,\"cellVelocity\":0.05000000074505806,\"cellExternal\":1.0,\"gravity\":0.20000000298023225,\"boundaryCollision\":true,\"boundaryCollisionFriction\":0.5,\"distance\":true,\"distanceLRA\":true,\"distanceFTL\":false,\"distanceFTLCorrection\":0.800000011920929,\"localCurvature\":false,\"localCurvatureMode\":1,\"localCurvatureValue\":0.10000000149011612,\"localShape\":true,\"localShapeMode\":1,\"localShapeInfluence\":1.0,\"localShapeBias\":true,\"localShapeBiasValue\":0.699999988079071,\"globalPosition\":true,\"globalPositionInfluence\":0.30000001192092898,\"globalPositionInterval\":1,\"globalRotation\":true,\"globalRotationInfluence\":0.699999988079071,\"globalFade\":true,\"globalFadeOffset\":0.10000000149011612,\"globalFadeExtent\":0.20000000298023225,\"kLODSelection\":2,\"kLODSelectionValue\":0.0,\"kLODCeiling\":1.0,\"kLODScale\":1.0,\"kLODBias\":0.0},\"settingsPhysicsToggle\":false},\"settingsExecutive\":{\"updateMode\":0,\"updateSimulation\":true,\"updateSimulationRate\":0,\"updateSimulationInEditor\":true,\"updateTimeStep\":0.009999999776482582,\"updateStepsMin\":false,\"updateStepsMinValue\":1,\"updateStepsMax\":true,\"updateStepsMaxValue\":4},\"settingsDebugging\":{\"drawStrandRoots\":false,\"drawStrandParticles\":false,\"drawStrandVelocities\":false,\"drawStrandClusters\":false,\"specificCluster\":-1,\"drawCellDensity\":false,\"drawCellGradient\":false,\"drawIsosurface\":false,\"drawIsosurfaceDensity\":0.5,\"drawIsosurfaceSubsteps\":4,\"drawSliceX\":false,\"drawSliceXOffset\":0.5,\"drawSliceY\":false,\"drawSliceYOffset\":0.5,\"drawSliceZ\":false,\"drawSliceZOffset\":0.5,\"drawSliceDivider\":0.0},\"settingsEnvironment\":{\"gravityScale\":1.0,\"gravityRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"emitterCapture\":true,\"emitterCaptureMode\":0,\"emitterCaptureLayer\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"emitterResident\":[],\"boundaryCapture\":false,\"boundaryCaptureMode\":1,\"boundaryCaptureLayer\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"boundaryResident\":[{\"fileID\":6263041086914267404,\"guid\":\"a146f98d5267ac6478502b8043f9a1e9\",\"type\":3}],\"defaultSolidMargin\":0.3499999940395355,\"defaultSolidDensity\":5.0},\"settingsVolumetrics\":{\"gridPrecision\":0,\"gridResolution\":32,\"gridStaggered\":false,\"splatMethod\":1,\"splatClusters\":true,\"pressureIterations\":5,\"pressureSolution\":1,\"restDensity\":0,\"restDensityScale\":1.0,\"restDensityInfluence\":1.0,\"scatteringProbe\":false,\"scatteringProbeCellSubsteps\":1,\"scatteringProbeBias\":1.0,\"probeSamplesTheta\":5,\"probeSamplesPhi\":10,\"probeOcclusion\":true,\"probeOcclusionMode\":0,\"probeOcclusionSolidDensity\":5.0,\"windPropagation\":true,\"windPropagationCellSubsteps\":1,\"windOcclusion\":true,\"windOcclusionMode\":1,\"windDepth\":1.0}}}",
+  "oldAsset": "Assets/_Sandbox/Groom Hair Asset/Fitted Male/Ethan_BlenderFitted.asset"
+}
