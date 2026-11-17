@@ -12,6 +12,7 @@ namespace Sandbox.CharacterSystem
             => motion.enabled && (!motion.idleOnly || (idle && !speaking && !transitioning));
         public bool Allows(FacialMotionVariant variant)
         {
+            if (idle) return true;
             foreach (var target in FacialMath.Targets(variant.pose))
                 if (expressionShapes != null && expressionShapes.Contains(target.shape)) return false;
             return true;
@@ -43,8 +44,12 @@ namespace Sandbox.CharacterSystem
         readonly List<ChannelState> channels = new List<ChannelState>();
         readonly Dictionary<FacialMotionDefinition, List<FacialMotionVariant>> variants = new Dictionary<FacialMotionDefinition, List<FacialMotionVariant>>();
         readonly Dictionary<string, float> output = new Dictionary<string, float>();
+        readonly Dictionary<string, float> targetWeights = new Dictionary<string, float>();
+        readonly Dictionary<string, float> influences = new Dictionary<string, float>();
         public IReadOnlyList<ChannelState> Channels => channels;
         public IReadOnlyDictionary<string, float> Output => output;
+        public IReadOnlyDictionary<string, float> TargetWeights => targetWeights;
+        public IReadOnlyDictionary<string, float> Influences => influences;
         public IEnumerable<string> OwnedShapes
         {
             get
@@ -60,7 +65,7 @@ namespace Sandbox.CharacterSystem
         public void Configure(IReadOnlyList<FacialMotionDefinition> definitions, HashSet<string> available,
             HashSet<string> reserved, List<string> warnings)
         {
-            channels.Clear(); variants.Clear(); output.Clear();
+            channels.Clear(); variants.Clear(); ClearOutput();
             if (definitions == null) return;
             var candidates = new List<FacialMotionDefinition>();
             var owners = new Dictionary<string, HashSet<string>>();
@@ -157,14 +162,14 @@ namespace Sandbox.CharacterSystem
 
         public void Cancel()
         {
-            output.Clear();
+            ClearOutput();
             foreach (var channel in channels)
             { channel.Phase = FacialMotionPhase.Inactive; channel.definition = null; channel.variant = null; channel.sampledWeights.Clear(); }
         }
 
         public void Tick(float deltaTime, FacialMotionContext context)
         {
-            output.Clear();
+            ClearOutput();
             foreach (var channel in channels)
             {
                 // Discard this frame's elapsed time when eligibility changes: always start a fresh wait.
@@ -174,9 +179,11 @@ namespace Sandbox.CharacterSystem
                 // Zero duration phases are allowed; the minimum interval guarantees forward progress.
                 for (int boundary = 0; boundary < 4096 && channel.Phase != FacialMotionPhase.Inactive; boundary++)
                 {
-                    float step = Mathf.Min(remaining, Mathf.Max(0, channel.duration - channel.elapsed));
-                    channel.elapsed += step; remaining -= step;
-                    if (channel.elapsed < channel.duration) break;
+                    float untilBoundary = Mathf.Max(0, channel.duration - channel.elapsed);
+                    if (remaining < untilBoundary) { channel.elapsed += remaining; break; }
+                    // Snap completed phases to their boundary: float addition can otherwise
+                    // leave elapsed just short and discard time belonging to the next phase.
+                    channel.elapsed = channel.duration; remaining -= untilBoundary;
                     Advance(channel, context);
                     if (remaining <= 0 && channel.duration > 0) break;
                 }
@@ -184,8 +191,18 @@ namespace Sandbox.CharacterSystem
                 float factor = channel.Phase == FacialMotionPhase.EasingIn ? FacialMath.Smooth(progress)
                     : channel.Phase == FacialMotionPhase.Holding ? 1
                     : channel.Phase == FacialMotionPhase.EasingOut ? 1 - FacialMath.Smooth(progress) : 0;
-                foreach (var pair in channel.sampledWeights) output[pair.Key] = pair.Value * factor;
+                foreach (var pair in channel.sampledWeights)
+                {
+                    output[pair.Key] = pair.Value * factor;
+                    targetWeights[pair.Key] = pair.Value;
+                    influences[pair.Key] = factor;
+                }
             }
+        }
+
+        void ClearOutput()
+        {
+            output.Clear(); targetWeights.Clear(); influences.Clear();
         }
     }
 

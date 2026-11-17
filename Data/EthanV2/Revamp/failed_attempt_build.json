@@ -1,0 +1,141 @@
+{
+  "path": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Candidate.prefab",
+  "avatar": "EthanV2_NativeAvatar",
+  "faceVertices": 149611,
+  "faceTriangles": 257691,
+  "shapes": 73,
+  "materialSlots": 13,
+  "outfitVertices": 10101,
+  "clothingMaps": [
+    {
+      "old": "DEF-spine.003",
+      "source": "Chest",
+      "parent": "spine_03",
+      "helper": "OutfitBind_DEF-spine_003"
+    },
+    {
+      "old": "DEF-spine.004",
+      "source": "UpperChest",
+      "parent": "spine_05",
+      "helper": "OutfitBind_DEF-spine_004"
+    },
+    {
+      "old": "DEF-spine.005",
+      "source": "Neck",
+      "parent": "neck_01",
+      "helper": "OutfitBind_DEF-spine_005"
+    },
+    {
+      "old": "DEF-spine.006",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-spine_006"
+    },
+    {
+      "old": "DEF-ear.L.002",
+      "source": "Head",
+      "parent": "head",
+      "helper": "OutfitBind_DEF-ear_L_002"
+    },
+    {
+      "old": "DEF-ear.L.003",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-ear_L_003"
+    },
+    {
+      "old": "DEF-ear.L.004",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-ear_L_004"
+    },
+    {
+      "old": "DEF-ear.R.002",
+      "source": "Head",
+      "parent": "head",
+      "helper": "OutfitBind_DEF-ear_R_002"
+    },
+    {
+      "old": "DEF-ear.R.003",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-ear_R_003"
+    },
+    {
+      "old": "DEF-ear.R.004",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-ear_R_004"
+    },
+    {
+      "old": "DEF-jaw",
+      "source": "LeftShoulder",
+      "parent": "clavicle_l",
+      "helper": "OutfitBind_DEF-jaw"
+    },
+    {
+      "old": "DEF-jaw.L.001",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-jaw_L_001"
+    },
+    {
+      "old": "DEF-jaw.R.001",
+      "source": "Neck2",
+      "parent": "neck_02",
+      "helper": "OutfitBind_DEF-jaw_R_001"
+    },
+    {
+      "old": "DEF-jaw.L",
+      "source": "Head",
+      "parent": "head",
+      "helper": "OutfitBind_DEF-jaw_L"
+    },
+    {
+      "old": "DEF-jaw.R",
+      "source": "Head",
+      "parent": "head",
+      "helper": "OutfitBind_DEF-jaw_R"
+    },
+    {
+      "old": "DEF-shoulder.L",
+      "source": "LeftShoulder",
+      "parent": "clavicle_l",
+      "helper": "OutfitBind_DEF-shoulder_L"
+    },
+    {
+      "old": "DEF-upper_arm.L",
+      "source": "LeftUpperArm",
+      "parent": "upperarm_l",
+      "helper": "OutfitBind_DEF-upper_arm_L"
+    },
+    {
+      "old": "DEF-shoulder.R",
+      "source": "RightShoulder",
+      "parent": "clavicle_r",
+      "helper": "OutfitBind_DEF-shoulder_R"
+    },
+    {
+      "old": "DEF-upper_arm.R",
+      "source": "RightUpperArm",
+      "parent": "upperarm_r",
+      "helper": "OutfitBind_DEF-upper_arm_R"
+    },
+    {
+      "old": "DEF-breast.L",
+      "source": "LeftBreast",
+      "parent": "spine_05",
+      "helper": "OutfitBind_DEF-breast_L"
+    },
+    {
+      "old": "DEF-breast.R",
+      "source": "RightBreast",
+      "parent": "spine_05",
+      "helper": "OutfitBind_DEF-breast_R"
+    }
+  ],
+  "faceBones": 1155,
+  "oneArmature": true,
+  "productionChanged": false,
+  "sceneSaved": false
+}

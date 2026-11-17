@@ -211,15 +211,17 @@ namespace Sandbox.CharacterSystem.Tests
         }
 
         [Test]
-        public void DefaultIdleRequiresIdleTagLoopAndNeutralExpression()
+        public void DefaultIdleAllowsExpressionButStillRequiresIdleTagAndLoop()
         {
+            Set(idle, "expression", Expression("joy"));
+            Assert.That(character.ValidateConfiguration(), Is.Empty);
             Set(idle, "isIdle", false);
             Set(idleAnimation, "loop", false);
             Set(idle, "expression", Expression("joy"));
             var errors = string.Join("\n", character.ValidateConfiguration());
             StringAssert.Contains("tagged Is Idle", errors);
             StringAssert.Contains("looping animation", errors);
-            StringAssert.Contains("no expression", errors);
+            StringAssert.DoesNotContain("no expression", errors);
         }
 
         [Test]

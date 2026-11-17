@@ -64,3 +64,12 @@
 /Data/JiwooRigged/HairOptimization32/Before/Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp.asset filter=lfs diff=lfs merge=lfs -text
 /Data/JiwooRigged/ScalpRestore/Before/Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp.asset filter=lfs diff=lfs merge=lfs -text
 /Data/JiwooRigged/ScalpRestore/Before/Assets/_Sandbox/Characters/Jiwoo/Groom/Rigged/Jiwoo_Scalp_HeadLocal.abc filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Face.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Face_EyeOnlyCameraGaze.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingFit.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingFit_Final.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingSurfaceFit.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_ShoulderClearance.asset filter=lfs diff=lfs merge=lfs -text
+/Data/EthanV2/LipNormalRepair/before_face.asset filter=lfs diff=lfs merge=lfs -text
+/Data/EthanV2/LipNormalRepair/corrected_face.asset filter=lfs diff=lfs merge=lfs -text

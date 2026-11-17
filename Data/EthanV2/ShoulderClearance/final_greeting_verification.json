@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "mesh": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingSurfaceFit.asset",
+  "vertexCount": 10101,
+  "triangles": 17102,
+  "shapeFramesExact": true,
+  "uvsExact": true,
+  "weightsValid": true,
+  "maxWeightSumError": 5.96046448E-08,
+  "movedNeutralVertices": 119,
+  "maxTotalNeutralOffsetMm": 15.99654,
+  "liveAssignments": [
+    {
+      "root": "EthanV2_Candidate",
+      "mesh": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingSurfaceFit.asset",
+      "matches": true
+    }
+  ],
+  "animationChanged": false,
+  "poseChanged": false,
+  "faceChanged": false,
+  "skinCoverageChanged": false,
+  "playModeTested": false,
+  "sceneSaved": false
+}

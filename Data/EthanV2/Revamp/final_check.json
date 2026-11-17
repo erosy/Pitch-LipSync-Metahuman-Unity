@@ -1,0 +1,28 @@
+{
+  "candidate": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Candidate.prefab",
+  "passed": true,
+  "animators": 1,
+  "avatar": "EthanV2_Avatar_TPose",
+  "avatarValid": true,
+  "humanoid": true,
+  "renderers": [
+    "Outfit",
+    "Face"
+  ],
+  "topLevel": [
+    "Armature",
+    "Outfit",
+    "Modules",
+    "Face"
+  ],
+  "missingScripts": 0,
+  "sourceActiveMeshMiB": 281.033539,
+  "candidateActiveMeshMiB": 192.450882,
+  "vertices": 159712,
+  "triangles": 274793,
+  "facialHairVertices": 84405,
+  "facialHairTriangles": 148734,
+  "productionSwitched": false,
+  "sceneSaved": false,
+  "playModeTested": false
+}

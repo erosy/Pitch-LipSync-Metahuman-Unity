@@ -1,0 +1,18 @@
+{
+  "clip": "Assets/_Sandbox/Animations/Confident Idle.anim",
+  "animation": "Assets/_Sandbox/Data/Animation/Confident Idle.asset",
+  "expression": "Assets/_Sandbox/Data/Expression/Confident Idle Upward.asset",
+  "activity": "Assets/_Sandbox/Data/Activity/Confident Idle.asset",
+  "source": "Assets/_Sandbox/Animations/Remy@Idle.fbx",
+  "sampleCount": 252,
+  "frameRate": 30.0,
+  "length": 8.333334,
+  "maxMuscleDelta": 0.0855594,
+  "copiedOnly": true,
+  "assigned": false,
+  "offsetsDegrees": {
+    "chinUp": 5,
+    "screenLeftTurn": 3,
+    "screenLeftLean": 2
+  }
+}

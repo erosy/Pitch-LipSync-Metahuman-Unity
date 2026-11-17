@@ -1,0 +1,14 @@
+{
+  "target": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingFit_Final.asset",
+  "beforeHeadContacts": 6,
+  "afterHeadContacts": 2,
+  "repairGroups": 4,
+  "affectedVertices": 6,
+  "maxAdditionalNeutralOffsetMm": 4.00000954,
+  "weightsChanged": false,
+  "animationChanged": false,
+  "poseChanged": false,
+  "faceChanged": false,
+  "bodyCoverageChanged": false,
+  "sampledPoses": 10
+}

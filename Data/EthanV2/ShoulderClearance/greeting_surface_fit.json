@@ -1,0 +1,15 @@
+{
+  "target": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingSurfaceFit.asset",
+  "affectedVertices": 41,
+  "localTriangles": 6473,
+  "projections": 109,
+  "beforeTriangleProbeContacts": 20,
+  "afterTriangleProbeContacts": 2,
+  "maxAdditionalNeutralOffsetMm": 4.0000596,
+  "weightsChanged": false,
+  "animationChanged": false,
+  "poseChanged": false,
+  "faceChanged": false,
+  "bodyCoverageChanged": false,
+  "sampledPoses": 10
+}

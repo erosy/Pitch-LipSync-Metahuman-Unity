@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "strands": 94408,
+  "points": 32,
+  "simulationHz": 30,
+  "editModeSimulation": false,
+  "fixedStrandScale": true,
+  "maxEndpointErrorMm": 0.000386286731,
+  "headAttachment": true,
+  "collisionTexturePreserved": true,
+  "startupWiring": true,
+  "scaleOk": true,
+  "playModeTested": false
+}

@@ -37,11 +37,22 @@ public sealed class FacialBlendShapeOutput
         foreach (var index in owned)
             if (reserved == null || !reserved.Contains(mesh.GetBlendShapeName(index))) face.SetBlendShapeWeight(index, 0);
     }
-    public void Apply(IReadOnlyDictionary<string, float> expressions, IReadOnlyDictionary<string, float> activities)
+    public void Apply(IReadOnlyDictionary<string, float> expressions, IReadOnlyDictionary<string, float> activities,
+        IReadOnlyDictionary<string, float> influences = null)
     {
         if (!face || face.sharedMesh != mesh) return;
         foreach (var index in owned) face.SetBlendShapeWeight(index, 0);
-        Write(expressions, false); Write(activities, true);
+        Write(expressions, false);
+        if (influences == null) { Write(activities, true); return; }
+        if (activities == null) return;
+        foreach (var pair in activities)
+            if (indices.TryGetValue(pair.Key, out var index) && owned.Contains(index)
+                && influences.TryGetValue(pair.Key, out var influence))
+            {
+                float baseline = expressions != null && expressions.TryGetValue(pair.Key, out var value)
+                    ? FacialMath.NonNegative(value) : 0;
+                face.SetBlendShapeWeight(index, Mathf.Lerp(baseline, FacialMath.Weight(pair.Value), influence));
+            }
     }
     void Write(IReadOnlyDictionary<string, float> values, bool clampWeight)
     {

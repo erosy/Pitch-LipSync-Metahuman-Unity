@@ -1,0 +1,50 @@
+[
+  {
+    "shape": "eyeLookDownLeft",
+    "neutralPitch": -2.26789522,
+    "rotationAt100Degrees": 35.1061974,
+    "pitchAt100": -37.3597
+  },
+  {
+    "shape": "eyeLookUpLeft",
+    "neutralPitch": -2.26789522,
+    "rotationAt100Degrees": 26.3146915,
+    "pitchAt100": 24.0449371
+  },
+  {
+    "shape": "eyeLookInLeft",
+    "neutralPitch": -2.26789522,
+    "rotationAt100Degrees": 38.9758873,
+    "pitchAt100": -2.39908266
+  },
+  {
+    "shape": "eyeLookOutLeft",
+    "neutralPitch": -2.26789522,
+    "rotationAt100Degrees": 41.465004,
+    "pitchAt100": -0.6597728
+  },
+  {
+    "shape": "eyeLookDownRight",
+    "neutralPitch": -2.07219362,
+    "rotationAt100Degrees": 34.2284775,
+    "pitchAt100": -36.29706
+  },
+  {
+    "shape": "eyeLookUpRight",
+    "neutralPitch": -2.07219362,
+    "rotationAt100Degrees": 24.3579826,
+    "pitchAt100": 22.2857437
+  },
+  {
+    "shape": "eyeLookInRight",
+    "neutralPitch": -2.07219362,
+    "rotationAt100Degrees": 38.5142059,
+    "pitchAt100": -2.71247959
+  },
+  {
+    "shape": "eyeLookOutRight",
+    "neutralPitch": -2.07219362,
+    "rotationAt100Degrees": 42.0508423,
+    "pitchAt100": -0.59374243
+  }
+]

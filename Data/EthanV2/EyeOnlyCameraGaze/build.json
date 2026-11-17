@@ -1,0 +1,43 @@
+{
+  "source": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Face.asset",
+  "derivative": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Face_EyeOnlyCameraGaze.asset",
+  "eyeVertexCount": 1604,
+  "aliases": [
+    {
+      "source": "eyeLookDownLeft",
+      "destination": "cameraEyeLookDownLeft",
+      "retainedEyeballVertices": 802,
+      "removedNonEyeVertices": 10797,
+      "largestRemovedPositionDeltaMm": 0.14063628
+    },
+    {
+      "source": "eyeLookDownRight",
+      "destination": "cameraEyeLookDownRight",
+      "retainedEyeballVertices": 802,
+      "removedNonEyeVertices": 10705,
+      "largestRemovedPositionDeltaMm": 0.149488688
+    }
+  ],
+  "before": {
+    "vertexCount": 149611,
+    "triangles": 257691,
+    "shapes": 73,
+    "facialHairVertices": 84405,
+    "facialHairTriangles": 148734,
+    "estimatedBlendshapePayloadMiB": 91.714019775390625,
+    "runtimeMeshMiB": 162.61222362518311
+  },
+  "after": {
+    "vertexCount": 149611,
+    "triangles": 257691,
+    "shapes": 75,
+    "facialHairVertices": 84405,
+    "facialHairTriangles": 148734,
+    "estimatedBlendshapePayloadMiB": 91.836318969726563,
+    "runtimeMeshMiB": 155.27188873291016
+  },
+  "preservedOriginalExpressions": 73,
+  "geometryUnchanged": true,
+  "hairSimulationChanged": false,
+  "assignedToCandidateAndScene": true
+}

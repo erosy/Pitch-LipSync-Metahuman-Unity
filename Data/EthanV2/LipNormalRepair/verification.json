@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "all73PositionArraysExact": true,
+  "allNonLipShadingExact": true,
+  "neutralShadingExact": true,
+  "topologyUVSkinExact": true,
+  "changedLipShadingRecords": 310396,
+  "vertexCount": 149611,
+  "triangles": 257691,
+  "shapes": 73,
+  "memoryMiB": 162.585785,
+  "playing": false
+}

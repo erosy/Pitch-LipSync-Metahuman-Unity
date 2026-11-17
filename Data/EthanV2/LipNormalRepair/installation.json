@@ -1,0 +1,12 @@
+{
+  "installed": true,
+  "target": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Face.asset",
+  "live": [
+    {
+      "name": "Face",
+      "root": "EthanV2_Candidate",
+      "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity"
+    }
+  ],
+  "sceneSaved": false
+}

@@ -64,7 +64,7 @@ namespace Sandbox.CharacterSystem.Tests
         {
             var scheduler = Scheduler(new List<FacialMotionDefinition> { Blink() });
             scheduler.Tick(0, Context()); scheduler.Tick(.15f, Context());
-            scheduler.Tick(0, Context(true, false, false, "eyeBlinkLeft"));
+            scheduler.Tick(0, Context(false, false, false, "eyeBlinkLeft"));
             Assert.That(scheduler.Output, Is.Empty); Assert.That(scheduler.Channels[0].Phase, Is.EqualTo(FacialMotionPhase.Inactive));
         }
 
@@ -74,7 +74,7 @@ namespace Sandbox.CharacterSystem.Tests
             var blink = Blink();
             blink.variants.Add(FacialMotionDefaults.Variant("Safe", Vector2.one, new BlendShapeTarget("eyeSquintRight", 30)));
             var scheduler = Scheduler(new List<FacialMotionDefinition> { blink });
-            var context = Context(true, false, false, "eyeBlinkLeft");
+            var context = Context(false, false, false, "eyeBlinkLeft");
             scheduler.Tick(0, context); scheduler.Tick(.2f, context);
             Assert.That(scheduler.Channels[0].Variant, Is.EqualTo("Safe"));
             Assert.That(scheduler.Output.ContainsKey("eyeBlinkRight"), Is.False);
@@ -130,11 +130,25 @@ namespace Sandbox.CharacterSystem.Tests
             playback.Play(null, 1, .2f);
             playback.Tick(.1f); Assert.That(playback.ProtectedShapes, Does.Contain("eyeBlinkLeft"));
             var scheduler = Scheduler(new List<FacialMotionDefinition> { Blink() });
-            var context = Context(); context.expressionShapes = playback.ProtectedShapes;
+            var context = Context(false); context.expressionShapes = playback.ProtectedShapes;
             scheduler.Tick(1, context); Assert.That(scheduler.Output, Is.Empty);
             playback.Tick(.1f); Assert.That(playback.ProtectedShapes, Is.Empty);
             scheduler.Tick(0, context); scheduler.Tick(.2f, context);
             Assert.That(scheduler.Output["eyeBlinkLeft"], Is.EqualTo(100).Within(.01));
+        }
+
+        [Test]
+        public void IdleAllowsOverlappingExpressionAndExposesTargetAndInfluence()
+        {
+            var scheduler = Scheduler(new List<FacialMotionDefinition> { Mouth() });
+            var context = Context(true, false, false, "mouthPucker");
+            scheduler.Tick(0, context); scheduler.Tick(.15f, context);
+            Assert.That(scheduler.TargetWeights["mouthPucker"], Is.EqualTo(20));
+            Assert.That(scheduler.Influences["mouthPucker"], Is.EqualTo(.5f).Within(.001));
+            scheduler.Cancel();
+            Assert.That(scheduler.Output, Is.Empty);
+            Assert.That(scheduler.TargetWeights, Is.Empty);
+            Assert.That(scheduler.Influences, Is.Empty);
         }
     }
 }

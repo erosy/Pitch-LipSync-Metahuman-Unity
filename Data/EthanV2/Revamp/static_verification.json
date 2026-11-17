@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "headShapeMismatches": 0,
+  "headNormalMismatches": 0,
+  "headTangentMismatches": 0,
+  "maxNeutralErrorMm": 0.000719125732,
+  "outfitNeutralErrorMm": 0.0003705119,
+  "maxConvertedExpressionErrorMm": 0.0,
+  "sections": [
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "vertices": 104632,
+      "offset": 0,
+      "maxNeutralErrorMm": 0.000719125732
+    },
+    {
+      "name": "BAKED_body_lod0_mesh",
+      "vertices": 32408,
+      "offset": 104632,
+      "maxNeutralErrorMm": 0.0006769786
+    },
+    {
+      "name": "BAKED_cartilage_lod0_mesh",
+      "vertices": 392,
+      "offset": 137040,
+      "maxNeutralErrorMm": 0.0003641078
+    },
+    {
+      "name": "BAKED_eyeEdge_lod0_mesh",
+      "vertices": 300,
+      "offset": 137432,
+      "maxNeutralErrorMm": 0.000385509047
+    },
+    {
+      "name": "BAKED_eyeLeft_lod0_mesh",
+      "vertices": 802,
+      "offset": 137732,
+      "maxNeutralErrorMm": 0.0003598908
+    },
+    {
+      "name": "BAKED_eyeRight_lod0_mesh",
+      "vertices": 802,
+      "offset": 138534,
+      "maxNeutralErrorMm": 0.000358345045
+    },
+    {
+      "name": "BAKED_eyeshell_lod0_mesh",
+      "vertices": 588,
+      "offset": 139336,
+      "maxNeutralErrorMm": 0.000507364864
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "vertices": 2119,
+      "offset": 139924,
+      "maxNeutralErrorMm": 0.0005963091
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "vertices": 2133,
+      "offset": 142043,
+      "maxNeutralErrorMm": 0.00047739342
+    },
+    {
+      "name": "BAKED_saliva_lod0_mesh",
+      "vertices": 678,
+      "offset": 144176,
+      "maxNeutralErrorMm": 0.0001275878
+    },
+    {
+      "name": "BAKED_teeth_lod0_mesh",
+      "vertices": 4757,
+      "offset": 144854,
+      "maxNeutralErrorMm": 0.000359562866
+    }
+  ],
+  "faceVertices": 149611,
+  "faceTriangles": 257691,
+  "outfitVertices": 10101,
+  "outfitTriangles": 17102,
+  "shapes": 73,
+  "faceMemoryMiB": 162.612183,
+  "configurationErrors": []
+}

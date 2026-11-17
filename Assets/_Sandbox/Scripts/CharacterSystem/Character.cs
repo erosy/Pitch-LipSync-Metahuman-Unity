@@ -76,7 +76,6 @@ namespace Sandbox.CharacterSystem
                 if (!defaultIdle.IsIdle) errors.Add("Default Idle must be tagged Is Idle.");
                 if (!defaultIdle.Animation || !defaultIdle.Animation.Loop)
                     errors.Add("Default Idle must reference a looping animation.");
-                if (defaultIdle.Expression) errors.Add("Default Idle must have no expression (neutral).");
             }
             var types = new HashSet<Type>();
             foreach (var module in DiscoverModules())

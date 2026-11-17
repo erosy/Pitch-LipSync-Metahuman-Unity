@@ -1,0 +1,26 @@
+{
+  "expression": "Assets/_Sandbox/Data/Expression/Confident Idle Camera.asset",
+  "activity": "Assets/_Sandbox/Data/Activity/Confident Idle Camera.asset",
+  "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+  "enabled": true,
+  "lookAtPlayerDuringIdle": true,
+  "assistHead": false,
+  "frameForward": "(-5.4016702E-08, -3.7251542E-09, 1)",
+  "framePosition": "(8.3774328E-05, 1.7812365, -0.41164804)",
+  "validated": true,
+  "materials": [
+    "Ethan_Head",
+    "Ethan_Eyebrows",
+    "Ethan_EyelashStrands",
+    "Ethan_Body",
+    "Ethan_Cartilage",
+    "Ethan_EyeEdge",
+    "Ethan_Eyes",
+    "Ethan_Eyes",
+    "Ethan_EyeShell",
+    "Ethan_Head",
+    "Ethan_Head",
+    "Ethan_Saliva",
+    "Ethan_Teeth"
+  ]
+}

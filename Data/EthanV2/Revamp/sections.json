@@ -1,0 +1,79 @@
+[
+  {
+    "name": "BAKED_head_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Head_FacialHairOptimized.asset",
+    "offset": 0,
+    "vertices": 104632,
+    "matrix": "1\t0\t0\t0\n0\t1\t0\t0\n0\t0\t1\t0\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_body_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Meshes/EthanV2_Body_ShirtCoverage.asset",
+    "offset": 104632,
+    "vertices": 32408,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_cartilage_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 137040,
+    "vertices": 392,
+    "matrix": "1\t0\t0\t4.41577858E-10\n0\t1\t-2.00728174E-15\t-6.9119416E-08\n0\t2.00728174E-15\t1\t-1.14711829E-09\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_eyeEdge_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 137432,
+    "vertices": 300,
+    "matrix": "1\t0\t0\t4.41577858E-10\n0\t1\t-2.00728174E-15\t-6.9119416E-08\n0\t2.00728174E-15\t1\t-1.14711829E-09\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_eyeLeft_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 137732,
+    "vertices": 802,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_eyeRight_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 138534,
+    "vertices": 802,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_eyeshell_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 139336,
+    "vertices": 588,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_head_lod0_mesh.001",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 139924,
+    "vertices": 2119,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_head_lod0_mesh.002",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 142043,
+    "vertices": 2133,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_saliva_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 144176,
+    "vertices": 678,
+    "matrix": "1\t0\t0\t4.41577858E-10\n0\t1\t-2.00728174E-15\t-6.9119416E-08\n0\t2.00728174E-15\t1\t-1.14711829E-09\n0\t0\t0\t1\n"
+  },
+  {
+    "name": "BAKED_teeth_lod0_mesh",
+    "source": "Assets/_Sandbox/Characters/Ethan_V2/Ethan_V2_73_Baked.fbx",
+    "offset": 144854,
+    "vertices": 4757,
+    "matrix": "1\t0\t0\t0\n0\t1\t-2.00728174E-15\t2.19791962E-11\n0\t2.00728174E-15\t1\t4.49829687E-11\n0\t0\t0\t1\n"
+  }
+]

@@ -91,28 +91,28 @@ namespace Sandbox.CharacterSystem
             if (blendShapeDebugger && blendShapeDebugger.Character != this)
                 errors.Add("Expression Module: debugger must reference this module.");
             FacialMotionValidation.Check(facialMotions, errors);
-            speechGaze?.Validate(errors);
+            speechGaze?.Validate(errors, face ? face.sharedMesh : null);
         }
 
         public override void ValidateActivity(ActivityRequest request, List<string> errors)
-            => ValidateExpression(request.Expression, errors);
+            => ValidateExpression(request.Expression, errors, request.IsIdle);
 
-        void ValidateExpression(ExpressionDefinition definition, List<string> errors)
+        void ValidateExpression(ExpressionDefinition definition, List<string> errors, bool idleExpression = false)
         {
             if (!definition || definition.Targets == null) return;
-            var visemes = CurrentVisemes(face);
+            var visemes = CurrentVisemes(face, !idleExpression);
             foreach (var target in definition.Targets)
                 if (target != null && visemes.Contains(target.Shape))
                     errors.Add("Expression Module: '" + target.Shape + "' is owned by uLipSync.");
         }
 
-        HashSet<string> CurrentVisemes(SkinnedMeshRenderer renderer)
+        HashSet<string> CurrentVisemes(SkinnedMeshRenderer renderer, bool includeDriverShapes = true)
         {
             var set = new HashSet<string>(); var mesh = renderer ? renderer.sharedMesh : null;
             if (!mesh) return set;
             for (int i = 0; i < mesh.blendShapeCount; i++)
                 if (mesh.GetBlendShapeName(i).StartsWith("viseme_", StringComparison.Ordinal)) set.Add(mesh.GetBlendShapeName(i));
-            if (blendShapeDriver && blendShapeDriver.skinnedMeshRenderer == renderer && blendShapeDriver.blendShapes != null)
+            if (includeDriverShapes && blendShapeDriver && blendShapeDriver.skinnedMeshRenderer == renderer && blendShapeDriver.blendShapes != null)
                 foreach (var shape in blendShapeDriver.blendShapes)
                     if (shape != null && shape.index >= 0 && shape.index < mesh.blendShapeCount) set.Add(mesh.GetBlendShapeName(shape.index));
             return set;
@@ -127,9 +127,11 @@ namespace Sandbox.CharacterSystem
             return source && source.isActiveAndEnabled && source.isPlaying;
         }
 
-        void Bind()
+        void Bind(bool forPreview = false)
         {
-            var visemes = CurrentVisemes(face);
+            // Native visemes always belong to lip-sync. Shared facial shapes may carry the
+            // idle pose in silence, but lip-sync takes them back during speech and its grace period.
+            var visemes = CurrentVisemes(face, IsSpeaking || forPreview);
             if (!cacheDirty && output.Face == face && output.Mesh == (face ? face.sharedMesh : null) && reserved.SetEquals(visemes)) return;
             bool sameBinding = output.Face == face && output.Mesh == (face ? face.sharedMesh : null);
             var previousOwned = new HashSet<string>(owned);
@@ -183,7 +185,7 @@ namespace Sandbox.CharacterSystem
             scheduler.Tick(scaledDelta, new FacialMotionContext {
                 idle = idle, speaking = IsSpeaking, transitioning = playback.IsTransitioning, expressionShapes = playback.ProtectedShapes
             });
-            output.Apply(playback.Output, scheduler.Output);
+            output.Apply(playback.Output, scheduler.TargetWeights, scheduler.Influences);
         }
 
         void LateUpdate()
@@ -192,7 +194,14 @@ namespace Sandbox.CharacterSystem
             speechGaze?.Restore();
             Tick(Time.deltaTime, AudioPlaying(), Time.unscaledTime);
             if (IsPreviewing) TickPreview(Time.unscaledDeltaTime);
-            if (Owner) speechGaze?.Apply(face, Owner.transform, IsSpeaking, Time.unscaledDeltaTime, CurrentVisemes(face));
+            ApplyGaze(Time.unscaledDeltaTime);
+        }
+
+        internal void ApplyGaze(float delta)
+        {
+            if (!Owner || IsPreviewing || debuggerOwns) { speechGaze?.Release(); return; }
+            speechGaze?.Apply(face, Owner.transform, IsSpeaking, delta, CurrentVisemes(face), idle,
+                playback?.ProtectedShapes, playback?.Output, scheduler.TargetWeights, scheduler.Influences);
         }
 
         [Button("Preview", DirtyOnClick = false), FoldoutGroup("Debug / Preview")]
@@ -215,7 +224,7 @@ namespace Sandbox.CharacterSystem
             if (IsPreviewing && (previewFace != face || previewMesh != face.sharedMesh)) StopPreview();
             if (!IsPreviewing)
             {
-                Bind(); scheduler.Cancel();
+                Bind(true); scheduler.Cancel();
                 previewFace = face; previewMesh = face.sharedMesh;
                 previewOriginal = output.Read(owned);
                 preview = new ExpressionPlayback(owned, previewOriginal);

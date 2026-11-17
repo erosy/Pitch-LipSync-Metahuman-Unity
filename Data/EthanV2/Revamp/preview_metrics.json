@@ -1,0 +1,32 @@
+[
+  {
+    "pose": "Neutral",
+    "meanAbsoluteChannelError255": 0.001964314840734005,
+    "fractionPixelsOver10": 1.8310546875e-05
+  },
+  {
+    "pose": "eyeBlinkLeft",
+    "meanAbsoluteChannelError255": 0.0022288004402071238,
+    "fractionPixelsOver10": 1.52587890625e-05
+  },
+  {
+    "pose": "eyeBlinkRight",
+    "meanAbsoluteChannelError255": 0.0014862060779705644,
+    "fractionPixelsOver10": 1.220703125e-05
+  },
+  {
+    "pose": "browInnerUp",
+    "meanAbsoluteChannelError255": 0.0017201740993186831,
+    "fractionPixelsOver10": 1.8310546875e-05
+  },
+  {
+    "pose": "emo_joy",
+    "meanAbsoluteChannelError255": 0.0018341063987463713,
+    "fractionPixelsOver10": 9.1552734375e-06
+  },
+  {
+    "pose": "Speech",
+    "meanAbsoluteChannelError255": 0.002086385153234005,
+    "fractionPixelsOver10": 2.44140625e-05
+  }
+]

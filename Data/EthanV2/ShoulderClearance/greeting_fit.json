@@ -1,0 +1,22 @@
+{
+  "applied": true,
+  "target": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Outfit_GreetingFit.asset",
+  "affectedVertices": 184,
+  "weightGroups": 103,
+  "offsetGroups": 83,
+  "cappedGroups": 47,
+  "maxNeutralOffsetMm": 8.000019,
+  "addedBoneSlots": 11,
+  "skeletonTransformsAdded": 0,
+  "initialHeadContacts": 147,
+  "finalHeadContacts": 6,
+  "initialBodyContacts": 119,
+  "finalBodyContacts": 79,
+  "sampledPoses": 10,
+  "animationChanged": false,
+  "poseChanged": false,
+  "faceChanged": false,
+  "bodyCoverageChanged": false,
+  "visualReviewPending": true,
+  "playModeTested": false
+}

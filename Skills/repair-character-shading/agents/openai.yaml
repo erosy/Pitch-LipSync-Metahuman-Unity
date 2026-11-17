@@ -1,0 +1,3 @@
+interface:
+  display_name: "Repair Character Shading"
+  short_description: "Fix dark lips, blink artifacts, and face shading"

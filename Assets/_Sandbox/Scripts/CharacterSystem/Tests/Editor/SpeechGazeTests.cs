@@ -28,6 +28,7 @@ namespace Sandbox.CharacterSystem.Tests
             face = root.AddComponent<SkinnedMeshRenderer>();
             mesh = new Mesh { vertices = new[] { Vector3.zero } };
             foreach (var shape in SpeechGaze.EyeShapes) AddShape(shape);
+            foreach (var shape in SpeechGaze.CameraDownShapes) AddShape(shape);
             AddShape("eyeBlinkLeft"); AddShape("viseme_U"); AddShape("emo_joy");
             face.sharedMesh = mesh; face.bones = new[] { head };
             audience = new GameObject("Audience"); audience.transform.position = Vector3.forward * 5;
@@ -164,5 +165,141 @@ namespace Sandbox.CharacterSystem.Tests
 
         void WeightOnFace(string name, float value)
             => face.SetBlendShapeWeight(face.sharedMesh.GetBlendShapeIndex(name), value);
+
+        [Test]
+        public void IdleTrackingIsOptInAndDoesNotAffectNonIdleSilence()
+        {
+            Weight("eyeLookOutLeft", 55);
+            gaze.Apply(face, root.transform, false, 1, reserved, true);
+            Assert.That(Weight("eyeLookOutLeft"), Is.EqualTo(55));
+            gaze.lookAtPlayerDuringIdle = true;
+            gaze.Apply(face, root.transform, false, 1, reserved, false);
+            Assert.That(Weight("eyeLookOutLeft"), Is.EqualTo(55));
+            gaze.Apply(face, root.transform, false, 1, reserved, true);
+            Assert.That(Weight("eyeLookOutLeft"), Is.Zero);
+            gaze.enabled = false;
+            gaze.Apply(face, root.transform, false, 1, reserved, true);
+            Assert.That(Weight("eyeLookOutLeft"), Is.EqualTo(55));
+        }
+
+        [Test]
+        public void IdleEyeExpressionOwnsItsAxisAndCameraResumesSmoothly()
+        {
+            gaze.lookAtPlayerDuringIdle = true; gaze.blendDuration = .2f;
+            head.rotation = Quaternion.Euler(0, 15, 0); audience.transform.position = head.rotation * new Vector3(0, 5, 5);
+            Weight("eyeLookUpLeft", 35); Weight("eyeLookUpRight", 35); Weight("eyeBlinkLeft", 60); Weight("emo_joy", 40);
+            var expression = new HashSet<string> { "eyeLookUpLeft", "mouthSmileLeft" };
+            gaze.Apply(face, root.transform, false, 1, reserved, true, expression);
+            Assert.That(Weight("eyeLookUpLeft"), Is.EqualTo(35));
+            Assert.That(Weight("eyeLookUpRight"), Is.EqualTo(35));
+            Assert.That(Weight("eyeBlinkLeft"), Is.EqualTo(60));
+            Assert.That(Weight("emo_joy"), Is.EqualTo(40));
+            gaze.Restore(); Weight("eyeLookUpLeft", 0); Weight("eyeLookUpRight", 0);
+            gaze.Apply(face, root.transform, false, .05f, reserved, true, new HashSet<string>());
+            Assert.That(Weight("eyeLookUpLeft"), Is.EqualTo(25).Within(.01));
+            gaze.Apply(face, root.transform, false, .15f, reserved, true, new HashSet<string>());
+            Assert.That(Weight("eyeLookUpLeft"), Is.EqualTo(100).Within(.01));
+        }
+
+        [Test]
+        public void IdleDartBlendsOverCameraOnceAndReleasesOppositeDirection()
+        {
+            gaze.lookAtPlayerDuringIdle = true; head.rotation = Quaternion.Euler(0, -15, 0);
+            var baseline = new Dictionary<string, float>();
+            foreach (var shape in SpeechGaze.EyeShapes) baseline[shape] = 0;
+            var targets = new Dictionary<string, float> { ["eyeLookOutLeft"] = 100, ["eyeLookInRight"] = 100 };
+            var influence = new Dictionary<string, float> { ["eyeLookOutLeft"] = .5f, ["eyeLookInRight"] = .5f };
+            Weight("eyeLookOutLeft", 50); // Renderer already contains the motion over the authored base.
+            gaze.Apply(face, root.transform, false, 1, reserved, true, null, baseline, targets, influence);
+            Assert.That(Weight("eyeLookOutLeft"), Is.EqualTo(50).Within(.01));
+            Assert.That(Weight("eyeLookInLeft"), Is.EqualTo(25).Within(.01));
+            influence["eyeLookOutLeft"] = influence["eyeLookInRight"] = 1;
+            gaze.Apply(face, root.transform, false, 1, reserved, true, null, baseline, targets, influence);
+            Assert.That(Weight("eyeLookOutLeft"), Is.EqualTo(100));
+            Assert.That(Weight("eyeLookInLeft"), Is.Zero);
+            influence.Clear(); targets.Clear();
+            gaze.Apply(face, root.transform, false, 1, reserved, true, null, baseline, targets, influence);
+            Assert.That(Weight("eyeLookOutLeft"), Is.Zero);
+            Assert.That(Weight("eyeLookInLeft"), Is.EqualTo(50).Within(.01));
+        }
+
+        [Test]
+        public void IdleGazeYieldsHeadAssistAndMissingTargetRestoresAuthoredPose()
+        {
+            gaze.lookAtPlayerDuringIdle = true; gaze.assistHead = true;
+            var original = Quaternion.Euler(0, 80, 0); head.localRotation = original;
+            gaze.Apply(face, root.transform, false, 1, reserved, true, new HashSet<string> { "eyeLookUpLeft" });
+            Assert.That(Quaternion.Angle(head.localRotation, original), Is.LessThan(.001));
+            gaze.Apply(face, root.transform, false, 1, reserved, true);
+            Assert.That(Quaternion.Angle(head.localRotation, original), Is.EqualTo(20).Within(.01));
+            audience.transform.position = head.position;
+            gaze.Apply(face, root.transform, false, 1, reserved, true);
+            Assert.That(Quaternion.Angle(head.localRotation, original), Is.LessThan(.001));
+        }
+
+        [Test]
+        public void EyeOnlyDownwardCameraGazeLeavesAuthoredLidsAndBlinkUntouched()
+        {
+            gaze.eyeOnlyDownwardGaze = true; audience.transform.position = new Vector3(0, -5, 5);
+            Weight("eyeBlinkLeft", 70); Apply();
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.EqualTo(100));
+            Assert.That(Weight("cameraEyeLookDownRight"), Is.EqualTo(100));
+            Assert.That(Weight("eyeLookDownLeft"), Is.Zero);
+            Assert.That(Weight("eyeLookDownRight"), Is.Zero);
+            Assert.That(Weight("eyeBlinkLeft"), Is.EqualTo(70));
+            gaze.Release(); Assert.That(Weight("cameraEyeLookDownLeft"), Is.Zero);
+        }
+
+        [Test]
+        public void EyeOnlyGazeTransitionsRestoreOriginalShapeAndToggleCleanly()
+        {
+            gaze.eyeOnlyDownwardGaze = true; gaze.blendDuration = .2f;
+            audience.transform.position = new Vector3(0, -5, 5); Weight("eyeLookDownLeft", 30);
+            Apply(true, .1f);
+            Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(15));
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.EqualTo(50));
+            gaze.Release(); Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(30));
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.Zero);
+            Apply(); gaze.eyeOnlyDownwardGaze = false; Apply();
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.Zero);
+            Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(100));
+        }
+
+        [Test]
+        public void EyeOnlyIdleGazeYieldsToAuthoredDirectionAndDarts()
+        {
+            gaze.eyeOnlyDownwardGaze = true; gaze.lookAtPlayerDuringIdle = true;
+            audience.transform.position = new Vector3(0, -5, 5); Weight("eyeLookDownLeft", 25);
+            gaze.Apply(face, root.transform, false, 1, reserved, true, new HashSet<string> { "eyeLookDownLeft" });
+            Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(25));
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.Zero);
+            var baseline = new Dictionary<string, float> { ["eyeLookDownLeft"] = 0, ["eyeLookDownRight"] = 0 };
+            var targets = new Dictionary<string, float> { ["eyeLookDownLeft"] = 40, ["eyeLookDownRight"] = 40 };
+            var influences = new Dictionary<string, float> { ["eyeLookDownLeft"] = .5f, ["eyeLookDownRight"] = .5f };
+            gaze.Apply(face, root.transform, false, 1, reserved, true, null, baseline, targets, influences);
+            Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(20));
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.EqualTo(50));
+            influences["eyeLookDownLeft"] = influences["eyeLookDownRight"] = 1;
+            gaze.Apply(face, root.transform, false, 1, reserved, true, null, baseline, targets, influences);
+            Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(40));
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.Zero);
+        }
+
+        [Test]
+        public void EyeOnlyGazeRequiresDedicatedShapesAndRespectsReservedDriverIndices()
+        {
+            gaze.eyeOnlyDownwardGaze = true; audience.transform.position = new Vector3(0, -5, 5);
+            reserved.Add("cameraEyeLookDownLeft"); Weight("cameraEyeLookDownLeft", 17); Apply();
+            Assert.That(Weight("cameraEyeLookDownLeft"), Is.EqualTo(17));
+            Assert.That(Weight("eyeLookDownLeft"), Is.EqualTo(100));
+            var canonicalMesh = new Mesh();
+            try
+            {
+                var errors = new List<string>(); gaze.Validate(errors, canonicalMesh);
+                Assert.That(errors, Has.Some.Contains("cameraEyeLookDownLeft"));
+                Assert.That(errors, Has.Some.Contains("cameraEyeLookDownRight"));
+            }
+            finally { Object.DestroyImmediate(canonicalMesh); }
+        }
     }
 }

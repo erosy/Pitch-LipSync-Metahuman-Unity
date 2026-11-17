@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "humanoid": true,
+  "avatarHumanScale": 1.05310845,
+  "mappedFingerChecks": 30,
+  "poseSamples": 63,
+  "clips": [
+    {
+      "name": "Breathing Idle",
+      "clip": "Breathing Idle",
+      "maxMoveM": 0.396789938,
+      "maxOutfitMoveM": 0.1305606,
+      "maxRadiusM": 1.87831926
+    },
+    {
+      "name": "Idle",
+      "clip": "Idle",
+      "maxMoveM": 0.5160763,
+      "maxOutfitMoveM": 0.153100371,
+      "maxRadiusM": 1.87867975
+    },
+    {
+      "name": "Nod",
+      "clip": "Head Nod Yes",
+      "maxMoveM": 0.516204059,
+      "maxOutfitMoveM": 0.152867988,
+      "maxRadiusM": 1.88143873
+    },
+    {
+      "name": "Talking",
+      "clip": "Talking (1)",
+      "maxMoveM": 0.6102181,
+      "maxOutfitMoveM": 0.198406041,
+      "maxRadiusM": 1.878224
+    },
+    {
+      "name": "Thinking",
+      "clip": "Thinking",
+      "maxMoveM": 0.843958259,
+      "maxOutfitMoveM": 0.243747279,
+      "maxRadiusM": 1.88313186
+    },
+    {
+      "name": "Thumbs Up",
+      "clip": "Standing Thumbs Up",
+      "maxMoveM": 1.45313752,
+      "maxOutfitMoveM": 1.2724067,
+      "maxRadiusM": 1.98099768
+    },
+    {
+      "name": "Waving",
+      "clip": "Waving",
+      "maxMoveM": 0.9542208,
+      "maxOutfitMoveM": 0.31406033,
+      "maxRadiusM": 1.87888074
+    }
+  ],
+  "largestRadiusM": 1.98099768,
+  "phonemes": 8,
+  "faceExpressionTarget": true,
+  "lipSyncCallback": true,
+  "playModeTested": false
+}

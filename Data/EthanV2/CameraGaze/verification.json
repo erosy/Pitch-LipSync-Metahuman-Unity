@@ -1,0 +1,206 @@
+{
+  "validated": true,
+  "liveSceneSampled": false,
+  "samples": [
+    {
+      "phase": 0.0,
+      "targetYaw": -2.86939359,
+      "targetPitch": -14.1734934,
+      "headDifferenceDegrees": 0.0,
+      "eyes": [
+        {
+          "name": "eyeLookUpLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownLeft",
+          "weight": 40.88115
+        },
+        {
+          "name": "eyeLookInLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookOutLeft",
+          "weight": 7.12892771
+        },
+        {
+          "name": "eyeLookUpRight",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownRight",
+          "weight": 40.88115
+        },
+        {
+          "name": "eyeLookInRight",
+          "weight": 7.12892771
+        },
+        {
+          "name": "eyeLookOutRight",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "phase": 0.25,
+      "targetYaw": -3.6486764,
+      "targetPitch": -14.72779,
+      "headDifferenceDegrees": 0.0,
+      "eyes": [
+        {
+          "name": "eyeLookUpLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownLeft",
+          "weight": 42.4799271
+        },
+        {
+          "name": "eyeLookInLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookOutLeft",
+          "weight": 9.065034
+        },
+        {
+          "name": "eyeLookUpRight",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownRight",
+          "weight": 42.4799271
+        },
+        {
+          "name": "eyeLookInRight",
+          "weight": 9.065034
+        },
+        {
+          "name": "eyeLookOutRight",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "phase": 0.5,
+      "targetYaw": -3.05156779,
+      "targetPitch": -15.7782717,
+      "headDifferenceDegrees": 0.0,
+      "eyes": [
+        {
+          "name": "eyeLookUpLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownLeft",
+          "weight": 45.5098724
+        },
+        {
+          "name": "eyeLookInLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookOutLeft",
+          "weight": 7.581535
+        },
+        {
+          "name": "eyeLookUpRight",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownRight",
+          "weight": 45.5098724
+        },
+        {
+          "name": "eyeLookInRight",
+          "weight": 7.581535
+        },
+        {
+          "name": "eyeLookOutRight",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "phase": 0.75,
+      "targetYaw": -3.3470006,
+      "targetPitch": -14.4425516,
+      "headDifferenceDegrees": 0.0,
+      "eyes": [
+        {
+          "name": "eyeLookUpLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownLeft",
+          "weight": 41.6572037
+        },
+        {
+          "name": "eyeLookInLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookOutLeft",
+          "weight": 8.31553
+        },
+        {
+          "name": "eyeLookUpRight",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownRight",
+          "weight": 41.6572037
+        },
+        {
+          "name": "eyeLookInRight",
+          "weight": 8.31553
+        },
+        {
+          "name": "eyeLookOutRight",
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "phase": 1.0,
+      "targetYaw": -2.86939359,
+      "targetPitch": -14.1734934,
+      "headDifferenceDegrees": 0.0,
+      "eyes": [
+        {
+          "name": "eyeLookUpLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownLeft",
+          "weight": 40.88115
+        },
+        {
+          "name": "eyeLookInLeft",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookOutLeft",
+          "weight": 7.12892771
+        },
+        {
+          "name": "eyeLookUpRight",
+          "weight": 0.0
+        },
+        {
+          "name": "eyeLookDownRight",
+          "weight": 40.88115
+        },
+        {
+          "name": "eyeLookInRight",
+          "weight": 7.12892771
+        },
+        {
+          "name": "eyeLookOutRight",
+          "weight": 0.0
+        }
+      ]
+    }
+  ]
+}

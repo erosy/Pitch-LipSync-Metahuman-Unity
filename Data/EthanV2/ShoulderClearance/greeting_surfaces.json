@@ -1,0 +1,86 @@
+{
+  "headTriangles": 34398,
+  "bodyTriangles": 8933,
+  "rows": [
+    {
+      "pose": "Neutral",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 0,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": 0.0
+    },
+    {
+      "pose": "Greeting_0.000",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 21,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": -22.6430321
+    },
+    {
+      "pose": "Greeting_0.125",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 9,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": -20.9880962
+    },
+    {
+      "pose": "Greeting_0.250",
+      "samples": 1152,
+      "headInside": 17,
+      "bodyInside": 10,
+      "minHeadSignedMm": -20.12683,
+      "minBodySignedMm": -21.6022472
+    },
+    {
+      "pose": "Greeting_0.375",
+      "samples": 1152,
+      "headInside": 22,
+      "bodyInside": 10,
+      "minHeadSignedMm": -23.7539463,
+      "minBodySignedMm": -21.386797
+    },
+    {
+      "pose": "Greeting_0.500",
+      "samples": 1152,
+      "headInside": 12,
+      "bodyInside": 10,
+      "minHeadSignedMm": -12.6068983,
+      "minBodySignedMm": -24.6190929
+    },
+    {
+      "pose": "Greeting_0.625",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 9,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": -20.0947571
+    },
+    {
+      "pose": "Greeting_0.750",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 21,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": -23.8822784
+    },
+    {
+      "pose": "Greeting_0.875",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 21,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": -22.18776
+    },
+    {
+      "pose": "Greeting_1.000",
+      "samples": 1152,
+      "headInside": 0,
+      "bodyInside": 21,
+      "minHeadSignedMm": 0.0,
+      "minBodySignedMm": -22.6430435
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "changes": [
+    {
+      "name": "OutfitBind_DEF-jaw",
+      "previous": "clavicle_l",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-ear_L_002",
+      "previous": "head",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-ear_R_002",
+      "previous": "head",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-jaw_L",
+      "previous": "head",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-jaw_R",
+      "previous": "head",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-ear_L_003",
+      "previous": "neck_02",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-ear_L_004",
+      "previous": "neck_02",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-ear_R_003",
+      "previous": "neck_02",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-ear_R_004",
+      "previous": "neck_02",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-jaw_L_001",
+      "previous": "neck_02",
+      "parent": "head"
+    },
+    {
+      "name": "OutfitBind_DEF-jaw_R_001",
+      "previous": "neck_02",
+      "parent": "head"
+    }
+  ],
+  "neutralWorldTransformsPreserved": true,
+  "weightsChanged": false
+}

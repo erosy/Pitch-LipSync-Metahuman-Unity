@@ -1,0 +1,73 @@
+{
+  "changedCurves": [
+    "Neck Nod Down-Up",
+    "Neck Tilt Left-Right",
+    "Neck Turn Left-Right",
+    "Head Nod Down-Up",
+    "Head Tilt Left-Right",
+    "Head Turn Left-Right"
+  ],
+  "unchangedCurveCount": 124,
+  "samples": [
+    {
+      "phase": 0.0,
+      "offsetEuler": "(355, 3.0000272, 358)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.125,
+      "offsetEuler": "(355, 2.999996, 358)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.25,
+      "offsetEuler": "(355.00003, 3.0000362, 358.00003)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.375,
+      "offsetEuler": "(355, 3.0000041, 358.00003)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.5,
+      "offsetEuler": "(355, 2.9999733, 357.99997)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.625,
+      "offsetEuler": "(355, 3.0000062, 358)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.75,
+      "offsetEuler": "(354.99997, 3.0000172, 358)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.875,
+      "offsetEuler": "(354.99997, 3.0000076, 357.99997)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 0.999,
+      "offsetEuler": "(355, 3.0000265, 357.99997)",
+      "targetErrorDegrees": 0.0
+    },
+    {
+      "phase": 1.0,
+      "offsetEuler": "(355, 3.0000308, 357.99997)",
+      "targetErrorDegrees": 0.0
+    }
+  ],
+  "maxHeadTargetErrorDegrees": 0.0,
+  "maxBodyPositionDifferenceMeters": 0.000206166034,
+  "maxBodyRotationDifferenceDegrees": 0.0,
+  "sourceHeadLoopSeamDegrees": 0.0,
+  "copiedHeadLoopSeamDegrees": 0.0,
+  "definitionsValid": true,
+  "length": 8.333334,
+  "frameRate": 30.0,
+  "originalAssetsChanged": false,
+  "assigned": false
+}

@@ -188,7 +188,7 @@ namespace Sandbox.CharacterSystem.Tests
             driver.skinnedMeshRenderer = face;
             driver.blendShapes.Add(new uLipSync.uLipSyncBlendShape.BlendShapeInfo { index = face.sharedMesh.GetBlendShapeIndex("mouthSmileLeft") });
             Set(module, "blendShapeDriver", driver); Weight("mouthSmileLeft", 44);
-            character.PlayActivity(Activity("happy", joy)); module.Tick(1, false, 0);
+            character.PlayActivity(Activity("happy", joy)); Weight("mouthSmileLeft", 44); module.Tick(1, true, 0);
             Assert.That(Weight("mouthSmileLeft"), Is.EqualTo(44));
             var errors = new List<string>();
             module.ValidateActivity(new ActivityRequest(Activity("reserved", Expression("reserved", "mouthSmileLeft", 100, 0)), idleAnimation, 9), errors);
@@ -298,6 +298,87 @@ namespace Sandbox.CharacterSystem.Tests
                         if (attribute.GetType().FullName == "Sirenix.OdinInspector.ButtonAttribute")
                             Assert.That(attribute.GetType().GetField("DirtyOnClick").GetValue(attribute), Is.False, method.Name);
                 }
+        }
+
+        [TestCase(5f, 20f)]
+        [TestCase(20f, 5f)]
+        [TestCase(20f, 0f)]
+        public void IdleMotionOverridesOnlyItsTargetsAndReturnsToDefinition(float baseline, float target)
+        {
+            var expression = Expression("idle-pose", "mouthPucker", baseline, 0);
+            typeof(ExpressionDefinition).GetField("targets", BindingFlags.Instance | BindingFlags.NonPublic)
+                .SetValue(expression, new List<BlendShapeWeight> {
+                    new BlendShapeWeight("mouthPucker", baseline), new BlendShapeWeight("mouthSmileLeft", 7) });
+            var motion = new FacialMotionDefinition {
+                name = "Test mouth", channel = "Mouth", idleOnly = true,
+                interval = new Vector2(.1f, .1f), easeIn = .1f,
+                hold = new Vector2(.1f, .1f), easeOut = .1f,
+                variants = new List<FacialMotionVariant> {
+                    FacialMotionDefaults.Variant("Test", Vector2.one, new BlendShapeTarget("mouthPucker", target)) }
+            };
+            typeof(ExpressionModule).GetField("facialMotions", BindingFlags.Instance | BindingFlags.NonPublic)
+                .SetValue(module, new List<FacialMotionDefinition> { motion });
+            character.PlayActivity(Activity("custom-idle", expression, true));
+            Weight("viseme_aa", 37);
+            module.Tick(0, false, 0);
+            module.Tick(.15f, false, .15f);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo((baseline + target) / 2).Within(.01));
+            Assert.That(Weight("mouthSmileLeft"), Is.EqualTo(7));
+            module.Tick(.05f, false, .2f);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(target).Within(.01));
+            module.Tick(.15f, false, .35f);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo((baseline + target) / 2).Within(.01), module.FacialMotionStatus);
+            module.Tick(.051f, false, .401f);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(baseline).Within(.01));
+            module.Tick(.15f, false, .551f);
+            module.Tick(0, true, .551f);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(baseline).Within(.01));
+            Assert.That(Weight("mouthSmileLeft"), Is.EqualTo(7));
+            Assert.That(Weight("viseme_aa"), Is.EqualTo(37));
+            character.PlayActivity(Activity("next", joy)); module.Tick(1, false, 2);
+            Assert.That(Weight("mouthPucker"), Is.Zero);
+            Assert.That(Weight("emo_joy"), Is.EqualTo(100));
+        }
+
+        [Test]
+        public void DefaultIdleSupportsExpressionAndSharedLipSyncShapeReturnsAfterSpeech()
+        {
+            var expression = Expression("default-idle-pose", "mouthPucker", 20, .1f);
+            Set(idle, "expression", expression);
+            var driver = face.gameObject.AddComponent<uLipSync.uLipSyncBlendShape>();
+            driver.skinnedMeshRenderer = face;
+            driver.blendShapes.Add(new uLipSync.uLipSyncBlendShape.BlendShapeInfo {
+                index = face.sharedMesh.GetBlendShapeIndex("mouthPucker") });
+            Set(module, "blendShapeDriver", driver);
+            Assert.That(character.ValidateConfiguration(), Is.Empty);
+            Assert.That(character.Initialize(), Is.True);
+            module.Tick(1, false, 0);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(20));
+            Weight("mouthPucker", 67);
+            module.Tick(.1f, true, 1);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(67));
+            module.Tick(.1f, false, 2);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(67), "Speech grace retains lip-sync ownership");
+            module.Tick(1, false, 2.31f);
+            Assert.That(Weight("mouthPucker"), Is.EqualTo(20));
+            Assert.That(module.CurrentDefinition, Is.SameAs(expression));
+        }
+
+        [Test]
+        public void IdleCameraGazeReceivesExpressionPriorityAndSuspendsForPreview()
+        {
+            var head = Child(character.transform, "Gaze head");
+            var audience = Child(character.transform, "Gaze target"); audience.position = new Vector3(5, 5, 5);
+            var gaze = new SpeechGaze { lookAtPlayerDuringIdle = true, head = head, target = audience, assistHead = false };
+            typeof(ExpressionModule).GetField("speechGaze", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(module, gaze);
+            var expression = Expression("upward-idle", "eyeLookUpLeft", 10, 0);
+            character.PlayActivity(Activity("upward-idle-activity", expression, true)); module.Tick(1, false, 0); module.ApplyGaze(1);
+            Assert.That(Weight("eyeLookUpLeft"), Is.EqualTo(10));
+            Assert.That(Weight("eyeLookUpRight"), Is.Zero, "Expression protects both eyes' vertical direction");
+            Assert.That(Weight("eyeLookInLeft"), Is.EqualTo(100).Within(.01));
+            module.StartPreview(joy); module.TickPreview(1); module.ApplyGaze(1);
+            Assert.That(Weight("eyeLookInLeft"), Is.Zero, "Camera gaze must yield to preview ownership");
+            Assert.That(Weight("emo_joy"), Is.EqualTo(100));
         }
 
         Mesh Mesh()

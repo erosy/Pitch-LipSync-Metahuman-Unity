@@ -1,0 +1,690 @@
+{
+  "activeSelf": true,
+  "enabled": true,
+  "isHuman": true,
+  "avatar": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Avatar_TPose.asset",
+  "name": "Idle",
+  "length": 8.333334,
+  "frameRate": 30.0,
+  "isHumanMotion": true,
+  "muscles": [
+    {
+      "name": "Neck Nod Down-Up",
+      "index": 9
+    },
+    {
+      "name": "Neck Tilt Left-Right",
+      "index": 10
+    },
+    {
+      "name": "Neck Turn Left-Right",
+      "index": 11
+    },
+    {
+      "name": "Head Nod Down-Up",
+      "index": 12
+    },
+    {
+      "name": "Head Tilt Left-Right",
+      "index": 13
+    },
+    {
+      "name": "Head Turn Left-Right",
+      "index": 14
+    }
+  ],
+  "bindings": [
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootT.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootT.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootT.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootQ.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootQ.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootQ.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RootQ.w"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootT.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootT.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootT.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootQ.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootQ.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootQ.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftFootQ.w"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootT.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootT.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootT.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootQ.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootQ.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootQ.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightFootQ.w"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandT.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandT.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandT.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandQ.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandQ.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandQ.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHandQ.w"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandT.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandT.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandT.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandQ.x"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandQ.y"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandQ.z"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHandQ.w"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Spine Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Spine Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Spine Twist Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Chest Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Chest Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Chest Twist Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "UpperChest Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "UpperChest Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "UpperChest Twist Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Neck Nod Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Neck Tilt Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Neck Turn Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Head Nod Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Head Tilt Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Head Turn Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Eye Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Eye In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Eye Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Eye In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Jaw Close"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Jaw Left-Right"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Upper Leg Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Upper Leg In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Upper Leg Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Lower Leg Stretch"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Lower Leg Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Foot Up-Down"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Foot Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Toes Up-Down"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Upper Leg Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Upper Leg In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Upper Leg Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Lower Leg Stretch"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Lower Leg Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Foot Up-Down"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Foot Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Toes Up-Down"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Shoulder Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Shoulder Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Arm Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Arm Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Arm Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Forearm Stretch"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Forearm Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Hand Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Left Hand In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Shoulder Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Shoulder Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Arm Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Arm Front-Back"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Arm Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Forearm Stretch"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Forearm Twist In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Hand Down-Up"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "Right Hand In-Out"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Thumb.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Thumb.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Thumb.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Thumb.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Index.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Index.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Index.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Index.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Middle.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Middle.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Middle.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Middle.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Ring.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Ring.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Ring.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Ring.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Little.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Little.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Little.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "LeftHand.Little.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Thumb.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Thumb.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Thumb.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Thumb.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Index.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Index.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Index.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Index.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Middle.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Middle.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Middle.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Middle.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Ring.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Ring.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Ring.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Ring.3 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Little.1 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Little.Spread"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Little.2 Stretched"
+    },
+    {
+      "path": "",
+      "type": "Animator",
+      "propertyName": "RightHand.Little.3 Stretched"
+    }
+  ],
+  "head": "(4.653179E-05, 1.7475014, -0.49700737)",
+  "rootRotation": "(0, 0, 0)"
+}

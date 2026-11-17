@@ -1,0 +1,17 @@
+{
+  "avatarValid": true,
+  "humanoid": true,
+  "calibration": [
+    {
+      "side": "l",
+      "upperDirection": "(-1.00, 0.00, 0.00)",
+      "lowerDirection": "(-1.00, 0.00, 0.00)"
+    },
+    {
+      "side": "r",
+      "upperDirection": "(1.00, 0.00, 0.00)",
+      "lowerDirection": "(1.00, 0.00, 0.00)"
+    }
+  ],
+  "meshDataChanged": false
+}

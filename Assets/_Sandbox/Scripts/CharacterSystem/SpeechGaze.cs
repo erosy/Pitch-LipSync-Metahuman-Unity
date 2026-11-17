@@ -4,11 +4,16 @@ using UnityEngine;
 
 namespace Sandbox.CharacterSystem
 {
-    /// <summary>Applies speech gaze after expression/animation output; never writes eyelids or visemes.</summary>
+    /// <summary>Applies audience gaze during speech and optional idle tracking; never writes eyelids or visemes.</summary>
     [Serializable]
     public sealed class SpeechGaze
     {
+        [Tooltip("Master switch for audience gaze. Idle tracking also requires Look At Player During Idle.")]
         public bool enabled = true;
+        [Tooltip("Also look toward Target (or the main camera) while idle. Eye-direction expressions and occasional gaze motions take priority during idle.")]
+        public bool lookAtPlayerDuringIdle;
+        [Tooltip("Use the mesh's cameraEyeLookDownLeft/Right shapes for downward camera tracking. These rotate only the eyeballs; authored expressions and darts keep the original shapes.")]
+        public bool eyeOnlyDownwardGaze;
         [Tooltip("Optional audience target. Otherwise use Camera.main each frame.")]
         public Transform target;
         [Tooltip("Optional head frame (+Z forward, +Y up). Automatically resolves the Face's Head bone when empty.")]
@@ -25,7 +30,9 @@ namespace Sandbox.CharacterSystem
             "eyeLookOutLeft", "eyeLookInRight", "eyeLookInLeft", "eyeLookOutRight",
             "eyeLookUpLeft", "eyeLookUpRight", "eyeLookDownLeft", "eyeLookDownRight"
         };
+        internal static readonly string[] CameraDownShapes = { "cameraEyeLookDownLeft", "cameraEyeLookDownRight" };
         [NonSerialized] float blend;
+        [NonSerialized] float horizontalBlend, verticalBlend;
         [NonSerialized] Transform boundHead;
         [NonSerialized] SkinnedMeshRenderer boundFace;
         [NonSerialized] Mesh boundMesh;
@@ -35,8 +42,11 @@ namespace Sandbox.CharacterSystem
         [NonSerialized] int[] indices;
         [NonSerialized] float[] originalEyes, appliedEyes;
 
-        internal void Validate(List<string> errors)
+        internal void Validate(List<string> errors, Mesh mesh = null)
         {
+            if (eyeOnlyDownwardGaze && mesh)
+                foreach (var shape in CameraDownShapes)
+                    if (mesh.GetBlendShapeIndex(shape) < 0) errors.Add("Speech Gaze: eye-only downward gaze requires mesh shape '" + shape + "'.");
             if (!Finite(blendDuration) || blendDuration < .01f
                 || !Finite(horizontalEyeRange) || horizontalEyeRange < 1 || horizontalEyeRange > 60
                 || !Finite(verticalEyeRange) || verticalEyeRange < 1 || verticalEyeRange > 45
@@ -60,17 +70,19 @@ namespace Sandbox.CharacterSystem
 
         internal void Release()
         {
-            Restore(); blend = 0; boundFace = null; boundMesh = null; boundHead = null;
+            Restore(); blend = horizontalBlend = verticalBlend = 0; boundFace = null; boundMesh = null; boundHead = null;
         }
 
         internal void Apply(SkinnedMeshRenderer face, Transform character, bool speaking, float delta,
-            HashSet<string> reserved)
+            HashSet<string> reserved, bool idle = false, HashSet<string> expressionShapes = null,
+            IReadOnlyDictionary<string, float> basePose = null, IReadOnlyDictionary<string, float> motionTargets = null,
+            IReadOnlyDictionary<string, float> motionInfluences = null)
         {
             Restore();
             if (!face || !face.sharedMesh || !character) { Release(); return; }
             if (boundFace != face || boundMesh != face.sharedMesh)
             {
-                blend = 0; boundHead = null;
+                blend = horizontalBlend = verticalBlend = 0; boundHead = null;
                 boundFace = face; boundMesh = face.sharedMesh;
             }
             var frame = head;
@@ -94,15 +106,24 @@ namespace Sandbox.CharacterSystem
             }
             bool validTarget = audience && (audience.position - frame.position).sqrMagnitude > .000001f;
             float duration = Finite(blendDuration) ? Mathf.Max(.01f, blendDuration) : .15f;
-            blend = Mathf.MoveTowards(blend, enabled && speaking && validTarget ? 1 : 0,
+            bool idleGaze = !speaking && idle && lookAtPlayerDuringIdle;
+            bool horizontalExpression = idleGaze && HasExpression(expressionShapes, 0, 4);
+            bool verticalExpression = idleGaze && HasExpression(expressionShapes, 4, 8);
+            float horizontalMotion = idleGaze ? MotionInfluence(motionInfluences, 0, 4) : 0;
+            float verticalMotion = idleGaze ? MotionInfluence(motionInfluences, 4, 8) : 0;
+            blend = Mathf.MoveTowards(blend, enabled && (speaking || idleGaze) && validTarget ? 1 : 0,
                 Mathf.Max(0, delta) / duration);
+            horizontalBlend = horizontalExpression ? 0 : Mathf.MoveTowards(horizontalBlend, blend, Mathf.Max(0, delta) / duration);
+            verticalBlend = verticalExpression ? 0 : Mathf.MoveTowards(verticalBlend, blend, Mathf.Max(0, delta) / duration);
             if (blend <= 0) return;
 
             float yaw = 0, pitch = 0;
             if (validTarget) Angles(frame, audience.position, out yaw, out pitch);
             float yawRange = Finite(horizontalEyeRange) ? Mathf.Clamp(horizontalEyeRange, 1, 60) : 30;
             float pitchRange = Finite(verticalEyeRange) ? Mathf.Clamp(verticalEyeRange, 1, 45) : 20;
-            if (assistHead && validTarget && maximumHeadCorrection > 0 && Finite(maximumHeadCorrection))
+            // During an authored eye pose or dart, preserve the animated head as well.
+            bool idleOverride = horizontalExpression || verticalExpression || horizontalMotion > 0 || verticalMotion > 0;
+            if (assistHead && !idleOverride && validTarget && maximumHeadCorrection > 0 && Finite(maximumHeadCorrection))
             {
                 float excessYaw = yaw - Mathf.Clamp(yaw, -yawRange, yawRange);
                 float excessPitch = pitch - Mathf.Clamp(pitch, -pitchRange, pitchRange);
@@ -117,18 +138,68 @@ namespace Sandbox.CharacterSystem
             float up = Mathf.Clamp(pitch / pitchRange, -1, 1);
             if (indices == null)
             {
-                indices = new int[EyeShapes.Length]; originalEyes = new float[indices.Length]; appliedEyes = new float[indices.Length];
+                indices = new int[EyeShapes.Length + CameraDownShapes.Length]; originalEyes = new float[indices.Length]; appliedEyes = new float[indices.Length];
             }
-            for (int i = 0; i < indices.Length; i++)
+            bool splitDownward = eyeOnlyDownwardGaze;
+            for (int side = 0; side < CameraDownShapes.Length; side++)
+            {
+                int slot = EyeShapes.Length + side;
+                indices[slot] = boundMesh.GetBlendShapeIndex(CameraDownShapes[side]);
+                if (indices[slot] < 0 || (reserved != null && reserved.Contains(CameraDownShapes[side]))) splitDownward = false;
+            }
+            float leftCameraDown = 0, rightCameraDown = 0;
+            for (int i = 0; i < EyeShapes.Length; i++)
             {
                 indices[i] = reserved != null && reserved.Contains(EyeShapes[i]) ? -1 : boundMesh.GetBlendShapeIndex(EyeShapes[i]);
                 if (indices[i] < 0) continue;
                 originalEyes[i] = face.GetBlendShapeWeight(indices[i]);
+                if (i < 4 ? horizontalExpression : verticalExpression) { indices[i] = -1; continue; }
                 float desired = i < 2 ? -right : i < 4 ? right : i < 6 ? up : -up;
-                appliedEyes[i] = Mathf.Lerp(originalEyes[i], Mathf.Max(0, desired) * 100, blend);
+                float baseline = idleGaze && basePose != null && basePose.TryGetValue(EyeShapes[i], out var baseWeight)
+                    ? baseWeight : originalEyes[i];
+                float eyeBlend = idleGaze ? (i < 4 ? horizontalBlend : verticalBlend) : blend;
+                appliedEyes[i] = Mathf.Lerp(baseline, Mathf.Max(0, desired) * 100, eyeBlend);
+                bool splitShape = splitDownward && i >= 6;
+                float cameraDown = splitShape ? Mathf.Max(0, desired) * 100 * eyeBlend : 0;
+                if (splitShape) appliedEyes[i] = baseline * (1 - eyeBlend);
+                if (idleGaze)
+                {
+                    // Compose darts over camera gaze, including the opposite direction's release.
+                    // Starting from the expression base avoids applying a dart's easing twice.
+                    float influence = i < 4 ? horizontalMotion : verticalMotion;
+                    float targetWeight = motionTargets != null && motionTargets.TryGetValue(EyeShapes[i], out var motionWeight) ? FacialMath.Weight(motionWeight) : 0;
+                    appliedEyes[i] = Mathf.Lerp(appliedEyes[i], targetWeight, influence);
+                    cameraDown *= 1 - influence;
+                }
+                if (i == 6) leftCameraDown = cameraDown;
+                if (i == 7) rightCameraDown = cameraDown;
                 face.SetBlendShapeWeight(indices[i], appliedEyes[i]);
             }
+            for (int side = 0; side < CameraDownShapes.Length; side++)
+            {
+                int slot = EyeShapes.Length + side;
+                if (!splitDownward) { indices[slot] = -1; continue; }
+                originalEyes[slot] = face.GetBlendShapeWeight(indices[slot]);
+                appliedEyes[slot] = side == 0 ? leftCameraDown : rightCameraDown;
+                face.SetBlendShapeWeight(indices[slot], appliedEyes[slot]);
+            }
             wroteEyes = true;
+        }
+
+        static bool HasExpression(HashSet<string> shapes, int start, int end)
+        {
+            if (shapes == null) return false;
+            for (int i = start; i < end; i++) if (shapes.Contains(EyeShapes[i])) return true;
+            return false;
+        }
+
+        static float MotionInfluence(IReadOnlyDictionary<string, float> influences, int start, int end)
+        {
+            float result = 0;
+            if (influences != null)
+                for (int i = start; i < end; i++)
+                    if (influences.TryGetValue(EyeShapes[i], out var value)) result = Mathf.Max(result, Mathf.Clamp01(value));
+            return result;
         }
 
         static void Angles(Transform frame, Vector3 targetPosition, out float yaw, out float pitch)
