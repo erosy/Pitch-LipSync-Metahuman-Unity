@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "savedMesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Face.asset",
+  "live": [
+    {
+      "root": "Liora_Candidate",
+      "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Face.asset",
+      "usesCorrectedMesh": true,
+      "active": true
+    }
+  ],
+  "vertexCount": 100369,
+  "triangles": 175832,
+  "shapes": 73,
+  "meshMemoryMiB": 258.120728,
+  "facialHair": {
+    "browVertices": 24063,
+    "browTriangles": 38568,
+    "lashVertices": 11190,
+    "lashTriangles": 17484,
+    "densePositionShapeMiB": 29.4510155,
+    "geometryAndShadingUnchanged": true
+  },
+  "configurationErrors": [],
+  "consolidatedHierarchyPreserved": true,
+  "lipSyncReferencesValid": true,
+  "sourceTexturesAndMaterialSettingsPreserved": true,
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": true
+    }
+  ],
+  "sceneSaved": false,
+  "playModeTested": false
+}

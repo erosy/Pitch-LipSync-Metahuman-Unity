@@ -1,0 +1,17 @@
+{
+  "files": [
+    "Data/Liora/HierarchyRepair/Previews/Neutral.png",
+    "Data/Liora/HierarchyRepair/Previews/Blink.png",
+    "Data/Liora/HierarchyRepair/Previews/BrowRaised.png",
+    "Data/Liora/HierarchyRepair/Previews/Joy.png",
+    "Data/Liora/HierarchyRepair/Previews/Speech.png",
+    "Data/Liora/HierarchyRepair/Previews/ThreeQuarter.png",
+    "Data/Liora/HierarchyRepair/Previews/Waving.png",
+    "Data/Liora/HierarchyRepair/Previews/Talking.png",
+    "Data/Liora/HierarchyRepair/Previews/Thinking.png"
+  ],
+  "staticMeshReview": true,
+  "scalpPreview": "One fifth of authored strands as static ribbons, all 32 points; production groom density unchanged",
+  "simulationTested": false,
+  "sceneSaved": false
+}

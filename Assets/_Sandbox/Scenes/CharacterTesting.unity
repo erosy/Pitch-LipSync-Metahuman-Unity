@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterSelectionController
   boy: {fileID: 578277425}
-  girl: {fileID: 2673151893082080569}
+  girl: {fileID: 2083242357}
 --- !u!4 &419765705
 Transform:
   m_ObjectHideFlags: 0
@@ -3604,6 +3604,95 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a146f98d5267ac6478502b8043f9a1e9, type: 3}
+--- !u!1001 &1364521278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 905843283186519816, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[67]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228955783569438398, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228955783569438398, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_RayTracingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228955783569438398, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228955783569438398, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434201203977936180, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[67]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487237359243725887, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_Name
+      value: Liora_Candidate
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914958120455602091, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
 --- !u!1 &1429895730
 GameObject:
   m_ObjectHideFlags: 0
@@ -4422,6 +4511,17 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2083242357 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9162313677824871526, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+  m_PrefabInstance: {fileID: 1364521278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9652964cf7b93c4f89e79a455b3f317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterFlowController
 --- !u!1 &2084980026
 GameObject:
   m_ObjectHideFlags: 0
@@ -4523,7 +4623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4769049267004276253, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6131519711250784552, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: m_Enabled
@@ -4551,6 +4651,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7861397961982847851, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: speechGaze.lookAtPlayerDuringIdle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142357726397610064, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142357726397610064, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142357726397610064, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8142357726397610064, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
@@ -4653,17 +4765,6 @@ PrefabInstance:
       addedObject: {fileID: 717535742}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
---- !u!114 &2673151893082080569 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1387286056948287839, guid: 48dcd3a0926950846ad911bc2abe8ce9, type: 3}
-  m_PrefabInstance: {fileID: 6858535378428533662}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9652964cf7b93c4f89e79a455b3f317, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.CharacterFlowController
 --- !u!1001 &6858535378428533662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62462,6 +62563,7 @@ SceneRoots:
   - {fileID: 6858535378428533662}
   - {fileID: 1234867435}
   - {fileID: 2096738284}
+  - {fileID: 1364521278}
   - {fileID: 2084980027}
   - {fileID: 642158600}
   - {fileID: 1049443388}

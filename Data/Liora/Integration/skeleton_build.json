@@ -1,0 +1,206 @@
+{
+  "candidate": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Candidate.prefab",
+  "oneDeformSkeleton": true,
+  "oneAnimator": true,
+  "calibratedAvatar": true,
+  "neutralGeometryPreserved": true,
+  "checks": [
+    {
+      "name": "BAKED_body_lod0_mesh",
+      "vertexCount": 32416,
+      "shapes": 73,
+      "maxNeutralErrorM": 5.12955E-07
+    },
+    {
+      "name": "BAKED_cartilage_lod0_mesh",
+      "vertexCount": 392,
+      "shapes": 73,
+      "maxNeutralErrorM": 3.639029E-07
+    },
+    {
+      "name": "BAKED_eyeEdge_lod0_mesh",
+      "vertexCount": 300,
+      "shapes": 73,
+      "maxNeutralErrorM": 3.63864757E-07
+    },
+    {
+      "name": "BAKED_eyelashes_lod0_mesh",
+      "vertexCount": 2144,
+      "shapes": 73,
+      "maxNeutralErrorM": 4.78931668E-07
+    },
+    {
+      "name": "BAKED_eyeLeft_lod0_mesh",
+      "vertexCount": 802,
+      "shapes": 73,
+      "maxNeutralErrorM": 2.430306E-07
+    },
+    {
+      "name": "BAKED_eyeRight_lod0_mesh",
+      "vertexCount": 802,
+      "shapes": 73,
+      "maxNeutralErrorM": 2.413761E-07
+    },
+    {
+      "name": "BAKED_eyeshell_lod0_mesh",
+      "vertexCount": 582,
+      "shapes": 73,
+      "maxNeutralErrorM": 3.65382419E-07
+    },
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "vertexCount": 20175,
+      "shapes": 73,
+      "maxNeutralErrorM": 4.792901E-07
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "vertexCount": 2111,
+      "shapes": 73,
+      "maxNeutralErrorM": 4.77884669E-07
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "vertexCount": 2134,
+      "shapes": 73,
+      "maxNeutralErrorM": 3.59022124E-07
+    },
+    {
+      "name": "BAKED_Outfits",
+      "vertexCount": 5196,
+      "shapes": 73,
+      "maxNeutralErrorM": 4.789507E-07
+    },
+    {
+      "name": "BAKED_saliva_lod0_mesh",
+      "vertexCount": 670,
+      "shapes": 73,
+      "maxNeutralErrorM": 2.38883786E-07
+    },
+    {
+      "name": "BAKED_teeth_lod0_mesh",
+      "vertexCount": 4732,
+      "shapes": 73,
+      "maxNeutralErrorM": 3.65382419E-07
+    }
+  ],
+  "clothingHelpers": [
+    {
+      "source": "Rigify_DEF-shoulder.R",
+      "anchor": "clavicle_r",
+      "helper": "OutfitBind_Rigify_DEF-shoulder_R"
+    },
+    {
+      "source": "Rigify_DEF-spine.003",
+      "anchor": "spine_03",
+      "helper": "OutfitBind_Rigify_DEF-spine_003"
+    },
+    {
+      "source": "Rigify_DEF-spine.004",
+      "anchor": "spine_05",
+      "helper": "OutfitBind_Rigify_DEF-spine_004"
+    },
+    {
+      "source": "Rigify_DEF-spine.005",
+      "anchor": "neck_01",
+      "helper": "OutfitBind_Rigify_DEF-spine_005"
+    },
+    {
+      "source": "Rigify_DEF-breast.R",
+      "anchor": "spine_05",
+      "helper": "OutfitBind_Rigify_DEF-breast_R"
+    },
+    {
+      "source": "Rigify_DEF-spine.002",
+      "anchor": "spine_02",
+      "helper": "OutfitBind_Rigify_DEF-spine_002"
+    },
+    {
+      "source": "Rigify_DEF-spine.001",
+      "anchor": "spine_01",
+      "helper": "OutfitBind_Rigify_DEF-spine_001"
+    },
+    {
+      "source": "Rigify_DEF-pelvis.R",
+      "anchor": "pelvis",
+      "helper": "OutfitBind_Rigify_DEF-pelvis_R"
+    },
+    {
+      "source": "Rigify_DEF-spine",
+      "anchor": "pelvis",
+      "helper": "OutfitBind_Rigify_DEF-spine"
+    },
+    {
+      "source": "Rigify_DEF-forearm.R",
+      "anchor": "lowerarm_r",
+      "helper": "OutfitBind_Rigify_DEF-forearm_R"
+    },
+    {
+      "source": "Rigify_DEF-upper_arm.R.001",
+      "anchor": "upperarm_r",
+      "helper": "OutfitBind_Rigify_DEF-upper_arm_R_001"
+    },
+    {
+      "source": "Rigify_DEF-pelvis.L",
+      "anchor": "pelvis",
+      "helper": "OutfitBind_Rigify_DEF-pelvis_L"
+    },
+    {
+      "source": "Rigify_DEF-breast.L",
+      "anchor": "spine_05",
+      "helper": "OutfitBind_Rigify_DEF-breast_L"
+    },
+    {
+      "source": "Rigify_DEF-forearm.L",
+      "anchor": "lowerarm_l",
+      "helper": "OutfitBind_Rigify_DEF-forearm_L"
+    },
+    {
+      "source": "Rigify_DEF-upper_arm.L.001",
+      "anchor": "upperarm_l",
+      "helper": "OutfitBind_Rigify_DEF-upper_arm_L_001"
+    },
+    {
+      "source": "Rigify_DEF-upper_arm.L",
+      "anchor": "upperarm_l",
+      "helper": "OutfitBind_Rigify_DEF-upper_arm_L"
+    },
+    {
+      "source": "Rigify_DEF-shoulder.L",
+      "anchor": "clavicle_l",
+      "helper": "OutfitBind_Rigify_DEF-shoulder_L"
+    },
+    {
+      "source": "Rigify_DEF-jaw.L.001",
+      "anchor": "head",
+      "helper": "OutfitBind_Rigify_DEF-jaw_L_001"
+    },
+    {
+      "source": "Rigify_DEF-jaw.L",
+      "anchor": "head",
+      "helper": "OutfitBind_Rigify_DEF-jaw_L"
+    },
+    {
+      "source": "Rigify_DEF-jaw",
+      "anchor": "head",
+      "helper": "OutfitBind_Rigify_DEF-jaw"
+    },
+    {
+      "source": "Rigify_DEF-jaw.R.001",
+      "anchor": "head",
+      "helper": "OutfitBind_Rigify_DEF-jaw_R_001"
+    },
+    {
+      "source": "Rigify_DEF-jaw.R",
+      "anchor": "head",
+      "helper": "OutfitBind_Rigify_DEF-jaw_R"
+    },
+    {
+      "source": "Rigify_DEF-upper_arm.R",
+      "anchor": "upperarm_r",
+      "helper": "OutfitBind_Rigify_DEF-upper_arm_R"
+    }
+  ],
+  "sceneSaved": false,
+  "playModeTested": false
+}

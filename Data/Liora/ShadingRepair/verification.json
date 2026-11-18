@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "all73PositionArraysBitIdentical": true,
+  "neutralShadingBitIdentical": true,
+  "allNonHeadAndLipShadingBitIdentical": true,
+  "topologyUVSkinBindPosesExact": true,
+  "shapeDefinitionsExact": true,
+  "changedScopedShadingRecords": 1778332,
+  "vertexCount": 100369,
+  "triangles": 175832,
+  "shapes": 73,
+  "memoryMiB": 258.094238
+}

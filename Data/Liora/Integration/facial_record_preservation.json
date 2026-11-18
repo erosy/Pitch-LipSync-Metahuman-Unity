@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Eyebrows",
+    "shapes": 73,
+    "records": 1081763,
+    "indicesStrictlyAscending": true,
+    "positionsAndNormalsFromEvaluatedGroom": true,
+    "temporaryTangentSentinelsRemoved": true
+  },
+  {
+    "name": "Eyelashes",
+    "shapes": 73,
+    "records": 338633,
+    "indicesStrictlyAscending": true,
+    "positionsAndNormalsFromEvaluatedGroom": true,
+    "temporaryTangentSentinelsRemoved": true
+  }
+]

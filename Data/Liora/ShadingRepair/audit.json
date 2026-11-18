@@ -1,0 +1,1684 @@
+{
+  "playing": false,
+  "prefab": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Candidate.prefab",
+  "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Face.asset",
+  "vertices": 100369,
+  "shapes": 73,
+  "sections": [
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_head_lod0_mesh.asset",
+      "offset": 0,
+      "vertices": 20175,
+      "triangles": 37630,
+      "firstSubmesh": 0,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Head.mat"
+      ]
+    },
+    {
+      "name": "BAKED_body_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_body_lod0_mesh.asset",
+      "offset": 20175,
+      "vertices": 32416,
+      "triangles": 60816,
+      "firstSubmesh": 1,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        0.0,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Body.mat"
+      ]
+    },
+    {
+      "name": "BAKED_cartilage_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_cartilage_lod0_mesh.asset",
+      "offset": 52591,
+      "vertices": 392,
+      "triangles": 576,
+      "firstSubmesh": 2,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3.68181645E-08,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        6.38887343E-07,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        -2.38418508E-07,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        -3.68181645E-08,
+        -6.388874E-07,
+        2.38418536E-07,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Cartilage.mat"
+      ]
+    },
+    {
+      "name": "BAKED_eyeEdge_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_eyeEdge_lod0_mesh.asset",
+      "offset": 52983,
+      "vertices": 300,
+      "triangles": 386,
+      "firstSubmesh": 3,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3.68181645E-08,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        6.38887343E-07,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        -2.38418508E-07,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        -3.68181645E-08,
+        -6.388874E-07,
+        2.38418536E-07,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_EyeEdge.mat"
+      ]
+    },
+    {
+      "name": "BAKED_eyeLeft_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_eyeLeft_lod0_mesh.asset",
+      "offset": 53283,
+      "vertices": 802,
+      "triangles": 1536,
+      "firstSubmesh": 4,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        0.0,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Eyes.mat"
+      ]
+    },
+    {
+      "name": "BAKED_eyeRight_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_eyeRight_lod0_mesh.asset",
+      "offset": 54085,
+      "vertices": 802,
+      "triangles": 1536,
+      "firstSubmesh": 5,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        0.0,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Eyes.mat"
+      ]
+    },
+    {
+      "name": "BAKED_eyeshell_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_eyeshell_lod0_mesh.asset",
+      "offset": 54887,
+      "vertices": 582,
+      "triangles": 980,
+      "firstSubmesh": 6,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3.68181645E-08,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        6.38887343E-07,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        -2.38418508E-07,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        -3.68181645E-08,
+        -6.388874E-07,
+        2.38418536E-07,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_EyeShell.mat"
+      ]
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_head_lod0_mesh.001.asset",
+      "offset": 55469,
+      "vertices": 2111,
+      "triangles": 3510,
+      "firstSubmesh": 7,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        0.0,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Head.mat"
+      ]
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_head_lod0_mesh.002.asset",
+      "offset": 57580,
+      "vertices": 2134,
+      "triangles": 3512,
+      "firstSubmesh": 8,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        0.0,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Head.mat"
+      ]
+    },
+    {
+      "name": "BAKED_saliva_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_saliva_lod0_mesh.asset",
+      "offset": 59714,
+      "vertices": 670,
+      "triangles": 1004,
+      "firstSubmesh": 9,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        3.68181645E-08,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        6.38887343E-07,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        -2.38418508E-07,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        -3.68181645E-08,
+        -6.388874E-07,
+        2.38418536E-07,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Saliva.mat"
+      ]
+    },
+    {
+      "name": "BAKED_teeth_lod0_mesh",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_teeth_lod0_mesh.asset",
+      "offset": 60384,
+      "vertices": 4732,
+      "triangles": 8294,
+      "firstSubmesh": 10,
+      "submeshes": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.99999994,
+        -7.10542651E-15,
+        0.0,
+        0.0,
+        7.10542651E-15,
+        0.99999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.00000012,
+        -7.10542736E-15,
+        0.0,
+        0.0,
+        7.105428E-15,
+        1.00000012,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Teeth.mat"
+      ]
+    },
+    {
+      "name": "Eyebrows",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Eyebrows.asset",
+      "offset": 65116,
+      "vertices": 24063,
+      "triangles": 38568,
+      "firstSubmesh": 11,
+      "submeshes": 1,
+      "matrix": [
+        1.18666785E-05,
+        -1.00000012,
+        8.39619361E-07,
+        1.10042392E-05,
+        -1.60560012E-06,
+        8.41270548E-07,
+        0.99999994,
+        -0.008048007,
+        -1.0,
+        -1.18711878E-05,
+        -1.60932541E-06,
+        1.55298519,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.18711851E-05,
+        -0.9999999,
+        8.412896E-07,
+        0.0,
+        -1.60933564E-06,
+        8.39600261E-07,
+        1.00000012,
+        0.0,
+        -1.0,
+        -1.18666776E-05,
+        -1.60559034E-06,
+        0.0,
+        1.55298519,
+        2.94397723E-05,
+        0.008050501,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Eyebrows.mat"
+      ]
+    },
+    {
+      "name": "Eyelashes",
+      "source": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Eyelashes.asset",
+      "offset": 89179,
+      "vertices": 11190,
+      "triangles": 17484,
+      "firstSubmesh": 12,
+      "submeshes": 1,
+      "matrix": [
+        1.18666785E-05,
+        -1.00000012,
+        8.39619361E-07,
+        1.10042392E-05,
+        -1.60560012E-06,
+        8.41270548E-07,
+        0.99999994,
+        -0.008048007,
+        -1.0,
+        -1.18711878E-05,
+        -1.60932541E-06,
+        1.55298519,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normalMatrix": [
+        1.18711851E-05,
+        -0.9999999,
+        8.412896E-07,
+        0.0,
+        -1.60933564E-06,
+        8.39600261E-07,
+        1.00000012,
+        0.0,
+        -1.0,
+        -1.18666776E-05,
+        -1.60559034E-06,
+        0.0,
+        1.55298519,
+        2.94397723E-05,
+        0.008050501,
+        1.0
+      ],
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Eyelashes.mat"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Liora_Head",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_Body",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Body_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Body_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Body_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_Cartilage",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_EyeEdge",
+      "shader": "Universal Render Pipeline/Unlit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Jiwoo/Textures/Rigged/Teeth_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 0.0
+    },
+    {
+      "name": "Liora_Eyes",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Dark Brown Iris Macro Texture.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Eyes_Normal.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Dark Brown Iris Macro Texture.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ClearCoatMap",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_Eyes",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Dark Brown Iris Macro Texture.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Eyes_Normal.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Dark Brown Iris Macro Texture.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ClearCoatMap",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_EyeShell",
+      "shader": "Universal Render Pipeline/Unlit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Jiwoo/Textures/Rigged/Teeth_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 0.0
+    },
+    {
+      "name": "Liora_Head",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_Head",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Head_Basecolor.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_Saliva",
+      "shader": "Universal Render Pipeline/Unlit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Jiwoo/Textures/Rigged/Teeth_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 0.0
+    },
+    {
+      "name": "Liora_Teeth",
+      "shader": "Universal Render Pipeline/Unlit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Teeth_Color.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "Assets/_Sandbox/Characters/Jiwoo/Textures/Rigged/Teeth_Normal.png",
+          "type": "NormalMap"
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "Assets/_Sandbox/Characters/Liora/Textures/Teeth_Color.png",
+          "type": "Default"
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 0.0
+    },
+    {
+      "name": "Liora_Eyebrows",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    },
+    {
+      "name": "Liora_Eyelashes",
+      "shader": "Universal Render Pipeline/Lit",
+      "textures": [
+        {
+          "slot": "_MainTex",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BumpMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailNormalMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_BaseMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_MetallicGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_ParallaxMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_OcclusionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_EmissionMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailMask",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_DetailAlbedoMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "_SpecGlossMap",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_Lightmaps",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_LightmapsInd",
+          "path": "",
+          "type": null
+        },
+        {
+          "slot": "unity_ShadowMasks",
+          "path": "",
+          "type": null
+        }
+      ],
+      "bumpScale": 1.0
+    }
+  ],
+  "live": [
+    {
+      "name": "Outfit",
+      "root": "Liora_Candidate",
+      "active": true,
+      "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Outfits.asset",
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Outfit.mat"
+      ]
+    },
+    {
+      "name": "Face",
+      "root": "Liora_Candidate",
+      "active": true,
+      "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Face.asset",
+      "materials": [
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Head.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Body.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Cartilage.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_EyeEdge.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Eyes.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Eyes.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_EyeShell.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Head.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Head.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Saliva.mat",
+        "Assets/_Sandbox/Characters/Liora/Materials/Liora_Teeth.mat",
+        "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Eyebrows.mat",
+        "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Eyelashes.mat"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": true
+    }
+  ]
+}

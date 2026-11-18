@@ -1,0 +1,568 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\Liora Minji_Ver2.blend",
+      "bytes": 221399475,
+      "sha256": "d7b625b9796be1ebe11051c36ff5d28e656c08afcf6a76233b95112c3281d63e"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Body_Basecolor.png",
+      "bytes": 4134691,
+      "sha256": "f854d667e8143efdf9884aba4455aa90cd07ba8edb42dd9886bd625dd774945c"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Body_Normal.png",
+      "bytes": 6891635,
+      "sha256": "e06c97f9e49da55b80342347913fb16869c9456dffcb77378e98c8dbe6e52407"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\combined_masks.tga",
+      "bytes": 2424876,
+      "sha256": "7c91e5de5ad99548b1af02d726c3521a488a30206eb22b4309c6cfe48e5a35f4"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Dark Brown Iris Macro Texture.png",
+      "bytes": 1550603,
+      "sha256": "77b9ede481a1664b79b7f88808b477e2259113a553026bf7aadab4684d71f1bf"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Eyelashes_Color.png",
+      "bytes": 582111,
+      "sha256": "4707b9940370e30e1375d04ca9c6dbb9d128ae5f963c4ec7f2f181155ac66591"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Eyes_Normal.png",
+      "bytes": 5745486,
+      "sha256": "6cce7eba8733b613022557833b1eef351669af0e44c043731629213eef1508e5"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor.png",
+      "bytes": 4733867,
+      "sha256": "3e3b2d5469ca53a7d0d9d511b3549e89aeda4d533f61635f404d4eee0a0656ef"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor_Animated_CM1.png",
+      "bytes": 5682346,
+      "sha256": "cd0c30a7fd233ee335cb17dc465f6c15aaf7d724dd41ea38f015c4058d498917"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor_Animated_CM2.png",
+      "bytes": 5683938,
+      "sha256": "5096c798e7d3aed0340eda24c300148bcd1dbab2ecb6a9e3b12b3cc5a416d437"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor_Animated_CM3.png",
+      "bytes": 5241079,
+      "sha256": "b4bd6c93e5d68c8d1d509aabf42d12b803e3ebcea5131912e5198f1cddd9ff98"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal.png",
+      "bytes": 6927534,
+      "sha256": "9b60bccc56d5e89a10dc1c7663db2a4b98e58147929d9cfc99c313340f491253"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal_Animated_WM1.png",
+      "bytes": 7083824,
+      "sha256": "40a0ab2c8e215982f5560acd2df1990634bf5755763312b9944eae654c5631ea"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal_Animated_WM2.png",
+      "bytes": 6991225,
+      "sha256": "b56b0998b156b423e8178280e6d11a5d7a2e19009d4d0664687c804a9c04fa1b"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal_Animated_WM3.png",
+      "bytes": 6960442,
+      "sha256": "04a8fbe7c396fa249e3d99ae71c7f515a388e4445884aa29de1442d632e7a474"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_BaseColor.png",
+      "bytes": 10392346,
+      "sha256": "56c78d3ed0036ff1a16ad5faca135ff5ea9b9f54fcf9131d50e6e9b24ccfd119"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_MetallicRoughness.png",
+      "bytes": 11713050,
+      "sha256": "7b7566d1edaa82d0452e8d5df308acdc1de11ff69de1f6dafe1fd92004091400"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Normal.png",
+      "bytes": 35949673,
+      "sha256": "61f28c936e05d18d16a68e78a8244afd9e62bd7f7d1a679b11833ca7a16010a8"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Occlusion.png",
+      "bytes": 15359010,
+      "sha256": "c0867e0f0921461c41d1a68b63f1c38d8339c527d087fee50abfd183e6796e51"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Porcelain East Asian Face Texture Map.png",
+      "bytes": 1905123,
+      "sha256": "dba6925759392e20262cbbb70c8b4f17586baea251eca678d34033cfe315d0e1"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Teeth_Color.png",
+      "bytes": 1088592,
+      "sha256": "31cd186b4cf24a607364c2d217721c3a026db8457d709123c605b51b57cfa533"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Teeth_Normal.png",
+      "bytes": 6638081,
+      "sha256": "cdb08f8c5268c5d88b8df7c94e449db14ed2fd809f183555846004e841953ced"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\body.dna",
+      "bytes": 4497490,
+      "sha256": "a8221f902ff1e97d9b382c933b0876a7c1dcabf8cd760b870fced159a90536fd"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\ExportManifest.json",
+      "bytes": 1182,
+      "sha256": "a5c8994c1e681787b919282daa698b2780ac4c57ba762d9ad083c43cee4f37b3"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\head.dna",
+      "bytes": 47777913,
+      "sha256": "01c8da35a8b0100af4c66ee393c600c703656203db7e4f15be53123f385effa2"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter.png",
+      "bytes": 1397518,
+      "sha256": "d560617da69b9c9a8d66b8ca95471c2d626281c16819b83c5fa90ef6fcb95839"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\LioraMinji_NewMetaHumanCharacter_Outfits.FBX",
+      "bytes": 940880,
+      "sha256": "3753fb62397f5fe4754b9f155816dcf5ce780772887370005fcc8c0de1e75b76"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck.bin",
+      "bytes": 154456,
+      "sha256": "fd2550430fee464c3c84d545e5eea9bfec0d4262c20a8b817b30e8b586fbbc25"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck.gltf",
+      "bytes": 3643,
+      "sha256": "d0fc7894aa9e3c625eab922dbd90e7b6b38f32196d70e7a14ba1c1248e1e3640"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_BaseColor.png",
+      "bytes": 10392346,
+      "sha256": "56c78d3ed0036ff1a16ad5faca135ff5ea9b9f54fcf9131d50e6e9b24ccfd119"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_MetallicRoughness.png",
+      "bytes": 11713050,
+      "sha256": "7b7566d1edaa82d0452e8d5df308acdc1de11ff69de1f6dafe1fd92004091400"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Normal.png",
+      "bytes": 35949673,
+      "sha256": "61f28c936e05d18d16a68e78a8244afd9e62bd7f7d1a679b11833ca7a16010a8"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Occlusion.png",
+      "bytes": 15359010,
+      "sha256": "c0867e0f0921461c41d1a68b63f1c38d8339c527d087fee50abfd183e6796e51"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Clothing\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_SheenColorTexture.png",
+      "bytes": 11016529,
+      "sha256": "8dfb29906f3d6899b0f6b27a318b9ebad513f012e654ab55b54e19ea783b33e6"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Groom\\Eyebrows_M_Thick.ABC",
+      "bytes": 179364,
+      "sha256": "dd6a70a950a8b4f1a6dcf0f682ab37d47d3443dfb484b6c606d3e881615c8c3c"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Groom\\Eyelashes_S_Thin.ABC",
+      "bytes": 131508,
+      "sha256": "f1d664c08daa58c47a666884c4907a99413a5d17c50348b02ced9ecffb5ba8b9"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Groom\\Hair_M_BobMessy.ABC",
+      "bytes": 47932576,
+      "sha256": "196e776e08dd379799bf0160488785ea3dd379d5af5e8f402a1f4382ba263184"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Groom\\wholeHair.abc",
+      "bytes": 64291371,
+      "sha256": "27812f00ab6c85aa2e59b168545a6f6a61c4b1e65f2d5e6dd2faaafc75889355"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Body_Basecolor.png",
+      "bytes": 4134691,
+      "sha256": "f854d667e8143efdf9884aba4455aa90cd07ba8edb42dd9886bd625dd774945c"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Body_Normal.png",
+      "bytes": 6891635,
+      "sha256": "e06c97f9e49da55b80342347913fb16869c9456dffcb77378e98c8dbe6e52407"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Body_SRMF.png",
+      "bytes": 8841355,
+      "sha256": "6ec039b79ebff1b7491c6333db67bb605a1103c49aeaaf5c3697b52581721e45"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Dark Brown Iris Macro Texture.png",
+      "bytes": 1550603,
+      "sha256": "77b9ede481a1664b79b7f88808b477e2259113a553026bf7aadab4684d71f1bf"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Eyelashes_Color.png",
+      "bytes": 582111,
+      "sha256": "4707b9940370e30e1375d04ca9c6dbb9d128ae5f963c4ec7f2f181155ac66591"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Eyes_Color.png",
+      "bytes": 3175770,
+      "sha256": "cac74fe82b85723ae30639e912d7dd59bdf1e69bc6f849806489910727ccee02"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Eyes_Normal.png",
+      "bytes": 5745486,
+      "sha256": "6cce7eba8733b613022557833b1eef351669af0e44c043731629213eef1508e5"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Basecolor.png",
+      "bytes": 4733867,
+      "sha256": "3e3b2d5469ca53a7d0d9d511b3549e89aeda4d533f61635f404d4eee0a0656ef"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Basecolor_Animated_CM1.png",
+      "bytes": 5682346,
+      "sha256": "cd0c30a7fd233ee335cb17dc465f6c15aaf7d724dd41ea38f015c4058d498917"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Basecolor_Animated_CM2.png",
+      "bytes": 5683938,
+      "sha256": "5096c798e7d3aed0340eda24c300148bcd1dbab2ecb6a9e3b12b3cc5a416d437"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Basecolor_Animated_CM3.png",
+      "bytes": 5241079,
+      "sha256": "b4bd6c93e5d68c8d1d509aabf42d12b803e3ebcea5131912e5198f1cddd9ff98"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Normal.png",
+      "bytes": 6927534,
+      "sha256": "9b60bccc56d5e89a10dc1c7663db2a4b98e58147929d9cfc99c313340f491253"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Normal_Animated_WM1.png",
+      "bytes": 7083824,
+      "sha256": "40a0ab2c8e215982f5560acd2df1990634bf5755763312b9944eae654c5631ea"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Normal_Animated_WM2.png",
+      "bytes": 6991225,
+      "sha256": "b56b0998b156b423e8178280e6d11a5d7a2e19009d4d0664687c804a9c04fa1b"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_Normal_Animated_WM3.png",
+      "bytes": 6960442,
+      "sha256": "04a8fbe7c396fa249e3d99ae71c7f515a388e4445884aa29de1442d632e7a474"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Head_SRMF.png",
+      "bytes": 10233414,
+      "sha256": "f550b03c98d0d97f44c05d1a229fc55a91086ac078985731fd6e6f67b667d7f8"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Porcelain East Asian Face Texture Map.png",
+      "bytes": 1905123,
+      "sha256": "dba6925759392e20262cbbb70c8b4f17586baea251eca678d34033cfe315d0e1"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Rosy-Lipped Bald Face Texture.png",
+      "bytes": 1985413,
+      "sha256": "9bdad0acb3323a8e12deadfc3df273f2b1fdd44096584c83c349c988cd91f373"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Teeth_Color.png",
+      "bytes": 1088592,
+      "sha256": "31cd186b4cf24a607364c2d217721c3a026db8457d709123c605b51b57cfa533"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Maps\\Teeth_Normal.png",
+      "bytes": 6638081,
+      "sha256": "cdb08f8c5268c5d88b8df7c94e449db14ed2fd809f183555846004e841953ced"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm13_msk_01.tga",
+      "bytes": 7669,
+      "sha256": "2e6cd7276725307a0b44e1481f372fd1b26c30d2a06db8570fabbf2b316f847a"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm1_msk_01.tga",
+      "bytes": 26044,
+      "sha256": "d14a7fda7619bc394ae61b7c2474746ec37852bfa874d077d4a0ff52c59cb5e8"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm1_msk_02.tga",
+      "bytes": 42023,
+      "sha256": "fcfee888c589fc5236c47674cab85abcbcc38391ebd558d3d959d00d06a5da42"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm1_msk_03.tga",
+      "bytes": 80264,
+      "sha256": "27afc81aec9b4f11112b49d83e4d2951ff47c1ebadc466c8144eeb62cd6dba8a"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm1_msk_04.tga",
+      "bytes": 12622,
+      "sha256": "c0dff7a5c3ad91e307d06663d4e986b97ea359da70f8606cfd7305a14a39e593"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm2_msk_01.tga",
+      "bytes": 28835,
+      "sha256": "f193f192007f6ebdd948aabaf5a8a4a72d4bb582a2136699bdeb537d7749352b"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm2_msk_02.tga",
+      "bytes": 76658,
+      "sha256": "0bfe847cc026a5320cac4e0cc1b7a0e8eb3a2e66f045fc144d596573bceaa512"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm2_msk_03.tga",
+      "bytes": 21105,
+      "sha256": "5cbd801fcce1f1607d4cced06f1048b5fa69619c746419e47af3d046237ae854"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm3_msk_01.tga",
+      "bytes": 24465,
+      "sha256": "65e2d7b0ff9100bcbdeeed3bd1f261cc8cbf38e597d8aa0eca38f80fd01e9617"
+    },
+    {
+      "path": "C:\\Users\\ina17\\Downloads\\LioraMinji_DNA_NewMetaHumanCharacter\\LioraMinji_NewMetaHumanCharacter\\Masks\\head_wm3_msk_02.tga",
+      "bytes": 47759,
+      "sha256": "6ec806ec176389d619a979f7e220d851a10c2279ef7668b2daea4d01d08b0763"
+    }
+  ],
+  "images": [
+    {
+      "name": "body_color_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "body_normal_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "body_topology.png",
+      "path": "C:\\Users\\novan\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\api_portal_polyhammer_com\\character_dna\\resources\\blends\\textures\\head_topology.png",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "combined_masks.tga",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\combined_masks.tga",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "Dark Brown Iris Macro Texture.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Dark Brown Iris Macro Texture.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "head_cm1_color_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_cm2_color_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_cm3_color_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_color_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_normal_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_topology.png",
+      "path": "C:\\Users\\novan\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\api_portal_polyhammer_com\\character_dna\\resources\\blends\\textures\\head_topology.png",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_wm1_normal_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_wm2_normal_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "head_wm3_normal_map.tga",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Body_Basecolor.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Body_Basecolor.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Body_Normal.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Body_Normal.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Eyelashes_Color.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Eyelashes_Color.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Eyes_Normal.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Eyes_Normal.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Eyes_Normal.png.001",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Eyes_Normal.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Basecolor.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Basecolor_Animated_CM1.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor_Animated_CM1.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Basecolor_Animated_CM2.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor_Animated_CM2.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Basecolor_Animated_CM3.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Basecolor_Animated_CM3.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Normal.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Normal_Animated_WM1.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal_Animated_WM1.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Normal_Animated_WM2.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal_Animated_WM2.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Head_Normal_Animated_WM3.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Head_Normal_Animated_WM3.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Teeth_Color.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Teeth_Color.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter_Teeth_Normal.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Teeth_Normal.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_BaseColor.png.001",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_BaseColor.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_MetallicRoughness.png.001",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_MetallicRoughness.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_MetallicRoughness.png.002",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_MetallicRoughness.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Normal.png.001",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Normal.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Occlusion.png.001",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\MI_WI_SleevelessTurtleneck_SleevelessTurtleneck_Occlusion.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "Porcelain East Asian Face Texture Map.png",
+      "path": "C:\\Users\\ina17\\Downloads\\Liora Minji_Ver2\\textures\\Porcelain East Asian Face Texture Map.png",
+      "packed": true,
+      "exists": true
+    },
+    {
+      "name": "Render Result",
+      "path": "",
+      "packed": false,
+      "exists": false
+    },
+    {
+      "name": "Viewer Node",
+      "path": "",
+      "packed": false,
+      "exists": false
+    }
+  ]
+}

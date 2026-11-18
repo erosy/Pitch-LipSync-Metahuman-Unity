@@ -1,0 +1,50 @@
+{
+  "candidate": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Candidate.prefab",
+  "template": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Candidate.prefab",
+  "configurationErrors": [],
+  "oneAnimator": true,
+  "modules": [
+    "AnimationModule",
+    "ExpressionModule"
+  ],
+  "phonemes": [
+    {
+      "phoneme": "A",
+      "shape": "jawOpen"
+    },
+    {
+      "phoneme": "I",
+      "shape": "mouthFunnel"
+    },
+    {
+      "phoneme": "U",
+      "shape": "mouthPucker"
+    },
+    {
+      "phoneme": "E",
+      "shape": "viseme_E"
+    },
+    {
+      "phoneme": "O",
+      "shape": "viseme_O"
+    },
+    {
+      "phoneme": "S",
+      "shape": "viseme_SS"
+    },
+    {
+      "phoneme": "M",
+      "shape": "viseme_PP"
+    },
+    {
+      "phoneme": "N",
+      "shape": "viseme_nn"
+    }
+  ],
+  "profile": "Assets/_Sandbox/LipSync/Profile_Liora_ID.asset",
+  "clip": "Assets/_Sandbox/Audio/liora.mp3",
+  "gaze": "Calibrated helper, eye-only, main-camera fallback; template idle-gaze preference retained",
+  "secondaryFaceMeshes": 14,
+  "sceneSaved": false,
+  "selectionControllerChanged": false
+}

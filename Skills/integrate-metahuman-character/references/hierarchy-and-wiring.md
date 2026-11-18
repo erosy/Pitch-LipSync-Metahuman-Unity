@@ -26,8 +26,18 @@ CharacterRoot
 
 Root components: `Character`, `CharacterSpeechPlayer`, `CharacterFlowController`,
 `CharacterHairStartupWarmup`, `CharacterReadiness`; preserve additional current
-appearance/fallback components that are actually used. Child labels are cosmetic;
-component identity, ownership and serialized references are the contract.
+appearance/fallback components that are actually used. For this project's final
+Unity integration, `Armature`, `Face`, `Outfit` and `Modules` are the required
+character layout. Module child labels and head-attachment labels are cosmetic.
+
+Consolidate the visible head, body, eyes, teeth/tongue and other mouth sections,
+brows and lashes into `Face`, preserving material sections and all expression
+deformations. Keep garment geometry in `Outfit`. Dedicated scalp/fallback hair
+objects may remain separate when used. Do not leave `BAKED_*` GameObjects,
+duplicate export sections, authoring archives or redundant disabled source mesh
+objects anywhere in the delivered prefab, including inactive descendants. Simply
+renaming the separate bake-export objects or putting them under a parent is not
+consolidation. Preserve original bake/source files outside that hierarchy.
 
 | Component | Required relationship to verify |
 | --- | --- |
@@ -41,9 +51,14 @@ component identity, ownership and serialized references are the contract.
 | CharacterHairStartupWarmup | `targetAnimator` is the native Animator; `strandHair` references this groom |
 | CharacterReadiness | `startupWarmup` and any used `hairFallback` are current components |
 
-If separate facial meshes remain, retain `CharacterFacialMeshSync` with complete
-secondary bindings and verify every shape. A merged Face generally removes the
-need for it; do not remove it while other animated facial renderers still rely on it.
+Separate runtime facial meshes are an exception only when explicitly requested
+by the user; in that case retain `CharacterFacialMeshSync` with complete named
+bindings and verify every shape. Separate brows/lashes in Blender are valid inputs:
+preserve their working evaluated deformation, then carry it into the merged Face.
+Merging must retain expression deltas; it does not create missing deformation.
+Remove obsolete facial synchronization targets after merging, but retain any
+binding still needed by Outfit or another explicitly approved runtime mesh. Do not
+discard small nonzero body/outfit expression records merely to remove the component.
 
 Copy components using an explicit object-remap table. Remap custom serialized
 references and persistent events; never rewrite native `m_GameObject`, `m_Script`
@@ -88,6 +103,16 @@ weights and persistent callbacks. Sample disposable neutral, blink, raised brow,
 smile and speech combinations, plus Waving/greeting, Talking, Thinking, idle and
 fingers. Record numeric preservation and matched visual comparisons separately.
 Verify head-following hair/collision and startup/readiness references.
+
+Reopen the saved prefab and enumerate all descendants, including inactive ones.
+Reject the delivery if any GameObject name starts with `BAKED_` (case-insensitive), if raw export
+sections remain separate, or if expected character renderers are not `Face` and
+`Outfit` (apart from used scalp/fallback hair and explicit user exceptions).
+Check the actual referenced meshes, section manifest and world-space expression
+preservation so a label-only cleanup cannot pass. Remap ExpressionModule, lip-sync
+driver, persistent audio callbacks and any mesh/renderer attachments to final Face;
+verify no references point to removed sections. A failed hierarchy check means
+integration is unfinished, even when facial synchronization already works.
 
 When replacement is requested, wire the actual selection controller, UI button
 events and any `VoiceLipSyncDemo` references to the new flow/voice. Preserve the

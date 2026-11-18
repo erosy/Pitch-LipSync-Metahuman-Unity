@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "renderers": [
+    "Outfit",
+    "Face"
+  ],
+  "topLevel": [
+    "Outfit",
+    "Armature",
+    "Modules",
+    "Face"
+  ],
+  "faceVertices": 100369,
+  "faceTriangles": 175832,
+  "faceShapes": 73,
+  "exactDenseArrayComparisons": 219,
+  "worldMeshShapeComparisons": 962,
+  "maxWorldShapeErrorM": 4.777685E-07,
+  "headFirstAndUnchanged": true,
+  "outfitMeshUnchanged": true,
+  "avatarUnchanged": true,
+  "scalpAssetAndCollisionPreserved": true,
+  "hairAttachmentMatrixError": 0.0,
+  "facialReferencesRemapped": true,
+  "noStaleReferences": true,
+  "configurationErrors": [],
+  "missingScripts": 0,
+  "referenceLayouts": [
+    {
+      "path": "Assets/_Sandbox/Characters/Ethan/Ethan.prefab",
+      "topLevel": [
+        "Ethan_Armature",
+        "Face",
+        "Hair_Cards",
+        "Hair_Cards_Baked",
+        "Hair_Dense",
+        "Hair_Light",
+        "Outfit",
+        "Modules"
+      ],
+      "renderers": [
+        "Face",
+        "Hair_Cards",
+        "Hair_Cards_Baked",
+        "Hair_Dense",
+        "Hair_Light",
+        "Outfit"
+      ]
+    },
+    {
+      "path": "Assets/_Sandbox/Characters/Ethan_V2/Candidate/EthanV2_Candidate.prefab",
+      "topLevel": [
+        "Armature",
+        "Outfit",
+        "Modules",
+        "Face"
+      ],
+      "renderers": [
+        "Outfit",
+        "Face"
+      ]
+    },
+    {
+      "path": "Assets/_Sandbox/Characters/Jiwoo/Jiwoo_Normalized.prefab",
+      "topLevel": [
+        "Face",
+        "Modules",
+        "Voice",
+        "Jiwoo_Armature",
+        "Outfit"
+      ],
+      "renderers": [
+        "Face",
+        "Outfit"
+      ]
+    }
+  ],
+  "sceneSaved": false,
+  "playModeTested": false
+}

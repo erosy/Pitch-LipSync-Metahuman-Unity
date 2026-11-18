@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Outfit_Fitted.asset",
+  "outfitVertices": 5196,
+  "outfitTriangles": 9029,
+  "outfitShapes": 73,
+  "outfitMeshMemoryMiB": 15.75736,
+  "boneSlots": 95,
+  "live": [
+    {
+      "root": "Liora_Candidate",
+      "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Outfit_Fitted.asset",
+      "boneSlots": 95,
+      "validBones": true,
+      "active": true
+    }
+  ],
+  "fitSamples": 98,
+  "independentActualActivitySamples": 48,
+  "maxAccumulatedNeutralDisplacementM": 0.010000186,
+  "meanNeutralDisplacementM": 0.00103989872,
+  "maxCoincidentSeamGapM": 8.529601E-06,
+  "actualActivityBeforeContactProxies": 214485,
+  "actualActivityAfterContactProxies": 31958,
+  "contactMetricsAreNotClosedVolumePenetrationProof": true,
+  "faceAssetHashUnchanged": true,
+  "faceVertices": 100369,
+  "faceTriangles": 175832,
+  "facialHair": {
+    "browVertices": 24063,
+    "browTriangles": 38568,
+    "lashVertices": 11190,
+    "lashTriangles": 17484,
+    "densePositionShapeMiB": 29.4510155,
+    "unchanged": true
+  },
+  "hierarchyAndGroomsPreserved": true,
+  "configurationErrors": [],
+  "bodyMasking": false,
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": true
+    }
+  ],
+  "sceneSaved": false,
+  "playModeTested": false
+}

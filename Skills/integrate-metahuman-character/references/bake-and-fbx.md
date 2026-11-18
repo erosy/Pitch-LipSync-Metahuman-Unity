@@ -8,6 +8,12 @@ contract. Ethan's contract is 73 ordered names, recorded in
 `Data/EthanV2/shape_names.json`; discover the target contract rather than assuming
 all characters have those names. Record source hashes and vertex/material counts.
 
+Brows/lashes may originate as separate DNA/Alembic-associated objects while
+already following the MetaHuman facial rig in the delivered `.blend`. Inspect
+their actual modifiers, attachment, drivers and evaluated motion before proposing
+new rigging. Separate storage is not evidence of a missing facial binding. Keep
+the working `.blend` and its external DNA/Alembic dependencies together.
+
 Use `Data/EthanV2/Native/README.md`, `Tools/EthanV2/reconnect_solver.py`,
 `restore_native_correctives.py`, `native_pose_mapping.py` and
 `bake_native_shapes.py` as worked examples. These scripts contain source paths,
@@ -27,13 +33,24 @@ in a new tool; do not run them blindly against another model or overwrite a bake
    the evaluated bake is not skinned twice. Preserve neutral armatures/weights
    while keeping native facial pose evaluation frozen in the exported bake.
 4. Bake all participating meshes, including eyes, separate lip sections, teeth,
-   tongue, lashes, cartilage and saliva. Make expression names/order consistent;
+   tongue, brows, lashes, cartilage and saliva. Make expression names/order consistent;
    retain synchronization/drivers where meshes remain separate. Do not animate
    frozen facial bones on top of the same baked facial poses.
 5. Reopen the saved baked file with addon evaluation disabled and independently
    compare neutral and every shape against stored evaluated solver samples in
    world-space meters. Verify neutral restoration, skin weights, material slots,
    curve points/world frames and the saved file, not only the in-memory bake.
+
+For already-rigged brows/lashes, sample their evaluated result with the face for
+neutral, closed blink, squint, brow raise and relevant combinations. When the
+runtime route replaces facial rig evaluation with blendshapes, bake their matching
+deformation too; do not assume a Blender-only attachment/driver or Alembic origin
+will transfer automatically through FBX. If converting curves to production meshes,
+preserve that evaluated motion and validate the conversion against the source.
+Retain separate exported meshes with synchronized expression weights, or optionally
+merge the baked geometry into Face. Merging alone does not create deformation.
+Verify eyelid contact and brow motion again after Unity import. A valid existing
+binding does not require the modeller to re-rig or merge the authoring objects.
 
 Ethan-specific semantics worth checking when adopting its contract:
 `viseme_sil` is intentionally neutral; `mouthClose` is jaw-open plus lip seal minus
@@ -69,8 +86,9 @@ Here `X` converts old mesh-local positions into the new mesh-local frame. Retain
 per-renderer bind offsets even when two bones share a name. Merge weights with
 explicit old-to-new index maps; never guess anatomical roles by proximity alone.
 
-If merging Face, put the already-corrected head first, retaining its vertex order
-and expression records so scalp attachment remains valid. Keep a section manifest
+For the required final Unity Face consolidation, put the already-corrected head
+first, retaining its vertex order and expression records so scalp attachment
+remains valid. Keep a section manifest
 with names, offsets, counts, transforms and materials for later lip/eye repairs.
 Preserve every source position delta: Unity `AddBlendShapeFrame` can drop tiny
 position-only records. Stage sparse records with strictly ascending indices per

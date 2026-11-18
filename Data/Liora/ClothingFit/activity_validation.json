@@ -1,0 +1,346 @@
+{
+  "passed": true,
+  "poses": 48,
+  "entries": [
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.0,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.0833333358,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.166666672,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.25,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.333333343,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.416666657,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.5,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.5833333,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.6666667,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.75,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.8333333,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 0.9166667,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Thinking",
+      "mode": "Activity",
+      "phase": 1.0,
+      "clip": "Thinking",
+      "expression": "Thinking"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.0,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.0833333358,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.166666672,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.25,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.333333343,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.416666657,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.5,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.5833333,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.6666667,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.75,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.8333333,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 0.9166667,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "AA",
+      "phase": 1.0,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.0,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.0833333358,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.166666672,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.25,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.333333343,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.416666657,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.5,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.5833333,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.6666667,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.75,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.8333333,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 0.9166667,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Speaking happy",
+      "mode": "FF",
+      "phase": 1.0,
+      "clip": "Talking (1)",
+      "expression": "Neutral"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.0,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.125,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.25,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.375,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.5,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.625,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.75,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 0.875,
+      "clip": "Waving",
+      "expression": "Joy"
+    },
+    {
+      "activity": "Greeting",
+      "mode": "Activity",
+      "phase": 1.0,
+      "clip": "Waving",
+      "expression": "Joy"
+    }
+  ],
+  "maxGarmentRadiusM": 1.51280642,
+  "maxCoincidentSeamGapM": 8.529601E-06,
+  "sourceSkinPreserved": true,
+  "playModeTested": false
+}

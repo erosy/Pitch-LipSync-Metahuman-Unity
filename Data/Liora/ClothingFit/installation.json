@@ -1,0 +1,23 @@
+{
+  "installed": true,
+  "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Outfit_Fitted.asset",
+  "live": [
+    {
+      "root": "Liora_Candidate",
+      "mesh": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Outfit_Fitted.asset",
+      "bones": 95
+    }
+  ],
+  "boneSlots": 95,
+  "maxInfluences": 8,
+  "normalizationError": 1.1920929E-07,
+  "maxNeutralCompensationErrorM": 3.580157E-07,
+  "maxAccumulatedNeutralDisplacementM": 0.010000186,
+  "allShapeArraysMatchCompensatedSource": true,
+  "topologyUVMaterialsPreserved": true,
+  "faceSha256Unchanged": true,
+  "configurationErrors": [],
+  "bodyMasking": false,
+  "sceneSaved": false,
+  "playModeTested": false
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mesh_shape_comparisons_including_neutral": 962,
+  "max_error_m": 4.77361889512572e-07,
+  "ordered_73_names": true,
+  "weights_preserved": true,
+  "neutral_restored": true,
+  "groom_points_and_frames_preserved": true,
+  "verified_without_addon": true
+}

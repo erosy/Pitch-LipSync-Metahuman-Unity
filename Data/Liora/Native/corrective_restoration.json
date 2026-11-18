@@ -1,0 +1,116 @@
+{
+  "method": "Original DNA deltas with nearest neutral vertex matching for split head; original mesh positions and weights retained.",
+  "meshes": [
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_head_lod0_mesh",
+      "dna_mesh": "head_lod0_mesh",
+      "restored_targets": 737,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 0.00027122956817038357,
+      "p99_neutral_vertex_match_distance_m": 0.00022817405610112463,
+      "vertices": 18907,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_head_lod0_mesh.001",
+      "dna_mesh": "head_lod0_mesh",
+      "restored_targets": 587,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 0.0002581147418823093,
+      "p99_neutral_vertex_match_distance_m": 0.0002315824828110635,
+      "vertices": 1813,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_head_lod0_mesh.002",
+      "dna_mesh": "head_lod0_mesh",
+      "restored_targets": 584,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 0.00024807927547954023,
+      "p99_neutral_vertex_match_distance_m": 0.00023130574554670592,
+      "vertices": 1815,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_teeth_lod0_mesh",
+      "dna_mesh": "teeth_lod0_mesh",
+      "restored_targets": 41,
+      "same_vertex_order": false,
+      "max_neutral_vertex_match_distance_m": 4.945546606904827e-05,
+      "p99_neutral_vertex_match_distance_m": 1.4058961994578567e-07,
+      "vertices": 4209,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_saliva_lod0_mesh",
+      "dna_mesh": "saliva_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4058961994578567e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4058961994578567e-07,
+      "vertices": 660,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_eyeLeft_lod0_mesh",
+      "dna_mesh": "eyeLeft_lod0_mesh",
+      "restored_targets": 2,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4467609332768916e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "vertices": 770,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_eyeRight_lod0_mesh",
+      "dna_mesh": "eyeRight_lod0_mesh",
+      "restored_targets": 2,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4466411357716424e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "vertices": 770,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_eyeshell_lod0_mesh",
+      "dna_mesh": "eyeshell_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "vertices": 552,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_eyelashes_lod0_mesh",
+      "dna_mesh": "eyelashes_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "vertices": 2144,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_eyeEdge_lod0_mesh",
+      "dna_mesh": "eyeEdge_lod0_mesh",
+      "restored_targets": 0,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4058961994578567e-07,
+      "vertices": 268,
+      "weights_changed": false
+    },
+    {
+      "object": "LioraMinji_NewMetaHumanCharacter_cartilage_lod0_mesh",
+      "dna_mesh": "cartilage_lod0_mesh",
+      "restored_targets": 76,
+      "same_vertex_order": true,
+      "max_neutral_vertex_match_distance_m": 1.4062662501146406e-07,
+      "p99_neutral_vertex_match_distance_m": 1.4059517070563742e-07,
+      "vertices": 386,
+      "weights_changed": false
+    }
+  ],
+  "binding_issues": []
+}

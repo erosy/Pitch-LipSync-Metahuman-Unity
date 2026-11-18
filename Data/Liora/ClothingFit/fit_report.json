@@ -1,0 +1,1514 @@
+{
+  "region": "Entire garment rebound to the native torso/neck surface after the first local transfer left waist breakthroughs",
+  "weighted_vertices_changed": 5196,
+  "max_accumulated_neutral_displacement_m": 0.010000000000000515,
+  "mean_displacement_m": 0.0010398987135042735,
+  "poses": 98,
+  "probes_per_pose": 41312,
+  "surface_triangles": 16900,
+  "baseline": [
+    {
+      "pose": 0,
+      "count": 3681,
+      "min_signed_m": -0.03480373649701216
+    },
+    {
+      "pose": 1,
+      "count": 4725,
+      "min_signed_m": -0.034501497656677475
+    },
+    {
+      "pose": 2,
+      "count": 4729,
+      "min_signed_m": -0.03449516532943596
+    },
+    {
+      "pose": 3,
+      "count": 4741,
+      "min_signed_m": -0.0348475733671172
+    },
+    {
+      "pose": 4,
+      "count": 4756,
+      "min_signed_m": -0.03499362912740553
+    },
+    {
+      "pose": 5,
+      "count": 4665,
+      "min_signed_m": -0.034711846329386245
+    },
+    {
+      "pose": 6,
+      "count": 4752,
+      "min_signed_m": -0.03449494966658487
+    },
+    {
+      "pose": 7,
+      "count": 4824,
+      "min_signed_m": -0.03491824522493868
+    },
+    {
+      "pose": 8,
+      "count": 4752,
+      "min_signed_m": -0.034546553889356096
+    },
+    {
+      "pose": 9,
+      "count": 4725,
+      "min_signed_m": -0.034501497656677475
+    },
+    {
+      "pose": 10,
+      "count": 4656,
+      "min_signed_m": -0.03453823470413349
+    },
+    {
+      "pose": 11,
+      "count": 4657,
+      "min_signed_m": -0.03453192771387838
+    },
+    {
+      "pose": 12,
+      "count": 4677,
+      "min_signed_m": -0.034847567655875725
+    },
+    {
+      "pose": 13,
+      "count": 4685,
+      "min_signed_m": -0.03499362876483888
+    },
+    {
+      "pose": 14,
+      "count": 4589,
+      "min_signed_m": -0.03471185101735962
+    },
+    {
+      "pose": 15,
+      "count": 4681,
+      "min_signed_m": -0.03452919289064646
+    },
+    {
+      "pose": 16,
+      "count": 4755,
+      "min_signed_m": -0.03491824141422078
+    },
+    {
+      "pose": 17,
+      "count": 4675,
+      "min_signed_m": -0.03458016616976691
+    },
+    {
+      "pose": 18,
+      "count": 4656,
+      "min_signed_m": -0.03453825850190916
+    },
+    {
+      "pose": 19,
+      "count": 4020,
+      "min_signed_m": -0.03484857481359061
+    },
+    {
+      "pose": 20,
+      "count": 3635,
+      "min_signed_m": -0.034952648065003936
+    },
+    {
+      "pose": 21,
+      "count": 5064,
+      "min_signed_m": -0.034940737644876624
+    },
+    {
+      "pose": 22,
+      "count": 5384,
+      "min_signed_m": -0.03488626623912027
+    },
+    {
+      "pose": 23,
+      "count": 4854,
+      "min_signed_m": -0.03499314335641463
+    },
+    {
+      "pose": 24,
+      "count": 4647,
+      "min_signed_m": -0.03483392323390773
+    },
+    {
+      "pose": 25,
+      "count": 4246,
+      "min_signed_m": -0.034783138386396587
+    },
+    {
+      "pose": 26,
+      "count": 4191,
+      "min_signed_m": -0.03493996207876615
+    },
+    {
+      "pose": 27,
+      "count": 4211,
+      "min_signed_m": -0.03498736389893656
+    },
+    {
+      "pose": 28,
+      "count": 4006,
+      "min_signed_m": -0.034694279009119186
+    },
+    {
+      "pose": 29,
+      "count": 4100,
+      "min_signed_m": -0.03497737732118543
+    },
+    {
+      "pose": 30,
+      "count": 3908,
+      "min_signed_m": -0.03467187644379013
+    },
+    {
+      "pose": 31,
+      "count": 4020,
+      "min_signed_m": -0.0348485335905544
+    },
+    {
+      "pose": 32,
+      "count": 4017,
+      "min_signed_m": -0.03484857481359061
+    },
+    {
+      "pose": 33,
+      "count": 3633,
+      "min_signed_m": -0.03495264060503551
+    },
+    {
+      "pose": 34,
+      "count": 5059,
+      "min_signed_m": -0.034940737644876624
+    },
+    {
+      "pose": 35,
+      "count": 5380,
+      "min_signed_m": -0.03488625410030177
+    },
+    {
+      "pose": 36,
+      "count": 4849,
+      "min_signed_m": -0.03494687421811226
+    },
+    {
+      "pose": 37,
+      "count": 4643,
+      "min_signed_m": -0.03489824384876095
+    },
+    {
+      "pose": 38,
+      "count": 4239,
+      "min_signed_m": -0.03478311840745095
+    },
+    {
+      "pose": 39,
+      "count": 4189,
+      "min_signed_m": -0.034939966016973245
+    },
+    {
+      "pose": 40,
+      "count": 4210,
+      "min_signed_m": -0.03487868221638386
+    },
+    {
+      "pose": 41,
+      "count": 4007,
+      "min_signed_m": -0.03491382539323348
+    },
+    {
+      "pose": 42,
+      "count": 4099,
+      "min_signed_m": -0.03497737732118543
+    },
+    {
+      "pose": 43,
+      "count": 3904,
+      "min_signed_m": -0.03467187644379013
+    },
+    {
+      "pose": 44,
+      "count": 4017,
+      "min_signed_m": -0.0348485335905544
+    },
+    {
+      "pose": 45,
+      "count": 4277,
+      "min_signed_m": -0.03491763268746035
+    },
+    {
+      "pose": 46,
+      "count": 3521,
+      "min_signed_m": -0.034970373218310966
+    },
+    {
+      "pose": 47,
+      "count": 4826,
+      "min_signed_m": -0.034795290965802236
+    },
+    {
+      "pose": 48,
+      "count": 4929,
+      "min_signed_m": -0.0347873165695864
+    },
+    {
+      "pose": 49,
+      "count": 5266,
+      "min_signed_m": -0.03422844084672856
+    },
+    {
+      "pose": 50,
+      "count": 5476,
+      "min_signed_m": -0.03456842252732026
+    },
+    {
+      "pose": 51,
+      "count": 5490,
+      "min_signed_m": -0.03454882298314521
+    },
+    {
+      "pose": 52,
+      "count": 5287,
+      "min_signed_m": -0.0344603423096303
+    },
+    {
+      "pose": 53,
+      "count": 5415,
+      "min_signed_m": -0.03471243235290028
+    },
+    {
+      "pose": 54,
+      "count": 5322,
+      "min_signed_m": -0.034901770790273866
+    },
+    {
+      "pose": 55,
+      "count": 4578,
+      "min_signed_m": -0.0349924326120572
+    },
+    {
+      "pose": 56,
+      "count": 4111,
+      "min_signed_m": -0.03482981612363522
+    },
+    {
+      "pose": 57,
+      "count": 4277,
+      "min_signed_m": -0.034917641044323586
+    },
+    {
+      "pose": 58,
+      "count": 4274,
+      "min_signed_m": -0.034917642598126436
+    },
+    {
+      "pose": 59,
+      "count": 3517,
+      "min_signed_m": -0.034970367141499904
+    },
+    {
+      "pose": 60,
+      "count": 4825,
+      "min_signed_m": -0.03479529779510316
+    },
+    {
+      "pose": 61,
+      "count": 4931,
+      "min_signed_m": -0.03478731040901835
+    },
+    {
+      "pose": 62,
+      "count": 5265,
+      "min_signed_m": -0.034228422470726494
+    },
+    {
+      "pose": 63,
+      "count": 5469,
+      "min_signed_m": -0.03456841634979893
+    },
+    {
+      "pose": 64,
+      "count": 5486,
+      "min_signed_m": -0.03443188053194901
+    },
+    {
+      "pose": 65,
+      "count": 5282,
+      "min_signed_m": -0.034432690913129935
+    },
+    {
+      "pose": 66,
+      "count": 5413,
+      "min_signed_m": -0.03440091821133638
+    },
+    {
+      "pose": 67,
+      "count": 5322,
+      "min_signed_m": -0.034901770790273866
+    },
+    {
+      "pose": 68,
+      "count": 4575,
+      "min_signed_m": -0.03489594861509948
+    },
+    {
+      "pose": 69,
+      "count": 4110,
+      "min_signed_m": -0.03482981612363522
+    },
+    {
+      "pose": 70,
+      "count": 4274,
+      "min_signed_m": -0.03491764602314522
+    },
+    {
+      "pose": 71,
+      "count": 3825,
+      "min_signed_m": -0.03489549318395153
+    },
+    {
+      "pose": 72,
+      "count": 3877,
+      "min_signed_m": -0.03490496627757737
+    },
+    {
+      "pose": 73,
+      "count": 5772,
+      "min_signed_m": -0.034853750273252326
+    },
+    {
+      "pose": 74,
+      "count": 5967,
+      "min_signed_m": -0.034818594173105635
+    },
+    {
+      "pose": 75,
+      "count": 5155,
+      "min_signed_m": -0.03496698692300926
+    },
+    {
+      "pose": 76,
+      "count": 4974,
+      "min_signed_m": -0.034911222980581844
+    },
+    {
+      "pose": 77,
+      "count": 4106,
+      "min_signed_m": -0.034986507890080586
+    },
+    {
+      "pose": 78,
+      "count": 3704,
+      "min_signed_m": -0.03424585297994104
+    },
+    {
+      "pose": 79,
+      "count": 3825,
+      "min_signed_m": -0.03489549351965811
+    },
+    {
+      "pose": 80,
+      "count": 4647,
+      "min_signed_m": -0.0346750415441279
+    },
+    {
+      "pose": 81,
+      "count": 4225,
+      "min_signed_m": -0.0348710930840835
+    },
+    {
+      "pose": 82,
+      "count": 4104,
+      "min_signed_m": -0.03498972670459013
+    },
+    {
+      "pose": 83,
+      "count": 3622,
+      "min_signed_m": -0.034801748040095615
+    },
+    {
+      "pose": 84,
+      "count": 4303,
+      "min_signed_m": -0.03493839021608353
+    },
+    {
+      "pose": 85,
+      "count": 4348,
+      "min_signed_m": -0.03493793947754441
+    },
+    {
+      "pose": 86,
+      "count": 4671,
+      "min_signed_m": -0.034985465151660705
+    },
+    {
+      "pose": 87,
+      "count": 4638,
+      "min_signed_m": -0.03463781146696823
+    },
+    {
+      "pose": 88,
+      "count": 4647,
+      "min_signed_m": -0.034613701160144464
+    },
+    {
+      "pose": 89,
+      "count": 4646,
+      "min_signed_m": -0.03461360805200656
+    },
+    {
+      "pose": 90,
+      "count": 4225,
+      "min_signed_m": -0.034871119209946275
+    },
+    {
+      "pose": 91,
+      "count": 4103,
+      "min_signed_m": -0.03498972706940986
+    },
+    {
+      "pose": 92,
+      "count": 3622,
+      "min_signed_m": -0.03480176023870983
+    },
+    {
+      "pose": 93,
+      "count": 4303,
+      "min_signed_m": -0.0349383892233607
+    },
+    {
+      "pose": 94,
+      "count": 4344,
+      "min_signed_m": -0.034937947171598545
+    },
+    {
+      "pose": 95,
+      "count": 4668,
+      "min_signed_m": -0.03498558505763957
+    },
+    {
+      "pose": 96,
+      "count": 4638,
+      "min_signed_m": -0.03469457099271446
+    },
+    {
+      "pose": 97,
+      "count": 4646,
+      "min_signed_m": -0.03467508572045914
+    }
+  ],
+  "weights_only": [
+    {
+      "pose": 0,
+      "count": 3681,
+      "min_signed_m": -0.0348037352372409
+    },
+    {
+      "pose": 1,
+      "count": 3813,
+      "min_signed_m": -0.03465931935973407
+    },
+    {
+      "pose": 2,
+      "count": 3816,
+      "min_signed_m": -0.03468552938049626
+    },
+    {
+      "pose": 3,
+      "count": 3822,
+      "min_signed_m": -0.03458897901054074
+    },
+    {
+      "pose": 4,
+      "count": 3819,
+      "min_signed_m": -0.03462028253123817
+    },
+    {
+      "pose": 5,
+      "count": 3784,
+      "min_signed_m": -0.034686251372027715
+    },
+    {
+      "pose": 6,
+      "count": 3817,
+      "min_signed_m": -0.03461322885738127
+    },
+    {
+      "pose": 7,
+      "count": 3832,
+      "min_signed_m": -0.03459124894466485
+    },
+    {
+      "pose": 8,
+      "count": 3812,
+      "min_signed_m": -0.034669113779238966
+    },
+    {
+      "pose": 9,
+      "count": 3813,
+      "min_signed_m": -0.03465931935973407
+    },
+    {
+      "pose": 10,
+      "count": 3815,
+      "min_signed_m": -0.03465855720511064
+    },
+    {
+      "pose": 11,
+      "count": 3818,
+      "min_signed_m": -0.03468553042549483
+    },
+    {
+      "pose": 12,
+      "count": 3824,
+      "min_signed_m": -0.03458897429410924
+    },
+    {
+      "pose": 13,
+      "count": 3821,
+      "min_signed_m": -0.03461944457241324
+    },
+    {
+      "pose": 14,
+      "count": 3786,
+      "min_signed_m": -0.03468556692122921
+    },
+    {
+      "pose": 15,
+      "count": 3819,
+      "min_signed_m": -0.034612271058485994
+    },
+    {
+      "pose": 16,
+      "count": 3834,
+      "min_signed_m": -0.03459027651495317
+    },
+    {
+      "pose": 17,
+      "count": 3814,
+      "min_signed_m": -0.03466830535080134
+    },
+    {
+      "pose": 18,
+      "count": 3815,
+      "min_signed_m": -0.0346586115525916
+    },
+    {
+      "pose": 19,
+      "count": 3676,
+      "min_signed_m": -0.034538132864695016
+    },
+    {
+      "pose": 20,
+      "count": 3677,
+      "min_signed_m": -0.034946348106585146
+    },
+    {
+      "pose": 21,
+      "count": 3674,
+      "min_signed_m": -0.034709758346519654
+    },
+    {
+      "pose": 22,
+      "count": 3685,
+      "min_signed_m": -0.03495642857175889
+    },
+    {
+      "pose": 23,
+      "count": 3682,
+      "min_signed_m": -0.03472404305412934
+    },
+    {
+      "pose": 24,
+      "count": 3678,
+      "min_signed_m": -0.034556370946175065
+    },
+    {
+      "pose": 25,
+      "count": 3673,
+      "min_signed_m": -0.03457628831392169
+    },
+    {
+      "pose": 26,
+      "count": 3674,
+      "min_signed_m": -0.03485174633507983
+    },
+    {
+      "pose": 27,
+      "count": 3689,
+      "min_signed_m": -0.034829130420279956
+    },
+    {
+      "pose": 28,
+      "count": 3672,
+      "min_signed_m": -0.034576127306721174
+    },
+    {
+      "pose": 29,
+      "count": 3676,
+      "min_signed_m": -0.03486838225541376
+    },
+    {
+      "pose": 30,
+      "count": 3679,
+      "min_signed_m": -0.0349892128833464
+    },
+    {
+      "pose": 31,
+      "count": 3676,
+      "min_signed_m": -0.034538164574696543
+    },
+    {
+      "pose": 32,
+      "count": 3673,
+      "min_signed_m": -0.0345141748666615
+    },
+    {
+      "pose": 33,
+      "count": 3676,
+      "min_signed_m": -0.034946348106585146
+    },
+    {
+      "pose": 34,
+      "count": 3675,
+      "min_signed_m": -0.034978044017663246
+    },
+    {
+      "pose": 35,
+      "count": 3684,
+      "min_signed_m": -0.034926567978647086
+    },
+    {
+      "pose": 36,
+      "count": 3681,
+      "min_signed_m": -0.03457079115454047
+    },
+    {
+      "pose": 37,
+      "count": 3679,
+      "min_signed_m": -0.0349715047971343
+    },
+    {
+      "pose": 38,
+      "count": 3672,
+      "min_signed_m": -0.03491481399250741
+    },
+    {
+      "pose": 39,
+      "count": 3673,
+      "min_signed_m": -0.03493150711252035
+    },
+    {
+      "pose": 40,
+      "count": 3686,
+      "min_signed_m": -0.034829130420279956
+    },
+    {
+      "pose": 41,
+      "count": 3669,
+      "min_signed_m": -0.03454174479938078
+    },
+    {
+      "pose": 42,
+      "count": 3672,
+      "min_signed_m": -0.03486838225541376
+    },
+    {
+      "pose": 43,
+      "count": 3675,
+      "min_signed_m": -0.0349892128833464
+    },
+    {
+      "pose": 44,
+      "count": 3673,
+      "min_signed_m": -0.03451427746628745
+    },
+    {
+      "pose": 45,
+      "count": 3736,
+      "min_signed_m": -0.03482376003302021
+    },
+    {
+      "pose": 46,
+      "count": 3675,
+      "min_signed_m": -0.03466040787069512
+    },
+    {
+      "pose": 47,
+      "count": 3682,
+      "min_signed_m": -0.034615119239052326
+    },
+    {
+      "pose": 48,
+      "count": 3685,
+      "min_signed_m": -0.034959285181817026
+    },
+    {
+      "pose": 49,
+      "count": 3680,
+      "min_signed_m": -0.03410114154257832
+    },
+    {
+      "pose": 50,
+      "count": 3732,
+      "min_signed_m": -0.03406654567545924
+    },
+    {
+      "pose": 51,
+      "count": 3738,
+      "min_signed_m": -0.03408245566281997
+    },
+    {
+      "pose": 52,
+      "count": 3682,
+      "min_signed_m": -0.03412566791799572
+    },
+    {
+      "pose": 53,
+      "count": 3687,
+      "min_signed_m": -0.03497120667490066
+    },
+    {
+      "pose": 54,
+      "count": 3812,
+      "min_signed_m": -0.03472462464211919
+    },
+    {
+      "pose": 55,
+      "count": 3719,
+      "min_signed_m": -0.0349360555261488
+    },
+    {
+      "pose": 56,
+      "count": 3719,
+      "min_signed_m": -0.03495228915185744
+    },
+    {
+      "pose": 57,
+      "count": 3736,
+      "min_signed_m": -0.03482376642287254
+    },
+    {
+      "pose": 58,
+      "count": 3733,
+      "min_signed_m": -0.03482376003302021
+    },
+    {
+      "pose": 59,
+      "count": 3672,
+      "min_signed_m": -0.03466040787069512
+    },
+    {
+      "pose": 60,
+      "count": 3681,
+      "min_signed_m": -0.034650738983864525
+    },
+    {
+      "pose": 61,
+      "count": 3680,
+      "min_signed_m": -0.03467138516412978
+    },
+    {
+      "pose": 62,
+      "count": 3679,
+      "min_signed_m": -0.03410114154257832
+    },
+    {
+      "pose": 63,
+      "count": 3730,
+      "min_signed_m": -0.03406654567545924
+    },
+    {
+      "pose": 64,
+      "count": 3736,
+      "min_signed_m": -0.03408245566281997
+    },
+    {
+      "pose": 65,
+      "count": 3680,
+      "min_signed_m": -0.03412566791799572
+    },
+    {
+      "pose": 66,
+      "count": 3686,
+      "min_signed_m": -0.03490578445566342
+    },
+    {
+      "pose": 67,
+      "count": 3806,
+      "min_signed_m": -0.03472462464211919
+    },
+    {
+      "pose": 68,
+      "count": 3718,
+      "min_signed_m": -0.0349360555261488
+    },
+    {
+      "pose": 69,
+      "count": 3717,
+      "min_signed_m": -0.03495228915185744
+    },
+    {
+      "pose": 70,
+      "count": 3733,
+      "min_signed_m": -0.03482376642287254
+    },
+    {
+      "pose": 71,
+      "count": 3681,
+      "min_signed_m": -0.03497360601108605
+    },
+    {
+      "pose": 72,
+      "count": 3682,
+      "min_signed_m": -0.03462629418284828
+    },
+    {
+      "pose": 73,
+      "count": 3683,
+      "min_signed_m": -0.03484079497287464
+    },
+    {
+      "pose": 74,
+      "count": 3681,
+      "min_signed_m": -0.034922125139613985
+    },
+    {
+      "pose": 75,
+      "count": 3686,
+      "min_signed_m": -0.03488364493805254
+    },
+    {
+      "pose": 76,
+      "count": 3682,
+      "min_signed_m": -0.03466885045975
+    },
+    {
+      "pose": 77,
+      "count": 3677,
+      "min_signed_m": -0.03484189987041634
+    },
+    {
+      "pose": 78,
+      "count": 3682,
+      "min_signed_m": -0.034830116190186264
+    },
+    {
+      "pose": 79,
+      "count": 3681,
+      "min_signed_m": -0.034973633784667224
+    },
+    {
+      "pose": 80,
+      "count": 3710,
+      "min_signed_m": -0.034602561830634426
+    },
+    {
+      "pose": 81,
+      "count": 3698,
+      "min_signed_m": -0.03486176414176809
+    },
+    {
+      "pose": 82,
+      "count": 3693,
+      "min_signed_m": -0.03499717159759175
+    },
+    {
+      "pose": 83,
+      "count": 3683,
+      "min_signed_m": -0.03498615671882237
+    },
+    {
+      "pose": 84,
+      "count": 3685,
+      "min_signed_m": -0.03498690064278721
+    },
+    {
+      "pose": 85,
+      "count": 3706,
+      "min_signed_m": -0.0348563022809959
+    },
+    {
+      "pose": 86,
+      "count": 3736,
+      "min_signed_m": -0.034907912827462174
+    },
+    {
+      "pose": 87,
+      "count": 3717,
+      "min_signed_m": -0.03459564301071873
+    },
+    {
+      "pose": 88,
+      "count": 3710,
+      "min_signed_m": -0.034602568572538246
+    },
+    {
+      "pose": 89,
+      "count": 3709,
+      "min_signed_m": -0.034602561830634426
+    },
+    {
+      "pose": 90,
+      "count": 3697,
+      "min_signed_m": -0.03492875622360549
+    },
+    {
+      "pose": 91,
+      "count": 3692,
+      "min_signed_m": -0.03499717159759175
+    },
+    {
+      "pose": 92,
+      "count": 3682,
+      "min_signed_m": -0.03498615671882237
+    },
+    {
+      "pose": 93,
+      "count": 3684,
+      "min_signed_m": -0.03497400299033507
+    },
+    {
+      "pose": 94,
+      "count": 3705,
+      "min_signed_m": -0.0348563022809959
+    },
+    {
+      "pose": 95,
+      "count": 3735,
+      "min_signed_m": -0.034907912827462174
+    },
+    {
+      "pose": 96,
+      "count": 3716,
+      "min_signed_m": -0.03459564301071873
+    },
+    {
+      "pose": 97,
+      "count": 3709,
+      "min_signed_m": -0.034602568572538246
+    }
+  ],
+  "after": [
+    {
+      "pose": 0,
+      "count": 672,
+      "min_signed_m": -0.03439345351961891
+    },
+    {
+      "pose": 1,
+      "count": 671,
+      "min_signed_m": -0.03497613712307895
+    },
+    {
+      "pose": 2,
+      "count": 674,
+      "min_signed_m": -0.03499167941014039
+    },
+    {
+      "pose": 3,
+      "count": 673,
+      "min_signed_m": -0.03497629801688758
+    },
+    {
+      "pose": 4,
+      "count": 673,
+      "min_signed_m": -0.0349535121329252
+    },
+    {
+      "pose": 5,
+      "count": 672,
+      "min_signed_m": -0.034949085393447266
+    },
+    {
+      "pose": 6,
+      "count": 673,
+      "min_signed_m": -0.034971921567507
+    },
+    {
+      "pose": 7,
+      "count": 673,
+      "min_signed_m": -0.03493995899162258
+    },
+    {
+      "pose": 8,
+      "count": 673,
+      "min_signed_m": -0.03496285862668592
+    },
+    {
+      "pose": 9,
+      "count": 671,
+      "min_signed_m": -0.03497613712307895
+    },
+    {
+      "pose": 10,
+      "count": 671,
+      "min_signed_m": -0.03497610280295101
+    },
+    {
+      "pose": 11,
+      "count": 672,
+      "min_signed_m": -0.0349916964729626
+    },
+    {
+      "pose": 12,
+      "count": 671,
+      "min_signed_m": -0.034976276826109036
+    },
+    {
+      "pose": 13,
+      "count": 671,
+      "min_signed_m": -0.034953514828082184
+    },
+    {
+      "pose": 14,
+      "count": 670,
+      "min_signed_m": -0.03494910376804719
+    },
+    {
+      "pose": 15,
+      "count": 671,
+      "min_signed_m": -0.034971911002558406
+    },
+    {
+      "pose": 16,
+      "count": 671,
+      "min_signed_m": -0.03493988283500272
+    },
+    {
+      "pose": 17,
+      "count": 671,
+      "min_signed_m": -0.03496285414268868
+    },
+    {
+      "pose": 18,
+      "count": 671,
+      "min_signed_m": -0.03497613355725561
+    },
+    {
+      "pose": 19,
+      "count": 667,
+      "min_signed_m": -0.0348367536742097
+    },
+    {
+      "pose": 20,
+      "count": 670,
+      "min_signed_m": -0.034961069455769135
+    },
+    {
+      "pose": 21,
+      "count": 661,
+      "min_signed_m": -0.034544187416082256
+    },
+    {
+      "pose": 22,
+      "count": 657,
+      "min_signed_m": -0.03483044214375057
+    },
+    {
+      "pose": 23,
+      "count": 658,
+      "min_signed_m": -0.03477524876365686
+    },
+    {
+      "pose": 24,
+      "count": 657,
+      "min_signed_m": -0.03464021771977881
+    },
+    {
+      "pose": 25,
+      "count": 664,
+      "min_signed_m": -0.0349627875707222
+    },
+    {
+      "pose": 26,
+      "count": 664,
+      "min_signed_m": -0.034954359883149516
+    },
+    {
+      "pose": 27,
+      "count": 666,
+      "min_signed_m": -0.034870937822302585
+    },
+    {
+      "pose": 28,
+      "count": 663,
+      "min_signed_m": -0.034878960524809356
+    },
+    {
+      "pose": 29,
+      "count": 664,
+      "min_signed_m": -0.034992291767046484
+    },
+    {
+      "pose": 30,
+      "count": 668,
+      "min_signed_m": -0.03498282001217366
+    },
+    {
+      "pose": 31,
+      "count": 667,
+      "min_signed_m": -0.034836732532907276
+    },
+    {
+      "pose": 32,
+      "count": 665,
+      "min_signed_m": -0.0348367536742097
+    },
+    {
+      "pose": 33,
+      "count": 670,
+      "min_signed_m": -0.034961069455769135
+    },
+    {
+      "pose": 34,
+      "count": 660,
+      "min_signed_m": -0.034544187416082256
+    },
+    {
+      "pose": 35,
+      "count": 655,
+      "min_signed_m": -0.03483044214375057
+    },
+    {
+      "pose": 36,
+      "count": 654,
+      "min_signed_m": -0.03477524876365686
+    },
+    {
+      "pose": 37,
+      "count": 655,
+      "min_signed_m": -0.03464021771977881
+    },
+    {
+      "pose": 38,
+      "count": 666,
+      "min_signed_m": -0.0349627875707222
+    },
+    {
+      "pose": 39,
+      "count": 665,
+      "min_signed_m": -0.034954359883149516
+    },
+    {
+      "pose": 40,
+      "count": 666,
+      "min_signed_m": -0.034870937822302585
+    },
+    {
+      "pose": 41,
+      "count": 660,
+      "min_signed_m": -0.03485075547045481
+    },
+    {
+      "pose": 42,
+      "count": 661,
+      "min_signed_m": -0.034992291767046484
+    },
+    {
+      "pose": 43,
+      "count": 666,
+      "min_signed_m": -0.034982675230121926
+    },
+    {
+      "pose": 44,
+      "count": 665,
+      "min_signed_m": -0.034836732532907276
+    },
+    {
+      "pose": 45,
+      "count": 667,
+      "min_signed_m": -0.03499420440736171
+    },
+    {
+      "pose": 46,
+      "count": 663,
+      "min_signed_m": -0.03480776424815374
+    },
+    {
+      "pose": 47,
+      "count": 674,
+      "min_signed_m": -0.034908618902580395
+    },
+    {
+      "pose": 48,
+      "count": 668,
+      "min_signed_m": -0.03492031215809115
+    },
+    {
+      "pose": 49,
+      "count": 669,
+      "min_signed_m": -0.03468376893626206
+    },
+    {
+      "pose": 50,
+      "count": 670,
+      "min_signed_m": -0.03466705205726871
+    },
+    {
+      "pose": 51,
+      "count": 671,
+      "min_signed_m": -0.03496799481081252
+    },
+    {
+      "pose": 52,
+      "count": 669,
+      "min_signed_m": -0.034692636235571055
+    },
+    {
+      "pose": 53,
+      "count": 663,
+      "min_signed_m": -0.03483906781735688
+    },
+    {
+      "pose": 54,
+      "count": 664,
+      "min_signed_m": -0.03493161839156445
+    },
+    {
+      "pose": 55,
+      "count": 692,
+      "min_signed_m": -0.034970275640168504
+    },
+    {
+      "pose": 56,
+      "count": 669,
+      "min_signed_m": -0.0349349358216304
+    },
+    {
+      "pose": 57,
+      "count": 667,
+      "min_signed_m": -0.03499419346903083
+    },
+    {
+      "pose": 58,
+      "count": 665,
+      "min_signed_m": -0.03499420440736171
+    },
+    {
+      "pose": 59,
+      "count": 663,
+      "min_signed_m": -0.03480776424815374
+    },
+    {
+      "pose": 60,
+      "count": 674,
+      "min_signed_m": -0.034908618902580395
+    },
+    {
+      "pose": 61,
+      "count": 668,
+      "min_signed_m": -0.03492031215809115
+    },
+    {
+      "pose": 62,
+      "count": 667,
+      "min_signed_m": -0.03468376893626206
+    },
+    {
+      "pose": 63,
+      "count": 670,
+      "min_signed_m": -0.03466705205726871
+    },
+    {
+      "pose": 64,
+      "count": 671,
+      "min_signed_m": -0.03486647298147223
+    },
+    {
+      "pose": 65,
+      "count": 669,
+      "min_signed_m": -0.03454967327277525
+    },
+    {
+      "pose": 66,
+      "count": 665,
+      "min_signed_m": -0.03483906781735688
+    },
+    {
+      "pose": 67,
+      "count": 662,
+      "min_signed_m": -0.03493161839156445
+    },
+    {
+      "pose": 68,
+      "count": 690,
+      "min_signed_m": -0.034970275640168504
+    },
+    {
+      "pose": 69,
+      "count": 667,
+      "min_signed_m": -0.0349349358216304
+    },
+    {
+      "pose": 70,
+      "count": 665,
+      "min_signed_m": -0.03499419346903083
+    },
+    {
+      "pose": 71,
+      "count": 666,
+      "min_signed_m": -0.03495430427033236
+    },
+    {
+      "pose": 72,
+      "count": 662,
+      "min_signed_m": -0.034854089537367294
+    },
+    {
+      "pose": 73,
+      "count": 694,
+      "min_signed_m": -0.03487622212680068
+    },
+    {
+      "pose": 74,
+      "count": 701,
+      "min_signed_m": -0.034497696839078315
+    },
+    {
+      "pose": 75,
+      "count": 704,
+      "min_signed_m": -0.034938036676261726
+    },
+    {
+      "pose": 76,
+      "count": 704,
+      "min_signed_m": -0.03489168568897272
+    },
+    {
+      "pose": 77,
+      "count": 688,
+      "min_signed_m": -0.034530144163758485
+    },
+    {
+      "pose": 78,
+      "count": 667,
+      "min_signed_m": -0.03495349194144528
+    },
+    {
+      "pose": 79,
+      "count": 666,
+      "min_signed_m": -0.03495433499872316
+    },
+    {
+      "pose": 80,
+      "count": 671,
+      "min_signed_m": -0.034898366552201174
+    },
+    {
+      "pose": 81,
+      "count": 668,
+      "min_signed_m": -0.034992256579018874
+    },
+    {
+      "pose": 82,
+      "count": 672,
+      "min_signed_m": -0.03493986840089527
+    },
+    {
+      "pose": 83,
+      "count": 670,
+      "min_signed_m": -0.03474201821803987
+    },
+    {
+      "pose": 84,
+      "count": 666,
+      "min_signed_m": -0.03497849296544127
+    },
+    {
+      "pose": 85,
+      "count": 670,
+      "min_signed_m": -0.03487875139887333
+    },
+    {
+      "pose": 86,
+      "count": 672,
+      "min_signed_m": -0.03498746972220599
+    },
+    {
+      "pose": 87,
+      "count": 671,
+      "min_signed_m": -0.03488199646307699
+    },
+    {
+      "pose": 88,
+      "count": 671,
+      "min_signed_m": -0.03489838016754568
+    },
+    {
+      "pose": 89,
+      "count": 671,
+      "min_signed_m": -0.034898366552201174
+    },
+    {
+      "pose": 90,
+      "count": 668,
+      "min_signed_m": -0.03499747860094103
+    },
+    {
+      "pose": 91,
+      "count": 672,
+      "min_signed_m": -0.03493986840089527
+    },
+    {
+      "pose": 92,
+      "count": 670,
+      "min_signed_m": -0.03474201821803987
+    },
+    {
+      "pose": 93,
+      "count": 666,
+      "min_signed_m": -0.03497849296544127
+    },
+    {
+      "pose": 94,
+      "count": 670,
+      "min_signed_m": -0.03487875139887333
+    },
+    {
+      "pose": 95,
+      "count": 672,
+      "min_signed_m": -0.03498746972220599
+    },
+    {
+      "pose": 96,
+      "count": 671,
+      "min_signed_m": -0.03488199646307699
+    },
+    {
+      "pose": 97,
+      "count": 671,
+      "min_signed_m": -0.03489838016754568
+    }
+  ],
+  "iterations": [
+    {
+      "iteration": 1,
+      "pre_step_contacts": 364290,
+      "max_accumulated_neutral_displacement_m": 0.0033345112821273953
+    },
+    {
+      "iteration": 2,
+      "pre_step_contacts": 239448,
+      "max_accumulated_neutral_displacement_m": 0.00665348495868336
+    },
+    {
+      "iteration": 3,
+      "pre_step_contacts": 133404,
+      "max_accumulated_neutral_displacement_m": 0.009935300050583774
+    },
+    {
+      "iteration": 4,
+      "pre_step_contacts": 76270,
+      "max_accumulated_neutral_displacement_m": 0.010000000000000111
+    },
+    {
+      "iteration": 5,
+      "pre_step_contacts": 67647,
+      "max_accumulated_neutral_displacement_m": 0.010000000000000097
+    }
+  ],
+  "contact_definition": "Garment vertices, centers and edge midpoints with nearest torso/neck surface normal distance below -0.5mm, within 35mm. These are contact proxies, not guaranteed signed penetration depths of closed volumes.",
+  "no_body_masking": true
+}

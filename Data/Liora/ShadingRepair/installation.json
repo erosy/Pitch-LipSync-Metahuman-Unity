@@ -1,0 +1,15 @@
+{
+  "installed": true,
+  "target": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Face.asset",
+  "live": [
+    {
+      "name": "Face",
+      "root": "Liora_Candidate",
+      "scene": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "active": true
+    }
+  ],
+  "assetGuidPreserved": true,
+  "materialsAndPrefabNotEdited": true,
+  "sceneSaved": false
+}

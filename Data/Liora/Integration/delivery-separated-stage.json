@@ -1,0 +1,206 @@
+{
+  "candidate": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Candidate.prefab",
+  "avatar": {
+    "name": "Liora_Humanoid",
+    "isValid": true,
+    "isHuman": true
+  },
+  "rootComponents": [
+    "CharacterHairStartupWarmup",
+    "CharacterReadiness",
+    "Character",
+    "CharacterSpeechPlayer",
+    "CharacterFlowController",
+    "CharacterFacialMeshSync"
+  ],
+  "topLevel": [
+    "BAKED_body_lod0_mesh",
+    "BAKED_cartilage_lod0_mesh",
+    "BAKED_eyeEdge_lod0_mesh",
+    "BAKED_eyelashes_lod0_mesh",
+    "BAKED_eyeLeft_lod0_mesh",
+    "BAKED_eyeRight_lod0_mesh",
+    "BAKED_eyeshell_lod0_mesh",
+    "BAKED_head_lod0_mesh",
+    "BAKED_head_lod0_mesh.001",
+    "BAKED_head_lod0_mesh.002",
+    "BAKED_Outfits",
+    "BAKED_saliva_lod0_mesh",
+    "BAKED_teeth_lod0_mesh",
+    "Armature",
+    "Modules"
+  ],
+  "renderers": [
+    {
+      "name": "BAKED_body_lod0_mesh",
+      "enabled": true,
+      "vertices": 32416,
+      "triangles": 60816,
+      "shapes": 73,
+      "meshMiB": 96.39276
+    },
+    {
+      "name": "BAKED_cartilage_lod0_mesh",
+      "enabled": true,
+      "vertices": 392,
+      "triangles": 576,
+      "shapes": 73,
+      "meshMiB": 1.2526474
+    },
+    {
+      "name": "BAKED_eyeEdge_lod0_mesh",
+      "enabled": true,
+      "vertices": 300,
+      "triangles": 386,
+      "shapes": 73,
+      "meshMiB": 0.9754753
+    },
+    {
+      "name": "BAKED_eyelashes_lod0_mesh",
+      "enabled": false,
+      "vertices": 2144,
+      "triangles": 1722,
+      "shapes": 73,
+      "meshMiB": 6.45142365
+    },
+    {
+      "name": "BAKED_eyeLeft_lod0_mesh",
+      "enabled": true,
+      "vertices": 802,
+      "triangles": 1536,
+      "shapes": 73,
+      "meshMiB": 2.44201469
+    },
+    {
+      "name": "BAKED_eyeRight_lod0_mesh",
+      "enabled": true,
+      "vertices": 802,
+      "triangles": 1536,
+      "shapes": 73,
+      "meshMiB": 2.44201469
+    },
+    {
+      "name": "BAKED_eyeshell_lod0_mesh",
+      "enabled": true,
+      "vertices": 582,
+      "triangles": 980,
+      "shapes": 73,
+      "meshMiB": 1.81913948
+    },
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "enabled": true,
+      "vertices": 20175,
+      "triangles": 37630,
+      "shapes": 73,
+      "meshMiB": 60.63736
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "enabled": true,
+      "vertices": 2111,
+      "triangles": 3510,
+      "shapes": 73,
+      "meshMiB": 6.461913
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "enabled": true,
+      "vertices": 2134,
+      "triangles": 3512,
+      "shapes": 73,
+      "meshMiB": 6.536154
+    },
+    {
+      "name": "BAKED_Outfits",
+      "enabled": true,
+      "vertices": 5196,
+      "triangles": 9029,
+      "shapes": 73,
+      "meshMiB": 15.5953884
+    },
+    {
+      "name": "BAKED_saliva_lod0_mesh",
+      "enabled": true,
+      "vertices": 670,
+      "triangles": 1004,
+      "shapes": 73,
+      "meshMiB": 2.035799
+    },
+    {
+      "name": "BAKED_teeth_lod0_mesh",
+      "enabled": true,
+      "vertices": 4732,
+      "triangles": 8294,
+      "shapes": 73,
+      "meshMiB": 14.075119
+    },
+    {
+      "name": "Eyebrows",
+      "enabled": true,
+      "vertices": 24063,
+      "triangles": 38568,
+      "shapes": 73,
+      "meshMiB": 45.2971954
+    },
+    {
+      "name": "Eyelashes",
+      "enabled": true,
+      "vertices": 11190,
+      "triangles": 17484,
+      "shapes": 73,
+      "meshMiB": 14.784544
+    }
+  ],
+  "scalp": {
+    "strands": 100477,
+    "points": 32,
+    "simulationHz": 30,
+    "editModeSimulation": false
+  },
+  "sourcePreservation": [
+    {
+      "path": "Assets/_Sandbox/Characters/Liora/Liora_73_Baked.fbx",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/_Sandbox/Characters/Liora/Liora_73_Baked.fbx.meta",
+      "unchanged": true
+    }
+  ],
+  "scenes": [
+    {
+      "path": "Assets/_Sandbox/Scenes/CharacterTesting.unity",
+      "isDirty": false,
+      "roots": [
+        "Main Camera",
+        "EventSystem",
+        "DialogueDemo",
+        "CharacterSelection",
+        "========CANVASES====",
+        "Canvas",
+        "Background Canvas",
+        "========MODELS========",
+        "Ethan",
+        "Jiwoo_Normalized",
+        "Ethan_V2_73_Baked",
+        "EthanV2_Candidate",
+        "Liora_73_Baked",
+        "========LIGHT SETTINGS====",
+        "Left Light",
+        "Right Light",
+        "Directional Light",
+        "========POST PROCESSING",
+        "Studio Volume",
+        "Ethan Studio Reflections"
+      ]
+    }
+  ],
+  "sceneSaved": false,
+  "playModeTested": false,
+  "knownReviewItems": [
+    "Waving: visible chest/armhole garment breakthrough; garment fitting remains.",
+    "Full-strength Joy: dark eyelid/nose/mouth shading inherited from source expression shading remains for a dedicated shading pass.",
+    "Hair static review uses one-fifth of authored strands as ribbons; runtime settling, collisions and strand shading require user-controlled Play Mode review."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "poseSamples": 40,
+  "clips": [
+    {
+      "name": "Breathing Idle",
+      "maxRadiusM": 1.719081,
+      "maxMovementM": 0.332080275
+    },
+    {
+      "name": "Confident Idle",
+      "maxRadiusM": 1.71979654,
+      "maxMovementM": 0.4675255
+    },
+    {
+      "name": "Idle",
+      "maxRadiusM": 1.71931076,
+      "maxMovementM": 0.467680126
+    },
+    {
+      "name": "Nod",
+      "maxRadiusM": 1.71962452,
+      "maxMovementM": 0.46780175
+    },
+    {
+      "name": "Talking",
+      "maxRadiusM": 1.71892178,
+      "maxMovementM": 0.464888245
+    },
+    {
+      "name": "Thinking",
+      "maxRadiusM": 1.71899033,
+      "maxMovementM": 0.7674982
+    },
+    {
+      "name": "Thumbs Up",
+      "maxRadiusM": 1.71908474,
+      "maxMovementM": 1.32682383
+    },
+    {
+      "name": "Waving",
+      "maxRadiusM": 1.71953249,
+      "maxMovementM": 0.8542178
+    }
+  ],
+  "fingerMappings": 30,
+  "sceneSaved": false,
+  "playModeTested": false
+}

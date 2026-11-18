@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "groom": "Group_0",
+      "pose": "Basis",
+      "max_world_error_m": 7.16380213816592e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "Basis",
+      "max_world_error_m": 5.635417323901493e-07
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "Basis",
+      "max_world_error_m": 2.107342389479072e-08
+    },
+    {
+      "groom": "Group_0",
+      "pose": "eyeBlinkLeft",
+      "max_world_error_m": 7.16380213816592e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "eyeBlinkLeft",
+      "max_world_error_m": 8.52277707963367e-07
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "eyeBlinkLeft",
+      "max_world_error_m": 2.107342389479072e-08
+    },
+    {
+      "groom": "Group_0",
+      "pose": "eyeBlinkRight",
+      "max_world_error_m": 8.347061566382763e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "eyeBlinkRight",
+      "max_world_error_m": 8.360932497453177e-07
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "eyeBlinkRight",
+      "max_world_error_m": 2.107342389479072e-08
+    },
+    {
+      "groom": "Group_0",
+      "pose": "eyeSquintLeft",
+      "max_world_error_m": 7.16380213816592e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "eyeSquintLeft",
+      "max_world_error_m": 6.188496399772703e-07
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "eyeSquintLeft",
+      "max_world_error_m": 2.107342389479072e-08
+    },
+    {
+      "groom": "Group_0",
+      "pose": "browInnerUp",
+      "max_world_error_m": 9.91670958683244e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "browInnerUp",
+      "max_world_error_m": 7.402016990454285e-07
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "browInnerUp",
+      "max_world_error_m": 2.107342389479072e-08
+    },
+    {
+      "groom": "Group_0",
+      "pose": "browOuterUpLeft",
+      "max_world_error_m": 7.16380213816592e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "browOuterUpLeft",
+      "max_world_error_m": 0.0001102084934245795
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "browOuterUpLeft",
+      "max_world_error_m": 2.107342389479072e-08
+    },
+    {
+      "groom": "Group_0",
+      "pose": "emo_joy",
+      "max_world_error_m": 5.067250867796247e-07
+    },
+    {
+      "groom": "Group_0_001",
+      "pose": "emo_joy",
+      "max_world_error_m": 0.0001678362168604508
+    },
+    {
+      "groom": "Group_0_002",
+      "pose": "emo_joy",
+      "max_world_error_m": 2.107342389479072e-08
+    }
+  ],
+  "mesh_statistics": [
+    {
+      "object": "BAKED_body_lod0_mesh",
+      "vertices": 30455,
+      "triangles": 60816,
+      "dense_shape_position_bytes": 26678580
+    },
+    {
+      "object": "BAKED_cartilage_lod0_mesh",
+      "vertices": 386,
+      "triangles": 576,
+      "dense_shape_position_bytes": 338136
+    },
+    {
+      "object": "BAKED_eyeEdge_lod0_mesh",
+      "vertices": 268,
+      "triangles": 386,
+      "dense_shape_position_bytes": 234768
+    },
+    {
+      "object": "BAKED_eyelashes_lod0_mesh",
+      "vertices": 2144,
+      "triangles": 1722,
+      "dense_shape_position_bytes": 1878144
+    },
+    {
+      "object": "BAKED_eyeLeft_lod0_mesh",
+      "vertices": 770,
+      "triangles": 1536,
+      "dense_shape_position_bytes": 674520
+    },
+    {
+      "object": "BAKED_eyeRight_lod0_mesh",
+      "vertices": 770,
+      "triangles": 1536,
+      "dense_shape_position_bytes": 674520
+    },
+    {
+      "object": "BAKED_eyeshell_lod0_mesh",
+      "vertices": 552,
+      "triangles": 980,
+      "dense_shape_position_bytes": 483552
+    },
+    {
+      "object": "BAKED_head_lod0_mesh",
+      "vertices": 18907,
+      "triangles": 37630,
+      "dense_shape_position_bytes": 16562532
+    },
+    {
+      "object": "BAKED_head_lod0_mesh.001",
+      "vertices": 1813,
+      "triangles": 3510,
+      "dense_shape_position_bytes": 1588188
+    },
+    {
+      "object": "BAKED_head_lod0_mesh.002",
+      "vertices": 1815,
+      "triangles": 3512,
+      "dense_shape_position_bytes": 1589940
+    },
+    {
+      "object": "BAKED_Outfits",
+      "vertices": 4576,
+      "triangles": 9029,
+      "dense_shape_position_bytes": 4008576
+    },
+    {
+      "object": "BAKED_saliva_lod0_mesh",
+      "vertices": 660,
+      "triangles": 1004,
+      "dense_shape_position_bytes": 578160
+    },
+    {
+      "object": "BAKED_teeth_lod0_mesh",
+      "vertices": 4209,
+      "triangles": 8294,
+      "dense_shape_position_bytes": 3687084
+    }
+  ],
+  "note": "Curve grooms retain surface deformation; no tubular mesh conversion or Unity integration performed."
+}

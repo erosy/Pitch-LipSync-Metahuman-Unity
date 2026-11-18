@@ -1,0 +1,30 @@
+{
+  "instances": [
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter",
+      "head_rig": "LioraMinji_NewMetaHumanCharacter_head_rig",
+      "body_rig": "LioraMinji_NewMetaHumanCharacter_body_rig",
+      "control_rig": null,
+      "head_mesh": "LioraMinji_NewMetaHumanCharacter_head_lod0_mesh",
+      "head_coordinate_version": 0
+    }
+  ],
+  "capability": [
+    true,
+    "Native runtime available"
+  ],
+  "migration": [
+    "default",
+    1,
+    0
+  ],
+  "instances_after": [
+    {
+      "name": "LioraMinji_NewMetaHumanCharacter",
+      "binding_issues": [],
+      "head_initialized": true,
+      "errors": {}
+    }
+  ],
+  "saved": "D:\\UnityProject\\MetahumanTemplate\\Data\\Liora\\Native\\Liora_Reconnected.blend"
+}

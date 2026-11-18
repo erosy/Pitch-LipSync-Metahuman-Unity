@@ -1,0 +1,26 @@
+{
+  "strands": 100477,
+  "points": 32,
+  "simulationHz": 30,
+  "editModeSimulation": false,
+  "fixedScale": true,
+  "endpointErrorM": 0.0,
+  "collisionResolution": 96,
+  "facialHair": [
+    {
+      "name": "Eyebrows",
+      "vertexCount": 24063,
+      "triangles": 38568,
+      "shapes": 73,
+      "memoryBytes": 45278136
+    },
+    {
+      "name": "Eyelashes",
+      "vertexCount": 11190,
+      "triangles": 17484,
+      "shapes": 73,
+      "memoryBytes": 14498840
+    }
+  ],
+  "sourceCardsPreservedDisabled": true
+}

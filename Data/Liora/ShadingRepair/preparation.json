@@ -1,0 +1,29 @@
+{
+  "target": "Assets/_Sandbox/Characters/Liora/Candidate/Liora_Face.asset",
+  "vertexCount": 100369,
+  "shapes": 73,
+  "ranges": [
+    {
+      "name": "BAKED_head_lod0_mesh",
+      "start": 0,
+      "count": 20175,
+      "triangles": 37630
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.001",
+      "start": 55469,
+      "count": 2111,
+      "triangles": 3510
+    },
+    {
+      "name": "BAKED_head_lod0_mesh.002",
+      "start": 57580,
+      "count": 2134,
+      "triangles": 3512
+    }
+  ],
+  "degenerateSamples": 0,
+  "neutralShadingPreserved": true,
+  "positionsPreserved": true,
+  "method": "Rotate authored neutral shading by the change in geometric normals on each section's own topology"
+}

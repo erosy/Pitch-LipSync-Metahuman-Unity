@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Neutral",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.125,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.25,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.375,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.5,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.625,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.75,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 0.875,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Confident Idle",
+    "phase": 1.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.125,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.25,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.375,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.5,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.625,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.75,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 0.875,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Idle",
+    "phase": 1.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.0833333358,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.166666672,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.25,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.333333343,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.416666657,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.5,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.5833333,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.6666667,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.75,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.8333333,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.9166667,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 1.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.0,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.0833333358,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.166666672,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.25,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.333333343,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.416666657,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.5,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.5833333,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.6666667,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.75,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.8333333,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 0.9166667,
+    "expression": "Speech"
+  },
+  {
+    "name": "Talking",
+    "phase": 1.0,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.0833333358,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.166666672,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.25,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.333333343,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.416666657,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.5,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.5833333,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.6666667,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.75,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.8333333,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.9166667,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 1.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.0,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.0833333358,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.166666672,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.25,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.333333343,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.416666657,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.5,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.5833333,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.6666667,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.75,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.8333333,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 0.9166667,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thinking",
+    "phase": 1.0,
+    "expression": "Speech"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.125,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.25,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.375,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.5,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.625,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.75,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 0.875,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Thumbs Up",
+    "phase": 1.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.125,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.25,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.375,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.5,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.625,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.75,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.875,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 1.0,
+    "expression": "Neutral"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.0,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.125,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.25,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.375,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.5,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.625,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.75,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 0.875,
+    "expression": "Joy"
+  },
+  {
+    "name": "Waving",
+    "phase": 1.0,
+    "expression": "Joy"
+  }
+]
