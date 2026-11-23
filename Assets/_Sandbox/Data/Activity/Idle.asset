@@ -15,5 +15,5 @@ MonoBehaviour:
   id: activity-idle
   displayName: Idle
   animation: {fileID: 11400000, guid: 2863ee9ed97400b4fab89a0e7985f58f, type: 2}
-  expression: {fileID: 11400000, guid: d48ec1771ce675043a781f5f326a8bdd, type: 2}
+  expression: {fileID: 0}
   isIdle: 1

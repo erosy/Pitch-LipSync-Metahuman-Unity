@@ -15,18 +15,16 @@ MonoBehaviour:
   id: expression-confident-idle
   displayName: Confident Idle
   targets:
-  - shape: eyeSquintLeft
-    weight: 0
-  - shape: eyeSquintRight
-    weight: 0
+  - shape: eyeBlinkLeft
+    weight: 13
+  - shape: eyeBlinkRight
+    weight: 13
   - shape: mouthPucker
-    weight: 20
-  - shape: browOuterUpLeft
-    weight: 23
-  - shape: browOuterUpRight
-    weight: 23
+    weight: 16
+  - shape: browInnerUp
+    weight: 3
   - shape: mouthFrownLeft
-    weight: 13
+    weight: 25
   - shape: mouthFrownRight
-    weight: 13
+    weight: 25
   fadeDuration: 0.3

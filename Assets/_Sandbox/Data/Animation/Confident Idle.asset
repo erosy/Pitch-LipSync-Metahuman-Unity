@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Sandbox.CharacterSystem::Sandbox.CharacterSystem.AnimationDefinition
   id: animation-confident-idle
   displayName: Confident Idle
-  clip: {fileID: 7400000, guid: a65b50729d8d83748a720e04fba96618, type: 2}
+  clip: {fileID: -203655887218126122, guid: 057eec963e89b0f4789a8dac3c52b07f, type: 3}
   loop: 1
   playbackSpeed: 1
   crossfadeDuration: 1

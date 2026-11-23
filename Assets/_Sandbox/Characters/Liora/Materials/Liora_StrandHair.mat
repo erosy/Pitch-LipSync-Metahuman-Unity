@@ -37,8 +37,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _HairSmoothness: 0.275
-    - _HairWidthScale: 1.368
+    - _HairSmoothness: 0.062
+    - _HairWidthScale: 1.5
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
