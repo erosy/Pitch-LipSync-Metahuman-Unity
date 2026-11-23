@@ -15,5 +15,5 @@ MonoBehaviour:
   id: activity-confident-idle
   displayName: Confident Idle
   animation: {fileID: 11400000, guid: e778dc6a5092be440bda96d7babc5cbc, type: 2}
-  expression: {fileID: 11400000, guid: a1970a05be81a2948afa5eeec13d8118, type: 2}
+  expression: {fileID: 11400000, guid: d48ec1771ce675043a781f5f326a8bdd, type: 2}
   isIdle: 1
