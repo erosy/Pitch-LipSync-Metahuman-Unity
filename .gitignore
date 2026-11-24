@@ -110,3 +110,10 @@ InitTestScene*.unity*
 
 /Assets/uLipSync/Samples/
 /Assets/uLipSync/Samples.meta
+
+# Generated diagnostics and retired Liora experiments (not production assets)
+/Data/Liora/CrashIsolation/
+/Data/Liora/PerformanceProfile/
+/Data/Liora/RenderLOD/
+/Data/Liora/SimulationLOD/
+/Data/TalkDemo/
