@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Sandbox.CharacterSystem.Tests
 {
     /// <summary>Runtime-compatible services for deterministic tests without audio or Play Mode.</summary>
-    public sealed class FlowTestServices : MonoBehaviour, ICharacterReadiness, ICharacterSpeechPlayback
+    public sealed class FlowTestServices : MonoBehaviour, ICharacterReadiness, IRuntimeCharacterSpeechPlayback
     {
         public bool IsReady { get; set; } = true;
         public bool Invalid, FailOnPlay;
@@ -13,6 +13,10 @@ namespace Sandbox.CharacterSystem.Tests
         public ulong PlaybackId;
         public CharacterSpeechStatus Status = CharacterSpeechStatus.Playing;
         public Action OnPlay;
+        public AudioClip LastClip;
+        public void ValidateRuntimeConfiguration(List<string> errors) => ValidateConfiguration(errors);
+        public bool TryPlayClip(AudioClip clip, out ulong id, out string error)
+        { LastClip = clip; return TryPlay(out id, out error); }
 
         public void ValidateConfiguration(List<string> errors)
         { if (Invalid) errors.Add("Test services are invalid."); }

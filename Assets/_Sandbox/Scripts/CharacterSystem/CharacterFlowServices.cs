@@ -18,4 +18,11 @@ namespace Sandbox.CharacterSystem
         CharacterSpeechStatus GetStatus(ulong playbackId);
         void Stop(ulong playbackId);
     }
+
+    public interface IRuntimeCharacterSpeechPlayback : ICharacterSpeechPlayback
+    {
+        void ValidateRuntimeConfiguration(List<string> errors);
+        // The caller owns the clip and must stop playback before destroying it.
+        bool TryPlayClip(UnityEngine.AudioClip runtimeClip, out ulong playbackId, out string error);
+    }
 }

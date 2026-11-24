@@ -329,9 +329,12 @@ HairVertexData GetHairVertexWS(const HairVertexID id, const HairVertexModifiers 
 				float guideReachHi = _LODGuideReach[(lodDesc.lodIndexHi * _StrandCount) + strandIndex] * _GroupScale;
 				float guideReach = lerp(guideReachLo, guideReachHi, lodDesc.lodBlendFrac);
 
-				float guideProjectedCoverageLo = 1.0 - exp(-radius * guideCarryLo / guideReachLo);
-				float guideProjectedCoverageHi = 1.0 - exp(-radius * guideCarryHi / guideReachHi);
-				float guideProjectedCoverage = 1.0 - exp(-radius * guideCarry / guideReach);
+				// Full-resolution guides have zero reach. Avoid division by zero:
+				// WebGPU cannot reliably preserve the infinity used by exp's limit.
+				// A negligible positive denominator preserves coverage and strand width.
+				float guideProjectedCoverageLo = 1.0 - exp(-radius * guideCarryLo / max(guideReachLo, 1e-10));
+				float guideProjectedCoverageHi = 1.0 - exp(-radius * guideCarryHi / max(guideReachHi, 1e-10));
+				float guideProjectedCoverage = 1.0 - exp(-radius * guideCarry / max(guideReach, 1e-10));
 
 #define USE_PASSING_FRACTION 0
 #if USE_PASSING_FRACTION

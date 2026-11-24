@@ -3,6 +3,9 @@
 	HLSLINCLUDE
 
 	#pragma target 5.0
+	// WebGPU uses the compute splat path in HairSim. Its vertex stage cannot
+	// export SV_RenderTargetArrayIndex; exclude the unused raster shader.
+	#pragma exclude_renderers webgpu
 
 	#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
 

@@ -6323,10 +6323,10 @@ MonoBehaviour:
     index: 24
     maxWeight: 0.34
   - phoneme: I
-    index: 29
-    maxWeight: 0.5
+    index: 64
+    maxWeight: 1
   - phoneme: U
-    index: 30
+    index: 66
     maxWeight: 1
   - phoneme: E
     index: 63
@@ -6346,7 +6346,7 @@ MonoBehaviour:
   maxBlendShapeValue: 100
   minVolume: -3.514975
   maxVolume: -0.95091486
-  smoothness: 0.05
+  smoothness: 0.04
   usePhonemeBlend: 1
 --- !u!1 &1192669859793547982
 GameObject:
@@ -20047,7 +20047,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4388420406294438768}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -20055,14 +20055,14 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
+  m_RayTracingMode: 0
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
   m_ForceMeshLod: -1
   m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 0}
@@ -20610,7 +20610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6999150431613704375
 Transform:
   m_ObjectHideFlags: 0
@@ -20622,7 +20622,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7495649948529097594}
   - {fileID: 7778811002510594307}
@@ -20690,7 +20690,7 @@ MonoBehaviour:
   audioSource: {fileID: 390243825245584765}
   lipSync: {fileID: 7074403182929578819}
   clip: {fileID: 8300000, guid: bed7c60eb0c080f4fab89d9df9fe3c73, type: 3}
-  profile: {fileID: 11400000, guid: f80040455c03e8e428253c1921bb4141, type: 2}
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
 --- !u!114 &9162313677824871526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23837,7 +23837,7 @@ MonoBehaviour:
       m_Bits: 4294967295
     boundaryResident:
     - {fileID: 8577252558284675081}
-    defaultSolidMargin: 0.15
+    defaultSolidMargin: 0
     defaultSolidDensity: 5
   settingsVolumetrics:
     gridPrecision: 0
@@ -27721,7 +27721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: uLipSync.Runtime::uLipSync.uLipSync
-  profile: {fileID: 11400000, guid: f80040455c03e8e428253c1921bb4141, type: 2}
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
   onLipSyncUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -27739,6 +27739,8 @@ MonoBehaviour:
         m_CallState: 2
   outputSoundGain: 1
   audioSourceProxy: {fileID: 0}
+  autoAudioSyncOnWebGL: 1
+  audioSyncOffsetTime: 0
 --- !u!114 &6498959913308264757
 MonoBehaviour:
   m_ObjectHideFlags: 0

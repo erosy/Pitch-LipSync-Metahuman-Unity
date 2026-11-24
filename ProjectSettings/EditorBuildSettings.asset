@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Sandbox/Scenes/Talk Demo.unity
+    guid: 0f7c51cbbe2706d4faa449be6b17a9e3
+  - enabled: 0
     path: Assets/_Sandbox/Scenes/CharacterTesting.unity
     guid: 58d5fddb3e6d7a24b819264db3b18152
   m_configObjects:

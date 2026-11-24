@@ -5000,7 +5000,7 @@ Transform:
   m_GameObject: {fileID: 1080647179317224317}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 6.694734e-18, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: -0}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5296,7 +5296,7 @@ MonoBehaviour:
       m_Bits: 4294967295
     boundaryResident:
     - {fileID: 4040506842081135378}
-    defaultSolidMargin: 1.98
+    defaultSolidMargin: 0
     defaultSolidDensity: 5
   settingsVolumetrics:
     gridPrecision: 0
@@ -26236,7 +26236,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5090421833844845693}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2163de355e8fd8e4b83b631e07455323, type: 3}
   m_Name: 
@@ -32432,6 +32432,8 @@ MonoBehaviour:
         m_CallState: 2
   outputSoundGain: 1
   audioSourceProxy: {fileID: 0}
+  autoAudioSyncOnWebGL: 1
+  audioSyncOffsetTime: 0
 --- !u!114 &5251212771211782323
 MonoBehaviour:
   m_ObjectHideFlags: 0

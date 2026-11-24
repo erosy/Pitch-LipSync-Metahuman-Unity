@@ -426,7 +426,8 @@ public class uLipSync : MonoBehaviour
         int ch = clip.channels;
         int fps = Application.targetFrameRate;
         if (fps <= 0) fps = 60;
-        int n = AudioSettings.outputSampleRate * ch / fps;
+        int frames = math.min(clip.samples, math.max(1, clip.frequency / fps));
+        int n = frames * ch;
 
         if (_audioBuffer == null || _audioBuffer.Length != n)
         {
@@ -434,8 +435,8 @@ public class uLipSync : MonoBehaviour
         }
 
         int offset = _audioSource.timeSamples;
-        offset += (int)(audioSyncOffsetTime * AudioSettings.outputSampleRate * ch);
-        offset = math.min(offset, clip.samples - n - 2);
+        offset += (int)(audioSyncOffsetTime * clip.frequency);
+        offset = math.clamp(offset, 0, clip.samples - frames);
         clip.GetData(_audioBuffer, offset);
         OnDataReceived(_audioBuffer, ch);
 

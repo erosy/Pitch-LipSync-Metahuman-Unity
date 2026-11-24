@@ -6,7 +6,7 @@ namespace Sandbox.CharacterSystem
 {
     /// <summary>Exclusive playback owner for the character's existing uLipSync AudioSource.</summary>
     [DisallowMultipleComponent, AddComponentMenu("Character System/Speech Player")]
-    public sealed class CharacterSpeechPlayer : MonoBehaviour, ICharacterSpeechPlayback
+    public sealed class CharacterSpeechPlayer : MonoBehaviour, IRuntimeCharacterSpeechPlayback
     {
         [SerializeField] AudioSource audioSource;
         [SerializeField] uLipSync.uLipSync lipSync;
@@ -18,15 +18,21 @@ namespace Sandbox.CharacterSystem
         ulong playbackId;
         int startFrame;
         bool observedPlaying;
+        bool runtimePlayback;
         CharacterSpeechStatus status = CharacterSpeechStatus.Interrupted;
 
         [ShowInInspector, ReadOnly] public ulong CurrentPlaybackId => playbackId;
 
         public void ValidateConfiguration(List<string> errors)
         {
-            if (!isActiveAndEnabled) errors.Add("Speech Player must be enabled on an active object.");
             if (!clip) errors.Add("Speech Player: assign a voice Clip.");
             else if (clip.loadState == AudioDataLoadState.Failed) errors.Add("Speech Player: voice Clip failed to load.");
+            ValidateRuntimeConfiguration(errors);
+        }
+
+        public void ValidateRuntimeConfiguration(List<string> errors)
+        {
+            if (!isActiveAndEnabled) errors.Add("Speech Player must be enabled on an active object.");
             if (!audioSource) errors.Add("Speech Player: assign the character's AudioSource.");
             else
             {
@@ -53,15 +59,28 @@ namespace Sandbox.CharacterSystem
         }
 
         public bool TryPlay(out ulong acceptedPlaybackId, out string error)
+            => TryPlayInternal(clip, false, out acceptedPlaybackId, out error);
+
+        public bool TryPlayClip(AudioClip runtimeClip, out ulong acceptedPlaybackId, out string error)
+            => TryPlayInternal(runtimeClip, true, out acceptedPlaybackId, out error);
+
+        bool TryPlayInternal(AudioClip requestedClip, bool isRuntime, out ulong acceptedPlaybackId, out string error)
         {
             acceptedPlaybackId = 0;
             if (!Application.IsPlaying(gameObject)) { error = "Speech playback requires Play Mode."; return false; }
             var errors = new List<string>();
-            ValidateConfiguration(errors);
+            if (isRuntime)
+            {
+                ValidateRuntimeConfiguration(errors);
+                if (!requestedClip || requestedClip.loadState != AudioDataLoadState.Loaded)
+                    errors.Add("Speech Player: runtime Clip must be loaded.");
+            }
+            else ValidateConfiguration(errors);
             if (errors.Count > 0) { error = string.Join("\n", errors); return false; }
             Stop(playbackId);
             playingSource = audioSource;
-            playingClip = clip;
+            playingClip = requestedClip;
+            runtimePlayback = isRuntime;
             if (profile) lipSync.profile = profile;
             playingSource.Stop();
             playingSource.clip = playingClip;
@@ -91,6 +110,8 @@ namespace Sandbox.CharacterSystem
             if (requestedPlaybackId == 0 || requestedPlaybackId != playbackId) return;
             if (status == CharacterSpeechStatus.Playing && playingSource && playingSource.clip == playingClip)
                 playingSource.Stop();
+            if (runtimePlayback && playingSource && playingSource.clip == playingClip) playingSource.clip = null;
+            runtimePlayback = false;
             status = CharacterSpeechStatus.Interrupted;
             playingSource = null;
             playingClip = null;

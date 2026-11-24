@@ -474,6 +474,51 @@ namespace Sandbox.CharacterSystem.Tests
         }
 
         [Test]
+        public void RuntimeSpeechAcceptsAnUnassignedClipRouteButNeverPlaysInEditMode()
+        {
+            var root = rig.Character.gameObject;
+            var source = root.AddComponent<AudioSource>(); source.playOnAwake = false;
+            var analyser = root.AddComponent<uLipSync.uLipSync>();
+            var profile = ScriptableObject.CreateInstance<uLipSync.Profile>(); assets.Add(profile);
+            analyser.profile = profile;
+            var player = root.AddComponent<CharacterSpeechPlayer>();
+            Set(player, "audioSource", source); Set(player, "lipSync", analyser);
+            var errors = new List<string>(); player.ValidateRuntimeConfiguration(errors);
+            Assert.That(errors, Is.Empty);
+            player.ValidateConfiguration(errors);
+            StringAssert.Contains("voice Clip", string.Join("\n", errors));
+            var runtime = AudioClip.Create("Runtime validation", 2400, 1, 24000, false); assets.Add(runtime);
+            Assert.That(player.TryPlayClip(runtime, out var id, out var error), Is.False);
+            Assert.That(id, Is.Zero);
+            StringAssert.Contains("requires Play Mode", error);
+            Assert.That(source.clip, Is.Null);
+        }
+
+        [Test]
+        public void RuntimeStopDetachesOnlyItsOwnClipAndRetainsTheAssignedAsset()
+        {
+            var root = rig.Character.gameObject;
+            var source = root.AddComponent<AudioSource>(); source.playOnAwake = false;
+            var runtime = AudioClip.Create("Owned runtime", 2400, 1, 24000, false); assets.Add(runtime);
+            var assigned = AudioClip.Create("Assigned asset", 2400, 1, 24000, false); assets.Add(assigned);
+            source.clip = runtime;
+            var player = root.AddComponent<CharacterSpeechPlayer>();
+            Set(player, "clip", assigned);
+            var flags = BindingFlags.Instance | BindingFlags.NonPublic;
+            typeof(CharacterSpeechPlayer).GetField("playbackId", flags).SetValue(player, 2UL);
+            typeof(CharacterSpeechPlayer).GetField("playingSource", flags).SetValue(player, source);
+            typeof(CharacterSpeechPlayer).GetField("playingClip", flags).SetValue(player, runtime);
+            typeof(CharacterSpeechPlayer).GetField("runtimePlayback", flags).SetValue(player, true);
+            typeof(CharacterSpeechPlayer).GetField("status", flags).SetValue(player, CharacterSpeechStatus.Completed);
+            player.Stop(1);
+            Assert.That(source.clip, Is.SameAs(runtime));
+            player.Stop(2);
+            Assert.That(source.clip, Is.Null);
+            Assert.That(runtime, Is.Not.Null, "The caller owns runtime clip disposal.");
+            Assert.That(new SerializedObject(player).FindProperty("clip").objectReferenceValue, Is.SameAs(assigned));
+        }
+
+        [Test]
         public void SpeechPlayerPollsCompletionAndRejectsStaleStopTokensWithoutPlayingAudio()
         {
             var root = rig.Character.gameObject;

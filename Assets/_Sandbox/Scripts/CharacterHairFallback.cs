@@ -4,6 +4,7 @@ using Unity.DemoTeam.Hair;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.Scripting.APIUpdating;
+using Sirenix.OdinInspector;
 
 /// <summary>Switch scalp and facial grooms to character-specific mesh/card replacements.</summary>
 [MovedFrom(true, sourceNamespace: "", sourceAssembly: "Assembly-CSharp", sourceClassName: "EthanWebHairFallback")]
@@ -49,10 +50,21 @@ public sealed class CharacterHairFallback : MonoBehaviour
     }
 
     [ContextMenu("Preview fallback (Play Mode)")]
+    [Button("Preview Mesh Hair"), EnableIf("@UnityEngine.Application.isPlaying")]
     public void ActivateFallback()
     {
         if (!Application.isPlaying || IsUsingFallback) return;
         ApplyFallback();
+    }
+
+    [Button("Restore Strand Hair"), EnableIf("@UnityEngine.Application.isPlaying")]
+    public void RestoreStrands()
+    {
+        if (!Application.isPlaying || RequiresFallback || !IsUsingFallback) return;
+        foreach (var replacement in ResolveFallbacks()) replacement.SetActive(false);
+        IsUsingFallback = false;
+        foreach (var hair in ResolveStrands()) hair.gameObject.SetActive(true);
+        if (startupWarmup) startupWarmup.enabled = true;
     }
 
     bool ApplyFallback()
