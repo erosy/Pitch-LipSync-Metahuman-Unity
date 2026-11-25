@@ -1,0 +1,110 @@
+{
+  "0": {
+    "referenceBoundsPx": {
+      "left": 120,
+      "right": 245,
+      "top": 101,
+      "bottom": 189,
+      "width": 126,
+      "height": 89
+    },
+    "cards": {
+      "boundsPx": {
+        "left": 119,
+        "right": 245,
+        "top": 101,
+        "bottom": 195,
+        "width": 127,
+        "height": 95
+      },
+      "coveragePercent": 97.6,
+      "silhouetteIoU": 0.859,
+      "meanOutlineDistancePx": 2.03
+    },
+    "previousCards": {
+      "boundsPx": {
+        "left": 125,
+        "right": 236,
+        "top": 104,
+        "bottom": 182,
+        "width": 112,
+        "height": 79
+      },
+      "coveragePercent": 78.3,
+      "silhouetteIoU": 0.773,
+      "meanOutlineDistancePx": 3.31
+    }
+  },
+  "45": {
+    "referenceBoundsPx": {
+      "left": 116,
+      "right": 251,
+      "top": 102,
+      "bottom": 233,
+      "width": 136,
+      "height": 132
+    },
+    "cards": {
+      "boundsPx": {
+        "left": 117,
+        "right": 253,
+        "top": 102,
+        "bottom": 235,
+        "width": 137,
+        "height": 134
+      },
+      "coveragePercent": 99.1,
+      "silhouetteIoU": 0.898,
+      "meanOutlineDistancePx": 1.53
+    },
+    "previousCards": {
+      "boundsPx": {
+        "left": 122,
+        "right": 248,
+        "top": 106,
+        "bottom": 230,
+        "width": 127,
+        "height": 125
+      },
+      "coveragePercent": 80.9,
+      "silhouetteIoU": 0.802,
+      "meanOutlineDistancePx": 2.95
+    }
+  },
+  "85": {
+    "referenceBoundsPx": {
+      "left": 117,
+      "right": 252,
+      "top": 104,
+      "bottom": 235,
+      "width": 136,
+      "height": 132
+    },
+    "cards": {
+      "boundsPx": {
+        "left": 115,
+        "right": 250,
+        "top": 100,
+        "bottom": 236,
+        "width": 136,
+        "height": 137
+      },
+      "coveragePercent": 101.5,
+      "silhouetteIoU": 0.884,
+      "meanOutlineDistancePx": 2.46
+    },
+    "previousCards": {
+      "boundsPx": {
+        "left": 122,
+        "right": 245,
+        "top": 108,
+        "bottom": 233,
+        "width": 124,
+        "height": 126
+      },
+      "coveragePercent": 84.1,
+      "silhouetteIoU": 0.825,
+      "meanOutlineDistancePx": 3.81
+    }
+  }
+}

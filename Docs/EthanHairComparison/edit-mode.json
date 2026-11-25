@@ -1,0 +1,17 @@
+{
+  "groomObject": "EthanV2_ScalpHair",
+  "groomAsset": "Assets/_Sandbox/Characters/Ethan_V2/Groom/EthanV2_Scalp32.asset",
+  "groomStrands": 94408,
+  "groomPoints": 32,
+  "maxBakeSourceOffsetMeters": 0.0,
+  "groomMaterial": "Ethan_StrandHair",
+  "baselineTriangles": 208232,
+  "opaqueShellTriangles": 7290,
+  "clippedPerimeterAndCardTriangles": 12319,
+  "vertices": 15745,
+  "width": 2048,
+  "height": 2048,
+  "mipmapCount": 12,
+  "modeChecks": 3,
+  "comparisonImages": 18
+}

@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &287083208
 Transform:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 287083207}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.002, y: -0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -575,11 +575,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3598086987227955425, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.042
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 3598086987227955425, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.51
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 3598086987227955425, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -631,7 +631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8004088122181773670, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8155582376001738598, guid: 704d569b900a077489d1ee354cd19ba3, type: 3}
       propertyPath: settingsExecutive.updateSimulationInEditor
@@ -867,7 +867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1072366706
 Transform:
   m_ObjectHideFlags: 0
@@ -1110,6 +1110,10 @@ PrefabInstance:
       propertyPath: speechGaze.lookAtPlayerDuringIdle
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1299080394990313240, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3023570557167119477, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
       propertyPath: hairFallback
       value: 
@@ -1140,11 +1144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.05
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.51
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 6999150431613704375, guid: 25119f2e2b41fdf4fa2e0b11d50714dc, type: 3}
       propertyPath: m_LocalRotation.w

@@ -3,7 +3,6 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.Rendering;
 using Sandbox.CharacterSystem;
-using Unity.DemoTeam.Hair;
 
 [DefaultExecutionOrder(-200), RequireComponent(typeof(TalkDemoController), typeof(TalkDemoSpeechInput))]
 public sealed class TalkDemoWebBridge : MonoBehaviour
@@ -29,20 +28,6 @@ public sealed class TalkDemoWebBridge : MonoBehaviour
         var camera = Camera.main;
         if (camera && camera.gameObject.scene == gameObject.scene)
         { camera.clearFlags = CameraClearFlags.SolidColor; camera.backgroundColor = Color.clear; }
-        if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.WebGPU)
-        {
-            // Small iframe canvases can put every scalp strand below the normal
-            // subpixel cutoff. Keep the demo groom visible without changing its
-            // density, width, simulation rate, or source prefab.
-            foreach (var root in gameObject.scene.GetRootGameObjects())
-                foreach (var hair in root.GetComponentsInChildren<HairInstance>(true))
-                {
-                    hair.strandGroupDefaults.settingsRendering.clipThreshold = 0;
-                    if (hair.strandGroupSettings != null)
-                        for (int i = 0; i < hair.strandGroupSettings.Length; i++)
-                            hair.strandGroupSettings[i].settingsRendering.clipThreshold = 0;
-                }
-        }
 #if UNITY_WEBGL && !UNITY_EDITOR
         speech.PlaybackAllowed = false;
 #endif

@@ -26,6 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _EMISSION
+  - _SPECULARHIGHLIGHTS_OFF
   - _SPECULAR_SETUP
   m_InvalidKeywords: []
   m_LightmapFlags: 6
@@ -132,7 +133,7 @@ Material:
     - _SpecExp2: 24
     - _SpecShift: 0.1
     - _SpecShift2: -0.15
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _StrandAxis: 1
@@ -142,8 +143,8 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.13207549, g: 0.11674975, b: 0.10653259, a: 1}
-    - _Color: {r: 0.13207546, g: 0.11674971, b: 0.10653255, a: 1}
+    - _BaseColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
+    - _Color: {r: 0.09433959, g: 0.09433959, b: 0.09433959, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SheenColor: {r: 0.11999995, g: 0.10999996, b: 0.09999997, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

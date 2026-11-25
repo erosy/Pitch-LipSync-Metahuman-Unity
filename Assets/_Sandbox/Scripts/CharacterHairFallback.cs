@@ -20,7 +20,9 @@ public sealed class CharacterHairFallback : MonoBehaviour
     GameObject[] additionalFallbackRoots;
 
     public bool IsUsingFallback { get; private set; }
-    public bool RequiresFallback => !SystemInfo.supportsComputeShaders;
+    // Both WebGL2 and WebGPU demos use the authored mesh/card replacements.
+    public bool RequiresFallback => Application.platform == RuntimePlatform.WebGLPlayer
+        || !SystemInfo.supportsComputeShaders;
 
     HairInstance[] ResolveStrands() => strandHair != null && strandHair.Length > 0
         ? strandHair.Where(h => h).Distinct().ToArray() : GetComponentsInChildren<HairInstance>(true);
