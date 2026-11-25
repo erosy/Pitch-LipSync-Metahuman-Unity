@@ -39,7 +39,7 @@ Run `node Tools/TalkDemo/bridge.test.cjs` from the project root for origin/sourc
 
 For demo testing, both WebGL2 and WebGPU use the authored mesh/card hair replacements for Ethan and Liora. `CharacterHairFallback` requires mesh hair on the Web player regardless of compute shader support, disables strand objects and their startup warmup, and preserves character readiness through the existing fallback path. The WebGPU strand visibility override has been removed. Native/Editor strand settings remain unchanged (32 points per strand, 30 Hz). Rebuild to include this C# change; existing exports are unchanged. Verify both personas and persona switching on both browser graphics APIs after rebuilding.
 
-For Apache/XAMPP, put the template's `.htaccess` next to the built `index.html`. It sets `.wasm` to `application/wasm`, fixing the streaming-compilation MIME warning. If Unity's template copy omits hidden files, copy it manually. No compressed-content headers are needed for the current uncompressed build.
+For Apache/XAMPP, copy `Assets/WebGLTemplates/TalkDemo/.htaccess` next to the deployed `index.html`, including when updating an existing export. It sets the JavaScript, WebAssembly and data MIME types and sends `Content-Encoding: br` for Brotli files. To verify a local Brotli deployment, run `curl.exe -I http://localhost/talk-demo/Build/talk-demo.wasm.br` and check for both `Content-Type: application/wasm` and `Content-Encoding: br`.
 
 ## Transparent post-processing output
 

@@ -1,4 +1,8 @@
 <IfModule mod_mime.c>
     AddType application/wasm .wasm
     AddType application/javascript .js
+    AddType application/octet-stream .data
+    RemoveType .br
+    RemoveLanguage .br
+    AddEncoding br .br
 </IfModule>
